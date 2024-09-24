@@ -8,17 +8,25 @@ const getCategoryColor = (category: Category): string => {
             return 'green';
         case 'FinOps':
             return 'purple';
+        case 'PrimerosPasos':
+            return 'yellow';
+        case 'Serverless':
+            return 'red';
+        case 'Softskills':
+            return 'pink';
     }
 }
 
 const getLevelColor = (level: Level): string => {
     switch (level) {
-        case 'Básico':
+        case 'Beginner':
             return 'green';
-        case 'Intermedio':
+        case 'Intermediate':
+            return 'yellow';
+        case 'Advanced':
+            return 'red';
+        case "All":
             return 'blue';
-        case 'Avanzado':
-            return 'purple';
     }
 }
 

@@ -1,5 +1,5 @@
-export type Category = 'IA/ML' | 'Operaciones' | 'FinOps';
-export type Level = 'Básico' | 'Intermedio' | 'Avanzado';
+export type Category = 'FinOps' | 'IA/ML' | 'Operaciones' | 'PrimerosPasos' | 'Serverless' | 'Softskills';
+export type Level = 'Advanced' | 'All' | 'Beginner' | 'Intermediate';
 
 export interface Session {
     id: number;
