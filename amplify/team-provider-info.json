@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-agenda-dev-c6a47-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112599144:role/amplify-agenda-dev-c6a47-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112599144:role/amplify-agenda-dev-c6a47-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-agenda-dev-c6a47-deployment",
+      "UnauthRoleName": "amplify-agenda-dev-c6a47-unauthRole",
+      "StackName": "amplify-agenda-dev-c6a47",
+      "StackId": "arn:aws:cloudformation:us-east-1:471112599144:stack/amplify-agenda-dev-c6a47/69858e70-7a1f-11ef-b9c2-1242c5f8ade9",
+      "AmplifyAppId": "da62ecrulrqiv"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "da62ecrulrqiv",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
