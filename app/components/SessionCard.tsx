@@ -1,11 +1,24 @@
 'use client'
 import React, {useEffect, useState} from 'react';
-import {Avatar, Badge, Box, Button, Collapse, Flex, HStack, Text, Tooltip, VStack} from '@chakra-ui/react';
+import {
+    Avatar,
+    Badge,
+    Button,
+    Collapse,
+    Flex,
+    HStack,
+    LinkBox,
+    LinkOverlay,
+    Text,
+    Tooltip,
+    VStack
+} from '@chakra-ui/react';
 import {ChevronDownIcon, ChevronUpIcon, Icon, InfoIcon, TimeIcon} from '@chakra-ui/icons';
 import {SessionCardProps} from "@/app/types/session";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
+import NextLink from 'next/link'
 
 const formatTime = (date: Date): string => {
     return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
@@ -33,7 +46,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     }, [session.id]);
 
     return (
-        <Box
+        <LinkBox
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
@@ -69,7 +82,9 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                 </HStack>
 
                 <Text fontSize="xl" fontWeight="semibold">
-                    {session.title}
+                    <LinkOverlay as={NextLink} href={`/session/${session.id}`}>
+                        {session.title}
+                    </LinkOverlay>
                 </Text>
 
                 <VStack align="stretch" spacing={2}>
@@ -109,7 +124,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                     </Button>
                 </HStack>
             </VStack>
-        </Box>
+        </LinkBox>
     );
 };
 
