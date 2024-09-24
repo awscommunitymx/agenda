@@ -36,6 +36,21 @@ export default function Page() {
             level: "Básico",
             room: "Poliforum"
         },
+        {
+            id: 3,
+            title: "Desarrollo con IA generativa en AWS con PartyRock, Amazon Bedrock y Amazon Q",
+            abstract: "Esta charla es para desarrolladores que estén listos para aprender sobre la genAI en AWS. Desarrollar aplicaciones con PartyRock y Bedrock, uso de modelos fundacionales, cómo “conversar con sus documentos” a través de bases de conocimiento y usar Amazon Q Developer para ayudar en la codificación.",
+            description: "Esta charla está diseñado para desarrolladores que estén listos para aprender sobre la IA generativa en AWS. Aprenderá a desarrollar aplicaciones con PartyRock y Amazon Bedrock. Se centrará en habilidades prácticas como la ingeniería rápida y el uso de diferentes modelos fundamentales. También exploraremos cómo “conversar con sus documentos” a través de bases de conocimiento, generación aumentada de recuperación (RAG), incrustaciones y agentes. Además, descubrirá cómo usar Amazon Q Developer para ayudar en la codificación y la depuración.",
+            speaker: "Ana Barragán",
+            speakerImage: "https://example.com/jane-doe.jpg",
+            time: {
+                start: new Date('2024-09-23T13:00:00'),
+                end: new Date('2024-09-23T14:30:00')
+            },
+            category: "Operaciones",
+            level: "Intermedio",
+            room: "Aula Panamericana"
+        }
     ];
 
     return (
