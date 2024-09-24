@@ -1,5 +1,7 @@
+'use client'
 import {Providers} from './providers'
 import React from "react";
+import Nav from "@/app/components/Nav";
 
 export default function RootLayout({
                                        children,
@@ -9,7 +11,10 @@ export default function RootLayout({
     return (
         <html lang='en'>
         <body>
-        <Providers>{children}</Providers>
+        <Providers>
+            <Nav/>
+            {children}
+        </Providers>
         </body>
         </html>
     )
