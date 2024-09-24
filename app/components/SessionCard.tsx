@@ -2,35 +2,14 @@
 import React, {useEffect, useState} from 'react';
 import {Avatar, Badge, Box, Button, Collapse, Flex, HStack, Text, Tooltip, VStack} from '@chakra-ui/react';
 import {ChevronDownIcon, ChevronUpIcon, Icon, InfoIcon, TimeIcon} from '@chakra-ui/icons';
-import {Category, Level, SessionCardProps} from "@/app/types/session";
+import {SessionCardProps} from "@/app/types/session";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, toggleFavorite} from "@/app/utils/favorite";
+import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 
 const formatTime = (date: Date): string => {
     return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
 };
-
-const getCategoryColor = (category: Category): string => {
-    switch (category) {
-        case 'IA/ML':
-            return 'blue';
-        case 'Operaciones':
-            return 'green';
-        case 'FinOps':
-            return 'purple';
-    }
-}
-
-const getLevelColor = (level: Level): string => {
-    switch (level) {
-        case 'Básico':
-            return 'green';
-        case 'Intermedio':
-            return 'blue';
-        case 'Avanzado':
-            return 'purple';
-    }
-}
 
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     const [isCollapsed, setIsCollapsed] = useState(true);
