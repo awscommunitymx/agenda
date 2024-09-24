@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {Avatar, Badge, Box, Button, Collapse, Flex, HStack, Text, Tooltip, VStack} from '@chakra-ui/react';
 import {ChevronDownIcon, ChevronUpIcon, Icon, InfoIcon, TimeIcon} from '@chakra-ui/icons';
 import {Category, Level, SessionCardProps} from "@/app/types/session";
-import {FaMapPin} from "react-icons/fa";
+import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 
 const formatTime = (date: Date): string => {
     return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
@@ -34,10 +34,16 @@ const getLevelColor = (level: Level): string => {
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     const [isCollapsed, setIsCollapsed] = useState(true);
 
+    const [isFavorite, setIsFavorite] = useState(false);
+
     const toggleAbstract = () => setIsCollapsed(!isCollapsed);
 
     const abstractWords = session.description.split(' ');
     const previewLength = Math.ceil(abstractWords.length / 3);
+
+    const handleFavorite = () => {
+        setIsFavorite(!isFavorite);
+    }
 
     return (
         <Box
@@ -103,12 +109,17 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                     )}
                 </VStack>
 
-                <HStack spacing={2}>
-                    <Avatar size="sm" name={session.speaker} src={session.speakerImage}/>
-                    <Text fontWeight="medium">{session.speaker}</Text>
-                    <Tooltip label={`Room ${session.room}`} aria-label="Room information">
-                        <InfoIcon/>
-                    </Tooltip>
+                <HStack justify={"space-between"}>
+                    <HStack spacing={2}>
+                        <Avatar size="sm" name={session.speaker} src={session.speakerImage}/>
+                        <Text fontWeight="medium">{session.speaker}</Text>
+                        <Tooltip label={`Room ${session.room}`} aria-label="Room information">
+                            <InfoIcon/>
+                        </Tooltip>
+                    </HStack>
+                    <Button onClick={handleFavorite} colorScheme="red" variant="link"
+                            rightIcon={isFavorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
+                    </Button>
                 </HStack>
             </VStack>
         </Box>
