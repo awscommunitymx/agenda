@@ -1,29 +1,29 @@
 'use client'
 import React, {useMemo, useState} from 'react';
 import {Container, VStack} from '@chakra-ui/react';
-import {SessionListProps} from "@/app/types/session";
+import {Session, SessionListProps} from "@/app/types/session";
 import SessionCard from "@/app/components/SessionCard";
 import FilterBar from "@/app/components/FilterBar";
 
 const SessionList: React.FC<SessionListProps> = ({sessions}) => {
-    const [trackFilter, setTrackFilter] = useState('');
-    const [roomFilter, setRoomFilter] = useState('');
 
     const sortedSessions = useMemo(() => {
         return [...sessions].sort((a, b) => a.time.start.getTime() - b.time.start.getTime());
     }, [sessions]);
 
 
-    const filteredSessions = useMemo(() => {
-        return sortedSessions.filter(session =>
-            (!trackFilter || session.category === trackFilter) &&
-            (!roomFilter || session.room === roomFilter)
-        ).sort((a, b) => a.time.start.getTime() - b.time.start.getTime());
-    }, [sortedSessions, trackFilter, roomFilter]);
+    const [filters, setFilters] = useState<Record<string, string>>({});
 
-    const handleFilterChange = (track: string, room: string) => {
-        setTrackFilter(track);
-        setRoomFilter(room);
+    const filteredSessions = useMemo(() => {
+        return sessions.filter(session =>
+            Object.entries(filters).every(([key, value]) =>
+                session[key as keyof Session] === value
+            )
+        ).sort((a, b) => a.time.start.getTime() - b.time.start.getTime());
+    }, [sessions, filters]);
+
+    const handleFilterChange = (newFilters: Record<string, string>) => {
+        setFilters(newFilters);
     };
 
     return (
