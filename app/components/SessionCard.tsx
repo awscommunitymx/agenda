@@ -1,9 +1,38 @@
+'use client'
 import React from 'react';
 import {Avatar, Badge, Box, HStack, Text, Tooltip, VStack} from '@chakra-ui/react';
-import {InfoIcon, TimeIcon} from '@chakra-ui/icons';
-import {SessionCardProps} from "@/app/types/session";
+import {Icon, InfoIcon, TimeIcon} from '@chakra-ui/icons';
+import {Category, Level, SessionCardProps} from "@/app/types/session";
+import {FaMapPin} from "react-icons/fa";
+
+const formatTime = (date: Date): string => {
+    return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+};
+
+const getCategoryColor = (category: Category): string => {
+    switch (category) {
+        case 'IA/ML':
+            return 'blue';
+        case 'Operaciones':
+            return 'green';
+        case 'FinOps':
+            return 'purple';
+    }
+}
+
+const getLevelColor = (level: Level): string => {
+    switch (level) {
+        case 'Básico':
+            return 'green';
+        case 'Intermedio':
+            return 'blue';
+        case 'Avanzado':
+            return 'purple';
+    }
+}
 
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
+
     return (
         <Box
             borderWidth="1px"
@@ -16,13 +45,28 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
         >
             <VStack align="stretch" spacing={3}>
                 <HStack justify="space-between">
-                    <Badge colorScheme={session.track === 'Technical' ? 'blue' : 'green'}>
-                        {session.track}
-                    </Badge>
-                    <HStack>
-                        <TimeIcon/>
-                        <Text fontSize="sm">{session.time}</Text>
-                    </HStack>
+                    <VStack align={"start"}>
+                        <Badge colorScheme={getCategoryColor(session.category)}>
+                            {session.category}
+                        </Badge>
+                        <Badge colorScheme={getLevelColor(session.level)}>
+                            {session.level}
+                        </Badge>
+                    </VStack>
+                    <VStack align={"end"}>
+                        <HStack>
+                            <TimeIcon/>
+                            <Text fontSize="sm" suppressHydrationWarning>
+                                {formatTime(session.time.start)} - {formatTime(session.time.end)}
+                            </Text>
+                        </HStack>
+                        <HStack>
+                            <Icon as={FaMapPin}/>
+                            <Text fontSize="sm" suppressHydrationWarning>
+                                {session.room}
+                            </Text>
+                        </HStack>
+                    </VStack>
                 </HStack>
 
                 <Text fontSize="xl" fontWeight="semibold">
