@@ -7,6 +7,7 @@ export interface Session {
     abstract: string;
     description: string;
     speaker: string;
+    coSpeaker?: string;
     speakerImage: string;
     time: {
         start: Date;
