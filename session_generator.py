@@ -3,19 +3,28 @@ import csv
 import json
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
+
+SESSION_DATE = "2024-09-24"
 
 
 def clean_string(s):
     return re.sub(r'[\u0000-\u001f\u007f-\u009f\u202a-\u202e]', '', s)
 
 
-def convert_time(time_str):
+def convert_time(time_str) -> datetime:
     try:
-        time_obj = datetime.strptime(time_str.replace('.', '').upper().strip(), "%I:%M %p")
-        return time_obj.strftime("%H:%M:%S")
+        return datetime.strptime(time_str.replace('.', '').upper().strip(), "%I:%M %p")
     except ValueError:
-        return time_str
+        return datetime.strptime("12:00 AM", "%I:%M %p")
+
+
+def get_duration(time_str):
+    pattern = r'\((\d+) minutos\)'
+    match = re.search(pattern, time_str)
+    if match:
+        return int(match.group(1))
+    return 0
 
 
 def csv_to_typescript(csv_file):
@@ -31,6 +40,11 @@ def csv_to_typescript(csv_file):
 
             converted_time = convert_time(cleaned_row['Schedule'])
 
+            delta_minutes = get_duration(cleaned_row['Format'])
+
+            start_time = converted_time.strftime("%H:%M")
+            end_time = (converted_time + timedelta(minutes=delta_minutes)).strftime("%H:%M")
+
             session = {
                 'id': int(cleaned_row['Session ID']) if cleaned_row['Session ID'] else len(sessions) + 1,
                 'title': cleaned_row['Title'],
@@ -39,8 +53,8 @@ def csv_to_typescript(csv_file):
                 'speaker': cleaned_row['Speaker'],
                 'speakerImage': "https://example.com/speaker-image.jpg",  # Placeholder image
                 'time': {
-                    'start': f"new Date('2024-09-23T{converted_time}')",
-                    'end': f"new Date('2024-09-23T{converted_time}')"  # TODO: Calculate end time
+                    'start': f"new Date('{SESSION_DATE}T{start_time}')",
+                    'end': f"new Date('{SESSION_DATE}T{end_time}')"
                 },
                 'category': cleaned_row['Category'],
                 'level': cleaned_row['Level'],
