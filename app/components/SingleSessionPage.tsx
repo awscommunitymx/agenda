@@ -26,13 +26,25 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                     {session.title}
                 </Heading>
 
-                <HStack>
-                    <Avatar size="md" name={session.speaker} src={session.speakerImage}/>
-                    <VStack align="start" spacing={0}>
-                        <Text fontWeight="bold">{session.speaker}</Text>
-                        <Text fontSize="sm" color="gray.500">Speaker</Text>
-                    </VStack>
-                </HStack>
+                <VStack alignItems={"start"}>
+                    <HStack>
+                        <Avatar size="md" name={session.speaker} src={session.speakerImage}/>
+                        <VStack align="start" spacing={0}>
+                            <Text fontWeight="bold">{session.speaker}</Text>
+                            <Text fontSize="sm" color="gray.500">Speaker</Text>
+                        </VStack>
+                    </HStack>
+                    {session.coSpeaker && (
+                        <HStack>
+                            <Avatar size="md" name={session.coSpeaker} src={session.speakerImage}/>
+                            <VStack align="start" spacing={0}>
+                                <Text fontWeight="bold">{session.coSpeaker}</Text>
+                                <Text fontSize="sm" color="gray.500">Co-Speaker</Text>
+                            </VStack>
+                        </HStack>
+                    )}
+
+                </VStack>
 
                 <Text fontSize="lg" suppressHydrationWarning>
                     {formatTime(session.time.start)} - {formatTime(session.time.end)}
