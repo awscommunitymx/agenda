@@ -1,6 +1,18 @@
 'use client'
 import React, {useEffect, useState} from 'react';
-import {Avatar, Badge, Button, Collapse, Flex, HStack, LinkBox, LinkOverlay, Text, VStack} from '@chakra-ui/react';
+import {
+    Avatar,
+    Badge,
+    Button,
+    Collapse,
+    Flex,
+    HStack,
+    LinkBox,
+    LinkOverlay,
+    SkeletonCircle,
+    Text,
+    VStack
+} from '@chakra-ui/react';
 import {ChevronDownIcon, ChevronUpIcon, Icon, TimeIcon} from '@chakra-ui/icons';
 import {SessionCardProps} from "@/app/types/session";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
@@ -13,6 +25,7 @@ const formatTime = (date: Date): string => {
 };
 
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
+    const [isLoaded, setIsLoaded] = useState(false);
     const [isCollapsed, setIsCollapsed] = useState(true);
 
     const [favorite, setFavorite] = useState(false);
@@ -31,6 +44,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
         setFavorite(
             isFavorite(session.id.toString())
         )
+        setIsLoaded(true);
     }, [session.id]);
 
     return (
@@ -116,9 +130,11 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
 
                         </VStack>
                     </HStack>
-                    <Button onClick={handleFavorite} colorScheme="red" variant="link"
-                            rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
-                    </Button>
+                    <SkeletonCircle isLoaded={isLoaded}>
+                        <Button onClick={handleFavorite} colorScheme="red" variant="link"
+                                rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
+                        </Button>
+                    </SkeletonCircle>
                 </HStack>
             </VStack>
         </LinkBox>
