@@ -53,8 +53,8 @@ def csv_to_typescript(csv_file):
                 'speaker': cleaned_row['Speaker'],
                 'speakerImage': "https://example.com/speaker-image.jpg",  # Placeholder image
                 'time': {
-                    'start': f"new Date('{SESSION_DATE}T{start_time}')",
-                    'end': f"new Date('{SESSION_DATE}T{end_time}')"
+                    'start': f"new Date('{SESSION_DATE}T{start_time}:00-06:00')",
+                    'end': f"new Date('{SESSION_DATE}T{end_time}:00-06:00')"
                 },
                 'category': cleaned_row['Category'],
                 'level': cleaned_row['Level'],
