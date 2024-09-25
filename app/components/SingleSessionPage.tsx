@@ -1,7 +1,18 @@
 'use client'
 
 import React, {useEffect, useState} from 'react';
-import {Avatar, Badge, Box, Button, Heading, HStack, SkeletonCircle, Text, VStack} from '@chakra-ui/react';
+import {
+    Avatar,
+    Badge,
+    Box,
+    Button,
+    Heading,
+    HStack,
+    SkeletonCircle,
+    SkeletonText,
+    Text,
+    VStack
+} from '@chakra-ui/react';
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {Icon, TimeIcon} from "@chakra-ui/icons";
@@ -12,15 +23,15 @@ interface SingleSessionPageProps {
     session: Session;
 }
 
-// interface SessionTime {
-//     start: string;
-//     end: string;
-// }
+interface SessionTime {
+    start: string;
+    end: string;
+}
 
 const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
     const [isLoaded, setIsLoaded] = useState(false);
     const [favorite, setFavorite] = useState(false);
-    // const [sessionTime, setSessionTime] = useState<SessionTime>({start: '', end: ''});
+    const [sessionTime, setSessionTime] = useState<SessionTime>({start: '', end: ''});
 
     const handleFavorite = () => {
         setFavorite(!favorite);
@@ -28,20 +39,17 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
     }
 
     const formatTime = (date: Date): string => {
-        // return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
-        const hour = date.getHours();
-        const minute = date.getMinutes();
-        return `${hour}:${minute < 10 ? '0' + minute : minute}`;
+        return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', timeZone: 'America/Monterrey'});
     };
 
     useEffect(() => {
         setFavorite(
             isFavorite(session.id.toString())
         )
-        // setSessionTime({
-        //     start: formatTime(session.time.start),
-        //     end: formatTime(session.time.end)
-        // });
+        setSessionTime({
+            start: formatTime(session.time.start),
+            end: formatTime(session.time.end)
+        });
         setIsLoaded(true);
     }, [session.id, session.time.end, session.time.start]);
 
@@ -91,15 +99,14 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
 
                 <HStack>
                     <TimeIcon/>
-                    {/*<SkeletonText width={"9em"} isLoaded={isLoaded}>*/}
-                    {/*    <Text fontSize="lg" suppressHydrationWarning>*/}
-                    {/*        {sessionTime.start} - {sessionTime.end}*/}
-                    {/*    </Text>*/}
-
-                    {/*</SkeletonText>*/}
-                    <Text fontSize="sm" suppressHydrationWarning>
-                        {formatTime(session.time.start)} - {formatTime(session.time.end)}
-                    </Text>
+                    {
+                        isLoaded ?
+                            <Text fontSize="sm" suppressHydrationWarning>
+                                {sessionTime.start} - {sessionTime.end}
+                            </Text>
+                            :
+                            <SkeletonText noOfLines={1} w="100px"/>
+                    }
                 </HStack>
 
                 <HStack>
