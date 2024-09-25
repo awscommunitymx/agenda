@@ -135,6 +135,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                                 rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
                         </Button>
                     </SkeletonCircle>
+
                 </HStack>
             </VStack>
         </LinkBox>
