@@ -11,8 +11,10 @@ const Navbar = () => {
         <Box>
             <Box bg="gray.700" px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-                    <Image src={logo} alt={"logo"} width={200}/>
-                    <Link href={'/session/favorites'}>
+                    <Link href={'/'}>
+                        <Image src={logo} alt={"logo"} width={200}/>
+                    </Link>
+                    <Link href={'/session/favorites'} scroll={false}>
                         <Button size={"sm"} colorScheme={'blackAlpha'} rightIcon={
                             <Icon as={FaHeart} color={'white.500'}/>
                         }>
