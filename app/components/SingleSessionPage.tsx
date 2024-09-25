@@ -28,7 +28,10 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
     }
 
     const formatTime = (date: Date): string => {
-        return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+        // return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+        const hour = date.getHours();
+        const minute = date.getMinutes();
+        return `${hour}:${minute < 10 ? '0' + minute : minute}`;
     };
 
     useEffect(() => {
