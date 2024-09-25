@@ -1,3 +1,4 @@
+
 import {Session} from "@/app/types/session";
 
 const sessions: Session[] = [
@@ -449,7 +450,8 @@ const sessions: Session[] = [
         },
         "category": "IA/ML",
         "level": "Intermediate",
-        "room": "Aula Panamericana"
+        "room": "Aula Panamericana",
+        "coSpeaker": "Ana Cunha"
     },
     {
         "id": 31,
@@ -627,8 +629,8 @@ const sessions: Session[] = [
             "start": new Date('2024-09-23T15:00:00'),
             "end": new Date('2024-09-23T15:00:00')
         },
-        "category": "IA/ML",
-        "level": "Beginner",
+        "category": "",
+        "level": "",
         "room": "Poliforum"
     },
     {
@@ -704,7 +706,8 @@ const sessions: Session[] = [
         },
         "category": "Operaciones",
         "level": "All",
-        "room": "Aula H7"
+        "room": "Aula H7",
+        "coSpeaker": "Luis Rios"
     },
     {
         "id": 48,
@@ -719,7 +722,8 @@ const sessions: Session[] = [
         },
         "category": "PrimerosPasos",
         "level": "Beginner",
-        "room": "Aula H7"
+        "room": "Aula H7",
+        "coSpeaker": "Adriana Diaz"
     },
     {
         "id": 49,

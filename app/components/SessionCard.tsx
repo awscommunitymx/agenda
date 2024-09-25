@@ -1,19 +1,7 @@
 'use client'
 import React, {useEffect, useState} from 'react';
-import {
-    Avatar,
-    Badge,
-    Button,
-    Collapse,
-    Flex,
-    HStack,
-    LinkBox,
-    LinkOverlay,
-    Text,
-    Tooltip,
-    VStack
-} from '@chakra-ui/react';
-import {ChevronDownIcon, ChevronUpIcon, Icon, InfoIcon, TimeIcon} from '@chakra-ui/icons';
+import {Avatar, Badge, Button, Collapse, Flex, HStack, LinkBox, LinkOverlay, Text, VStack} from '@chakra-ui/react';
+import {ChevronDownIcon, ChevronUpIcon, Icon, TimeIcon} from '@chakra-ui/icons';
 import {SessionCardProps} from "@/app/types/session";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, toggleFavorite} from "@/app/utils/favorite";
@@ -113,11 +101,20 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
 
                 <HStack justify={"space-between"}>
                     <HStack spacing={2}>
-                        <Avatar size="sm" name={session.speaker} src={session.speakerImage}/>
-                        <Text fontWeight="medium">{session.speaker}</Text>
-                        <Tooltip label={`Room ${session.room}`} aria-label="Room information">
-                            <InfoIcon/>
-                        </Tooltip>
+                        <VStack alignItems={"start"}>
+                            <HStack>
+                                <Avatar size="sm" name={session.speaker} src={session.speakerImage}/>
+                                <Text fontWeight="medium">{session.speaker}</Text>
+                            </HStack>
+                            {
+                                session.coSpeaker &&
+                                <HStack>
+                                    <Avatar size="sm" name={session.coSpeaker}/>
+                                    <Text fontWeight="medium">{session.coSpeaker}</Text>
+                                </HStack>
+                            }
+
+                        </VStack>
                     </HStack>
                     <Button onClick={handleFavorite} colorScheme="red" variant="link"
                             rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
