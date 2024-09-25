@@ -1,19 +1,37 @@
 'use client'
 
 import React, {useEffect, useState} from 'react';
-import {Avatar, Badge, Box, Button, Heading, HStack, Text, VStack} from '@chakra-ui/react';
+import {
+    Avatar,
+    Badge,
+    Box,
+    Button,
+    Heading,
+    HStack,
+    SkeletonCircle,
+    SkeletonText,
+    Text,
+    VStack
+} from '@chakra-ui/react';
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
-import {Icon} from "@chakra-ui/icons";
-import {FaClock, FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
+import {Icon, TimeIcon} from "@chakra-ui/icons";
+import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, toggleFavorite} from "@/app/utils/favorite";
 
 interface SingleSessionPageProps {
     session: Session;
 }
 
+interface SessionTime {
+    start: string;
+    end: string;
+}
+
 const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
+    const [isLoaded, setIsLoaded] = useState(false);
     const [favorite, setFavorite] = useState(false);
+    const [sessionTime, setSessionTime] = useState<SessionTime>({start: '', end: ''});
 
     const handleFavorite = () => {
         setFavorite(!favorite);
@@ -28,7 +46,12 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         setFavorite(
             isFavorite(session.id.toString())
         )
-    }, [session.id]);
+        setSessionTime({
+            start: formatTime(session.time.start),
+            end: formatTime(session.time.end)
+        });
+        setIsLoaded(true);
+    }, [session.id, session.time.end, session.time.start]);
 
     return (
 
@@ -43,9 +66,11 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                             {session.level}
                         </Badge>
                     </VStack>
-                    <Button onClick={handleFavorite} colorScheme="red" variant="link"
-                            rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
-                    </Button>
+                    <SkeletonCircle isLoaded={isLoaded}>
+                        <Button onClick={handleFavorite} colorScheme="red" variant="link"
+                                rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
+                        </Button>
+                    </SkeletonCircle>
                 </HStack>
 
                 <Heading as="h1" size="xl" color="blue.600">
@@ -73,10 +98,13 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 </VStack>
 
                 <HStack>
-                    <Icon as={FaClock}/>
-                    <Text fontSize="lg" suppressHydrationWarning>
-                        {formatTime(session.time.start)} - {formatTime(session.time.end)}
-                    </Text>
+                    <TimeIcon/>
+                    <SkeletonText width={"9em"} isLoaded={isLoaded}>
+                        <Text fontSize="lg" suppressHydrationWarning>
+                            {sessionTime.start} - {sessionTime.end}
+                        </Text>
+
+                    </SkeletonText>
                 </HStack>
 
                 <HStack>
