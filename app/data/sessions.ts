@@ -629,8 +629,8 @@ const sessions: Session[] = [
             "start": new Date('2024-09-23T15:00:00'),
             "end": new Date('2024-09-23T15:00:00')
         },
-        "category": "",
-        "level": "",
+        "category": "IA/ML",
+        "level": "All",
         "room": "Poliforum"
     },
     {

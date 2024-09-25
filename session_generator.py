@@ -12,7 +12,7 @@ def clean_string(s):
 
 def convert_time(time_str):
     try:
-        time_obj = datetime.strptime(time_str.strip(), "%I:%M %p")
+        time_obj = datetime.strptime(time_str.replace('.', '').upper().strip(), "%I:%M %p")
         return time_obj.strftime("%H:%M:%S")
     except ValueError:
         return time_str
@@ -46,6 +46,9 @@ def csv_to_typescript(csv_file):
                 'level': cleaned_row['Level'],
                 'room': cleaned_row['Room '].strip()  # Note the space in 'Room '
             }
+
+            if cleaned_row['Co-speaker']:
+                session['coSpeaker'] = cleaned_row['Co-speaker']
 
             sessions.append(session)
 
