@@ -2,6 +2,10 @@
 
 import React, {useEffect, useState} from 'react';
 import {
+    Accordion,
+    AccordionButton,
+    AccordionItem,
+    AccordionPanel,
     Avatar,
     Badge,
     Box,
@@ -171,6 +175,22 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 <Text fontSize="md">
                     {session.description}
                 </Text>
+
+                <Box borderWidth={1} borderRadius="lg">
+                    <Accordion defaultIndex={[0]} allowMultiple>
+                        <AccordionItem>
+                            <AccordionButton>
+                                ¿Por qué asistir?
+                            </AccordionButton>
+                            <AccordionPanel>
+                                <Badge colorScheme="purple">Generado por Claude 3.5 en Amazon Bedrock</Badge>
+                                <Text fontSize="md">
+                                    {session.cta}
+                                </Text>
+                            </AccordionPanel>
+                        </AccordionItem>
+                    </Accordion>
+                </Box>
 
                 {isLoaded ? (
                     <Button colorScheme={favorite ? 'yellow' : 'blue'} size="md" variant="solid"
