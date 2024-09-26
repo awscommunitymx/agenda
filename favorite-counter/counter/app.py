@@ -4,12 +4,18 @@ from decimal import Decimal
 
 import boto3
 from aws_lambda_powertools import Logger, Tracer
-from aws_lambda_powertools.event_handler import APIGatewayRestResolver
+from aws_lambda_powertools.event_handler import (APIGatewayRestResolver,
+                                                 CORSConfig)
 from aws_lambda_powertools.logging import correlation_paths
 from aws_lambda_powertools.utilities.typing import LambdaContext
 from botocore.exceptions import ClientError
 
-app = APIGatewayRestResolver()
+cors_config = CORSConfig(
+    allow_origin="*",
+    allow_headers=["*"],
+)
+
+app = APIGatewayRestResolver(cors=cors_config)
 logger = Logger()
 tracer = Tracer()
 
