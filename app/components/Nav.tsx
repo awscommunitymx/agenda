@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Button size={"sm"} colorScheme={'blackAlpha'} rightIcon={
                             <Icon as={FaHeart} color={'white.500'}/>
                         }>
-                            Favoritos
+                            Mi agenda
                         </Button>
                     </Link>
                 </Flex>
