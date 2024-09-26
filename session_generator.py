@@ -3,9 +3,51 @@ import csv
 import json
 import re
 import sys
+from dataclasses import dataclass
 from datetime import datetime, timedelta
 
 SESSION_DATE = "2024-09-26"
+
+
+@dataclass
+class Time:
+    start: str
+    end: str
+
+
+@dataclass
+class SpecialSession:
+    id: str
+    title: str
+    abstract: str
+    description: str
+    language = "Spanish"
+    keywords = []
+    cta: str
+    speaker = ""
+    speakerImage = ""
+    time: Time
+    category = "Softskills"
+    level = "All"
+    room: str
+    is_special = True
+    icon: str
+    import_icon_from: str
+
+
+SPECIAL_SESSIONS: list[SpecialSession] = [
+    SpecialSession(
+        id="comida",
+        title="Comida",
+        abstract="Tiempo para comer",
+        description="Tiempo para comer",
+        cta="Comer",
+        time=Time("13:00", "17:00"),
+        room="Comedor",
+        icon="IoFastFoodOutline",
+        import_icon_from="react-icons/io5"
+    ),
+]
 
 
 def clean_string(s):
@@ -27,8 +69,37 @@ def get_duration(time_str):
     return 0
 
 
-def csv_to_typescript(csv_file):
+def create_special_sessions():
     sessions = []
+    for special_session in SPECIAL_SESSIONS:
+        session = {
+            "id": special_session.id,
+            "title": special_session.title,
+            "description": special_session.description,
+            "abstract": special_session.abstract,
+            "language": special_session.language,
+            "keywords": special_session.keywords,
+            "cta": special_session.cta,
+            "speaker": special_session.speaker,
+            "speakerImage": special_session.speakerImage,
+            "time": {
+                "start": f"new Date('{SESSION_DATE}T{special_session.time.start}:00-06:00')",
+                "end": f"new Date('{SESSION_DATE}T{special_session.time.end}:00-06:00')",
+            },
+            "category": special_session.category,
+            "level": special_session.level,
+            "room": special_session.room,
+            "isSpecial": special_session.is_special,
+            "icon": special_session.icon,
+        }
+
+        sessions.append(session)
+
+    return sessions
+
+
+def csv_to_typescript(csv_file):
+    sessions = create_special_sessions()
 
     with codecs.open(csv_file, "r", "utf-8-sig") as file:
         reader = csv.DictReader(file)
@@ -88,7 +159,12 @@ def csv_to_typescript(csv_file):
 
             sessions.append(session)
 
-    typescript_content = f"""
+    imports = "\n".join(
+        f"import {{ {special_session.icon} }} from '{special_session.import_icon_from}';"
+        for special_session in SPECIAL_SESSIONS
+    )
+
+    typescript_content = imports + f"""
 import {{Session}} from "@/app/types/session";
 
 const sessions: Session[] = {json.dumps(sessions, indent=4, ensure_ascii=False)};
@@ -98,6 +174,13 @@ export default sessions;
 
     # Replace date strings with actual Date objects
     typescript_content = re.sub(r'"(new Date\([^)]+\))"', r"\1", typescript_content)
+
+    # Replace "icon": "IoFastFoodOutline" with "icon": IoFastFoodOutline
+    for special_session in SPECIAL_SESSIONS:
+        typescript_content = typescript_content.replace(
+            f'"icon": "{special_session.icon}"',
+            f'"icon": {special_session.icon}',
+        )
 
     return typescript_content
 
