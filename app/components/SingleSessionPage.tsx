@@ -18,6 +18,7 @@ import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {Icon, TimeIcon} from "@chakra-ui/icons";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
+import {formatTime} from "@/app/utils/time";
 
 interface SingleSessionPageProps {
     session: Session;
@@ -40,9 +41,6 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         await registerFavorite(session.id.toString(), inc);
     }
 
-    const formatTime = (date: Date): string => {
-        return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', timeZone: 'America/Monterrey'});
-    };
 
     useEffect(() => {
         setFavorite(
