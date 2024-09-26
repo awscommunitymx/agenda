@@ -50,14 +50,16 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
             const now = new Date();
             if (session.time.start <= now && session.time.end >= now) {
                 setStatus('positive');
-                setStatusText("En curso");
+                const remaining = session.time.end.getTime() - now.getTime();
+                setStatusText(`En curso, tiempo restante ${Math.ceil(remaining / 60000)} minutos`);
             } else if (session.time.end < now) {
                 setStatus('inactive');
                 setStatusText("Finalizada");
             } else if (session.time.start > now) {
                 if (session.time.start.getTime() - now.getTime() < 15 * 60 * 1000) {
                     setStatus('intermediary');
-                    setStatusText("Empezando pronto");
+                    const timeToStart = session.time.start.getTime() - now.getTime();
+                    setStatusText(`Inicia en ${Math.ceil(timeToStart / 60000)} minutos`);
                 } else {
                     setStatus('none');
                     setStatusText("");
@@ -118,9 +120,14 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                     <VStack align={"end"}>
                         <HStack>
                             <TimeIcon/>
-                            <Text fontSize="sm" suppressHydrationWarning>
-                                {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
-                            </Text>
+                            {
+                                isLoaded && (
+                                    <Text fontSize="sm" suppressHydrationWarning>
+                                        {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
+                                    </Text>
+                                )
+                            }
+                            {!isLoaded && (<Skeleton height="10px"/>)}
                         </HStack>
                         <HStack>
                             <Icon as={FaMapPin}/>
