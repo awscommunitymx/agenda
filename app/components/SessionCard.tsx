@@ -20,12 +20,17 @@ import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import NextLink from 'next/link'
 import {formatTime, getTimeDifference} from "@/app/utils/time";
+import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
+
 
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     const [isLoaded, setIsLoaded] = useState(false);
     const [isCollapsed, setIsCollapsed] = useState(true);
 
     const [favorite, setFavorite] = useState(false);
+
+    const [status, setStatus] = useState<StatusType>('none');
+    const [statusText, setStatusText] = useState<string>('');
 
     const toggleAbstract = () => setIsCollapsed(!isCollapsed);
 
@@ -38,6 +43,33 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
         const inc = favorite ? -1 : 1;
         await registerFavorite(session.id.toString(), inc);
     }
+
+    useEffect(() => {
+        const calculateStatus = () => {
+            const now = new Date();
+            if (session.time.start <= now && session.time.end >= now) {
+                setStatus('positive');
+                setStatusText("En curso");
+            } else if (session.time.end < now) {
+                setStatus('inactive');
+                setStatusText("Finalizada");
+            } else if (session.time.start > now) {
+                if (session.time.start.getTime() - now.getTime() < 15 * 60 * 1000) {
+                    setStatus('intermediary');
+                    setStatusText("Empezando pronto");
+                } else {
+                    setStatus('none');
+                    setStatusText("");
+                }
+            }
+        }
+
+        calculateStatus();
+
+        const interval = setInterval(calculateStatus, 60000);
+
+        return () => clearInterval(interval);
+    }, [session.time.end, session.time.start]);
 
     useEffect(() => {
         setFavorite(
@@ -57,6 +89,17 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
             transition="all 0.3s"
         >
             <VStack align="stretch" spacing={3}>
+                {status !== "none" && (
+                    <Flex justifyItems={"start"}>
+                        <HStack>
+                            <StatusIndicator status={status} pulse={status === "positive"}/>
+                            <Text fontSize="sm" color="gray.600">
+                                {statusText}
+                            </Text>
+
+                        </HStack>
+                    </Flex>
+                )}
                 <HStack justify="space-between">
                     <VStack align={"start"}>
                         <Badge colorScheme={getCategoryColor(session.category)}>
