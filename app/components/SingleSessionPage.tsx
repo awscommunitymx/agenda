@@ -177,18 +177,37 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 </Text>
 
                 <Box borderWidth={1} borderRadius="lg">
-                    <Accordion defaultIndex={[0]} allowMultiple>
+                    <Accordion allowToggle>
                         <AccordionItem>
                             <AccordionButton>
-                                ¿Por qué asistir?
+                                <Text fontWeight={"bold"}>
+                                    ¿Por qué asistir?
+                                </Text>
                             </AccordionButton>
                             <AccordionPanel>
-                                <Badge colorScheme="purple">Generado por Claude 3.5 en Amazon Bedrock</Badge>
+                                <Badge colorScheme="purple">Generado automáticamente por Claude 3.5 en Amazon
+                                    Bedrock</Badge>
                                 <Text fontSize="md">
                                     {session.cta}
                                 </Text>
                             </AccordionPanel>
                         </AccordionItem>
+                        {session.language === "English" && session.descriptionSpanish && (
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Text fontWeight={"bold"}>
+                                        Descripción (Español)
+                                    </Text>
+                                </AccordionButton>
+                                <AccordionPanel>
+                                    <Badge colorScheme="purple">Traducido automáticamente por Claude 3.5 en Amazon
+                                        Bedrock</Badge>
+                                    <Text fontSize="md">
+                                        {session.descriptionSpanish}
+                                    </Text>
+                                </AccordionPanel>
+                            </AccordionItem>
+                        )}
                     </Accordion>
                 </Box>
 

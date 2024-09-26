@@ -34,6 +34,7 @@ export interface Session {{
     title: string;
     abstract: string;
     description: string;
+    descriptionSpanish?: string;
     language: CFPLanguage;
     keywords: string[];
     cta: string;
