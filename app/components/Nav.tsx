@@ -3,8 +3,8 @@ import {Box, Button, Flex} from '@chakra-ui/react';
 import Image from 'next/image'
 import logo from '@/app/img.png'
 import {Icon} from "@chakra-ui/icons";
-import {FaHeart} from "react-icons/fa";
 import Link from "next/link";
+import {MdOutlineViewAgenda} from "react-icons/md";
 
 const Navbar = () => {
     return (
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </Link>
                     <Link href={'/session/favorites'} scroll={false}>
                         <Button size={"sm"} colorScheme={'blackAlpha'} rightIcon={
-                            <Icon as={FaHeart} color={'white.500'}/>
+                            <Icon as={MdOutlineViewAgenda} color={'white.500'}/>
                         }>
                             Mi agenda
                         </Button>
