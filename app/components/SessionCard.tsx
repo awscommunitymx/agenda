@@ -138,7 +138,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                     </VStack>
                 </HStack>
 
-                <Text fontSize="xl" fontWeight="semibold">
+                <Text fontSize="xl" fontWeight="semibold" as={status === "inactive" ? 'del' : undefined}>
                     <LinkOverlay as={NextLink} href={`/session/${session.id}`}>
                         {session.title}
                     </LinkOverlay>
