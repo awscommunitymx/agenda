@@ -8,6 +8,7 @@ import {
     Button,
     Heading,
     HStack,
+    Skeleton,
     SkeletonCircle,
     SkeletonText,
     Text,
@@ -119,6 +120,15 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 <Text fontSize="md">
                     {session.description}
                 </Text>
+
+                {isLoaded ? (
+                    <Button colorScheme={favorite ? 'red' : 'blue'} size="md" variant="solid" onClick={handleFavorite}>
+                        {favorite ? 'Eliminar de favoritos' : 'Agregar a favoritos'}
+                    </Button>
+                ) : (
+                    <Skeleton isLoaded={isLoaded} height='40px'/>
+                )
+                }
             </VStack>
         </Box>
     );
