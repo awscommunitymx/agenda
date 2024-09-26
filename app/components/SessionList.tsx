@@ -12,17 +12,18 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
     }, [sessions]);
 
 
-    const [filters, setFilters] = useState<Record<string, string>>({});
+    const [filters, setFilters] = useState<Record<string, string[]>>({});
 
     const filteredSessions = useMemo(() => {
-        return sessions.filter(session =>
-            Object.entries(filters).every(([key, value]) =>
-                session[key as keyof Session] === value
-            )
-        ).sort((a, b) => a.time.start.getTime() - b.time.start.getTime());
-    }, [sessions, filters]);
+        return sortedSessions.filter((session) => {
+            return Object.entries(filters).every(([key, values]) => {
+                // @ts-expect-error key is a string
+                return values.length === 0 || values.includes(session[key as keyof Session]);
+            });
+        });
+    }, [sortedSessions, filters]);
 
-    const handleFilterChange = (newFilters: Record<string, string>) => {
+    const handleFilterChange = (newFilters: Record<string, string[]>) => {
         setFilters(newFilters);
     };
 

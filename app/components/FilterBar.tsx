@@ -1,7 +1,9 @@
-import React, {useState} from 'react';
-import {Box, Button, Collapse, Container, Flex, HStack, Icon, Select, Text, VStack} from '@chakra-ui/react';
+import React, {useEffect, useState} from 'react';
+import {Box, Button, Container, Flex, FormControl, FormLabel, Icon, VStack} from '@chakra-ui/react';
 import {Session} from "@/app/types/session";
 import {IoFilter} from "react-icons/io5";
+import {Select} from "chakra-react-select";
+import {Collapse} from "@/app/components/Collapse"
 
 interface FilterOption {
     key: string;
@@ -12,12 +14,16 @@ interface FilterOption {
 
 interface FilterBarProps {
     sessions: Session[];
-    onFilterChange: (filters: Record<string, string>) => void;
+    onFilterChange: (filters: Record<string, string[]>) => void;
 }
 
 const FilterBar: React.FC<FilterBarProps> = ({sessions, onFilterChange}) => {
     const [isExpanded, setIsExpanded] = useState(false);
-    const [filters, setFilters] = useState<Record<string, string>>({});
+    const [filters, setFilters] = useState<Record<string, string[]>>({});
+
+    useEffect(() => {
+        onFilterChange(filters);
+    }, [filters, onFilterChange]);
 
     const filterOptions: FilterOption[] = [
         {
@@ -40,15 +46,6 @@ const FilterBar: React.FC<FilterBarProps> = ({sessions, onFilterChange}) => {
         },
     ];
 
-    const handleFilterChange = (key: string, value: string) => {
-        const newFilters = {...filters, [key]: value};
-        if (value === '') {
-            delete newFilters[key];
-        }
-        setFilters(newFilters);
-        onFilterChange(newFilters);
-    };
-
     return (
         <VStack mb={2}>
             <Flex justifyItems={"flex-end"}>
@@ -64,44 +61,31 @@ const FilterBar: React.FC<FilterBarProps> = ({sessions, onFilterChange}) => {
                 </Button>
 
             </Flex>
-            <Container>
+            <Container overflowY="visible">
 
                 <Collapse in={isExpanded} animateOpacity>
-                    <VStack align="stretch" spacing={4}>
-                        {filterOptions.map(({key, label, plural, options}) => (
-                            <Box key={key}>
-                                <Text fontSize="sm" fontWeight="medium" mb={1}>{label}</Text>
-                                <Select
-                                    placeholder={plural}
-                                    value={filters[key] || ''}
-                                    onChange={(e) => handleFilterChange(key, e.target.value)}
-                                >
-                                    {options.map(option => (
-                                        <option key={option} value={option}>{option}</option>
-                                    ))}
-                                </Select>
-                            </Box>
-                        ))}
-                    </VStack>
-                </Collapse>
-
-                <Container my={2} px={0} alignContent={"start"}>
-                    {Object.keys(filters).length > 0 && (
-                        <HStack wrap="wrap" spacing={2}>
-                            {Object.entries(filters).map(([key, value]) => (
-                                <Button
-                                    key={key}
-                                    size="sm"
-                                    variant="solid"
-                                    colorScheme="blue"
-                                    onClick={() => handleFilterChange(key, '')}
-                                >
-                                    {filterOptions.find(opt => opt.key === key)?.label}: {value} ×
-                                </Button>
+                    <Box overflow={"visible"} py={4}>
+                        <VStack align="stretch" spacing={4}>
+                            {filterOptions.map(({key, label, plural, options}) => (
+                                <FormControl key={key}>
+                                    <FormLabel>{label}</FormLabel>
+                                    <Select
+                                        isMulti={true}
+                                        placeholder={plural}
+                                        closeMenuOnSelect={false}
+                                        options={options.map(option => ({label: option, value: option}))}
+                                        onChange={(selected) => {
+                                            setFilters({
+                                                ...filters,
+                                                [key]: selected.map(({value}) => value)
+                                            });
+                                        }}
+                                    />
+                                </FormControl>
                             ))}
-                        </HStack>
-                    )}
-                </Container>
+                        </VStack>
+                    </Box>
+                </Collapse>
             </Container>
         </VStack>
     );
