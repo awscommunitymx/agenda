@@ -5,7 +5,7 @@ import re
 import sys
 from datetime import datetime, timedelta
 
-SESSION_DATE = "2024-09-24"
+SESSION_DATE = "2024-09-26"
 
 
 def clean_string(s):
