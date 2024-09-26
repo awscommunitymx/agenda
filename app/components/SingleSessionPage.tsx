@@ -6,6 +6,7 @@ import {
     Badge,
     Box,
     Button,
+    Flex,
     Heading,
     HStack,
     Skeleton,
@@ -20,6 +21,7 @@ import {Icon, TimeIcon} from "@chakra-ui/icons";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {formatTime, getTimeDifference} from "@/app/utils/time";
+import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
 
 interface SingleSessionPageProps {
     session: Session;
@@ -35,6 +37,9 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
     const [favorite, setFavorite] = useState(false);
     const [sessionTime, setSessionTime] = useState<SessionTime>({start: '', end: ''});
 
+    const [status, setStatus] = useState<StatusType>('none');
+    const [statusText, setStatusText] = useState<string>('');
+
     const handleFavorite = async () => {
         setFavorite(!favorite);
         toggleFavorite(session.id.toString());
@@ -42,6 +47,32 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         await registerFavorite(session.id.toString(), inc);
     }
 
+    useEffect(() => {
+        const calculateStatus = () => {
+            const now = new Date();
+            if (session.time.start <= now && session.time.end >= now) {
+                setStatus('positive');
+                setStatusText("En curso");
+            } else if (session.time.end < now) {
+                setStatus('inactive');
+                setStatusText("Finalizada");
+            } else if (session.time.start > now) {
+                if (session.time.start.getTime() - now.getTime() < 15 * 60 * 1000) {
+                    setStatus('intermediary');
+                    setStatusText("Empezando pronto");
+                } else {
+                    setStatus('none');
+                    setStatusText("");
+                }
+            }
+        }
+
+        calculateStatus();
+
+        const interval = setInterval(calculateStatus, 60000);
+
+        return () => clearInterval(interval);
+    }, [session.time.end, session.time.start]);
 
     useEffect(() => {
         setFavorite(
@@ -58,6 +89,23 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
 
         <Box borderWidth={1} borderRadius="lg" p={6} bg="white" shadow="md">
             <VStack align="stretch" spacing={4}>
+                {status !== "none" && isLoaded && (
+                    <Flex justifyItems={"start"}>
+                        <HStack>
+                            <StatusIndicator status={status} pulse={status === "positive"}/>
+                            <Text fontSize="sm" color="gray.600">
+                                {statusText}
+                            </Text>
+
+                        </HStack>
+                    </Flex>
+                )}
+                {
+                    !isLoaded && (
+                        <Skeleton height='10px'/>
+                    )
+                }
+
                 <HStack justify={"space-between"}>
                     <VStack alignItems={"start"}>
                         <Badge colorScheme={getCategoryColor(session.category)} alignSelf="flex-start">

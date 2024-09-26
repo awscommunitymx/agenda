@@ -9,6 +9,7 @@ import {
     HStack,
     LinkBox,
     LinkOverlay,
+    Skeleton,
     SkeletonCircle,
     Text,
     VStack
@@ -89,7 +90,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
             transition="all 0.3s"
         >
             <VStack align="stretch" spacing={3}>
-                {status !== "none" && (
+                {status !== "none" && isLoaded && (
                     <Flex justifyItems={"start"}>
                         <HStack>
                             <StatusIndicator status={status} pulse={status === "positive"}/>
@@ -100,6 +101,11 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                         </HStack>
                     </Flex>
                 )}
+                {
+                    !isLoaded && (
+                        <Skeleton height='10px'/>
+                    )
+                }
                 <HStack justify="space-between">
                     <VStack align={"start"}>
                         <Badge colorScheme={getCategoryColor(session.category)}>
