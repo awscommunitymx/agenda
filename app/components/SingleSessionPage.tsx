@@ -18,7 +18,7 @@ import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {Icon, TimeIcon} from "@chakra-ui/icons";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
-import {formatTime} from "@/app/utils/time";
+import {formatTime, getTimeDifference} from "@/app/utils/time";
 
 interface SingleSessionPageProps {
     session: Session;
@@ -102,10 +102,10 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                     {
                         isLoaded ?
                             <Text fontSize="sm" suppressHydrationWarning>
-                                {sessionTime.start} - {sessionTime.end}
+                                {sessionTime.start} - {sessionTime.end} ({getTimeDifference(session.time.start, session.time.end)})
                             </Text>
                             :
-                            <SkeletonText noOfLines={1} w="100px"/>
+                            <SkeletonText noOfLines={1} w="150px"/>
                     }
                 </HStack>
 
