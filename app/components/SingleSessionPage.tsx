@@ -188,15 +188,17 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                         <AccordionItem>
                             <AccordionButton>
                                 <Text fontWeight={"bold"}>
-                                    ¿Por qué asistir?
+                                    ¿Por qué debería asistir?
                                 </Text>
                             </AccordionButton>
                             <AccordionPanel>
-                                <Badge colorScheme="purple">Generado automáticamente por Claude 3.5 en Amazon
-                                    Bedrock</Badge>
                                 <Text fontSize="md">
                                     {session.cta}
                                 </Text>
+                                <small>
+                                    <i>Generado automáticamente por <b>Claude 3.5 Sonnet</b> en <b>Amazon
+                                        Bedrock.</b></i>
+                                </small>
                             </AccordionPanel>
                         </AccordionItem>
                         {session.language === "English" && session.descriptionSpanish && (
@@ -207,11 +209,13 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                     </Text>
                                 </AccordionButton>
                                 <AccordionPanel>
-                                    <Badge colorScheme="purple">Traducido automáticamente por Claude 3.5 en Amazon
-                                        Bedrock</Badge>
                                     <Text fontSize="md">
                                         {session.descriptionSpanish}
                                     </Text>
+                                    <small>
+                                        <i>Traducido automáticamente por <b>Claude 3.5 Sonnet</b> en <b>Amazon
+                                            Bedrock.</b></i>
+                                    </small>
                                 </AccordionPanel>
                             </AccordionItem>
                         )}
