@@ -19,10 +19,7 @@ import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import NextLink from 'next/link'
-
-const formatTime = (date: Date): string => {
-    return date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
-};
+import {formatTime, getTimeDifference} from "@/app/utils/time";
 
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -73,7 +70,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                         <HStack>
                             <TimeIcon/>
                             <Text fontSize="sm" suppressHydrationWarning>
-                                {formatTime(session.time.start)} - {formatTime(session.time.end)}
+                                {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
                             </Text>
                         </HStack>
                         <HStack>
