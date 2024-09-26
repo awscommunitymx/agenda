@@ -8,7 +8,7 @@ import {MdOutlineViewAgenda} from "react-icons/md";
 
 const Navbar = () => {
     return (
-        <Box>
+        <Box position="sticky" top="0" zIndex="sticky">
             <Box bg="gray.700" px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <Link href={'/'}>
