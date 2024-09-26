@@ -65,7 +65,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
                     <>
                         <Divider/>
                         <Heading as="h2" size="lg">
-                            Sesiones pasadas
+                            Sesiones finalizadas
                         </Heading>
                     </>
                 }
