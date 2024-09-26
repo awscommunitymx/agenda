@@ -1,4 +1,3 @@
-
 import {Session} from "@/app/types/session";
 
 const sessions: Session[] = [
@@ -10,8 +9,8 @@ const sessions: Session[] = [
         "speaker": "Aarón Munguía",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:35:00-06:00')
+            "start": new Date('2024-09-26T06:00:00-06:00'),
+            "end": new Date('2024-09-26T06:35:00-06:00')
         },
         "category": "Operaciones",
         "level": "Advanced",
@@ -25,8 +24,8 @@ const sessions: Session[] = [
         "speaker": "Agustín Villarreal Carrillo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:35:00-06:00')
+            "start": new Date('2024-09-26T09:45:00-06:00'),
+            "end": new Date('2024-09-26T09:45:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "All",
@@ -40,8 +39,8 @@ const sessions: Session[] = [
         "speaker": "Aleja Henao Espitia",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:50:00-06:00')
+            "start": new Date('2024-09-26T15:00:00-06:00'),
+            "end": new Date('2024-09-26T15:50:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -55,8 +54,8 @@ const sessions: Session[] = [
         "speaker": "Alex Parra",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:05:00-06:00'),
-            "end": new Date('2024-09-24T11:40:00-06:00')
+            "start": new Date('2024-09-26T11:05:00-06:00'),
+            "end": new Date('2024-09-26T11:40:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -70,8 +69,8 @@ const sessions: Session[] = [
         "speaker": "Alonso Parasxidis Moreno",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T10:50:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T10:50:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -85,8 +84,8 @@ const sessions: Session[] = [
         "speaker": "Ana Barragán",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T11:05:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T11:05:00-06:00')
         },
         "category": "IA/ML",
         "level": "Beginner",
@@ -100,8 +99,8 @@ const sessions: Session[] = [
         "speaker": "Ana Reyna",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:50:00-06:00'),
-            "end": new Date('2024-09-24T17:05:00-06:00')
+            "start": new Date('2024-09-26T16:50:00-06:00'),
+            "end": new Date('2024-09-26T17:05:00-06:00')
         },
         "category": "Softskills",
         "level": "All",
@@ -115,8 +114,8 @@ const sessions: Session[] = [
         "speaker": "Arait Monter",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:50:00-06:00'),
-            "end": new Date('2024-09-24T16:05:00-06:00')
+            "start": new Date('2024-09-26T15:50:00-06:00'),
+            "end": new Date('2024-09-26T16:05:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -130,8 +129,8 @@ const sessions: Session[] = [
         "speaker": "Armando Alexis Herra Cortez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:50:00-06:00'),
-            "end": new Date('2024-09-24T16:25:00-06:00')
+            "start": new Date('2024-09-26T15:50:00-06:00'),
+            "end": new Date('2024-09-26T16:25:00-06:00')
         },
         "category": "Operaciones",
         "level": "Advanced",
@@ -145,8 +144,8 @@ const sessions: Session[] = [
         "speaker": "Barbara Gaspar",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T10:50:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T10:50:00-06:00')
         },
         "category": "FinOps",
         "level": "Beginner",
@@ -160,8 +159,8 @@ const sessions: Session[] = [
         "speaker": "Brenda Cuevas Vázquez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:45:00-06:00'),
-            "end": new Date('2024-09-24T13:20:00-06:00')
+            "start": new Date('2024-09-26T12:45:00-06:00'),
+            "end": new Date('2024-09-26T13:20:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -175,8 +174,8 @@ const sessions: Session[] = [
         "speaker": "César Martinez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:55:00-06:00'),
-            "end": new Date('2024-09-24T12:30:00-06:00')
+            "start": new Date('2024-09-26T11:55:00-06:00'),
+            "end": new Date('2024-09-26T12:30:00-06:00')
         },
         "category": "IA/ML",
         "level": "All",
@@ -190,8 +189,8 @@ const sessions: Session[] = [
         "speaker": "David Sol",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:45:00-06:00'),
-            "end": new Date('2024-09-24T13:20:00-06:00')
+            "start": new Date('2024-09-26T12:45:00-06:00'),
+            "end": new Date('2024-09-26T13:20:00-06:00')
         },
         "category": "Softskills",
         "level": "Beginner",
@@ -205,8 +204,8 @@ const sessions: Session[] = [
         "speaker": "Edgar Omar Reyes Cano",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:05:00-06:00'),
-            "end": new Date('2024-09-24T11:40:00-06:00')
+            "start": new Date('2024-09-26T11:05:00-06:00'),
+            "end": new Date('2024-09-26T11:40:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "All",
@@ -220,8 +219,8 @@ const sessions: Session[] = [
         "speaker": "Edwin Alan Moedano Cardiel",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:05:00-06:00'),
-            "end": new Date('2024-09-24T16:55:00-06:00')
+            "start": new Date('2024-09-26T16:05:00-06:00'),
+            "end": new Date('2024-09-26T16:55:00-06:00')
         },
         "category": "Serverless",
         "level": "Intermediate",
@@ -235,8 +234,8 @@ const sessions: Session[] = [
         "speaker": "Elisa Zamarrón Muñoz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T10:50:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T10:50:00-06:00')
         },
         "category": "Operaciones",
         "level": "Beginner",
@@ -250,8 +249,8 @@ const sessions: Session[] = [
         "speaker": "Elizabeth Gómez Guillén",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:50:00-06:00')
+            "start": new Date('2024-09-26T15:00:00-06:00'),
+            "end": new Date('2024-09-26T15:50:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -265,8 +264,8 @@ const sessions: Session[] = [
         "speaker": "Enrique Cuevas",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:55:00-06:00'),
-            "end": new Date('2024-09-24T12:30:00-06:00')
+            "start": new Date('2024-09-26T11:55:00-06:00'),
+            "end": new Date('2024-09-26T12:30:00-06:00')
         },
         "category": "FinOps",
         "level": "Intermediate",
@@ -280,8 +279,8 @@ const sessions: Session[] = [
         "speaker": "Erick J. Pineda Amézquita",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T11:05:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T11:05:00-06:00')
         },
         "category": "Operaciones",
         "level": "All",
@@ -295,8 +294,8 @@ const sessions: Session[] = [
         "speaker": "Esaú Reyes",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:45:00-06:00'),
-            "end": new Date('2024-09-24T13:20:00-06:00')
+            "start": new Date('2024-09-26T12:45:00-06:00'),
+            "end": new Date('2024-09-26T13:20:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -310,8 +309,8 @@ const sessions: Session[] = [
         "speaker": "Fabiana Serangelli",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:20:00-06:00'),
-            "end": new Date('2024-09-24T11:55:00-06:00')
+            "start": new Date('2024-09-26T11:20:00-06:00'),
+            "end": new Date('2024-09-26T11:55:00-06:00')
         },
         "category": "IA/ML",
         "level": "All",
@@ -325,8 +324,8 @@ const sessions: Session[] = [
         "speaker": "Fernando Paz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:05:00-06:00'),
-            "end": new Date('2024-09-24T11:40:00-06:00')
+            "start": new Date('2024-09-26T11:05:00-06:00'),
+            "end": new Date('2024-09-26T11:40:00-06:00')
         },
         "category": "Softskills",
         "level": "Beginner",
@@ -340,8 +339,8 @@ const sessions: Session[] = [
         "speaker": "Gabriel Portela",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T13:15:00-06:00'),
-            "end": new Date('2024-09-24T13:50:00-06:00')
+            "start": new Date('2024-09-26T13:15:00-06:00'),
+            "end": new Date('2024-09-26T13:50:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -355,8 +354,8 @@ const sessions: Session[] = [
         "speaker": "Gerardo Moreno Ramirez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:50:00-06:00'),
-            "end": new Date('2024-09-24T17:05:00-06:00')
+            "start": new Date('2024-09-26T16:50:00-06:00'),
+            "end": new Date('2024-09-26T17:05:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "Beginner",
@@ -370,8 +369,8 @@ const sessions: Session[] = [
         "speaker": "Hector Zelaya",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:05:00-06:00'),
-            "end": new Date('2024-09-24T11:40:00-06:00')
+            "start": new Date('2024-09-26T11:05:00-06:00'),
+            "end": new Date('2024-09-26T11:40:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -385,8 +384,8 @@ const sessions: Session[] = [
         "speaker": "Ivan Castañeda",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:55:00-06:00'),
-            "end": new Date('2024-09-24T12:30:00-06:00')
+            "start": new Date('2024-09-26T11:55:00-06:00'),
+            "end": new Date('2024-09-26T12:30:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "All",
@@ -400,8 +399,8 @@ const sessions: Session[] = [
         "speaker": "Jakob Hans Renpening Treviño",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:55:00-06:00'),
-            "end": new Date('2024-09-24T12:30:00-06:00')
+            "start": new Date('2024-09-26T11:55:00-06:00'),
+            "end": new Date('2024-09-26T12:30:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "All",
@@ -415,8 +414,8 @@ const sessions: Session[] = [
         "speaker": "Joaquín Benitez (Toy Lee)",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T13:35:00-06:00'),
-            "end": new Date('2024-09-24T14:10:00-06:00')
+            "start": new Date('2024-09-26T13:35:00-06:00'),
+            "end": new Date('2024-09-26T14:10:00-06:00')
         },
         "category": "Operaciones",
         "level": "Beginner",
@@ -430,8 +429,8 @@ const sessions: Session[] = [
         "speaker": "Jocelyn Poblete",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T10:50:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T10:50:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -445,8 +444,8 @@ const sessions: Session[] = [
         "speaker": "Jose Yapur",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:05:00-06:00'),
-            "end": new Date('2024-09-24T16:55:00-06:00')
+            "start": new Date('2024-09-26T16:05:00-06:00'),
+            "end": new Date('2024-09-26T16:55:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -461,8 +460,8 @@ const sessions: Session[] = [
         "speaker": "Joselyn Lagunas",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:20:00-06:00'),
-            "end": new Date('2024-09-24T16:35:00-06:00')
+            "start": new Date('2024-09-26T16:20:00-06:00'),
+            "end": new Date('2024-09-26T16:35:00-06:00')
         },
         "category": "IA/ML",
         "level": "Beginner",
@@ -476,8 +475,8 @@ const sessions: Session[] = [
         "speaker": "Juan Carlos Martinez Carrillo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:55:00-06:00'),
-            "end": new Date('2024-09-24T12:45:00-06:00')
+            "start": new Date('2024-09-26T11:55:00-06:00'),
+            "end": new Date('2024-09-26T12:45:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -491,8 +490,8 @@ const sessions: Session[] = [
         "speaker": "Juan Diego Bonilla",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:10:00-06:00'),
-            "end": new Date('2024-09-24T13:00:00-06:00')
+            "start": new Date('2024-09-26T12:10:00-06:00'),
+            "end": new Date('2024-09-26T13:00:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -506,8 +505,8 @@ const sessions: Session[] = [
         "speaker": "Julian Garrido Rodriguez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T13:15:00-06:00'),
-            "end": new Date('2024-09-24T14:05:00-06:00')
+            "start": new Date('2024-09-26T13:15:00-06:00'),
+            "end": new Date('2024-09-26T14:05:00-06:00')
         },
         "category": "Operaciones",
         "level": "All",
@@ -521,8 +520,8 @@ const sessions: Session[] = [
         "speaker": "Kelvin Alvarado",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T13:35:00-06:00'),
-            "end": new Date('2024-09-24T14:10:00-06:00')
+            "start": new Date('2024-09-26T13:35:00-06:00'),
+            "end": new Date('2024-09-26T14:10:00-06:00')
         },
         "category": "IA/ML",
         "level": "Intermediate",
@@ -536,8 +535,8 @@ const sessions: Session[] = [
         "speaker": "Leonardo Covarrubias García",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T11:20:00-06:00'),
-            "end": new Date('2024-09-24T12:10:00-06:00')
+            "start": new Date('2024-09-26T11:20:00-06:00'),
+            "end": new Date('2024-09-26T12:10:00-06:00')
         },
         "category": "IA/ML",
         "level": "All",
@@ -551,8 +550,8 @@ const sessions: Session[] = [
         "speaker": "Luis Carlos Osorio Jayk",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:45:00-06:00'),
-            "end": new Date('2024-09-24T13:20:00-06:00')
+            "start": new Date('2024-09-26T12:45:00-06:00'),
+            "end": new Date('2024-09-26T13:20:00-06:00')
         },
         "category": "Serverless",
         "level": "All",
@@ -566,8 +565,8 @@ const sessions: Session[] = [
         "speaker": "Luis Gerardo Guerra Garrido",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:50:00-06:00'),
-            "end": new Date('2024-09-24T16:25:00-06:00')
+            "start": new Date('2024-09-26T15:50:00-06:00'),
+            "end": new Date('2024-09-26T16:25:00-06:00')
         },
         "category": "FinOps",
         "level": "Intermediate",
@@ -581,8 +580,8 @@ const sessions: Session[] = [
         "speaker": "Luis Gerardo Hernandez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:45:00-06:00'),
-            "end": new Date('2024-09-24T13:20:00-06:00')
+            "start": new Date('2024-09-26T12:45:00-06:00'),
+            "end": new Date('2024-09-26T13:20:00-06:00')
         },
         "category": "Operaciones",
         "level": "Intermediate",
@@ -596,8 +595,8 @@ const sessions: Session[] = [
         "speaker": "Marco Cornejo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:35:00-06:00')
+            "start": new Date('2024-09-26T15:00:00-06:00'),
+            "end": new Date('2024-09-26T15:35:00-06:00')
         },
         "category": "Softskills",
         "level": "Intermediate",
@@ -611,8 +610,8 @@ const sessions: Session[] = [
         "speaker": "Mariano Rodríguez Díaz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:50:00-06:00')
+            "start": new Date('2024-09-26T15:00:00-06:00'),
+            "end": new Date('2024-09-26T15:50:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "All",
@@ -626,8 +625,8 @@ const sessions: Session[] = [
         "speaker": "Mario Alberto Rodríguez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:00:00-06:00'),
-            "end": new Date('2024-09-24T15:35:00-06:00')
+            "start": new Date('2024-09-26T15:00:00-06:00'),
+            "end": new Date('2024-09-26T15:35:00-06:00')
         },
         "category": "IA/ML",
         "level": "All",
@@ -641,8 +640,8 @@ const sessions: Session[] = [
         "speaker": "Miroslava Galvan",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:20:00-06:00'),
-            "end": new Date('2024-09-24T16:35:00-06:00')
+            "start": new Date('2024-09-26T16:20:00-06:00'),
+            "end": new Date('2024-09-26T16:35:00-06:00')
         },
         "category": "Softskills",
         "level": "All",
@@ -656,8 +655,8 @@ const sessions: Session[] = [
         "speaker": "Oscar Mendoza",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T10:15:00-06:00'),
-            "end": new Date('2024-09-24T10:50:00-06:00')
+            "start": new Date('2024-09-26T10:15:00-06:00'),
+            "end": new Date('2024-09-26T10:50:00-06:00')
         },
         "category": "Operaciones",
         "level": "All",
@@ -671,8 +670,8 @@ const sessions: Session[] = [
         "speaker": "Ramon Esparza",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T13:35:00-06:00'),
-            "end": new Date('2024-09-24T14:10:00-06:00')
+            "start": new Date('2024-09-26T13:35:00-06:00'),
+            "end": new Date('2024-09-26T14:10:00-06:00')
         },
         "category": "IA/ML",
         "level": "Beginner",
@@ -686,8 +685,8 @@ const sessions: Session[] = [
         "speaker": "Sebastián Marines",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T12:25:00-06:00'),
-            "end": new Date('2024-09-24T13:00:00-06:00')
+            "start": new Date('2024-09-26T12:25:00-06:00'),
+            "end": new Date('2024-09-26T13:00:00-06:00')
         },
         "category": "Serverless",
         "level": "Intermediate",
@@ -701,8 +700,8 @@ const sessions: Session[] = [
         "speaker": "Ulises Chombo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T15:50:00-06:00'),
-            "end": new Date('2024-09-24T16:05:00-06:00')
+            "start": new Date('2024-09-26T15:50:00-06:00'),
+            "end": new Date('2024-09-26T16:05:00-06:00')
         },
         "category": "Operaciones",
         "level": "All",
@@ -717,8 +716,8 @@ const sessions: Session[] = [
         "speaker": "Vicente G. Guzman Lucio",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T13:35:00-06:00'),
-            "end": new Date('2024-09-24T14:10:00-06:00')
+            "start": new Date('2024-09-26T13:35:00-06:00'),
+            "end": new Date('2024-09-26T14:10:00-06:00')
         },
         "category": "PrimerosPasos",
         "level": "Beginner",
@@ -733,8 +732,8 @@ const sessions: Session[] = [
         "speaker": "Victor Jimenez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-09-24T16:05:00-06:00'),
-            "end": new Date('2024-09-24T16:55:00-06:00')
+            "start": new Date('2024-09-26T16:05:00-06:00'),
+            "end": new Date('2024-09-26T16:55:00-06:00')
         },
         "category": "Operaciones",
         "level": "Advanced",
