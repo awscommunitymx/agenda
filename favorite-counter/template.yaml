@@ -1,0 +1,63 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  favorite-counter
+
+  Sample SAM Template for favorite-counter
+
+Globals:
+  Function:
+    Timeout: 3
+    MemorySize: 128
+    Tracing: Active
+    Environment:
+      Variables:
+        POWERTOOLS_SERVICE_NAME: favorite-counter
+        POWERTOOLS_LOG_LEVEL: INFO
+  Api:
+    TracingEnabled: true
+
+Resources:
+  FavoriteCounterFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: counter/
+      Handler: app.lambda_handler
+      Runtime: python3.12
+      Architectures:
+        - x86_64
+      Events:
+        FavoriteIncrement:
+          Type: Api
+          Properties:
+            Path: /favorite/inc/{event_id}
+            Method: post
+        FavoriteDecrement:
+          Type: Api
+          Properties:
+            Path: /favorite/dec/{event_id}
+            Method: post
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FavoriteCounterTable
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref FavoriteCounterTable
+
+  FavoriteCounterTable:
+    Type: AWS::Serverless::SimpleTable
+    Properties:
+      PrimaryKey:
+        Name: event_id
+        Type: String
+
+Outputs:
+  FavoriteCounterApi:
+    Description: "API Gateway endpoint URL for Prod stage for Hello World function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+  FavoriteCounterFunction:
+    Description: "Hello World Lambda Function ARN"
+    Value: !GetAtt FavoriteCounterFunction.Arn
+  FavoriteCounterFunctionIamRole:
+    Description: "Implicit IAM Role created for Hello World function"
+    Value: !GetAtt FavoriteCounterFunctionRole.Arn
