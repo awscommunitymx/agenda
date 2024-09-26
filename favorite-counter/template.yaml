@@ -16,6 +16,10 @@ Globals:
         POWERTOOLS_LOG_LEVEL: INFO
   Api:
     TracingEnabled: true
+    Cors:
+      AllowMethods: "'GET, POST, OPTIONS'"
+      AllowHeaders: "'*'"
+      AllowOrigin: "'*'"
 
 Resources:
   FavoriteCounterFunction:
