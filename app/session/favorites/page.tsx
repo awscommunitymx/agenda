@@ -15,13 +15,13 @@ export default function Page() {
             ) || [])
         }, []
     )
-    
+
     return (
         <Flex direction={"column"} alignItems={"center"}>
             <Heading>
                 Mi agenda
             </Heading>
-            <SessionList sessions={favorites}/>
+            <SessionList sessions={favorites} inAgendaPage={true}/>
         </Flex>
     )
 }
