@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "favorite-counter"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Marines <hi@sebastianmarines.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aws-lambda-powertools = {extras = ["tracer"], version = "^3.0.0"}
+requests = "^2.32.3"
+pydantic = "^2.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+boto3 = "^1.35.26"
+black = "^24.8.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
