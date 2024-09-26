@@ -1,6 +1,6 @@
 'use client'
 import React, {useEffect, useMemo, useState} from 'react';
-import {Alert, Container, Divider, Heading, VStack} from '@chakra-ui/react';
+import {Alert, Container, Divider, Heading, Skeleton, Stack, VStack} from '@chakra-ui/react';
 import {Session, SessionListProps} from "@/app/types/session";
 import SessionCard from "@/app/components/SessionCard";
 import FilterBar from "@/app/components/FilterBar";
@@ -10,6 +10,7 @@ import SessionCardRenderer from "@/app/components/SessionCardRenderer";
 const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
     const [currentSessions, setCurrentSessions] = useState<Session[]>(sessions);
     const [pastSessions, setPastSessions] = useState<Session[]>([]);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     const sortedSessions = useMemo(() => {
         return [...sessions].sort((a, b) => a.time.start.getTime() - b.time.start.getTime());
@@ -38,6 +39,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
         }
 
         filterSessions();
+        setIsLoaded(true);
 
         // Filter sessions every minute
         const interval = setInterval(filterSessions, 60000);
@@ -66,35 +68,48 @@ const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
                               description={currentSpecialSession.description}/>
             }
             <FilterBar sessions={sortedSessions} onFilterChange={handleFilterChange}/>
-            <VStack spacing={4} align="stretch">
-                {filteredSessions.length === 0 && inAgendaPage &&
-                    <Alert status="warning" rounded={10}>
-                        ¡Tu agenda está esperando! Explora las charlas y agrega tu primera sesión para que no te pierdas
-                        de nada. ¡Conecta y disfruta el evento al máximo!
-                    </Alert>
-                }
-                {filteredSessions.length === 0 && !inAgendaPage &&
-                    <Alert status="warning" rounded={10}>
-                        No hay sesiones que coincidan con los filtros seleccionados.
-                    </Alert>
-                }
-                {currentSessions.map((session) => (
-                    <SessionCardRenderer session={session} key={session.id}/>
-                ))}
-            </VStack>
-            <VStack spacing={4} align="stretch" marginTop={"30px"}>
-                {pastSessions.length > 0 &&
-                    <>
-                        <Divider/>
-                        <Heading as="h2" size="lg">
-                            Sesiones finalizadas
-                        </Heading>
-                    </>
-                }
-                {pastSessions.filter((session) => !session.isSpecial).map((session) => (
-                    <SessionCard key={session.id} session={session}/>
-                ))}
-            </VStack>
+            {isLoaded ?
+                <>
+                    <VStack spacing={4} align="stretch">
+                        {filteredSessions.length === 0 && inAgendaPage &&
+                            <Alert status="warning" rounded={10}>
+                                ¡Tu agenda está esperando! Explora las charlas y agrega tu primera sesión para que no te
+                                pierdas
+                                de nada. ¡Conecta y disfruta el evento al máximo!
+                            </Alert>
+                        }
+                        {filteredSessions.length === 0 && !inAgendaPage &&
+                            <Alert status="warning" rounded={10}>
+                                No hay sesiones que coincidan con los filtros seleccionados.
+                            </Alert>
+                        }
+                        {currentSessions.map((session) => (
+                            <SessionCardRenderer session={session} key={session.id}/>
+                        ))}
+                    </VStack>
+                    <VStack spacing={4} align="stretch" marginTop={"30px"}>
+                        {pastSessions.length > 0 &&
+                            <>
+                                <Divider/>
+                                <Heading as="h2" size="lg">
+                                    Sesiones finalizadas
+                                </Heading>
+                            </>
+                        }
+                        {pastSessions.filter((session) => !session.isSpecial).map((session) => (
+                            <SessionCard key={session.id} session={session}/>
+                        ))}
+                    </VStack>
+                </>
+                :
+                <Stack>
+                    {
+                        filteredSessions.map((session) => (
+                            <Skeleton key={session.id} height={"150px"}/>
+                        ))
+                    }
+                </Stack>
+            }
         </Container>
     );
 };
