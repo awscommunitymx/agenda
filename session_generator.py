@@ -49,9 +49,9 @@ def csv_to_typescript(csv_file):
 
             session = {
                 "id": (
-                    int(cleaned_row["Session ID"])
+                    cleaned_row["Session ID"]
                     if cleaned_row["Session ID"]
-                    else len(sessions) + 1
+                    else str(len(sessions) + 1)
                 ),
                 "title": cleaned_row["Title"],
                 "description": cleaned_row["Description"],

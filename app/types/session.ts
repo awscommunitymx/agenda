@@ -4,7 +4,7 @@ export type Level = 'Advanced' | 'All' | 'Beginner' | 'Intermediate';
 export type CFPLanguage = 'Spanish' | 'English';
 
 export interface Session {
-    id: number;
+    id: string;
     title: string;
     abstract: string;
     description: string;
