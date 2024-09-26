@@ -4,8 +4,7 @@ from decimal import Decimal
 
 import boto3
 from aws_lambda_powertools import Logger, Tracer
-from aws_lambda_powertools.event_handler import (APIGatewayRestResolver,
-                                                 CORSConfig)
+from aws_lambda_powertools.event_handler import APIGatewayRestResolver, CORSConfig
 from aws_lambda_powertools.logging import correlation_paths
 from aws_lambda_powertools.utilities.typing import LambdaContext
 from botocore.exceptions import ClientError
@@ -35,60 +34,56 @@ class DecimalEncoder(json.JSONEncoder):
 
 
 @tracer.capture_method
-def atomic_increment(
-        *,
-        pk_name=PK,
-        attribute_name=ATTRIBUTE,
-        increment_by=1,
-        pk_value: str,
-):
-    """
-    Atomically increment a numeric attribute for a given primary key in DynamoDB.
-
-    :param pk_name: Name of the primary key attribute
-    :param pk_value: Value of the primary key
-    :param attribute_name: Name of the attribute to increment
-    :param increment_by: Value to increment by (default: 1)
-    :return: The updated value of the attribute after increment
-    """
-
-    try:
-        response = table.update_item(
-            Key={pk_name: pk_value},
-            UpdateExpression=f"SET {attribute_name} = if_not_exists({attribute_name}, :start) + :increment",
-            ConditionExpression=f"attribute_not_exists({attribute_name}) OR {attribute_name} >= :start",
-            ExpressionAttributeValues={":start": 0, ":increment": increment_by},
-            ReturnValues="UPDATED_NEW",
-        )
-        return response["Attributes"][attribute_name]
-    except ClientError as e:
-        logger.error(f"Error incrementing value: {e.response['Error']['Message']}")
-        raise
-
-
-@tracer.capture_method
 def get_all_items():
     response = table.scan()
     return response["Items"]
 
 
 @tracer.capture_method
-def set_counter(event_id: str, increment_by: int):
+def create_item(event_id: str):
     try:
-        atomic_increment(pk_value=event_id, increment_by=increment_by)
-    except ClientError:
-        return {"error": "Failed to increment counter"}, 500
-    return {"id": event_id, "count": 1}
+        table.put_item(Item={PK: event_id, ATTRIBUTE: 1})
+    except ClientError as e:
+        logger.error(f"Error creating item: {e.response['Error']['Message']}")
+        return {"error": f"Failed to create item: {e}"}, 500
+    return {"id": event_id, "count": 1}, 201
 
 
 @app.post("/favorite/inc/<event_id>")
 def increment_counter(event_id: str):
-    return set_counter(event_id, 1)
+    try:
+        response = table.update_item(
+            Key={PK: event_id},
+            UpdateExpression=f"ADD {ATTRIBUTE} :incr",
+            ExpressionAttributeValues={":incr": 1},
+            ConditionExpression=f"attribute_exists({PK})",
+            ReturnValues="UPDATED_NEW",
+        )
+    except ClientError as e:
+        if e.response["Error"]["Code"] == "ConditionalCheckFailedException":
+            return create_item(event_id)
+
+        logger.error(f"Error incrementing value: {e.response['Error']['Message']}")
+        return {"error": "Failed to increment counter"}, 500
+
+    return {"id": event_id, "count": response["Attributes"][ATTRIBUTE]}, 200
 
 
 @app.post("/favorite/dec/<event_id>")
 def decrement_counter(event_id: str):
-    return set_counter(event_id, -1)
+    try:
+        response = table.update_item(
+            Key={PK: event_id},
+            UpdateExpression=f"ADD {ATTRIBUTE} :decr",
+            ExpressionAttributeValues={":decr": -1, ":zero": 0},
+            ConditionExpression=f"attribute_exists({PK}) AND {ATTRIBUTE} > :zero",
+            ReturnValues="UPDATED_NEW",
+        )
+    except ClientError as e:
+        logger.error(f"Error decrementing value: {e.response['Error']['Message']}")
+        return {"error": "Failed to decrement counter"}, 500
+
+    return {"id": event_id, "count": response["Attributes"][ATTRIBUTE]}, 200
 
 
 @app.get("/favorite")
