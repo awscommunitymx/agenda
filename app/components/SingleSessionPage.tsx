@@ -53,7 +53,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
             if (session.time.start <= now && session.time.end >= now) {
                 setStatus('positive');
                 const remaining = session.time.end.getTime() - now.getTime();
-                setStatusText(`En curso, tiempo restante ${Math.ceil(remaining / 60000)} minutos`);
+                setStatusText(`En curso (Tiempo restante ${Math.ceil(remaining / 60000)} minuto${remaining === 1 ? '' : 's'})`);
             } else if (session.time.end < now) {
                 setStatus('inactive');
                 setStatusText("Finalizada");
@@ -61,7 +61,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 if (session.time.start.getTime() - now.getTime() < 15 * 60 * 1000) {
                     setStatus('intermediary');
                     const timeToStart = session.time.start.getTime() - now.getTime();
-                    setStatusText(`Inicia en ${Math.ceil(timeToStart / 60000)} minutos`);
+                    setStatusText(`Inicia en ${Math.ceil(timeToStart / 60000)} minuto${timeToStart === 1 ? '' : 's'}`);
                 } else {
                     setStatus('none');
                     setStatusText("");
@@ -163,7 +163,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 <HStack>
                     <Icon as={FaMapPin}/>
                     <Text fontSize="md" color="gray.700">
-                        Room: {session.room}
+                        Sala: {session.room}
                     </Text>
                 </HStack>
 
