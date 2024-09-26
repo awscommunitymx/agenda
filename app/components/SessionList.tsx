@@ -4,6 +4,7 @@ import {Alert, Container, Divider, Heading, VStack} from '@chakra-ui/react';
 import {Session, SessionListProps} from "@/app/types/session";
 import SessionCard from "@/app/components/SessionCard";
 import FilterBar from "@/app/components/FilterBar";
+import SessionCardRenderer from "@/app/components/SessionCardRenderer";
 
 const SessionList: React.FC<SessionListProps> = ({sessions}) => {
     const [currentSessions, setCurrentSessions] = useState<Session[]>(sessions);
@@ -57,7 +58,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
                     </Alert>
                 }
                 {currentSessions.map((session) => (
-                    <SessionCard key={session.id} session={session}/>
+                    <SessionCardRenderer session={session} key={session.id}/>
                 ))}
             </VStack>
             <VStack spacing={4} align="stretch" marginTop={"30px"}>
@@ -69,7 +70,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
                         </Heading>
                     </>
                 }
-                {pastSessions.map((session) => (
+                {pastSessions.filter((session) => !session.isSpecial).map((session) => (
                     <SessionCard key={session.id} session={session}/>
                 ))}
             </VStack>
