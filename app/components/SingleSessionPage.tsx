@@ -124,7 +124,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 {isLoaded ? (
                     <Button colorScheme={favorite ? 'yellow' : 'blue'} size="md" variant="solid"
                             onClick={handleFavorite}>
-                        {favorite ? 'Eliminar de favoritos' : 'Agregar a favoritos'}
+                        {favorite ? 'Eliminar de mi agenda' : 'Agregar a mi agenda'}
                     </Button>
                 ) : (
                     <Skeleton isLoaded={isLoaded} height='40px'/>
