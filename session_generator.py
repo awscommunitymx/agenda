@@ -37,16 +37,38 @@ class SpecialSession:
 
 SPECIAL_SESSIONS: list[SpecialSession] = [
     SpecialSession(
+        id="registro",
+        title="Registro",
+        abstract="Registro de asistentes",
+        description="Regístrate en la entrada del evento.",
+        cta="Registrarse",
+        time=Time("08:00", "09:00"),
+        room="Entrada",
+        icon="FaRegIdBadge",
+        import_icon_from="react-icons/fa",
+    ),
+    SpecialSession(
         id="comida",
         title="Comida",
-        abstract="Tiempo para comer",
-        description="Tiempo para comer",
+        abstract="Hora de la comida!",
+        description="Dirígete al área de comida y disfruta de un descanso.",
         cta="Comer",
-        time=Time("13:00", "17:00"),
+        time=Time("14:00", "15:00"),
         room="Comedor",
         icon="IoFastFoodOutline",
         import_icon_from="react-icons/io5"
     ),
+    SpecialSession(
+        id="cierre",
+        title="Cierre",
+        abstract="Cierre del evento",
+        description="Acompañanos en la sala principal para el cierre del evento.",
+        cta="Cierre",
+        time=Time("17:00", "18:00"),
+        room="Sala Principal",
+        icon="PiChampagneBold",
+        import_icon_from="react-icons/pi"
+    )
 ]
 
 
