@@ -1031,7 +1031,9 @@ const sessions: Session[] = [
         "speakerLocation": "Lima, Perú",
         "coSpeaker": "Ana Cunha",
         "speakerCompany": "Amazon Web Services",
-        "descriptionSpanish": "En esta sesión aprenderemos cómo estamos mejorando el soporte a las comunidades usando agentes inteligentes que aprenden de nuestros documentos, imágenes y bases de datos. Durante el proceso de desarrollo aprenderás cómo multiples tareas pueden ser automatizadas con herramientas amigables para desarrolladores, incluso si no tienes experiencia en AI/ML."
+        "descriptionSpanish": "En esta sesión aprenderemos cómo estamos mejorando el soporte a las comunidades usando agentes inteligentes que aprenden de nuestros documentos, imágenes y bases de datos. Durante el proceso de desarrollo aprenderás cómo multiples tareas pueden ser automatizadas con herramientas amigables para desarrolladores, incluso si no tienes experiencia en AI/ML.",
+        "coSpeakerLocation": "Santa Catarina, Brasil",
+        "coSpeakerCompany": "Amazon Web Services"
     },
     {
         "id": 32,
@@ -1593,7 +1595,9 @@ const sessions: Session[] = [
         "speakerLocation": "Ciudad de México, México",
         "coSpeaker": "Luis Rios",
         "speakerCompany": "Bitso (Quetzal Team)",
-        "descriptionSpanish": "Como equipo de seguridad de una compañía crypto, es muy difícil encontrar productos de seguridad que cubran todas nuestras necesidades. En esta charla, exploraremos cómo la automatización con AWS Lambdas, Terraform y Python puede llenar los vacíos que las soluciones integrales no logran cubrir. Comenzaremos con una introducción a conceptos básicos como AWS Lambdas, Terraform y SOC, desglosando cómo definir secretos, buckets y capas necesarias tanto en Terraform como en Python. Luego, avanzaremos hacia una parte práctica, donde construiremos feeds de inteligencia de amenazas, reportes automáticos de vulnerabilidades y monitores de transacciones crypto sospechosas, entre otros ejemplos, demostrando cómo esta combinación de herramientas no solo es una alternativa económica, sino también creativa y eficiente."
+        "descriptionSpanish": "Como equipo de seguridad de una compañía crypto, es muy difícil encontrar productos de seguridad que cubran todas nuestras necesidades. En esta charla, exploraremos cómo la automatización con AWS Lambdas, Terraform y Python puede llenar los vacíos que las soluciones integrales no logran cubrir. Comenzaremos con una introducción a conceptos básicos como AWS Lambdas, Terraform y SOC, desglosando cómo definir secretos, buckets y capas necesarias tanto en Terraform como en Python. Luego, avanzaremos hacia una parte práctica, donde construiremos feeds de inteligencia de amenazas, reportes automáticos de vulnerabilidades y monitores de transacciones crypto sospechosas, entre otros ejemplos, demostrando cómo esta combinación de herramientas no solo es una alternativa económica, sino también creativa y eficiente.",
+        "coSpeakerLocation": "Ciudad de México, México",
+        "coSpeakerCompany": "Bitso (Quetzal Team)"
     },
     {
         "id": 49,
@@ -1628,7 +1632,9 @@ const sessions: Session[] = [
         "speakerLocation": "Ciudad de México, México",
         "coSpeaker": "Adriana Diaz",
         "speakerCompany": "Accenture",
-        "descriptionSpanish": "No te pierdas esta emocionante charla donde exploraremos dos potentes asistentes de código que están transformando la programación! Descubre cómo Amazon Q y GitHub Copilot, con sus enfoques únicos, pueden potenciar tu productividad como desarrollador. Compararemos sus características, casos de uso, y te ayudaremos a decidir cuál es la mejor opción para tus proyectos. Si estás interesado en llevar tus habilidades al siguiente nivel y aprovechar al máximo la inteligencia artificial en el desarrollo de software, esta charla es para ti. ¡Únete y descubre quién ganará en la batalla por el código perfecto!"
+        "descriptionSpanish": "No te pierdas esta emocionante charla donde exploraremos dos potentes asistentes de código que están transformando la programación! Descubre cómo Amazon Q y GitHub Copilot, con sus enfoques únicos, pueden potenciar tu productividad como desarrollador. Compararemos sus características, casos de uso, y te ayudaremos a decidir cuál es la mejor opción para tus proyectos. Si estás interesado en llevar tus habilidades al siguiente nivel y aprovechar al máximo la inteligencia artificial en el desarrollo de software, esta charla es para ti. ¡Únete y descubre quién ganará en la batalla por el código perfecto!",
+        "coSpeakerLocation": "Ciudad de México, México",
+        "coSpeakerCompany": "Intel"
     },
     {
         "id": 50,

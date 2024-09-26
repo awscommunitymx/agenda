@@ -146,7 +146,8 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                             <Avatar size="md" name={session.coSpeaker} src={session.speakerImage}/>
                             <VStack align="start" spacing={0}>
                                 <Text fontWeight="bold">{session.coSpeaker}</Text>
-                                <Text fontSize="sm" color="gray.500">Co-Speaker</Text>
+                                <Text fontSize="sm"
+                                      color="gray.500">{session.coSpeakerCompany} - {session.coSpeakerLocation}</Text>
                             </VStack>
                         </HStack>
                     )}
