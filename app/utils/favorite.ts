@@ -1,3 +1,5 @@
+const baseUri = 'https://9drgkyu77h.execute-api.us-east-1.amazonaws.com/Prod/favorite';
+
 const toggleFavorite = (sessionId: string) => {
     let favorites = JSON.parse(localStorage.getItem('favorites') || '[]') as string[];
 
@@ -20,7 +22,6 @@ const getFavoriteSessions = () => {
 }
 
 const registerFavorite = async (sessionId: string, inc: number) => {
-    const baseUri = 'https://9drgkyu77h.execute-api.us-east-1.amazonaws.com/Prod/favorite';
     const uri = `${baseUri}/${inc > 0 ? 'inc' : 'dec'}/${sessionId}`;
 
     const response = await fetch(uri, {method: 'POST'});
@@ -30,4 +31,4 @@ const registerFavorite = async (sessionId: string, inc: number) => {
     }
 }
 
-export {toggleFavorite, isFavorite, getFavoriteSessions, registerFavorite};
+export {toggleFavorite, isFavorite, getFavoriteSessions, registerFavorite, baseUri};
