@@ -1,6 +1,6 @@
 'use client'
 import React, {useMemo, useState} from 'react';
-import {Container, VStack} from '@chakra-ui/react';
+import {Alert, Container, VStack} from '@chakra-ui/react';
 import {Session, SessionListProps} from "@/app/types/session";
 import SessionCard from "@/app/components/SessionCard";
 import FilterBar from "@/app/components/FilterBar";
@@ -31,6 +31,11 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
         <Container maxW="container.xl" py={8}>
             <FilterBar sessions={sortedSessions} onFilterChange={handleFilterChange}/>
             <VStack spacing={4} align="stretch">
+                {filteredSessions.length === 0 &&
+                    <Alert status="warning">
+                        No se encontraron sesiones
+                    </Alert>
+                }
                 {filteredSessions.map((session) => (
                     <SessionCard key={session.id} session={session}/>
                 ))}
