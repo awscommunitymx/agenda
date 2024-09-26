@@ -124,7 +124,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                     </SkeletonCircle>
                 </HStack>
 
-                <Heading as="h1" size="xl" color="blue.600">
+                <Heading as="h1" size="xl" color="gray.700">
                     {session.title}
                 </Heading>
 
