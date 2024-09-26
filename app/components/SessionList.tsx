@@ -7,7 +7,7 @@ import FilterBar from "@/app/components/FilterBar";
 import Announcement from "@/app/components/Announcement";
 import SessionCardRenderer from "@/app/components/SessionCardRenderer";
 
-const SessionList: React.FC<SessionListProps> = ({sessions}) => {
+const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
     const [currentSessions, setCurrentSessions] = useState<Session[]>(sessions);
     const [pastSessions, setPastSessions] = useState<Session[]>([]);
 
@@ -67,9 +67,15 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
             }
             <FilterBar sessions={sortedSessions} onFilterChange={handleFilterChange}/>
             <VStack spacing={4} align="stretch">
-                {filteredSessions.length === 0 &&
-                    <Alert status="warning">
-                        No se encontraron sesiones
+                {filteredSessions.length === 0 && inAgendaPage &&
+                    <Alert status="warning" rounded={10}>
+                        ¡Tu agenda está esperando! Explora las charlas y agrega tu primera sesión para que no te pierdas
+                        de nada. ¡Conecta y disfruta el evento al máximo!
+                    </Alert>
+                }
+                {filteredSessions.length === 0 && !inAgendaPage &&
+                    <Alert status="warning" rounded={10}>
+                        No hay sesiones que coincidan con los filtros seleccionados.
                     </Alert>
                 }
                 {currentSessions.map((session) => (

@@ -39,4 +39,5 @@ export interface SessionCardProps {
 
 export interface SessionListProps {
     sessions: Session[];
+    inAgendaPage?: boolean;
 }
