@@ -1,4 +1,6 @@
+import json
 import os
+from decimal import Decimal
 
 import boto3
 from aws_lambda_powertools import Logger, Tracer
@@ -15,11 +17,20 @@ TABLE_NAME = os.environ.get("TABLE_NAME")
 PK = "event_id"
 ATTRIBUTE = "favorite_count"
 
+dynamodb = boto3.resource("dynamodb")
+table = dynamodb.Table(TABLE_NAME)
+
+
+class DecimalEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return int(obj)
+        return super(DecimalEncoder, self).default(obj)
+
 
 @tracer.capture_method
 def atomic_increment(
     *,
-    table_name=TABLE_NAME,
     pk_name=PK,
     attribute_name=ATTRIBUTE,
     increment_by=1,
@@ -28,15 +39,12 @@ def atomic_increment(
     """
     Atomically increment a numeric attribute for a given primary key in DynamoDB.
 
-    :param table_name: Name of the DynamoDB table
     :param pk_name: Name of the primary key attribute
     :param pk_value: Value of the primary key
     :param attribute_name: Name of the attribute to increment
     :param increment_by: Value to increment by (default: 1)
     :return: The updated value of the attribute after increment
     """
-    dynamodb = boto3.resource("dynamodb")
-    table = dynamodb.Table(table_name)
 
     try:
         response = table.update_item(
@@ -50,6 +58,12 @@ def atomic_increment(
     except ClientError as e:
         logger.error(f"Error incrementing value: {e.response['Error']['Message']}")
         raise
+
+
+@tracer.capture_method
+def get_all_items():
+    response = table.scan()
+    return response["Items"]
 
 
 @tracer.capture_method
@@ -69,6 +83,12 @@ def increment_counter(event_id: str):
 @app.post("/favorite/dec/<event_id>")
 def decrement_counter(event_id: str):
     return set_counter(event_id, -1)
+
+
+@app.get("/favorite")
+def get_counter():
+    sorted_items = sorted(get_all_items(), key=lambda x: x[ATTRIBUTE], reverse=True)
+    return json.dumps(sorted_items, cls=DecimalEncoder), 200
 
 
 @logger.inject_lambda_context(correlation_id_path=correlation_paths.API_GATEWAY_REST)

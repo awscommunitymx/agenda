@@ -37,6 +37,11 @@ Resources:
           Properties:
             Path: /favorite/dec/{event_id}
             Method: post
+        FavoritesGet:
+          Type: Api
+          Properties:
+            Path: /favorite
+            Method: get
       Policies:
         - DynamoDBCrudPolicy:
             TableName: !Ref FavoriteCounterTable
