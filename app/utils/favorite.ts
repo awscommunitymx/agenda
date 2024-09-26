@@ -27,7 +27,7 @@ const registerFavorite = async (sessionId: string, inc: number) => {
     const response = await fetch(uri, {method: 'POST'});
 
     if (!response.ok) {
-        throw new Error('Failed to register favorite');
+        console.error('Error registering favorite');
     }
 }
 
