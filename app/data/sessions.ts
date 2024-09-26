@@ -67,7 +67,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Guadalajara",
         "speakerCompany": "AstraZeneca",
-        "descriptionSpanish": "Explora cómo la ingeniería biomédica y la ciberseguridad en la nube se intersectan en esta sesión, descubriendo sinergias que ofrecen oportunidades de transformación profesional en tecnología. Aprende a transferir habilidades de campos STEM a la ciberseguridad, adaptar la experiencia a nuevos dominios, construir una red profesional y mantenerte competitivo como recién llegado. Basándose en un caso real de un ingeniero biomédico que se está trasladando a la ciberseguridad en la nube, esta charla proporciona consejos prácticos para superar desafíos y convertirlos en oportunidades para la innovación y el crecimiento. Ideal para profesionales que buscan nuevos desafíos tecnológicos, estudiantes que exploran trayectorias profesionales y líderes que buscan diversificar equipos de seguridad."
+        "descriptionSpanish": "Explora cómo la ingeniería biomédica y la ciberseguridad en la nube se intersectan en esta sesión, descubriendo sinergias que ofrecen oportunidades de transformación profesional en tecnología. Aprende a transferir habilidades de campos STEM a la ciberseguridad, adaptar la experiencia a nuevos dominios, construir una red profesional y mantenerte competitivo como recién llegado. Basándose en un caso real de un ingeniero biomédico que se está trasladando a la ciberseguridad en la nube, esta charla proporciona consejos prácticos para superar desafíos y convertirlos en oportunidades para la innovación y el crecimiento. Ideal para profesionales que buscan nuevos desafíos tecnológicos, estudiantes que exploran trayectorias profesionales y líderes que buscan diversificar equipos de seguridad.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 3,
@@ -99,7 +100,8 @@ const sessions: Session[] = [
         "room": "Aula Panamericana",
         "speakerLocation": "Bogota, Colombia",
         "speakerCompany": "Dapta",
-        "descriptionSpanish": "El objetivo es entender qué es Retrieval-Augmented Generation (RAG), cómo funciona y cómo podemos usar los servicios de AWS para implementarlo eficientemente en nuestras aplicaciones.RAG, es una técnica que combina la búsqueda de información relevante (retrieval) con la generación de texto (generation) para proporcionar respuestas más precisas y contextualmente adecuadas. Se puede usar en aplicaciones de inteligencia artificial para mejorar la precisión de los chatbots, generar contenido de manera más coherente y proporcionar respuestas más precisas en sistemas de preguntas y respuestas."
+        "descriptionSpanish": "El objetivo es entender qué es Retrieval-Augmented Generation (RAG), cómo funciona y cómo podemos usar los servicios de AWS para implementarlo eficientemente en nuestras aplicaciones.RAG, es una técnica que combina la búsqueda de información relevante (retrieval) con la generación de texto (generation) para proporcionar respuestas más precisas y contextualmente adecuadas. Se puede usar en aplicaciones de inteligencia artificial para mejorar la precisión de los chatbots, generar contenido de manera más coherente y proporcionar respuestas más precisas en sistemas de preguntas y respuestas.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 4,
@@ -166,7 +168,8 @@ const sessions: Session[] = [
         "room": "Poliforum",
         "speakerLocation": "Ensenada",
         "speakerCompany": "Caylent",
-        "descriptionSpanish": "Herramienta impulsada por IA que simplifica la gestión de Kubernetes. Automatiza la solución de problemas, realiza análisis de causa raíz y proporciona información procesable dentro de su entorno. Ideal para expertos en DevOps y principiantes por igual, K8sGPT ahorra tiempo y reduce la complejidad de las operaciones nativas de la nube."
+        "descriptionSpanish": "Herramienta impulsada por IA que simplifica la gestión de Kubernetes. Automatiza la solución de problemas, realiza análisis de causa raíz y proporciona información procesable dentro de su entorno. Ideal para expertos en DevOps y principiantes por igual, K8sGPT ahorra tiempo y reduce la complejidad de las operaciones nativas de la nube.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 6,
@@ -198,7 +201,8 @@ const sessions: Session[] = [
         "room": "Aula Panamericana",
         "speakerLocation": "Bogotá, Colombia",
         "speakerCompany": "Amazon Web Services",
-        "descriptionSpanish": "Esta charla es para desarrolladores que estén listos para aprender sobre la genAI en AWS. Desarrollar aplicaciones con PartyRock y Bedrock, uso de modelos fundacionales, cómo “conversar con sus documentos” a través de bases de conocimiento y usar Amazon Q Developer para ayudar en la codificación."
+        "descriptionSpanish": "Esta charla es para desarrolladores que estén listos para aprender sobre la genAI en AWS. Desarrollar aplicaciones con PartyRock y Bedrock, uso de modelos fundacionales, cómo “conversar con sus documentos” a través de bases de conocimiento y usar Amazon Q Developer para ayudar en la codificación.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 7,
@@ -232,7 +236,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Mexico City",
         "speakerCompany": "Syscap",
-        "descriptionSpanish": "En la era digital, las mujeres están desempeñando un papel fundamental en la transformación de la nube, pero su representación sigue siendo baja. Esta charla explora cómo las mujeres están liderando la innovación tecnológica y enfrentando desafíos únicos en el sector. Se destacarán ejemplos inspiradores de contribuciones significativas y se discutirán estrategias para promover la igualdad de género en la tecnología. Los asistentes descubrirán cómo la diversidad en la nube no solo es una cuestión de justicia, sino una clave para la innovación y el éxito. Únete a esta conversación para aprender cómo todos podemos contribuir a un futuro digital más inclusivo y equitativo."
+        "descriptionSpanish": "En la era digital, las mujeres están desempeñando un papel fundamental en la transformación de la nube, pero su representación sigue siendo baja. Esta charla explora cómo las mujeres están liderando la innovación tecnológica y enfrentando desafíos únicos en el sector. Se destacarán ejemplos inspiradores de contribuciones significativas y se discutirán estrategias para promover la igualdad de género en la tecnología. Los asistentes descubrirán cómo la diversidad en la nube no solo es una cuestión de justicia, sino una clave para la innovación y el éxito. Únete a esta conversación para aprender cómo todos podemos contribuir a un futuro digital más inclusivo y equitativo.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 8,
@@ -264,7 +269,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "Grupo Xcaret",
-        "descriptionSpanish": "En los últimos años, los datos se han convertido en uno de los activos más valiosos para las organizaciones. La capacidad de gestionar, analizar y proteger los datos de manera eficiente es un factor decisivo para el éxito empresarial.En esta charla, descubrirás cómo implementar un catálogo de datos mediante AWS Glue y  cómo empresas de todo el mundo están utilizando esta herramienta para maximizar su eficiencia. Aprende paso a paso cómo configurar y utilizar crawlers para descubrir y catalogar tus datos automáticamente, manteniendo todo organizado y accesible.No te pierdas esta oportunidad de llevar tus habilidades de gestión de datos al siguiente nivel con AWS Glue."
+        "descriptionSpanish": "En los últimos años, los datos se han convertido en uno de los activos más valiosos para las organizaciones. La capacidad de gestionar, analizar y proteger los datos de manera eficiente es un factor decisivo para el éxito empresarial.En esta charla, descubrirás cómo implementar un catálogo de datos mediante AWS Glue y  cómo empresas de todo el mundo están utilizando esta herramienta para maximizar su eficiencia. Aprende paso a paso cómo configurar y utilizar crawlers para descubrir y catalogar tus datos automáticamente, manteniendo todo organizado y accesible.No te pierdas esta oportunidad de llevar tus habilidades de gestión de datos al siguiente nivel con AWS Glue.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 9,
@@ -296,7 +302,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "EPAM Systems",
-        "descriptionSpanish": "¿Por qué la Ingeniería de Plataformas?Según Gartner, la Ingeniería de Plataformas es un tema en crecimiento en la industria. Muchas empresas han comenzado a diseñar sus propias Plataformas Internas para Desarrolladores y están tratando de mejorar la Experiencia del Desarrollador para aumentar la productividad. En esta sesión, aprenderemos sobre la Ingeniería de Plataformas y cómo diseñar estas soluciones en AWS."
+        "descriptionSpanish": "¿Por qué la Ingeniería de Plataformas?Según Gartner, la Ingeniería de Plataformas es un tema en crecimiento en la industria. Muchas empresas han comenzado a diseñar sus propias Plataformas Internas para Desarrolladores y están tratando de mejorar la Experiencia del Desarrollador para aumentar la productividad. En esta sesión, aprenderemos sobre la Ingeniería de Plataformas y cómo diseñar estas soluciones en AWS.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 10,
@@ -328,7 +335,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "CONTPAQi",
-        "descriptionSpanish": "Esta charla explora la economía de nube y FinOps, centrándose en la gestión eficiente de costos en entornos cloud. Aborda los principios de la economía de nube, sus beneficios para las empresas, y la importancia de la optimización financiera en la adopción de tecnologías cloud. Se discutirán métodos para medir el retorno de inversión, preparar presupuestos, construir indicadores de rentabilidad y realizar ejercicios de optimización de costos en diferentes estructuras de nube. El objetivo es proporcionar herramientas prácticas para maximizar el valor empresarial de las inversiones en cloud computing."
+        "descriptionSpanish": "Esta charla explora la economía de nube y FinOps, centrándose en la gestión eficiente de costos en entornos cloud. Aborda los principios de la economía de nube, sus beneficios para las empresas, y la importancia de la optimización financiera en la adopción de tecnologías cloud. Se discutirán métodos para medir el retorno de inversión, preparar presupuestos, construir indicadores de rentabilidad y realizar ejercicios de optimización de costos en diferentes estructuras de nube. El objetivo es proporcionar herramientas prácticas para maximizar el valor empresarial de las inversiones en cloud computing.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 11,
@@ -360,7 +368,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Ciudad de México",
         "speakerCompany": "Nohbek",
-        "descriptionSpanish": "En esta charla, profundizaremos en el diseño y desarrollo de una arquitectura de software segura que integra una web app con servicios blockchain a través de AWS. Discutiremos patrones de diseño, mejores prácticas de seguridad, y la implementación de Amazon Managed Blockchain para crear aplicaciones escalables y robustas, ilustrando estos conceptos con un caso de estudio práctico de Nohbek."
+        "descriptionSpanish": "En esta charla, profundizaremos en el diseño y desarrollo de una arquitectura de software segura que integra una web app con servicios blockchain a través de AWS. Discutiremos patrones de diseño, mejores prácticas de seguridad, y la implementación de Amazon Managed Blockchain para crear aplicaciones escalables y robustas, ilustrando estos conceptos con un caso de estudio práctico de Nohbek.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 12,
@@ -392,7 +401,8 @@ const sessions: Session[] = [
         "room": "Poliforum",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "SoftServe",
-        "descriptionSpanish": "En los últimos años, el Machine Learning ha logrado avances significativos en el campo de la creación musical, permitiendo el desarrollo de algoritmos que pueden generar melodías, armonías e incluso canciones completas. Esta charla explorará la intersección entre el machine learning y la música, enfocándose en cómo los datos pueden utilizarse para crear composiciones originales de melodías cortas. Discutiremos los desafíos de utilizar machine learning para la creación musical, incluyendo temas relacionados con la recolección de datos, el entrenamiento de modelos y la evaluación. También exploraremos algunos de los enfoques más prometedores para usar machine learning en la música, como las técnicas de Redes Generativas Antagónicas (GAN) y el deep learning. Tendremos una demostración en vivo utilizando AWS DeepComposer. Al final de esta charla, los asistentes tendrán una mejor comprensión de cómo el machine learning puede utilizarse para crear melodías y las emocionantes posibilidades que este campo emergente tiene por delante."
+        "descriptionSpanish": "En los últimos años, el Machine Learning ha logrado avances significativos en el campo de la creación musical, permitiendo el desarrollo de algoritmos que pueden generar melodías, armonías e incluso canciones completas. Esta charla explorará la intersección entre el machine learning y la música, enfocándose en cómo los datos pueden utilizarse para crear composiciones originales de melodías cortas. Discutiremos los desafíos de utilizar machine learning para la creación musical, incluyendo temas relacionados con la recolección de datos, el entrenamiento de modelos y la evaluación. También exploraremos algunos de los enfoques más prometedores para usar machine learning en la música, como las técnicas de Redes Generativas Antagónicas (GAN) y el deep learning. Tendremos una demostración en vivo utilizando AWS DeepComposer. Al final de esta charla, los asistentes tendrán una mejor comprensión de cómo el machine learning puede utilizarse para crear melodías y las emocionantes posibilidades que este campo emergente tiene por delante.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 13,
@@ -424,7 +434,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "Caylent",
-        "descriptionSpanish": "Como muchos, comencé mi aventura en la nube con grandes ilusiones y esperanzas... y, como todos, cometí unos cuantos errores en el camino.Te invito a una charla divertida y entretenida donde exploraremos esos tropiezos que todos hemos enfrentado al iniciar con AWS. Quizás, con un poco de suerte, aprenderás lo suficiente para evitar uno o dos de ellos.- ¿Crear una consola mejorada? ¡Por supuesto!- ¿Configurar instancias EC2 con IPs estáticas? ¡¿Por qué no?!- ¿Desarrollar tu propio CloudFormation? ¡Suena increíble!Ven a reírte un rato con los errores clásicos que casi todos cometemos al comenzar en la nube. Y quién sabe, puede que te vayas con algunas lecciones valiosas.Esta charla no es exclusivamente técnica, pero tocaremos algunos aspectos técnicos de AWS. Si algún chiste se te escapa, no te preocupes, ríe con confianza y busca el significado después."
+        "descriptionSpanish": "Como muchos, comencé mi aventura en la nube con grandes ilusiones y esperanzas... y, como todos, cometí unos cuantos errores en el camino.Te invito a una charla divertida y entretenida donde exploraremos esos tropiezos que todos hemos enfrentado al iniciar con AWS. Quizás, con un poco de suerte, aprenderás lo suficiente para evitar uno o dos de ellos.- ¿Crear una consola mejorada? ¡Por supuesto!- ¿Configurar instancias EC2 con IPs estáticas? ¡¿Por qué no?!- ¿Desarrollar tu propio CloudFormation? ¡Suena increíble!Ven a reírte un rato con los errores clásicos que casi todos cometemos al comenzar en la nube. Y quién sabe, puede que te vayas con algunas lecciones valiosas.Esta charla no es exclusivamente técnica, pero tocaremos algunos aspectos técnicos de AWS. Si algún chiste se te escapa, no te preocupes, ríe con confianza y busca el significado después.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 14,
@@ -456,7 +467,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Baja California, México",
         "speakerCompany": "Tinuiti",
-        "descriptionSpanish": "En esta charla, compartiré consejos prácticos y hacks para optimizar tu trabajo con AWS, ya sea que estés empezando o seas un usuario avanzado. Aprenderás cómo mejorar la seguridad, gestionar mejor tus recursos, ahorrar dinero y obtener el soporte adecuado."
+        "descriptionSpanish": "En esta charla, compartiré consejos prácticos y hacks para optimizar tu trabajo con AWS, ya sea que estés empezando o seas un usuario avanzado. Aprenderás cómo mejorar la seguridad, gestionar mejor tus recursos, ahorrar dinero y obtener el soporte adecuado.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 15,
@@ -488,7 +500,8 @@ const sessions: Session[] = [
         "room": "Aula H1",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "Caylent",
-        "descriptionSpanish": "Esta charla se centra en explorar cómo podemos mejorar nuestras percepciones de monitoreo y observabilidad en implementaciones sin servidor utilizando AWS Lambda, CloudWatch y Powertools. Discutiremos conceptos clave y pilares de la observabilidad para ayudarnos a comprender mejor cómo analizar registros y métricas y consolidarlos en un panel integrado en AWS. Con la ayuda de una demostración en vivo, recorreremos los pasos para implementar rápidamente estas soluciones, proporcionando conocimientos y habilidades prácticas para mejorar su arquitectura sin servidor."
+        "descriptionSpanish": "Esta charla se centra en explorar cómo podemos mejorar nuestras percepciones de monitoreo y observabilidad en implementaciones sin servidor utilizando AWS Lambda, CloudWatch y Powertools. Discutiremos conceptos clave y pilares de la observabilidad para ayudarnos a comprender mejor cómo analizar registros y métricas y consolidarlos en un panel integrado en AWS. Con la ayuda de una demostración en vivo, recorreremos los pasos para implementar rápidamente estas soluciones, proporcionando conocimientos y habilidades prácticas para mejorar su arquitectura sin servidor.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 16,
@@ -520,7 +533,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Mexico City",
         "speakerCompany": "Atomic Labs México",
-        "descriptionSpanish": "Durante la sesión, exploraremos brevemente los tres servicios que nos otorga AWS para desplegar un Workspace con Active Directory: Service Directory, Simmple AD y por supuesto AD Connector.Detallaremos las conexiones, puertos y permisos requeridos para establecer una integración efectiva entre AD Connector y tu Active Directory. Por último, revisaremos de que tanto es capaz y las restricciones de AD Connector, ayudándote a evaluar si esta solución es adecuada para tus necesidades específicas."
+        "descriptionSpanish": "Durante la sesión, exploraremos brevemente los tres servicios que nos otorga AWS para desplegar un Workspace con Active Directory: Service Directory, Simmple AD y por supuesto AD Connector.Detallaremos las conexiones, puertos y permisos requeridos para establecer una integración efectiva entre AD Connector y tu Active Directory. Por último, revisaremos de que tanto es capaz y las restricciones de AD Connector, ayudándote a evaluar si esta solución es adecuada para tus necesidades específicas.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 17,
@@ -551,7 +565,8 @@ const sessions: Session[] = [
         "level": "Intermediate",
         "room": "Aula H1",
         "speakerLocation": "Ciudad de México, México",
-        "descriptionSpanish": "En esta charla, exploraremos AWS Direct Connect, una solución de conectividad dedicada a la nube de AWS. Abordaremos sus beneficios, funcionamiento y arquitectura básica. Discutiremos casos de uso comunes, incluyendo conexiones entre centros de datos y AWS, migraciones de datos a gran escala, y optimización de aplicaciones críticas. También examinaremos su papel en arquitecturas de nube híbrida, estrategias de migración sin contratos de telecomunicaciones, y mejores prácticas para configuración y optimización de costos."
+        "descriptionSpanish": "En esta charla, exploraremos AWS Direct Connect, una solución de conectividad dedicada a la nube de AWS. Abordaremos sus beneficios, funcionamiento y arquitectura básica. Discutiremos casos de uso comunes, incluyendo conexiones entre centros de datos y AWS, migraciones de datos a gran escala, y optimización de aplicaciones críticas. También examinaremos su papel en arquitecturas de nube híbrida, estrategias de migración sin contratos de telecomunicaciones, y mejores prácticas para configuración y optimización de costos.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 18,
@@ -585,7 +600,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Wizeline",
-        "descriptionSpanish": "Desbloquea el potencial de tus servicios internos con AWS API Gateway. Esta charla te guiará a través de la exposición segura de APIs internas tanto para consumo interno como para socios externos, compartiendo ideas y mejores prácticas de implementaciones del mundo real."
+        "descriptionSpanish": "Desbloquea el potencial de tus servicios internos con AWS API Gateway. Esta charla te guiará a través de la exposición segura de APIs internas tanto para consumo interno como para socios externos, compartiendo ideas y mejores prácticas de implementaciones del mundo real.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 19,
@@ -619,7 +635,8 @@ const sessions: Session[] = [
         "room": "Aula H1",
         "speakerLocation": "Guatemala, Guatemala",
         "speakerCompany": "Conduent SA",
-        "descriptionSpanish": "En esta charla, los participantes aprenderán los fundamentos de Infraestructura como Código (IaC) y AWS CDK, cómo definir y desplegar recursos AWS usando CDK, y las mejores prácticas, patrones de diseño y técnicas de automatización asociadas. Dirigida a quienes tienen conocimientos básicos de AWS, la sesión proporcionará habilidades prácticas en la implementación de infraestructura como código, beneficiando tanto a desarrolladores como a arquitectos de soluciones."
+        "descriptionSpanish": "En esta charla, los participantes aprenderán los fundamentos de Infraestructura como Código (IaC) y AWS CDK, cómo definir y desplegar recursos AWS usando CDK, y las mejores prácticas, patrones de diseño y técnicas de automatización asociadas. Dirigida a quienes tienen conocimientos básicos de AWS, la sesión proporcionará habilidades prácticas en la implementación de infraestructura como código, beneficiando tanto a desarrolladores como a arquitectos de soluciones.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 20,
@@ -660,7 +677,8 @@ const sessions: Session[] = [
         "level": "Intermediate",
         "room": "Aula H6",
         "speakerLocation": "Ciudad de México, México",
-        "descriptionSpanish": "Actualmente la velocidad con la que se desarrollan nuevas herramientas es abrumadora, es un reto mantenerce al día y saber de todas estas herramientas cuál deberíamos utilizar o cuál se acopla mejor a nuestras necesidades no es claro. Por ello quiero mostrarte un conjunto de herramientas estándar que pueden ayudarte a robustecer la arquitectura de tu plataforma de datos y empoderar a los usuarios que tienen acceso a ésta, así como liberar al equipo técnico de tareas repetitivas o de mantenimiento inecesario. Además de ser muy utilizadas en el mundo de los datos, estas herramientas cuentan con versión open source, por lo que es posible montar una implementación sin tener la necesidad de compromoterse a pagos o usos de las mismas. Estamos hablando de la combinación de Github, DBT Core y Ariflow."
+        "descriptionSpanish": "Actualmente la velocidad con la que se desarrollan nuevas herramientas es abrumadora, es un reto mantenerce al día y saber de todas estas herramientas cuál deberíamos utilizar o cuál se acopla mejor a nuestras necesidades no es claro. Por ello quiero mostrarte un conjunto de herramientas estándar que pueden ayudarte a robustecer la arquitectura de tu plataforma de datos y empoderar a los usuarios que tienen acceso a ésta, así como liberar al equipo técnico de tareas repetitivas o de mantenimiento inecesario. Además de ser muy utilizadas en el mundo de los datos, estas herramientas cuentan con versión open source, por lo que es posible montar una implementación sin tener la necesidad de compromoterse a pagos o usos de las mismas. Estamos hablando de la combinación de Github, DBT Core y Ariflow.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 21,
@@ -692,7 +710,8 @@ const sessions: Session[] = [
         "room": "Aula Panamericana",
         "speakerLocation": "Nuevo León, México",
         "speakerCompany": "Amazon Web Services",
-        "descriptionSpanish": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap."
+        "descriptionSpanish": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 22,
@@ -724,7 +743,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Quito, Ecuador",
         "speakerCompany": "AWS Community Builder",
-        "descriptionSpanish": "Como funciona una arquitectura serverless AWS que pueda procesar 100K conexiones simultáneas, que límites considerar y como medir el performance."
+        "descriptionSpanish": "Como funciona una arquitectura serverless AWS que pueda procesar 100K conexiones simultáneas, que límites considerar y como medir el performance.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 23,
@@ -762,7 +782,8 @@ const sessions: Session[] = [
         "room": "Aula Panamericana",
         "speakerLocation": "Recife, Brazil",
         "speakerCompany": "Valcann",
-        "descriptionSpanish": "Kubernetes ha revolucionado la forma en que construimos y desplegamos software, pero seamos honestos: también puede sentirse como luchar contra una bestia mítica. La complejidad de gestionar la infraestructura, las cadenas de herramientas y los recursos en la nube a menudo deja a los desarrolladores sintiéndose abrumados y a los equipos de TI luchando por mantenerse al día.En esta sesión, revelaremos un paraíso para desarrolladores y equipos de TI: una plataforma que empodera a los equipos para convertirse en rockstars nativos de la nube.Usando EKS, Backstage y ArgoCD junto con Github Actions, prepárense para inspirarse y transformar los procesos de desarrollo con ideas y estrategias prácticas para:- Acelerar nuevos productos basados en plantillas y cumplimiento predefinido- Fomentar la innovación- Optimizar el uso de recursos y la eficiencia de costos- Empoderar a los desarrolladores para que se concentren en lo que mejor hacen: construir software increíble¡No te pierdas esta oportunidad!"
+        "descriptionSpanish": "Kubernetes ha revolucionado la forma en que construimos y desplegamos software, pero seamos honestos: también puede sentirse como luchar contra una bestia mítica. La complejidad de gestionar la infraestructura, las cadenas de herramientas y los recursos en la nube a menudo deja a los desarrolladores sintiéndose abrumados y a los equipos de TI luchando por mantenerse al día.En esta sesión, revelaremos un paraíso para desarrolladores y equipos de TI: una plataforma que empodera a los equipos para convertirse en rockstars nativos de la nube.Usando EKS, Backstage y ArgoCD junto con Github Actions, prepárense para inspirarse y transformar los procesos de desarrollo con ideas y estrategias prácticas para:- Acelerar nuevos productos basados en plantillas y cumplimiento predefinido- Fomentar la innovación- Optimizar el uso de recursos y la eficiencia de costos- Empoderar a los desarrolladores para que se concentren en lo que mejor hacen: construir software increíble¡No te pierdas esta oportunidad!",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 24,
@@ -794,7 +815,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Baja California, México",
         "speakerCompany": "WGU Innovation Services",
-        "descriptionSpanish": "Durante mi trabajo con AWS, he experimentado lo frustrante que puede ser estar a punto de completar un proyecto, solo para ser interrumpido por un error de permisos de IAM al intentar lanzar los cambios a producción. Después de más de 5 años trabajando en áreas como DevOps, Data Engineering y MLOps, he aprendido que este problema no es raro, incluso para profesionales experimentados.En esta presentación, quiero hablar sobre la importancia de utilizar IAM Roles en lugar de credenciales programáticas cuando se trata de invocar funciones Lambda desde aplicaciones de terceros, como lo es GitHub, el cual utilizamos en mi trabajo como herramienta de CICD también. He probado varias soluciones a lo largo del tiempo, y quiero compartir las lecciones aprendidas, así como los riesgos y desafíos asociados con cada enfoque. Mi objetivo es ayudar a la audiencia a evitar estos errores y a seguir las mejores prácticas de AWS para garantizar que su arquitectura sea segura y eficiente.En esta plática se abordará la resolución que se implementó a este problema ya que, al ser una Universidad en línea donde trabajo, el uso de URLs públicos no estaba permitido para así incrementar la seguridad del sistema. Tampoco se podían utilizar IAM credentials, ya que el departamento de seguridad no lo permitía. Finalmente se optó por utilizar una EC2 instance que funcionara como bastion host la cual tenía asignada un role con los permisos necesarios para poder invocar las Lambda Functions que necesitábamos por parte del equipo de MLOPs"
+        "descriptionSpanish": "Durante mi trabajo con AWS, he experimentado lo frustrante que puede ser estar a punto de completar un proyecto, solo para ser interrumpido por un error de permisos de IAM al intentar lanzar los cambios a producción. Después de más de 5 años trabajando en áreas como DevOps, Data Engineering y MLOps, he aprendido que este problema no es raro, incluso para profesionales experimentados.En esta presentación, quiero hablar sobre la importancia de utilizar IAM Roles en lugar de credenciales programáticas cuando se trata de invocar funciones Lambda desde aplicaciones de terceros, como lo es GitHub, el cual utilizamos en mi trabajo como herramienta de CICD también. He probado varias soluciones a lo largo del tiempo, y quiero compartir las lecciones aprendidas, así como los riesgos y desafíos asociados con cada enfoque. Mi objetivo es ayudar a la audiencia a evitar estos errores y a seguir las mejores prácticas de AWS para garantizar que su arquitectura sea segura y eficiente.En esta plática se abordará la resolución que se implementó a este problema ya que, al ser una Universidad en línea donde trabajo, el uso de URLs públicos no estaba permitido para así incrementar la seguridad del sistema. Tampoco se podían utilizar IAM credentials, ya que el departamento de seguridad no lo permitía. Finalmente se optó por utilizar una EC2 instance que funcionara como bastion host la cual tenía asignada un role con los permisos necesarios para poder invocar las Lambda Functions que necesitábamos por parte del equipo de MLOPs",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 25,
@@ -826,7 +848,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "El Salvador, El Salvador",
         "speakerCompany": "WEBRTC.VENTURES",
-        "descriptionSpanish": "Esta charla explora la integración de IA generativa en Amazon Connect para mejorar la experiencia del usuario en centros de contacto. Se enfoca en la implementación de AWS Lambda Functions con Amazon Lex y el uso de Amazon Bedrock para crear prompts efectivos. Dirigida a un nivel intermedio, la sesión cubre cómo optimizar campañas salientes y experiencias de autoservicio, aplicando técnicas de generación aumentada por recuperación."
+        "descriptionSpanish": "Esta charla explora la integración de IA generativa en Amazon Connect para mejorar la experiencia del usuario en centros de contacto. Se enfoca en la implementación de AWS Lambda Functions con Amazon Lex y el uso de Amazon Bedrock para crear prompts efectivos. Dirigida a un nivel intermedio, la sesión cubre cómo optimizar campañas salientes y experiencias de autoservicio, aplicando técnicas de generación aumentada por recuperación.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 26,
@@ -858,7 +881,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "SPS",
-        "descriptionSpanish": "¿Te imaginas liderar un equipo para implementar un Plan de Recuperación ante Desastres (DRP) sin experiencia previa? En esta charla, te ofreceré una perspectiva única y práctica basada en mi propia experiencia personal. Compartiré los desafíos más críticos y las soluciones ingeniosas que encontré, demostrando la importancia de la resiliencia, la comunicación efectiva y el trabajo en equipo para alcanzar el éxito.Mi historia abarca desde el momento en que asumí el liderazgo, pasando por la planificación meticulosa y la ejecución del proyecto, hasta la superación de obstáculos imprevistos y la realización de pruebas cruciales que aseguraron el éxito del DRP. Aprenderás cómo estructurar y ejecutar un plan de recuperación ante desastres de manera efectiva, incluso en situaciones de crisis. Además, te mostraré técnicas para mantener la moral y la productividad del equipo cuando los retos parecen insuperables.Descubrirás estrategias de liderazgo y comunicación efectiva que te permitirán guiar a tu equipo, aunque no tengas experiencia previa en el área específica del proyecto. La comunicación abierta y la colaboración continua serán tus aliados en este viaje. También exploraremos cómo manejar cambios y conflictos en el entorno del proyecto, transformando desafíos y contratiempos en oportunidades de aprendizaje y crecimiento."
+        "descriptionSpanish": "¿Te imaginas liderar un equipo para implementar un Plan de Recuperación ante Desastres (DRP) sin experiencia previa? En esta charla, te ofreceré una perspectiva única y práctica basada en mi propia experiencia personal. Compartiré los desafíos más críticos y las soluciones ingeniosas que encontré, demostrando la importancia de la resiliencia, la comunicación efectiva y el trabajo en equipo para alcanzar el éxito.Mi historia abarca desde el momento en que asumí el liderazgo, pasando por la planificación meticulosa y la ejecución del proyecto, hasta la superación de obstáculos imprevistos y la realización de pruebas cruciales que aseguraron el éxito del DRP. Aprenderás cómo estructurar y ejecutar un plan de recuperación ante desastres de manera efectiva, incluso en situaciones de crisis. Además, te mostraré técnicas para mantener la moral y la productividad del equipo cuando los retos parecen insuperables.Descubrirás estrategias de liderazgo y comunicación efectiva que te permitirán guiar a tu equipo, aunque no tengas experiencia previa en el área específica del proyecto. La comunicación abierta y la colaboración continua serán tus aliados en este viaje. También exploraremos cómo manejar cambios y conflictos en el entorno del proyecto, transformando desafíos y contratiempos en oportunidades de aprendizaje y crecimiento.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 27,
@@ -892,7 +916,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Wizeline",
-        "descriptionSpanish": "Los productos digitales siempre comienzan de la misma manera, como una visión. Conectar esa visión a un objetivo comercial y a partir de ahí en un producto digital detallado es la parte inicial del viaje del proceso de desarrollo.Esta es una narración de las lecciones que aprendí mientras planificaba y diseñaba la arquitectura de un proyecto a gran escala sin ningún conocimiento previo profundo de AWS y sus servicios."
+        "descriptionSpanish": "Los productos digitales siempre comienzan de la misma manera, como una visión. Conectar esa visión a un objetivo comercial y a partir de ahí en un producto digital detallado es la parte inicial del viaje del proceso de desarrollo.Esta es una narración de las lecciones que aprendí mientras planificaba y diseñaba la arquitectura de un proyecto a gran escala sin ningún conocimiento previo profundo de AWS y sus servicios.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 28,
@@ -924,7 +949,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Hacker Garage",
-        "descriptionSpanish": "Día a día estamos viendo más automatización física integrada no solo en nuestras vidas diarias, sino también en muchos campos comerciales e industriales. Para nosotros, los desarrolladores de software, el funcionamiento interno de los robots puede existir detrás de este velo de misterio, pero me sorprendió gratamente cómo la arquitectura de robots puede relacionarse de muchas maneras con la arquitectura de software de servicios. Uno de los requisitos más populares para los robots móviles es poder navegar por el mundo real y, en algunos casos, el GPS no es suficiente para proporcionar información para esta tarea; aquí es donde los drones demuestran ser una herramienta valiosa, ya que se utilizan para hacer mapas más precisos de zonas donde la imagen satelital no es regular o lo suficientemente precisa."
+        "descriptionSpanish": "Día a día estamos viendo más automatización física integrada no solo en nuestras vidas diarias, sino también en muchos campos comerciales e industriales. Para nosotros, los desarrolladores de software, el funcionamiento interno de los robots puede existir detrás de este velo de misterio, pero me sorprendió gratamente cómo la arquitectura de robots puede relacionarse de muchas maneras con la arquitectura de software de servicios. Uno de los requisitos más populares para los robots móviles es poder navegar por el mundo real y, en algunos casos, el GPS no es suficiente para proporcionar información para esta tarea; aquí es donde los drones demuestran ser una herramienta valiosa, ya que se utilizan para hacer mapas más precisos de zonas donde la imagen satelital no es regular o lo suficientemente precisa.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 29,
@@ -962,7 +988,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Santiago de Chile, Chile",
         "speakerCompany": "TDSYNNEX",
-        "descriptionSpanish": "Esta charla está diseñado para emprendedores y desarrolladores que buscan optimizar sus negocios de e-commerce utilizando tecnologías serverless de AWS. Aprenderás a construir flujos de trabajo escalables y eficientes mediante API Gateway, AWS Lambda, y AWS Step Functions, junto con servicios asíncronos para manejar grandes volúmenes de transacciones y mejorar la experiencia del usuario."
+        "descriptionSpanish": "Esta charla está diseñado para emprendedores y desarrolladores que buscan optimizar sus negocios de e-commerce utilizando tecnologías serverless de AWS. Aprenderás a construir flujos de trabajo escalables y eficientes mediante API Gateway, AWS Lambda, y AWS Step Functions, junto con servicios asíncronos para manejar grandes volúmenes de transacciones y mejorar la experiencia del usuario.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 30,
@@ -1000,7 +1027,8 @@ const sessions: Session[] = [
         "room": "Poliforum",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Globant",
-        "descriptionSpanish": "En esta sesión, exploraremos el diseño e implementación de un subsistema de notificación avanzado en AWS. El ponente compartirá su experiencia en la creación de un sistema que integra múltiples canales de notificación (push, correo electrónico, SMS, WhatsApp y centro de notificaciones) utilizando servicios como Lambda, Kinesis, SQS, EKS y SNS. La charla abordará decisiones arquitectónicas, incluido el uso de eventos, estrategias para lograr flexibilidad y escalabilidad, y métodos para equilibrar la carga entre proveedores. La presentación también cubrirá desafíos en las pruebas automatizadas y ofrecerá lecciones aprendidas y mejores prácticas. Esta charla es ideal para desarrolladores y arquitectos interesados en crear sistemas de notificación eficientes y escalables en AWS."
+        "descriptionSpanish": "En esta sesión, exploraremos el diseño e implementación de un subsistema de notificación avanzado en AWS. El ponente compartirá su experiencia en la creación de un sistema que integra múltiples canales de notificación (push, correo electrónico, SMS, WhatsApp y centro de notificaciones) utilizando servicios como Lambda, Kinesis, SQS, EKS y SNS. La charla abordará decisiones arquitectónicas, incluido el uso de eventos, estrategias para lograr flexibilidad y escalabilidad, y métodos para equilibrar la carga entre proveedores. La presentación también cubrirá desafíos en las pruebas automatizadas y ofrecerá lecciones aprendidas y mejores prácticas. Esta charla es ideal para desarrolladores y arquitectos interesados en crear sistemas de notificación eficientes y escalables en AWS.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 31,
@@ -1035,7 +1063,8 @@ const sessions: Session[] = [
         "speakerCompany": "Amazon Web Services",
         "descriptionSpanish": "En esta sesión aprenderemos cómo estamos mejorando el soporte a las comunidades usando agentes inteligentes que aprenden de nuestros documentos, imágenes y bases de datos. Durante el proceso de desarrollo aprenderás cómo multiples tareas pueden ser automatizadas con herramientas amigables para desarrolladores, incluso si no tienes experiencia en AI/ML.",
         "coSpeakerLocation": "Santa Catarina, Brasil",
-        "coSpeakerCompany": "Amazon Web Services"
+        "coSpeakerCompany": "Amazon Web Services",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 32,
@@ -1067,7 +1096,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "Meta Spark Course",
-        "descriptionSpanish": "En esta charla, exploraremos cómo Amazon SageMaker está revolucionando la inteligencia artificial en la industria de los videojuegos. Descubre cómo SageMaker mejora la inteligencia de los NPCs (non-playable characters) y personaliza la experiencia del jugador. Conocerás cómo los modelos de machine learning de SageMaker pueden optimizar el rendimiento y la escalabilidad de tus juegos. Aprende a integrar estas tecnologías para crear experiencias de juego más inteligentes e inmersivas y llevar tus videojuegos al siguiente nivel."
+        "descriptionSpanish": "En esta charla, exploraremos cómo Amazon SageMaker está revolucionando la inteligencia artificial en la industria de los videojuegos. Descubre cómo SageMaker mejora la inteligencia de los NPCs (non-playable characters) y personaliza la experiencia del jugador. Conocerás cómo los modelos de machine learning de SageMaker pueden optimizar el rendimiento y la escalabilidad de tus juegos. Aprende a integrar estas tecnologías para crear experiencias de juego más inteligentes e inmersivas y llevar tus videojuegos al siguiente nivel.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 33,
@@ -1099,7 +1129,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Chihuahua, México",
         "speakerCompany": "Grid Dynamics",
-        "descriptionSpanish": "Esta charla presenta un patrón de implementación de CDK inspirado en \"12 factor app\", enfocándose en la separación de configuración y la modularización de pilas.Abordaremos técnicas para reducir la complejidad de las pilas monolíticas, aplicando principios de separación de preocupaciones y permitiendo la diferenciación del entorno a través de argumentos de línea de comandos. Esto facilita la integración de CDK en entornos comunes de CI/CD como GitHub Actions, GitLab CI/CD o Harness.Usaremos el despliegue de una VPC, un clúster EKS y Karpenter, utilizando CDKs para demostrar el patrón y la estructura del proyecto, cubriendo:• VPC: Análisis de una arquitectura de 3 subredes y su implementación en CDK.• CDKs Cómo pasar contextos a Sub Pilas, como la VPC.• EKS: Nuevos métodos de autenticación con CDK:◦ Transferencia de contexto entre las pilas de VPC y EKS.◦ Migración de ConfigMap a la API de Entradas de Acceso.◦ Implementación de Identidades de Pod para autenticar recursos de kubernetes en AWS IAM.◦ Karpenter: Ventajas en la autoscalabilidad de EKS, impacto en costos y velocidad de escalado."
+        "descriptionSpanish": "Esta charla presenta un patrón de implementación de CDK inspirado en \"12 factor app\", enfocándose en la separación de configuración y la modularización de pilas.Abordaremos técnicas para reducir la complejidad de las pilas monolíticas, aplicando principios de separación de preocupaciones y permitiendo la diferenciación del entorno a través de argumentos de línea de comandos. Esto facilita la integración de CDK en entornos comunes de CI/CD como GitHub Actions, GitLab CI/CD o Harness.Usaremos el despliegue de una VPC, un clúster EKS y Karpenter, utilizando CDKs para demostrar el patrón y la estructura del proyecto, cubriendo:• VPC: Análisis de una arquitectura de 3 subredes y su implementación en CDK.• CDKs Cómo pasar contextos a Sub Pilas, como la VPC.• EKS: Nuevos métodos de autenticación con CDK:◦ Transferencia de contexto entre las pilas de VPC y EKS.◦ Migración de ConfigMap a la API de Entradas de Acceso.◦ Implementación de Identidades de Pod para autenticar recursos de kubernetes en AWS IAM.◦ Karpenter: Ventajas en la autoscalabilidad de EKS, impacto en costos y velocidad de escalado.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 34,
@@ -1133,7 +1164,8 @@ const sessions: Session[] = [
         "room": "Aula Panamericana",
         "speakerLocation": "Bogotá, Colombia",
         "speakerCompany": "Caylent",
-        "descriptionSpanish": "Los agentes en Amazon Bedrock revolucionan la infraestructura en la nube al permitir la generación interactiva de Infraestructura como Código (IaC). Simplifique configuraciones complejas, automatice tareas y acelere la implementación con agentes inteligentes que mejoran la eficiencia, reducen errores y empoderan a su equipo."
+        "descriptionSpanish": "Los agentes en Amazon Bedrock revolucionan la infraestructura en la nube al permitir la generación interactiva de Infraestructura como Código (IaC). Simplifique configuraciones complejas, automatice tareas y acelere la implementación con agentes inteligentes que mejoran la eficiencia, reducen errores y empoderan a su equipo.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 35,
@@ -1165,7 +1197,8 @@ const sessions: Session[] = [
         "room": "Aula H1",
         "speakerLocation": "Irvine, USA",
         "speakerCompany": "USAN",
-        "descriptionSpanish": "Amazon Connect es la solución de “Contact/Call Center” en la nube que permite a las empresas transformar la atención al cliente de manera sencilla y rentable. Con Amazon Connect, puedes configurar un “Contact/Call Center” completamente funcional en minutos, ofreciendo un servicio de alta calidad y personalizado a través de voz, chat y otros canales digitales. Su tecnología escalable y fácil de integrar reduce costos y mejora la eficiencia operativa. Además, con la inteligencia artificial de Amazon, puedes anticiparte a las necesidades de tus clientes y ofrecer experiencias memorables. ¡Es simplemente genial!"
+        "descriptionSpanish": "Amazon Connect es la solución de “Contact/Call Center” en la nube que permite a las empresas transformar la atención al cliente de manera sencilla y rentable. Con Amazon Connect, puedes configurar un “Contact/Call Center” completamente funcional en minutos, ofreciendo un servicio de alta calidad y personalizado a través de voz, chat y otros canales digitales. Su tecnología escalable y fácil de integrar reduce costos y mejora la eficiencia operativa. Además, con la inteligencia artificial de Amazon, puedes anticiparte a las necesidades de tus clientes y ofrecer experiencias memorables. ¡Es simplemente genial!",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 36,
@@ -1197,7 +1230,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Panamá, Panamá",
         "speakerCompany": "Strata Analytics Group",
-        "descriptionSpanish": "En la era de la IA generativa, la gestión y gobernanza de datos son clave para el éxito y la seguridad de los proyectos. Aprende a establecer un marco robusto que garantice la calidad, integridad y seguridad de los datos en modelos de IA generativa. Explora mejores prácticas y soluciones efectivas."
+        "descriptionSpanish": "En la era de la IA generativa, la gestión y gobernanza de datos son clave para el éxito y la seguridad de los proyectos. Aprende a establecer un marco robusto que garantice la calidad, integridad y seguridad de los datos en modelos de IA generativa. Explora mejores prácticas y soluciones efectivas.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 37,
@@ -1229,7 +1263,8 @@ const sessions: Session[] = [
         "room": "Aula H1",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Obok",
-        "descriptionSpanish": "Debido al aumento de los avances en inteligencia artificial generativa, la dualidad entre pros y contras permanece constante en cómo las organizaciones pueden protegerse y aprovechar estas nuevas tecnologías. La charla pasa de la teoría a la práctica, no solo con ejemplos de la vida cotidiana, sino como empresa, cómo se pueden atacar y contener los nuevos riesgos de ciberseguridad en la nube de AWS."
+        "descriptionSpanish": "Debido al aumento de los avances en inteligencia artificial generativa, la dualidad entre pros y contras permanece constante en cómo las organizaciones pueden protegerse y aprovechar estas nuevas tecnologías. La charla pasa de la teoría a la práctica, no solo con ejemplos de la vida cotidiana, sino como empresa, cómo se pueden atacar y contener los nuevos riesgos de ciberseguridad en la nube de AWS.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 38,
@@ -1261,7 +1296,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Wizeline",
-        "descriptionSpanish": "En esta charla, exploramos las ventajas económicas de reescribir funciones de AWS Lambda en Rust. Al aprovechar el rendimiento y la eficiencia de Rust, demostramos cómo puede conducir a ahorros de costos significativos. Los asistentes obtendrán información sobre estrategias de implementación prácticas, puntos de referencia de rendimiento y estudios de caso del mundo real que muestran los beneficios financieros de adoptar Rust para funciones sin servidor. Únase a nosotros para descubrir cómo Rust puede optimizar sus funciones Lambda, reducir su factura de AWS y mejorar el rendimiento general del sistema."
+        "descriptionSpanish": "En esta charla, exploramos las ventajas económicas de reescribir funciones de AWS Lambda en Rust. Al aprovechar el rendimiento y la eficiencia de Rust, demostramos cómo puede conducir a ahorros de costos significativos. Los asistentes obtendrán información sobre estrategias de implementación prácticas, puntos de referencia de rendimiento y estudios de caso del mundo real que muestran los beneficios financieros de adoptar Rust para funciones sin servidor. Únase a nosotros para descubrir cómo Rust puede optimizar sus funciones Lambda, reducir su factura de AWS y mejorar el rendimiento general del sistema.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 39,
@@ -1293,7 +1329,8 @@ const sessions: Session[] = [
         "room": "Poliforum",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "Globant",
-        "descriptionSpanish": "Esta charla se enfoca en estrategias de optimización de costos en la nube, cubriendo tres áreas clave. Primero, explora técnicas de ahorro utilizando instancias reservadas y planes de ahorro, comparando sus ventajas y desventajas, y guiando en la selección de familias de instancias flexibles según el caso de uso. Segundo, enseña a interpretar eficazmente el Cost Explorer, utilizando filtros esenciales para descubrir oportunidades de ahorro y obtener información detallada sobre el uso de recursos. Finalmente, destaca la importancia de mantener las plataformas actualizadas para evitar costos innecesarios, abordando el soporte extendido, calendarios de actualización y mapeo de plataformas."
+        "descriptionSpanish": "Esta charla se enfoca en estrategias de optimización de costos en la nube, cubriendo tres áreas clave. Primero, explora técnicas de ahorro utilizando instancias reservadas y planes de ahorro, comparando sus ventajas y desventajas, y guiando en la selección de familias de instancias flexibles según el caso de uso. Segundo, enseña a interpretar eficazmente el Cost Explorer, utilizando filtros esenciales para descubrir oportunidades de ahorro y obtener información detallada sobre el uso de recursos. Finalmente, destaca la importancia de mantener las plataformas actualizadas para evitar costos innecesarios, abordando el soporte extendido, calendarios de actualización y mapeo de plataformas.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 40,
@@ -1327,7 +1364,8 @@ const sessions: Session[] = [
         "room": "Poliforum",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Improving",
-        "descriptionSpanish": "Esta charla técnica explora cómo crear pipelines de despliegue continuo de alto rendimiento utilizando contenedores en AWS Lambda, Kubernetes para la orquestación, y las herramientas de CI/CD nativas de AWS como CodeCommit, CodeBuild y CodeDeploy. A través de demostraciones en vivo, veremos cómo integrar Lambda con Kubernetes para manejar cargas de trabajo híbridas, automatizar flujos de trabajo complejos y gestionar despliegues sin interrupciones en ambientes distribuidos.Analizaremos patrones avanzados de DevOps en la nube, el uso eficiente de contenedores en Lambda para optimizar la escalabilidad, y cómo combinar Kubernetes con las herramientas de CI/CD de AWS para un proceso de despliegue totalmente automatizado y repetible. Este enfoque permite a las organizaciones aumentar su velocidad de desarrollo y mantener una infraestructura confiable a gran escala."
+        "descriptionSpanish": "Esta charla técnica explora cómo crear pipelines de despliegue continuo de alto rendimiento utilizando contenedores en AWS Lambda, Kubernetes para la orquestación, y las herramientas de CI/CD nativas de AWS como CodeCommit, CodeBuild y CodeDeploy. A través de demostraciones en vivo, veremos cómo integrar Lambda con Kubernetes para manejar cargas de trabajo híbridas, automatizar flujos de trabajo complejos y gestionar despliegues sin interrupciones en ambientes distribuidos.Analizaremos patrones avanzados de DevOps en la nube, el uso eficiente de contenedores en Lambda para optimizar la escalabilidad, y cómo combinar Kubernetes con las herramientas de CI/CD de AWS para un proceso de despliegue totalmente automatizado y repetible. Este enfoque permite a las organizaciones aumentar su velocidad de desarrollo y mantener una infraestructura confiable a gran escala.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 41,
@@ -1361,7 +1399,8 @@ const sessions: Session[] = [
         "room": "Aula H6",
         "speakerLocation": "Baja California, México",
         "speakerCompany": "Caylent",
-        "descriptionSpanish": "Esta charla te enseñará a evitar errores comunes y adoptar buenas prácticas de liderazgo en proyectos cloud. Ideal para managers y ingenieros aspirantes a roles de liderazgo. Exploraremos estrategias de comunicación, empoderamiento del equipo y planificación, con ejemplos reales y casos de éxito."
+        "descriptionSpanish": "Esta charla te enseñará a evitar errores comunes y adoptar buenas prácticas de liderazgo en proyectos cloud. Ideal para managers y ingenieros aspirantes a roles de liderazgo. Exploraremos estrategias de comunicación, empoderamiento del equipo y planificación, con ejemplos reales y casos de éxito.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 42,
@@ -1393,7 +1432,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Venezuela",
         "speakerCompany": "EnterpriseAlumni",
-        "descriptionSpanish": "Cada día que pasa los clientes (especialmente en B2B) se preocupan más y más por la seguridad de sus datos. Esto ha traído consigo la necesidad no solo de hacer infraestructuras más seguras sino de responder largos cuestionarios de cumplimiento al momento de querer hacer negocios con empresas más establecidas en el sector como pueden ser bancos, firmas de abogados, empresas en el sector salud.Todo lo anterior ha generado mucha más carga no solo a los equipos de Seguridad y Cumplimiento sino también a los equipos de Infraestructura. Al usar una arquitectura más simple que cumple con los requisitos del producto no solo simplificamos el proceso de responder estos cuestionarios sino que disminuimos la carga de trabajo para el mantenimiento de dichas infraestructuras permitiendo a los equipos enfocarse en nuevas cosas y reduciendo el burnout de tareas aburridas y repetitivas."
+        "descriptionSpanish": "Cada día que pasa los clientes (especialmente en B2B) se preocupan más y más por la seguridad de sus datos. Esto ha traído consigo la necesidad no solo de hacer infraestructuras más seguras sino de responder largos cuestionarios de cumplimiento al momento de querer hacer negocios con empresas más establecidas en el sector como pueden ser bancos, firmas de abogados, empresas en el sector salud.Todo lo anterior ha generado mucha más carga no solo a los equipos de Seguridad y Cumplimiento sino también a los equipos de Infraestructura. Al usar una arquitectura más simple que cumple con los requisitos del producto no solo simplificamos el proceso de responder estos cuestionarios sino que disminuimos la carga de trabajo para el mantenimiento de dichas infraestructuras permitiendo a los equipos enfocarse en nuevas cosas y reduciendo el burnout de tareas aburridas y repetitivas.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 43,
@@ -1424,7 +1464,8 @@ const sessions: Session[] = [
         "level": "All",
         "room": "Poliforum",
         "speakerLocation": "Jalisco, México",
-        "descriptionSpanish": "Exploraremos la evolución de la IA desde sus formas iniciales hasta los sistemas futuros capaces de razonamiento avanzado, comparando su potencial con la inteligencia humana."
+        "descriptionSpanish": "Exploraremos la evolución de la IA desde sus formas iniciales hasta los sistemas futuros capaces de razonamiento avanzado, comparando su potencial con la inteligencia humana.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 44,
@@ -1458,7 +1499,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Yucatán, México",
         "speakerCompany": "Accenture",
-        "descriptionSpanish": "¡No se pierdan esta charla relampago sobre la importancia de documentar soluciones de arquitectura! Nuestra experta, con vasta experiencia internacional como consultora en tecnología, presentará ejemplos reales que demuestran porqué una documentación precisa puede transformar la gestión y diseño de aplicaciones complejas. Aprendan cómo estas técnicas beneficiarán a todos los miembros del equipo, desde desarrolladores hasta arquitectos y administradores, optimizando la implementación y continua mejora. ¡Un evento imperdible para incremantar las habilidades y la colaboración en cualquier rol técnico!"
+        "descriptionSpanish": "¡No se pierdan esta charla relampago sobre la importancia de documentar soluciones de arquitectura! Nuestra experta, con vasta experiencia internacional como consultora en tecnología, presentará ejemplos reales que demuestran porqué una documentación precisa puede transformar la gestión y diseño de aplicaciones complejas. Aprendan cómo estas técnicas beneficiarán a todos los miembros del equipo, desde desarrolladores hasta arquitectos y administradores, optimizando la implementación y continua mejora. ¡Un evento imperdible para incremantar las habilidades y la colaboración en cualquier rol técnico!",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 45,
@@ -1492,7 +1534,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "Capital One",
-        "descriptionSpanish": "Al dia de hoy, Capital One utiliza en tiempo real data streaming a escala, machine learning, y el poder que ofrece AWS para resolver problemas únicos y tecnológicamente retadores, todo para crear y publicar soluciones personalizadas e inteligentes que beneficien a millones de clientes por todo EEUU.Como Capital One Shopping, que fue construida en la nube, con una arquitectura de microservicios, y que ayuda a nuestros clientes a ahorrar dinero en sus compras en linea, encontrando automaticamente precios mas bajos, cupones y creditos en linea."
+        "descriptionSpanish": "Al dia de hoy, Capital One utiliza en tiempo real data streaming a escala, machine learning, y el poder que ofrece AWS para resolver problemas únicos y tecnológicamente retadores, todo para crear y publicar soluciones personalizadas e inteligentes que beneficien a millones de clientes por todo EEUU.Como Capital One Shopping, que fue construida en la nube, con una arquitectura de microservicios, y que ayuda a nuestros clientes a ahorrar dinero en sus compras en linea, encontrando automaticamente precios mas bajos, cupones y creditos en linea.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 46,
@@ -1528,7 +1571,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Nuevo León, México",
         "speakerCompany": "Wizeline",
-        "descriptionSpanish": "AWS Bedrock es una de las formas más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si comenzamos a usarlo desde la terminal? ¿qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiados inconvenientes.Creé un proyecto de código abierto llamado Isaac, (https://github.com/gochaos-app/isaac/) y traeré ejemplos sobre cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos."
+        "descriptionSpanish": "AWS Bedrock es una de las formas más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si comenzamos a usarlo desde la terminal? ¿qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiados inconvenientes.Creé un proyecto de código abierto llamado Isaac, (https://github.com/gochaos-app/isaac/) y traeré ejemplos sobre cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 47,
@@ -1562,7 +1606,8 @@ const sessions: Session[] = [
         "room": "Aula H1",
         "speakerLocation": "Nuevo León, México",
         "speakerCompany": "Meta | AWS Cloud Club @ Tec",
-        "descriptionSpanish": "En esta charla introductoria, exploraremos Firecracker, una tecnología de virtualización desarrollada por AWS. Hablaremos sobre cómo Firecracker permite crear máquinas virtuales ligeras y seguras en milisegundos, lo que lo hace ideal para servicios serverless. Veremos sus características principales, cómo funciona y por qué es importante en el mundo de la computación en la nube. Esta charla es ideal para desarrolladores y profesionales de TI interesados en entender mejor la infraestructura detrás de los servicios serverless."
+        "descriptionSpanish": "En esta charla introductoria, exploraremos Firecracker, una tecnología de virtualización desarrollada por AWS. Hablaremos sobre cómo Firecracker permite crear máquinas virtuales ligeras y seguras en milisegundos, lo que lo hace ideal para servicios serverless. Veremos sus características principales, cómo funciona y por qué es importante en el mundo de la computación en la nube. Esta charla es ideal para desarrolladores y profesionales de TI interesados en entender mejor la infraestructura detrás de los servicios serverless.",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 48,
@@ -1599,7 +1644,8 @@ const sessions: Session[] = [
         "speakerCompany": "Bitso (Quetzal Team)",
         "descriptionSpanish": "Como equipo de seguridad de una compañía crypto, es muy difícil encontrar productos de seguridad que cubran todas nuestras necesidades. En esta charla, exploraremos cómo la automatización con AWS Lambdas, Terraform y Python puede llenar los vacíos que las soluciones integrales no logran cubrir. Comenzaremos con una introducción a conceptos básicos como AWS Lambdas, Terraform y SOC, desglosando cómo definir secretos, buckets y capas necesarias tanto en Terraform como en Python. Luego, avanzaremos hacia una parte práctica, donde construiremos feeds de inteligencia de amenazas, reportes automáticos de vulnerabilidades y monitores de transacciones crypto sospechosas, entre otros ejemplos, demostrando cómo esta combinación de herramientas no solo es una alternativa económica, sino también creativa y eficiente.",
         "coSpeakerLocation": "Ciudad de México, México",
-        "coSpeakerCompany": "Bitso (Quetzal Team)"
+        "coSpeakerCompany": "Bitso (Quetzal Team)",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 49,
@@ -1636,7 +1682,8 @@ const sessions: Session[] = [
         "speakerCompany": "Accenture",
         "descriptionSpanish": "No te pierdas esta emocionante charla donde exploraremos dos potentes asistentes de código que están transformando la programación! Descubre cómo Amazon Q y GitHub Copilot, con sus enfoques únicos, pueden potenciar tu productividad como desarrollador. Compararemos sus características, casos de uso, y te ayudaremos a decidir cuál es la mejor opción para tus proyectos. Si estás interesado en llevar tus habilidades al siguiente nivel y aprovechar al máximo la inteligencia artificial en el desarrollo de software, esta charla es para ti. ¡Únete y descubre quién ganará en la batalla por el código perfecto!",
         "coSpeakerLocation": "Ciudad de México, México",
-        "coSpeakerCompany": "Intel"
+        "coSpeakerCompany": "Intel",
+        "rateUrl": "https://example.com/"
     },
     {
         "id": 50,
@@ -1668,7 +1715,8 @@ const sessions: Session[] = [
         "room": "Aula H2",
         "speakerLocation": "Guadalajara",
         "speakerCompany": "Amazon Web Services",
-        "descriptionSpanish": "En esta sesión, tanto de negocio como técnica, me gustaría compartir con audiencias clave como DevOps, SREs, CTOs y tomadores de decisiones, las soluciones que AWS ofrece para implementar Efficient Computing. Exploraremos cómo reducir costos utilizando instancias EC2 Graviton y Spot, aprovechando la integración de Karpenter con AWS Elastic Kubernetes Service (EKS) para una gestión eficiente de recursos.Además, destacaremos cómo lograr estos ahorros sin comprometer la resiliencia ni la seguridad, enfocándonos en maximizar el valor para nuestros partners y clientes. Esta sesión proporcionará estrategias prácticas para optimizar infraestructura y mejorar el retorno de inversión."
+        "descriptionSpanish": "En esta sesión, tanto de negocio como técnica, me gustaría compartir con audiencias clave como DevOps, SREs, CTOs y tomadores de decisiones, las soluciones que AWS ofrece para implementar Efficient Computing. Exploraremos cómo reducir costos utilizando instancias EC2 Graviton y Spot, aprovechando la integración de Karpenter con AWS Elastic Kubernetes Service (EKS) para una gestión eficiente de recursos.Además, destacaremos cómo lograr estos ahorros sin comprometer la resiliencia ni la seguridad, enfocándonos en maximizar el valor para nuestros partners y clientes. Esta sesión proporcionará estrategias prácticas para optimizar infraestructura y mejorar el retorno de inversión.",
+        "rateUrl": "https://example.com/"
     }
 ];
 
