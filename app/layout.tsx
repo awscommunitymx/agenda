@@ -19,7 +19,6 @@ export default function RootLayout({
                   content="Agenda oficial del AWS Community Day México 2024. Descubre las charlas, talleres y networking opportunities del evento más importante de la comunidad AWS en México."/>
             <meta name="keywords"
                   content="AWS, Amazon Web Services, Community Day, México, 2024, Agenda, Cloud Computing"/>
-            <link rel="icon" type="image/png" href="https://day.awscommunity.mx/assets/images/favicon.png"/>
         </head>
         <body>
         <Providers>
