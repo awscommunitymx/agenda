@@ -6,6 +6,7 @@ import {IoFilter} from "react-icons/io5";
 interface FilterOption {
     key: string;
     label: string;
+    plural: string;
     options: string[];
 }
 
@@ -19,9 +20,24 @@ const FilterBar: React.FC<FilterBarProps> = ({sessions, onFilterChange}) => {
     const [filters, setFilters] = useState<Record<string, string>>({});
 
     const filterOptions: FilterOption[] = [
-        {key: 'category', label: 'Category', options: Array.from(new Set(sessions.map(session => session.category)))},
-        {key: 'room', label: 'Room', options: Array.from(new Set(sessions.map(session => session.room)))},
-        {key: 'level', label: 'Level', options: Array.from(new Set(sessions.map(session => session.level)))},
+        {
+            key: 'category',
+            label: 'Categoría',
+            plural: "Todas las categorías",
+            options: Array.from(new Set(sessions.map(session => session.category)))
+        },
+        {
+            key: 'room',
+            label: 'Sala',
+            plural: "Todas las salas",
+            options: Array.from(new Set(sessions.map(session => session.room)))
+        },
+        {
+            key: 'level',
+            label: 'Nivel',
+            plural: "Todos los niveles",
+            options: Array.from(new Set(sessions.map(session => session.level)))
+        },
     ];
 
     const handleFilterChange = (key: string, value: string) => {
@@ -52,11 +68,11 @@ const FilterBar: React.FC<FilterBarProps> = ({sessions, onFilterChange}) => {
 
                 <Collapse in={isExpanded} animateOpacity>
                     <VStack align="stretch" spacing={4}>
-                        {filterOptions.map(({key, label, options}) => (
+                        {filterOptions.map(({key, label, plural, options}) => (
                             <Box key={key}>
                                 <Text fontSize="sm" fontWeight="medium" mb={1}>{label}</Text>
                                 <Select
-                                    placeholder={`All ${label}s`}
+                                    placeholder={plural}
                                     value={filters[key] || ''}
                                     onChange={(e) => handleFilterChange(key, e.target.value)}
                                 >
