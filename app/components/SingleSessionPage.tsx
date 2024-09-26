@@ -17,7 +17,7 @@ import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {Icon, TimeIcon} from "@chakra-ui/icons";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
-import {isFavorite, toggleFavorite} from "@/app/utils/favorite";
+import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 
 interface SingleSessionPageProps {
     session: Session;
@@ -33,9 +33,11 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
     const [favorite, setFavorite] = useState(false);
     const [sessionTime, setSessionTime] = useState<SessionTime>({start: '', end: ''});
 
-    const handleFavorite = () => {
+    const handleFavorite = async () => {
         setFavorite(!favorite);
         toggleFavorite(session.id.toString());
+        const inc = favorite ? -1 : 1;
+        await registerFavorite(session.id.toString(), inc);
     }
 
     const formatTime = (date: Date): string => {
