@@ -19,6 +19,7 @@ const Announcement: React.FC<AnnouncementProps> = ({icon, title, description}) =
         justifyContent='center'
         textAlign='center'
         height='200px'
+        rounded={10}
     >
         <AlertIcon boxSize='40px' mr={0} as={icon}/>
         <AlertTitle mt={4} mb={1} fontSize='lg'>
