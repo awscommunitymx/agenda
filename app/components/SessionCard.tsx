@@ -53,7 +53,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
             if (session.time.start <= now && session.time.end >= now) {
                 setStatus('positive');
                 const remaining = session.time.end.getTime() - now.getTime();
-                setStatusText(`En curso (Tiempo restante ${Math.ceil(remaining / 60000)} minuto${remaining === 1 ? '' : 's'})`);
+                setStatusText(`En curso (Tiempo restante ${Math.ceil(remaining / 60000)} minuto${remaining / 60000 == 1 ? '' : 's'})`);
             } else if (session.time.end < now) {
                 setStatus('inactive');
                 setStatusText("Finalizada");
@@ -61,7 +61,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                 if (session.time.start.getTime() - now.getTime() < 15 * 60 * 1000) {
                     setStatus('intermediary');
                     const timeToStart = session.time.start.getTime() - now.getTime();
-                    setStatusText(`Inicia en ${Math.ceil(timeToStart / 60000)} minuto${timeToStart === 1 ? '' : 's'}`);
+                    setStatusText(`Inicia en ${Math.ceil(timeToStart / 60000)} minuto${timeToStart / 60000 === 1 ? '' : 's'}`);
                 } else {
                     setStatus('none');
                     setStatusText("");
