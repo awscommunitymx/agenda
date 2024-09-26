@@ -10,7 +10,7 @@ def clean_string(s: str) -> str:
 
 def get_unique_values(csv_file: str, column: str) -> Set[str]:
     unique_values = set()
-    with codecs.open(csv_file, 'r', 'utf-8-sig') as file:
+    with codecs.open(csv_file, "r", "utf-8-sig") as file:
         reader = csv.DictReader(file)
         for row in reader:
             value = clean_string(row[column])
@@ -20,19 +20,26 @@ def get_unique_values(csv_file: str, column: str) -> Set[str]:
 
 
 def generate_typescript_interfaces(csv_file: str) -> str:
-    categories = get_unique_values(csv_file, 'Category')
-    levels = get_unique_values(csv_file, 'Level')
+    categories = get_unique_values(csv_file, "Category")
+    levels = get_unique_values(csv_file, "Level")
 
     typescript_content = f"""
 export type Category = {' | '.join(f"'{cat}'" for cat in sorted(categories))};
 export type Level = {' | '.join(f"'{level}'" for level in sorted(levels))};
+
+export type CFPLanguage = 'Spanish' | 'English';
 
 export interface Session {{
     id: number;
     title: string;
     abstract: string;
     description: string;
+    language: CFPLanguage;
+    keywords: string[];
+    cta: string;
     speaker: string;
+    speakerCompany?: string;
+    speakerLocation?: string;
     coSpeaker?: string;
     speakerImage: string;
     time: {{
