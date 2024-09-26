@@ -21,7 +21,7 @@ export default function Page() {
             }
             fetchEvents().catch(console.error);
         }
-    )
+        , [baseUri])
 
     return (
         <VStack w={"100%"}>
