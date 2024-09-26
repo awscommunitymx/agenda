@@ -42,7 +42,7 @@ def atomic_increment(
         response = table.update_item(
             Key={pk_name: pk_value},
             UpdateExpression=f"SET {attribute_name} = if_not_exists({attribute_name}, :start) + :increment",
-            ConditionExpression=f"attribute_not_exists({attribute_name}) OR {attribute_name} >= :start",
+            ConditionExpression=f"attribute_not_exists({attribute_name}) OR {attribute_name} > :start",
             ExpressionAttributeValues={":start": 0, ":increment": increment_by},
             ReturnValues="UPDATED_NEW",
         )
