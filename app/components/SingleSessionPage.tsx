@@ -133,7 +133,8 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                         <Avatar size="md" name={session.speaker} src={session.speakerImage}/>
                         <VStack align="start" spacing={0}>
                             <Text fontWeight="bold">{session.speaker}</Text>
-                            <Text fontSize="sm" color="gray.500">Speaker</Text>
+                            <Text fontSize="sm"
+                                  color="gray.500">{session.speakerCompany} - {session.speakerLocation}</Text>
                         </VStack>
                     </HStack>
                     {session.coSpeaker && (
