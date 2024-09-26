@@ -4,7 +4,7 @@ import {Session} from "@/app/types/session";
 import SingleSessionPage from "@/app/components/SingleSessionPage";
 
 export default async function Page({params}: { params: { id: string } }) {
-    const session = await getSessionById(parseInt(params.id));
+    const session = await getSessionById(params.id);
 
     if (!session) {
         notFound();
@@ -13,7 +13,7 @@ export default async function Page({params}: { params: { id: string } }) {
     return <SingleSessionPage session={session}/>;
 }
 
-async function getSessionById(id: number): Promise<Session | undefined> {
+async function getSessionById(id: string): Promise<Session | undefined> {
     return sessions.find(session => session.id === id);
 }
 

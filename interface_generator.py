@@ -30,7 +30,7 @@ export type Level = {' | '.join(f"'{level}'" for level in sorted(levels))};
 export type CFPLanguage = 'Spanish' | 'English';
 
 export interface Session {{
-    id: number;
+    id: string;
     title: string;
     abstract: string;
     description: string;
