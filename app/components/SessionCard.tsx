@@ -16,7 +16,7 @@ import {
 import {ChevronDownIcon, ChevronUpIcon, Icon, TimeIcon} from '@chakra-ui/icons';
 import {SessionCardProps} from "@/app/types/session";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
-import {isFavorite, toggleFavorite} from "@/app/utils/favorite";
+import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import NextLink from 'next/link'
 
@@ -35,9 +35,11 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     const abstractWords = session.description.split(' ');
     const previewLength = Math.ceil(abstractWords.length / 3);
 
-    const handleFavorite = () => {
+    const handleFavorite = async () => {
         setFavorite(!favorite);
         toggleFavorite(session.id.toString());
+        const inc = favorite ? -1 : 1;
+        await registerFavorite(session.id.toString(), inc);
     }
 
     useEffect(() => {

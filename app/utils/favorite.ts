@@ -19,4 +19,15 @@ const getFavoriteSessions = () => {
     return JSON.parse(localStorage.getItem('favorites') || '[]') as string[];
 }
 
-export {toggleFavorite, isFavorite, getFavoriteSessions};
+const registerFavorite = async (sessionId: string, inc: number) => {
+    const baseUri = 'https://9drgkyu77h.execute-api.us-east-1.amazonaws.com/Prod/favorite';
+    const uri = `${baseUri}/${inc > 0 ? 'inc' : 'dec'}/${sessionId}`;
+
+    const response = await fetch(uri, {method: 'POST'});
+
+    if (!response.ok) {
+        throw new Error('Failed to register favorite');
+    }
+}
+
+export {toggleFavorite, isFavorite, getFavoriteSessions, registerFavorite};
