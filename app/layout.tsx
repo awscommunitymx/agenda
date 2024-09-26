@@ -3,6 +3,7 @@ import {Providers} from './providers'
 import React from "react";
 import Nav from "@/app/components/Nav";
 
+
 export default function RootLayout({
                                        children,
                                    }: {
@@ -10,6 +11,16 @@ export default function RootLayout({
 }) {
     return (
         <html lang='en'>
+        <head>
+            <meta charSet="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Agenda AWS Community Day México 2024</title>
+            <meta name="description"
+                  content="Agenda oficial del AWS Community Day México 2024. Descubre las charlas, talleres y networking opportunities del evento más importante de la comunidad AWS en México."/>
+            <meta name="keywords"
+                  content="AWS, Amazon Web Services, Community Day, México, 2024, Agenda, Cloud Computing"/>
+            <link rel="icon" type="image/png" href="https://day.awscommunity.mx/assets/images/favicon.png"/>
+        </head>
         <body>
         <Providers>
             <Nav/>
