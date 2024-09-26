@@ -4,6 +4,7 @@ import {Alert, Container, Divider, Heading, VStack} from '@chakra-ui/react';
 import {Session, SessionListProps} from "@/app/types/session";
 import SessionCard from "@/app/components/SessionCard";
 import FilterBar from "@/app/components/FilterBar";
+import Announcement from "@/app/components/Announcement";
 import SessionCardRenderer from "@/app/components/SessionCardRenderer";
 
 const SessionList: React.FC<SessionListProps> = ({sessions}) => {
@@ -48,8 +49,22 @@ const SessionList: React.FC<SessionListProps> = ({sessions}) => {
         setFilters(newFilters);
     };
 
+    const specialSessions = useMemo(
+        () => currentSessions.filter((session) => session.isSpecial),
+        [currentSessions]
+    )
+
+    const currentSpecialSession = specialSessions.find((session) => {
+        const now = new Date();
+        return session.time.start <= now && session.time.end >= now;
+    });
+
     return (
         <Container maxW="container.xl" py={8}>
+            {currentSpecialSession &&
+                <Announcement icon={currentSpecialSession.icon} title={currentSpecialSession.abstract}
+                              description={currentSpecialSession.description}/>
+            }
             <FilterBar sessions={sortedSessions} onFilterChange={handleFilterChange}/>
             <VStack spacing={4} align="stretch">
                 {filteredSessions.length === 0 &&
