@@ -34,7 +34,8 @@ const sessions: Session[] = [
         "room": "Aula H7",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Tu Identidad",
-        "descriptionSpanish": "¿Estás listo para llevar tus prácticas de DevOps al siguiente nivel? En esta charla, exploraremos cómo madurar y optimizar los entornos de trabajo para que sean más fluidos, colaborativos y efectivos. Aprenderás estrategias clave para derribar barreras entre equipos, acelerar los ciclos de entrega y garantizar que tu organización esté preparada para responder rápidamente a las demandas del mercado. Te llevaremos a través de casos de éxito y técnicas comprobadas para transformar tus procesos y crear un entorno donde la innovación y la calidad del software florezcan. No te pierdas esta oportunidad de impulsar el futuro de tu equipo con practicas que fomenten agilidad, retroalimentación y clima de aprendizaje. ¡Es hora de evolucionar y hacer que todo funcione como un engranaje bien engrasado!"
+        "descriptionSpanish": "¿Estás listo para llevar tus prácticas de DevOps al siguiente nivel? En esta charla, exploraremos cómo madurar y optimizar los entornos de trabajo para que sean más fluidos, colaborativos y efectivos. Aprenderás estrategias clave para derribar barreras entre equipos, acelerar los ciclos de entrega y garantizar que tu organización esté preparada para responder rápidamente a las demandas del mercado. Te llevaremos a través de casos de éxito y técnicas comprobadas para transformar tus procesos y crear un entorno donde la innovación y la calidad del software florezcan. No te pierdas esta oportunidad de impulsar el futuro de tu equipo con practicas que fomenten agilidad, retroalimentación y clima de aprendizaje. ¡Es hora de evolucionar y hacer que todo funcione como un engranaje bien engrasado!",
+        "rateUrl": "https://google.com"
     },
     {
         "id": 2,
@@ -130,7 +131,8 @@ const sessions: Session[] = [
         "room": "Aula H4",
         "speakerLocation": "Querétaro",
         "speakerCompany": "OCC Mundial",
-        "descriptionSpanish": "En esta charla, exploraremos cómo AWS EKS (Elastic Kubernetes Service) y DevContainers pueden revolucionar la experiencia del desarrollador (DevEx) al facilitar entornos de desarrollo consistentes y altamente productivos. Discutiremos cómo DevContainers permite a los desarrolladores trabajar en entornos reproducibles y cómo EKS puede simplificar la administración de contenedores en producción. A través de ejemplos prácticos y demostraciones en vivo, mostraremos cómo estas herramientas pueden mejorar la eficiencia del desarrollo y acelerar el ciclo de vida de las aplicaciones."
+        "descriptionSpanish": "En esta charla, exploraremos cómo AWS EKS (Elastic Kubernetes Service) y DevContainers pueden revolucionar la experiencia del desarrollador (DevEx) al facilitar entornos de desarrollo consistentes y altamente productivos. Discutiremos cómo DevContainers permite a los desarrolladores trabajar en entornos reproducibles y cómo EKS puede simplificar la administración de contenedores en producción. A través de ejemplos prácticos y demostraciones en vivo, mostraremos cómo estas herramientas pueden mejorar la eficiencia del desarrollo y acelerar el ciclo de vida de las aplicaciones.",
+        "rateUrl": "https://google.com"
     },
     {
         "id": 5,

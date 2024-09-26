@@ -79,6 +79,7 @@ def csv_to_typescript(csv_file):
                 "Description (Spanish)": "descriptionSpanish",
                 "Co-speaker location": "coSpeakerLocation",
                 "Co-speaker organization": "coSpeakerCompany",
+                "Rate URL": "rateUrl",
             }
 
             for csv_field, ts_field in extra_fields.items():

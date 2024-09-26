@@ -26,6 +26,7 @@ export interface Session {
     category: Category;
     level: Level;
     room: string;
+    rateUrl?: string;
 }
 
 export interface SessionCardProps {

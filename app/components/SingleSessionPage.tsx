@@ -10,9 +10,9 @@ import {
     Badge,
     Box,
     Button,
-    Flex,
     Heading,
     HStack,
+    Link,
     Skeleton,
     SkeletonCircle,
     SkeletonText,
@@ -21,7 +21,7 @@ import {
 } from '@chakra-ui/react';
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
-import {Icon, TimeIcon} from "@chakra-ui/icons";
+import {ExternalLinkIcon, Icon, TimeIcon} from "@chakra-ui/icons";
 import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {formatTime, getTimeDifference} from "@/app/utils/time";
@@ -96,15 +96,21 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         <Box borderWidth={1} borderRadius="lg" p={6} bg="white" shadow="md">
             <VStack align="stretch" spacing={4}>
                 {status !== "none" && isLoaded && (
-                    <Flex justifyItems={"start"}>
+                    <HStack justify={"space-between"}>
                         <HStack>
                             <StatusIndicator status={status} pulse={status === "positive"}/>
                             <Text fontSize="sm" color="gray.600">
                                 {statusText}
                             </Text>
-
                         </HStack>
-                    </Flex>
+                        {status === "inactive" && session.rateUrl && (
+                            <Link href={session.rateUrl} isExternal>
+                                <Button size="sm" colorScheme="blue" variant="outline">
+                                    Calificar sesión <ExternalLinkIcon mx='2px'/>
+                                </Button>
+                            </Link>
+                        )}
+                    </HStack>
                 )}
                 {
                     !isLoaded && (
