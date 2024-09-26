@@ -42,6 +42,8 @@ export interface Session {{
     speakerCompany?: string;
     speakerLocation?: string;
     coSpeaker?: string;
+    coSpeakerCompany?: string;
+    coSpeakerLocation?: string;
     speakerImage: string;
     time: {{
         start: Date;
