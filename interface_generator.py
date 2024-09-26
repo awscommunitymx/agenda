@@ -24,6 +24,8 @@ def generate_typescript_interfaces(csv_file: str) -> str:
     levels = get_unique_values(csv_file, "Level")
 
     typescript_content = f"""
+import {{IconType}} from "react-icons";
+
 export type Category = {' | '.join(f"'{cat}'" for cat in sorted(categories))};
 export type Level = {' | '.join(f"'{level}'" for level in sorted(levels))};
 
@@ -53,6 +55,8 @@ export interface Session {{
     level: Level;
     room: string;
     rateUrl?: string;
+    isSpecial?: boolean;
+    icon?: IconType;
 }}
 
 export interface SessionCardProps {{
