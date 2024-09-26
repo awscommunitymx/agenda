@@ -1,3 +1,5 @@
+import {IconType} from "react-icons";
+
 export type Category = 'FinOps' | 'IA/ML' | 'Operaciones' | 'PrimerosPasos' | 'Serverless' | 'Softskills';
 export type Level = 'Advanced' | 'All' | 'Beginner' | 'Intermediate';
 
@@ -27,6 +29,8 @@ export interface Session {
     level: Level;
     room: string;
     rateUrl?: string;
+    isSpecial?: boolean;
+    icon?: IconType;
 }
 
 export interface SessionCardProps {

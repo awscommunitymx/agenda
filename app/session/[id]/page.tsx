@@ -14,7 +14,13 @@ export default async function Page({params}: { params: { id: string } }) {
 }
 
 async function getSessionById(id: string): Promise<Session | undefined> {
-    return sessions.find(session => session.id === id);
+    const session = sessions.find(session => session.id === id);
+    
+    if (session?.isSpecial) {
+        return undefined;
+    }
+
+    return session;
 }
 
 export const generateStaticParams = async () => {
