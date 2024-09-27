@@ -220,7 +220,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                             <AccordionItem>
                                 <AccordionButton>
                                     <Text fontWeight={"bold"}>
-                                        Descripción (Español)
+                                        Información en español
                                     </Text>
                                 </AccordionButton>
                                 <AccordionPanel>
