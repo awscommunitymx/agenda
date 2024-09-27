@@ -21,11 +21,13 @@ export interface Session {
     speakerLinkedIn?: string;
     speakerCompany?: string;
     speakerLocation?: string;
+    speakerBio?: string;
     coSpeaker?: string;
     coSpeakerPhotoUrl?: string;
     coSpeakerLinkedIn?: string;
     coSpeakerCompany?: string;
     coSpeakerLocation?: string;
+    coSpeakerBio?: string;
     speakerImage: string;
     time: {
         start: Date;

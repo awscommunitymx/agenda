@@ -179,7 +179,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Como funciona una arquitectura serverless AWS que pueda procesar 100K conexiones simultáneas, que límites considerar y como medir el performance.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SLS201+-+100K+conexiones+simult%C3%A1neas+en+AWS+por+Fernando+Paz",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/fernando_paz.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/pazfernando/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/pazfernando/",
+        "speakerBio": "Fernando es un Arquitecto de Soluciones en la Nube y On-premises, con certificaciones en AWS, PostgreSQL y Scrum. Posee una amplia experiencia en el diseño y desarrollo de soluciones escalables, la gestión de equipos ágiles y la optimización de infraestructuras. Apasionado por la innovación tecnológica, se especializa en la creación de arquitecturas robustas para grandes empresas, con un enfoque en la mejora continua y la excelencia operativa.  Hoy inmerso 100% en tecnologías Serverless y prácticas DevOps."
     },
     {
         "id": "DPS306",
@@ -286,7 +287,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En esta charla, profundizaremos en el diseño y desarrollo de una arquitectura de software segura que integra una web app con servicios blockchain a través de AWS. Discutiremos patrones de diseño, mejores prácticas de seguridad, y la implementación de Amazon Managed Blockchain para crear aplicaciones escalables y robustas, ilustrando estos conceptos con un caso de estudio práctico de Nohbek.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ARQ301+-+Arquitectura+de+Software+para+Web+Apps+Seguras+en+AWS+con+Conexi%C3%B3n+a+Servicios+Blockchain+por+Brenda+Cuevas+V%C3%A1zquez",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/brenda_cuevas.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/soybrendacuevas/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/soybrendacuevas/",
+        "speakerBio": "Brenda Cuevas Vazquez es fundadora de http://nohbek.io/, especialista en blockchain y ciberseguridad, y mentora en bootcamps de programación. Con experiencia en desarrollo de software y Blockchain DevOps, lidera proyectos innovadores en tecnología y seguridad, cerrando brechas de género en el sector"
     },
     {
         "id": "DPS307",
@@ -358,7 +360,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En esta charla, exploraremos AWS Direct Connect, una solución de conectividad dedicada a la nube de AWS. Abordaremos sus beneficios, funcionamiento y arquitectura básica. Discutiremos casos de uso comunes, incluyendo conexiones entre centros de datos y AWS, migraciones de datos a gran escala, y optimización de aplicaciones críticas. También examinaremos su papel en arquitecturas de nube híbrida, estrategias de migración sin contratos de telecomunicaciones, y mejores prácticas para configuración y optimización de costos.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HIB302+-+AWS+Direct+Connect:+Tu+autopista+de+comunicaci%C3%B3n+hacia+la+Nube+por+Elizabeth+G%C3%B3mez+Guill%C3%A9n",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/elizabeth_gomez.jpeg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/elizabethgomezguillen/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/elizabethgomezguillen/",
+        "speakerBio": "Elizabeth es una especialista en consultoría técnico-comercial de soluciones en telecomunicaciones, enfocada en optimizar la conectividad y el rendimiento en entornos cloud e híbridos. Su misión es diseñar topologías que garanticen conectividad ininterrumpida de baja latencia y maximicen la eficiencia en presupuestos, tiempos y escalabilidad de los servicios en AWS."
     },
     {
         "id": "OPS201",
@@ -395,7 +398,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Esta charla explora la economía de nube y FinOps, centrándose en la gestión eficiente de costos en entornos cloud. Aborda los principios de la economía de nube, sus beneficios para las empresas, y la importancia de la optimización financiera en la adopción de tecnologías cloud. Se discutirán métodos para medir el retorno de inversión, preparar presupuestos, construir indicadores de rentabilidad y realizar ejercicios de optimización de costos en diferentes estructuras de nube. El objetivo es proporcionar herramientas prácticas para maximizar el valor empresarial de las inversiones en cloud computing.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS201+-+Cloud+economics,+y+cloud+FinOps+%C2%BFUna+transici%C3%B3n?+por+Barbara+Gaspar",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/barbara_gaspar.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/barbaragaspargaona/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/barbaragaspargaona/",
+        "speakerBio": "Barbara es especialista en servicios de la nube, certificada como FinOps Engineer, por la FINOPS FOUNDATION enfocada en la implementación de optimización de cómputo en la nube para infraestructuras híbridas. Mantiene un fuerte enfoque en las herramientas AWS, con interés en ampliar la capacidad de las compañías en la construcción de soluciones nube a un costo óptimo, gracias a la experiencia de 5 años en el ramo. "
     },
     {
         "id": "IAG201",
@@ -432,7 +436,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "El objetivo es entender qué es Retrieval-Augmented Generation (RAG), cómo funciona y cómo podemos usar los servicios de AWS para implementarlo eficientemente en nuestras aplicaciones.RAG, es una técnica que combina la búsqueda de información relevante (retrieval) con la generación de texto (generation) para proporcionar respuestas más precisas y contextualmente adecuadas. Se puede usar en aplicaciones de inteligencia artificial para mejorar la precisión de los chatbots, generar contenido de manera más coherente y proporcionar respuestas más precisas en sistemas de preguntas y respuestas.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG201+-+C%C3%B3mo+usar+RAG+para+mejorar+las+respuestas+de+la+IA+Generativa+por+Aleja+Henao+Espitia",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/aleja_henao.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/alejahenaoe/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/alejahenaoe/",
+        "speakerBio": "Aleja es una desarrolladora web autodidacta con amplia experiencia en gestión de proyectos, análisis de datos y marketing digital. Inició como Project Manager a los 17 años, liderando equipos en diversas startups. Actualmente, es líder de Growth en Dapta, una plataforma de Inteligencia Artificial. Es una apasionada de la tecnología y la innovación, participando activamente en comunidades como AWS Women Colombia, WomenTech Makers, y Notion Colombia. Disfruta viajar, compartir con su familia y amigos, comer y crear contenido para redes sociales."
     },
     {
         "id": "KEY101",
@@ -455,7 +460,8 @@ const sessions: Session[] = [
         "room": "Minerva",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "AWS",
-        "speakerLinkedIn": "https://www.linkedin.com/in/softwarechido/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/softwarechido/",
+        "speakerBio": "Conocido en el mundo del software como: @SoftwareChido, Carlos es miembro fundador del centro de desarrollo de software de Amazon de México donde trabajó en la tecnología detrás de los servicios de pagos, logística y ventas por terceros de la tienda de Amazon. Es fundador de la comunidad de desarrollo de Alexa en español, donde ayuda a las personas a crear experiencias de voz extraordinarias. En su travesía mas reciente dirige el equipo de tecnología para Startups, donde ayuda a los emprendedores de toda América Latina a desarrollar tecnología usando los servicios de Amazon Web Services."
     },
     {
         "id": "DPS303",
@@ -492,7 +498,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "¿Por qué la Ingeniería de Plataformas? Según Gartner, la Ingeniería de Plataformas es un tema en crecimiento en la industria. Muchas empresas han comenzado a diseñar sus propias Plataformas Internas para Desarrolladores y están tratando de mejorar la Experiencia del Desarrollador para aumentar la productividad. En esta sesión, aprenderemos sobre la Ingeniería de Plataformas y cómo diseñar estas soluciones en AWS.",
         "rateUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/armandoherra/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/armandoherra/",
+        "speakerBio": "Armando es un Arquitecto de Sistemas con amplia experiencia en Cloud Computing, Infraestructura como Código y Kubernetes. Se especializa en crear despliegues automatizados de infraestructura con pipelines de CI/CD. Tiene un gran interés en otros temas como Site Reliability Engineering, Platform Engineering, Data Engineering y el Ecosistema Cloud Native. Armando está certificado en AWS, Azure, GCP, Terraform, y Kubernetes."
     },
     {
         "id": "IAM201",
@@ -529,7 +536,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En los últimos años, el Machine Learning ha logrado avances significativos en el campo de la creación musical, permitiendo el desarrollo de algoritmos que pueden generar melodías, armonías e incluso canciones completas. Esta charla explorará la intersección entre el machine learning y la música, enfocándose en cómo los datos pueden utilizarse para crear composiciones originales de melodías cortas. Discutiremos los desafíos de utilizar machine learning para la creación musical, incluyendo temas relacionados con la recolección de datos, el entrenamiento de modelos y la evaluación. También exploraremos algunos de los enfoques más prometedores para usar machine learning en la música, como las técnicas de Redes Generativas Antagónicas (GAN) y el deep learning. Tendremos una demostración en vivo utilizando AWS DeepComposer. Al final de esta charla, los asistentes tendrán una mejor comprensión de cómo el machine learning puede utilizarse para crear melodías y las emocionantes posibilidades que este campo emergente tiene por delante.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAM201+-+De+los+datos+a+las+melod%C3%ADas:+Aprendizaje+autom%C3%A1tico+en+la+m%C3%BAsica+por+C%C3%A9sar+Martinez",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/cesar_martinez.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/iscesar/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/iscesar/",
+        "speakerBio": "Arquitecto de Soluciones Tecnológicas con 13+ años de práctica en los sectores: gobierno electrónico, 'fintech', 'healthcare', tecnología y manufactura. Implementador de nuevas tecnologías, promotor de la colaboración en equipo, impulsando siempre la mejora de procesos, integrando acciones que respeten las estrategias de la organización para el cumplimiento de sus objetivos mediante la comunicación efectiva con áreas directivas, de mando medio y operativas. Integrador de proyectos tecnológicos bajo marcos de trabajo PMI, PM4R y Agile (Scrum, SAFe, Kanban, XP)."
     },
     {
         "id": "DPS202",
@@ -568,7 +576,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En esta charla, los participantes aprenderán los fundamentos de Infraestructura como Código (IaC) y AWS CDK, cómo definir y desplegar recursos AWS usando CDK, y las mejores prácticas, patrones de diseño y técnicas de automatización asociadas. Dirigida a quienes tienen conocimientos básicos de AWS, la sesión proporcionará habilidades prácticas en la implementación de infraestructura como código, beneficiando tanto a desarrolladores como a arquitectos de soluciones.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS202+-+Del+C%C3%B3digo+hacia+la+Nube:+Creando+Infraestructura+desde+C%C3%B3digo+Fuente+con+AWS+CDK+por+Erick+J.+Pineda+Am%C3%A9zquita",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/erick_pineda.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/erick-j-pineda-am%C3%A9zquita-1808801a4/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/erick-j-pineda-am%C3%A9zquita-1808801a4/",
+        "speakerBio": "Ingeniero en Sistemas con especiliad en Análisis de datos e Inteligencia de Negocios. Lider de proyectos tecnológicos, en especial migraciones completas hacia la nube AWS, asesorías para soluciones Cloud, dirección, diseño y ejecución de Pruebas de Recuperación ante Desastres.Es docente de cursos como AWS, Python para ciencia de datos y lenguajes de programación. Voluntario en AWS Guatemala."
     },
     {
         "id": "HIB301",
@@ -605,7 +614,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Durante la sesión, exploraremos brevemente los tres servicios que nos otorga AWS para desplegar un Workspace con Active Directory: Service Directory, Simmple AD y por supuesto AD Connector.Detallaremos las conexiones, puertos y permisos requeridos para establecer una integración efectiva entre AD Connector y tu Active Directory. Por último, revisaremos de que tanto es capaz y las restricciones de AD Connector, ayudándote a evaluar si esta solución es adecuada para tus necesidades específicas.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HIB301+-+Deplegando+Amazon+WorkSpaces+con+AD+Connector+%C2%BFQu%C3%A9+consideraciones+debo+de+tener?+por+Elisa+Zamarr%C3%B3n+Mu%C3%B1oz",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/elisa_zamarron.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/zamacode/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/zamacode/",
+        "speakerBio": "Elisa es Ingeniera de Infraestructura con experiencia en despliegue, mantenimiento y monitoreo de servidores. Enfocada en networking y diseño de arquitecturas. Tiene un gran interés en conexiones hacia onpremise, multiVPCs, multiOrganizaciones y todo lo que implique una conexión inusual, combinaba los refrescos de cola, naranja y limón  cuando  era pequeña. Elisa es Solutions Architect Associate certificada por AWS"
     },
     {
         "id": "KUB302",
@@ -640,7 +650,8 @@ const sessions: Session[] = [
         "abstractSpanish": "Explora cómo Amazon EKS impulsa la revolución de la IA generativa. En esta sesión, aprende a entrenar y desplegar Modelos de Lenguaje como BERT-Large, Llama2 y Stable Diffusion, mostrando su impacto transformador. Sumérgete en el futuro de la IA con EKS para liderar la próxima ola de innovaciones tecnológicas.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB302+-+Deploying+Generative+Artificial+Intelligence+on+EKS:+Unlocking+the+Power+of+Language+Models+por+Eduardo+Camacho",
         "speakerPhotoUrl": "na",
-        "speakerLinkedIn": "na"
+        "speakerLinkedIn": "na",
+        "speakerBio": "na"
     },
     {
         "id": "IAG202",
@@ -677,7 +688,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Esta charla es para desarrolladores que estén listos para aprender sobre la genAI en AWS. Desarrollar aplicaciones con PartyRock y Bedrock, uso de modelos fundacionales, cómo “conversar con sus documentos” a través de bases de conocimiento y usar Amazon Q Developer para ayudar en la codificación.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG202+-+Desarrollo+con+IA+generativa+en+AWS+con+PartyRock,+Amazon+Bedrock+y+Amazon+Q++por+Ana+Barrag%C3%A1n",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/ana_milena.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/ana-milena-barragan-charry/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/ana-milena-barragan-charry/",
+        "speakerBio": "Ana es Ingeneria de sistemas con Maestría en Ingeniería de Software, experiencia en diseño e implementación de Arqutiecturas orientadas a eventos, microservicios y devops. Me especializo en Arquitecturas Serverless.Actualmente es Solutions Architect en Amazon Web Services (AWS), hace parte del AWS Technical Field Community de Serverless, y es hostdel canal de youtube Serveress Happy hours y track owner de serverless en el podcast oficial de AWS en español. Cofundadora y líder de la comunidad AWS Women Colombia, Vicepresidenta Women At Amazon Colombia."
     },
     {
         "id": "IAM202",
@@ -748,7 +760,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En los últimos años, los datos se han convertido en uno de los activos más valiosos para las organizaciones. La capacidad de gestionar, analizar y proteger los datos de manera eficiente es un factor decisivo para el éxito empresarial.En esta charla, descubrirás cómo implementar un catálogo de datos mediante AWS Glue y  cómo empresas de todo el mundo están utilizando esta herramienta para maximizar su eficiencia. Aprende paso a paso cómo configurar y utilizar crawlers para descubrir y catalogar tus datos automáticamente, manteniendo todo organizado y accesible.No te pierdas esta oportunidad de llevar tus habilidades de gestión de datos al siguiente nivel con AWS Glue.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ALT201+-+Domina+tus+datos:+Implementaci%C3%B3n+Eficaz+de+un+Cat%C3%A1logo+de+Datos+con+AWS+Glue+por+Arait+Monter",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/arait_monter.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/araitmonter"
+        "speakerLinkedIn": "https://www.linkedin.com/araitmonter",
+        "speakerBio": "Arait es especialista en Gobernanza de Datos con formación en Matemáticas Aplicadas y Computación. Ha desempeñado roles clave en análisis y ciencia de datos, enfocado a la gestión inteligente de datos. Su experiencia abarca desde la creación de estrategias  hasta la implementación de prácticas de automatización en AWS, buscando optimizar procesos y maximizar el valor de los datos."
     },
     {
         "id": "OPS205",
@@ -889,7 +902,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Explora cómo la ingeniería biomédica y la ciberseguridad en la nube se intersectan en esta sesión, descubriendo sinergias que ofrecen oportunidades de transformación profesional en tecnología. Aprende a transferir habilidades de campos STEM a la ciberseguridad, adaptar la experiencia a nuevos dominios, construir una red profesional y mantenerte competitivo como recién llegado. Basándose en un caso del mundo real de un ingeniero biomédico que se está trasladando a la ciberseguridad en la nube, esta charla proporciona consejos prácticos para superar desafíos y convertirlos en oportunidades para la innovación y el crecimiento. Ideal para profesionales que buscan nuevos desafíos tecnológicos, estudiantes que exploran caminos profesionales y líderes que buscan diversificar los equipos de seguridad.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG201+-+From+Biomedical+Engineering+to+Cloud+Cybersecurity:+A+Journey+of+Innovation+por+Agust%C3%ADn+Villarreal+Carrillo",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/agustin_villareal.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/agustinvillarreal/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/agustinvillarreal/",
+        "speakerBio": "Agustin es Cyber Security Engineer en AstraZeneca con alta experiencia en AWS y ciberseguridad. Especialista en CPSM, DLP y gestion de vulnerabilidades, es experimentado en desarrollo de automatizaciones para detección y remediación de vulnerabilidades. Agustin es Maestro en computación en la nube por parte de The University of Texas at Austin y AWS Security Specialist"
     },
     {
         "id": "MOD101",
@@ -1005,7 +1019,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Actualmente la velocidad con la que se desarrollan nuevas herramientas es abrumadora, es un reto mantenerce al día y saber de todas estas herramientas cuál deberíamos utilizar o cuál se acopla mejor a nuestras necesidades no es claro. Por ello quiero mostrarte un conjunto de herramientas estándar que pueden ayudarte a robustecer la arquitectura de tu plataforma de datos y empoderar a los usuarios que tienen acceso a ésta, así como liberar al equipo técnico de tareas repetitivas o de mantenimiento inecesario. Además de ser muy utilizadas en el mundo de los datos, estas herramientas cuentan con versión open source, por lo que es posible montar una implementación sin tener la necesidad de compromoterse a pagos o usos de las mismas. Estamos hablando de la combinación de Github, DBT Core y Ariflow.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ALT301+-+Herramientas+open-source+para+potenciar+tu+Data+Warehouse+por+Esa%C3%BA+Reyes",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/esau_reyes.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/esau-reyes-aws-data-specialty/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/esau-reyes-aws-data-specialty/",
+        "speakerBio": "Esaú es Data Engineer con experiencia en implementación de arquitecturas de datos basadas en eventos, batch y tiempo real. Especialista en los servicios de datos de AWS, actualmente ceritificado como Data Engineer por Amazon Web Services. Tiene un gran interés por el aprendizaje constante y la colaboaración con comunidades tech."
     },
     {
         "id": "SEG301",
@@ -1078,7 +1093,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En la era digital, las mujeres están desempeñando un papel fundamental en la transformación de la nube, pero su representación sigue siendo baja. Esta charla explora cómo las mujeres están liderando la innovación tecnológica y enfrentando desafíos únicos en el sector. Se destacarán ejemplos inspiradores de contribuciones significativas y se discutirán estrategias para promover la igualdad de género en la tecnología. Los asistentes descubrirán cómo la diversidad en la nube no solo es una cuestión de justicia, sino una clave para la innovación y el éxito. Únete a esta conversación para aprender cómo todos podemos contribuir a un futuro digital más inclusivo y equitativo.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HBL101+-+Igualdad+en+la+nube:+Mujeres+como+arquitectas+del+futuro+digital+por+Ana+Reyna",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/ana_reyna.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/anareynar/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/anareynar/",
+        "speakerBio": "Ana Reyna es DevOps Engineer con experiencia en la creación y gestión de entornos de producción en la nube. Ha contribuido a la mejora de la seguridad de los entornos, enfocándose en la escalabilidad y el monitoreo. También ha desarrollado y optimizado pipelines de CI/CD, asegurando despliegues eficientes y seguros. Con un fuerte interés en ciberseguridad, Ana trabaja continuamente en la implementación de prácticas que protejan la infraestructura y los datos."
     },
     {
         "id": "EMP201",
@@ -1259,7 +1275,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Como muchos, comencé mi aventura en la nube con grandes ilusiones y esperanzas... y, como todos, cometí unos cuantos errores en el camino.Te invito a una charla divertida y entretenida donde exploraremos esos tropiezos que todos hemos enfrentado al iniciar con AWS. Quizás, con un poco de suerte, aprenderás lo suficiente para evitar uno o dos de ellos.- ¿Crear una consola mejorada? ¡Por supuesto!- ¿Configurar instancias EC2 con IPs estáticas? ¡¿Por qué no?!- ¿Desarrollar tu propio CloudFormation? ¡Suena increíble!Ven a reírte un rato con los errores clásicos que casi todos cometemos al comenzar en la nube. Y quién sabe, puede que te vayas con algunas lecciones valiosas.Esta charla no es exclusivamente técnica, pero tocaremos algunos aspectos técnicos de AWS. Si algún chiste se te escapa, no te preocupes, ríe con confianza y busca el significado después.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HBL102+-+Los+errores+que+comet%C3%AD+cuando+empec%C3%A9+con+la+nube.+%C2%A1Ev%C3%ADtalos!+por+David+Sol",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/organizers/david-sol.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/soldavidcloud/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/soldavidcloud/",
+        "speakerBio": "David vive en la Ciudad de México con su esposa, su hija que estudia en la Facultad de Ciencias, y un conejo graduado de la Facultad de Quimica. Es un arquitecto de IT con experiencia en Computo de Nube e Ingeniería de Datos. Ha participado en importantes proyectos para empresas globales como Coca-Cola y Banco Colpatria. David desea difundir ideas para el avance de la tecnología, como su participación en el grupo AWS Community Builders confirma. Como orador, David ha ofrecido charlas sobre tecnologías en la Nube, Python, Inteligencia Artificial y otros temas, inspirando a las audiencias con su conocimiento y pasión por la innovación."
     },
     {
         "id": "SLS203",
@@ -1334,7 +1351,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "¿Estás listo para llevar tus prácticas de DevOps al siguiente nivel? En esta charla, exploraremos cómo madurar y optimizar los entornos de trabajo para que sean más fluidos, colaborativos y efectivos. Aprenderás estrategias clave para derribar barreras entre equipos, acelerar los ciclos de entrega y garantizar que tu organización esté preparada para responder rápidamente a las demandas del mercado. Te llevaremos a través de casos de éxito y técnicas comprobadas para transformar tus procesos y crear un entorno donde la innovación y la calidad del software florezcan. No te pierdas esta oportunidad de impulsar el futuro de tu equipo con practicas que fomenten agilidad, retroalimentación y clima de aprendizaje. ¡Es hora de evolucionar y hacer que todo funcione como un engranaje bien engrasado!",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS301+-+Madurar+pr%C3%A1cticas+de+DevOps:+Crear+entornos+eficientes+y+%C3%A1giles+que+ofrezcan+software+seguro+y+de+alta+calidad+por+Aar%C3%B3n+Mungu%C3%ADa",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/aaron_munguia.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/aaronmunguia/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/aaronmunguia/",
+        "speakerBio": "Aarón Munguía es un CTO con más de 10 años de experiencia, especializado en la construcción de equipos desde cero, el desarrollo organizacional, la implementación de procesos de desarrollo de software y la gestión del ciclo de vida del software. Es un líder enfocado en la calidad y eficiencia, capaz de alinear la tecnología con los objetivos estratégicos de la empresa."
     },
     {
         "id": "OPS206",
@@ -1408,7 +1426,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Esta charla se centra en explorar cómo podemos mejorar nuestras ideas de monitoreo y observabilidad en implementaciones serverless utilizando AWS Lambda, CloudWatch y Powertools. Discutiremos los conceptos clave y los pilares de la observabilidad para ayudarnos a comprender mejor cómo analizar registros y métricas y consolidarlos en un panel integrado en AWS. Con la ayuda de una demostración en vivo, recorreremos los pasos para implementar rápidamente estas soluciones, proporcionando conocimientos prácticos y habilidades para mejorar su arquitectura serverless.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS202+-+Monitoring+and+Observability+of+Lambdas+with+Cloudwatch+and+Powertools+por+Edwin+Alan+Moedano+Cardiel",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/edwin_moedano.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/edwinmoedano/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/edwinmoedano/",
+        "speakerBio": "Edwin es  un Cloud Engineer en Caylent, con una formación como desarrollador y experiencia principalmente en sectores como medios de comunicación, finanzas, comercio minorista, educación, entre otros.  Apasionado en temas como la cultura DevOps, automatización, pipelines, arquitectura de la información, experiencia del usuario, infraestructura basada en eventos, buenas prácticas de desarrollo, análisis de algoritmos, observabilidad y mecanismos de seguridad."
     },
     {
         "id": "ARQ302",
@@ -1672,7 +1691,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Kubernetes ha revolucionado la forma en que construimos y desplegamos software, pero seamos honestos: también puede sentirse como luchar contra una bestia mítica. La complejidad de gestionar la infraestructura, las cadenas de herramientas y los recursos en la nube a menudo deja a los desarrolladores sintiéndose abrumados y a los equipos de TI luchando por mantenerse al día.En esta sesión, desvelaremos el paraíso de los desarrolladores y los equipos de TI: una plataforma que empodera a los equipos para convertirse en rockstars nativos de la nube.Usando EKS, Backstage y ArgoCD junto con Github Actions, prepárate para inspirarte y transformar los procesos de desarrollo con ideas y estrategias prácticas para:- Acelerar nuevos productos basados en plantillas y cumplimiento predefinido- Fomentar la innovación- Optimizar el uso de recursos y la eficiencia de costos- Empoderar a los desarrolladores para que se concentren en lo que mejor hacen: construir software increíble¡No te pierdas esta oportunidad!",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS304+-+Running+Backstage+and+ArgoCD+with+EKS+to+build+a+Developer+Platform+por+Gabriel+Portela",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/gabriel_portela.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/gabportela/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/gabportela/",
+        "speakerBio": "Gabriel es Ingeniero de Computación en la nube, enfocado en prácticas y herramientas DevOps, con el objetivo de automatizar la infraestructura y garantizar una entrega eficaz de software. Trabaja diariamente con Kubernetes y busca profundizar en esta tecnología, además de tener un gran interés en el ecosistema Cloud Native. Posee algunas certificaciones, entre ellas AWS DevOps Professional, CKAD y Terraform Associate."
     },
     {
         "id": "SEG202",
@@ -1711,7 +1731,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Desbloquea el potencial de tus servicios internos con AWS API Gateway. Esta charla te guiará a través de la exposición segura de APIs internas tanto para el consumo interno como para socios externos, compartiendo ideas y mejores prácticas de implementaciones del mundo real.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG202+-+Secure+API+Integration:+Lessons+from+Implementing+AWS+API+Gateway+por+Enrique+Cuevas",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/kie_cuevas.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/enrique-cuevas/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/enrique-cuevas/",
+        "speakerBio": "Enrique Cuevas, aka Rastangineer, es Staff Site Reliability Engineer con más de 17 años de experiencia en IT. Experto en AWS, automatización, DevOps y seguridad, ha trabajado en HP, DXC, Oracle, AstraZeneca y ahora en Wizeline. Es AWS Certified Solutions Architect y se distingue por su pasión por la tecnología, su habilidad para resolver problemas y sus icónicas dreadlocks."
     },
     {
         "id": "KUB301",
@@ -1750,7 +1771,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "Herramienta impulsada por IA que simplifica la gestión de Kubernetes. Automatiza la solución de problemas, realiza análisis de causa raíz y proporciona información procesable dentro de su entorno. Ideal para expertos en DevOps y principiantes por igual, K8sGPT ahorra tiempo y reduce la complejidad de las operaciones nativas de la nube.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB301+-+Streamline+Kubernetes+Management+with+AI:+Unlocking+the+Power+of+K8sGPT+por+Alonso+Parasxidis+Moreno",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/alonso_parasxidis.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/alonsoparasxidis/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/alonsoparasxidis/",
+        "speakerBio": "Alonso es un experto en Kubernetes y contenedores, con un enfoque especializado en la implementación y gestión de infraestructuras escalables en AWS. Ha liderado proyectos de despliegue y automatización de infraestructuras, aprovechando servicios como Amazon EKS y EC2. Tiene una sólida experiencia en la orquestación de contenedores y en la administración de clústeres Kubernetes, siempre buscando mejorar la eficiencia y la resiliencia de las plataformas."
     },
     {
         "id": "OPS203",
@@ -1856,7 +1878,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En esta charla, compartiré consejos prácticos y hacks para optimizar tu trabajo con AWS, ya sea que estés empezando o seas un usuario avanzado. Aprenderás cómo mejorar la seguridad, gestionar mejor tus recursos, ahorrar dinero y obtener el soporte adecuado.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS201+-+Tips+%26+Hacks+para+trabajar+mejor+con+AWS+por+Edgar+Omar+Reyes+Cano",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/omar_reyes.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/eomar-r/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/eomar-r/",
+        "speakerBio": "Omar es Enterprise Cloud Solutions Architect y tiene 7 años de experiencia trabajando con varios servicios de AWS. Ha participado en diversos proyectos, desde desarrollos cloud native, migrations, hybrid cloud, DevOps, security, complience, SaaS, IaC con Terraform y Serverless Framework. Le encanta trabajar con servicios serverless y tiene certificaciones con AWS."
     },
     {
         "id": "DPS302",
@@ -1893,7 +1916,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En esta charla, exploraremos cómo AWS EKS (Elastic Kubernetes Service) y DevContainers pueden revolucionar la experiencia del desarrollador (DevEx) al facilitar entornos de desarrollo consistentes y altamente productivos. Discutiremos cómo DevContainers permite a los desarrolladores trabajar en entornos reproducibles y cómo EKS puede simplificar la administración de contenedores en producción. A través de ejemplos prácticos y demostraciones en vivo, mostraremos cómo estas herramientas pueden mejorar la eficiencia del desarrollo y acelerar el ciclo de vida de las aplicaciones.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS302+-+Transformando+la+Experiencia+del+Desarrollador+con+AWS+EKS+y+DevContainers+por+Alex+Parra",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/alex_parra.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/parraletz/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/parraletz/",
+        "speakerBio": "Alex es evangelista de tecnologías en la nube y el código abierto con más de 10 años de experiencia en IT. Comparte sus experiencias para inspirar un mundo más abierto, colaborativo e innovador donde 'Res publica non dominetur' sea una realidad."
     },
     {
         "id": "SLS303",
@@ -2003,7 +2027,8 @@ const sessions: Session[] = [
         "descriptionSpanish": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG203+-+Utilizar+Gen+AI+en+nuestro+an%C3%A1lisis+de+datos+como+un+campe%C3%B3n+por+Fabiana+Serangelli",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/fabiana_serangelli.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/fabianaserangelli/"
+        "speakerLinkedIn": "https://www.linkedin.com/in/fabianaserangelli/",
+        "speakerBio": "Fabiana es Solutions Architect en Amazon Web Services México con 4+ años de experiencia en tecnologías de la nube y 7 certificaciones de AWS. Su área de interés es la analítica, Machine Learning y el empoderamiento de Woman in Tech. Fuera del trabajo le gusta jugar videojuegos, leer, hacer ejercicio y jugar con mis perros."
     },
     {
         "id": "IOT101",
