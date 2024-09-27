@@ -43,9 +43,13 @@ export interface Session {{
     keywords: string[];
     cta: string;
     speaker: string;
+    speakerPhotoUrl?: string;
+    speakerLinkedIn?: string;
     speakerCompany?: string;
     speakerLocation?: string;
     coSpeaker?: string;
+    coSpeakerPhotoUrl?: string;
+    coSpeakerLinkedIn?: string;
     coSpeakerCompany?: string;
     coSpeakerLocation?: string;
     speakerImage: string;

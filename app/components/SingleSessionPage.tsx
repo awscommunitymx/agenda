@@ -23,7 +23,7 @@ import {
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {ExternalLinkIcon, Icon, TimeIcon} from "@chakra-ui/icons";
-import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
+import {FaHeart, FaLinkedin, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {formatTime, getTimeDifference} from "@/app/utils/time";
 import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
@@ -150,18 +150,33 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
 
                 <VStack alignItems={"start"}>
                     <HStack>
-                        <Avatar size="md" name={session.speaker} src={session.speakerImage}/>
+                        <Avatar size="md" name={session.speaker} src={session.speakerPhotoUrl}/>
                         <VStack align="start" spacing={0}>
-                            <Text fontWeight="bold">{session.speaker}</Text>
+                            <HStack alignItems="center">
+                                <Text fontWeight="bold">{session.speaker}</Text>
+                                {session.speakerLinkedIn && (
+                                    <Link href={session.speakerLinkedIn} isExternal display="flex" alignItems="center">
+                                        <Icon as={FaLinkedin}/>
+                                    </Link>
+                                )}
+                            </HStack>
                             <Text fontSize="sm"
                                   color="gray.500">{session.speakerCompany} - {session.speakerLocation}</Text>
                         </VStack>
                     </HStack>
                     {session.coSpeaker && (
                         <HStack>
-                            <Avatar size="md" name={session.coSpeaker} src={session.speakerImage}/>
+                            <Avatar size="md" name={session.coSpeaker} src={session.coSpeakerPhotoUrl}/>
                             <VStack align="start" spacing={0}>
-                                <Text fontWeight="bold">{session.coSpeaker}</Text>
+                                <HStack alignItems="center">
+                                    <Text fontWeight="bold">{session.coSpeaker}</Text>
+                                    {session.coSpeakerLinkedIn && (
+                                        <Link href={session.coSpeakerLinkedIn} isExternal display="flex"
+                                              alignItems="center">
+                                            <Icon as={FaLinkedin}/>
+                                        </Link>
+                                    )}
+                                </HStack>
                                 <Text fontSize="sm"
                                       color="gray.500">{session.coSpeakerCompany} - {session.coSpeakerLocation}</Text>
                             </VStack>
