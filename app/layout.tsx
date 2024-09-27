@@ -2,6 +2,7 @@
 import {Providers} from './providers'
 import React from "react";
 import Nav from "@/app/components/Nav";
+import {GoogleAnalytics, GoogleTagManager} from '@next/third-parties/google'
 
 
 export default function RootLayout({
@@ -24,6 +25,8 @@ export default function RootLayout({
         <Providers>
             <Nav/>
             {children}
+            <GoogleAnalytics gaId="G-50PRCD1G61"/>
+            <GoogleTagManager gtmId="G-50PRCD1G61"/>
         </Providers>
         </body>
         </html>
