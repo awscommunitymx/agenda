@@ -23,7 +23,7 @@ import {
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {ExternalLinkIcon, Icon, TimeIcon} from "@chakra-ui/icons";
-import {FaLinkedin, FaMapPin} from "react-icons/fa";
+import {FaHeart, FaLinkedin, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {formatTime, getTimeDifference} from "@/app/utils/time";
 import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
@@ -295,7 +295,8 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
 
                 {isLoaded ? (
                     <Button colorScheme={favorite ? 'yellow' : 'blue'} size="md" variant="solid"
-                            onClick={handleFavorite}>
+                            onClick={handleFavorite}
+                            rightIcon={favorite ? <Icon as={FaRegHeart}/> : <Icon as={FaHeart}/>}>
                         {favorite ? 'Eliminar de mi agenda' : 'Agregar a mi agenda'}
                     </Button>
                 ) : (
