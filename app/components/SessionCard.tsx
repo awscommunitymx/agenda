@@ -13,6 +13,7 @@ import {
     LinkOverlay,
     Skeleton,
     SkeletonCircle,
+    Stack,
     Text,
     useToast,
     VStack
@@ -130,8 +131,13 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                             <Skeleton height='10px'/>
                         )
                     }
-                    <HStack justify="space-between">
-                        <VStack align={"start"}>
+                    <Stack
+                        direction={{base: "column", md: "row"}}
+                        justify="space-between"
+                        align={{base: "stretch", md: "center"}}
+                        spacing={4}
+                    >
+                        <VStack align="start" spacing={2}>
                             <Badge colorScheme={getCategoryColor(session.category)}>
                                 {session.category}
                             </Badge>
@@ -139,17 +145,17 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                                 {session.level}
                             </Badge>
                         </VStack>
-                        <VStack align={"end"}>
+
+                        <VStack align={{base: "start", md: "end"}} spacing={2}>
                             <HStack>
                                 <TimeIcon/>
-                                {
-                                    isLoaded && (
-                                        <Text fontSize="sm" suppressHydrationWarning>
-                                            {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
-                                        </Text>
-                                    )
-                                }
-                                {!isLoaded && (<Skeleton height="10px"/>)}
+                                {isLoaded ? (
+                                    <Text fontSize="sm" suppressHydrationWarning>
+                                        {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
+                                    </Text>
+                                ) : (
+                                    <Skeleton height="10px" width="150px"/>
+                                )}
                             </HStack>
                             <HStack>
                                 <Icon as={FaMapPin}/>
@@ -158,7 +164,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                                 </Text>
                             </HStack>
                         </VStack>
-                    </HStack>
+                    </Stack>
 
                     <Text fontSize="xl" fontWeight="semibold">
                         <LinkOverlay as={NextLink} href={`/session/${session.id}`}>

@@ -16,6 +16,7 @@ import {
     Skeleton,
     SkeletonCircle,
     SkeletonText,
+    Stack,
     Text,
     useToast,
     VStack
@@ -128,7 +129,12 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                     )
                 }
 
-                <HStack justify={"space-between"}>
+                <Stack
+                    direction={{base: "column", md: "row"}}
+                    justify="space-between"
+                    align={{base: "stretch", md: "center"}}
+                    spacing={4}
+                >
                     <VStack alignItems={"start"}>
                         <Badge colorScheme={getCategoryColor(session.category)} alignSelf="flex-start">
                             {session.category}
@@ -142,7 +148,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                 rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
                         </Button>
                     </SkeletonCircle>
-                </HStack>
+                </Stack>
 
                 <Heading as="h1" size="xl" color="gray.700">
                     {session.title}
