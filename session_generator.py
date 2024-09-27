@@ -169,6 +169,8 @@ def csv_to_typescript(csv_file):
                 "Speaker location": "speakerLocation",
                 "Co-speaker": "coSpeaker",
                 "Speaker organization": "speakerCompany",
+                "Title (Spanish)": "titleSpanish",
+                "Abstract (Spanish)": "abstractSpanish",
                 "Description (Spanish)": "descriptionSpanish",
                 "Co-speaker location": "coSpeakerLocation",
                 "Co-speaker organization": "coSpeakerCompany",

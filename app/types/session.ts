@@ -10,6 +10,8 @@ export interface Session {
     title: string;
     abstract: string;
     description: string;
+    titleSpanish?: string;
+    abstractSpanish?: string;
     descriptionSpanish?: string;
     language: CFPLanguage;
     keywords: string[];
@@ -39,5 +41,4 @@ export interface SessionCardProps {
 
 export interface SessionListProps {
     sessions: Session[];
-    inAgendaPage?: boolean;
 }
