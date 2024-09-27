@@ -190,11 +190,11 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 </HStack>
 
                 <Text fontSize="md">
-                    Abstract: {session.abstract}
+                    <b>Resumen:</b> {session.abstract}
                 </Text>
 
                 <Text fontSize="md">
-                    Descripción: {session.description}
+                    <b>Descripción:</b> {session.description}
                 </Text>
 
 
