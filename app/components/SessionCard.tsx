@@ -194,13 +194,13 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                         <HStack spacing={2}>
                             <VStack alignItems={"start"}>
                                 <HStack>
-                                    <Avatar size="sm" name={session.speaker} src={session.speakerImage}/>
+                                    <Avatar size="sm" name={session.speaker} src={session.speakerPhotoUrl}/>
                                     <Text fontWeight="medium">{session.speaker}</Text>
                                 </HStack>
                                 {
                                     session.coSpeaker &&
                                     <HStack>
-                                        <Avatar size="sm" name={session.coSpeaker}/>
+                                        <Avatar size="sm" name={session.coSpeaker} src={session.coSpeakerPhotoUrl}/>
                                         <Text fontWeight="medium">{session.coSpeaker}</Text>
                                     </HStack>
                                 }

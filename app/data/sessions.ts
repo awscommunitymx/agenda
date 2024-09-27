@@ -1,6 +1,7 @@
-import {FaRegIdBadge} from 'react-icons/fa';
-import {IoFastFoodOutline, IoRibbonOutline} from 'react-icons/io5';
-import {PiChampagneBold} from 'react-icons/pi';
+import { FaRegIdBadge } from 'react-icons/fa';
+import { IoRibbonOutline } from 'react-icons/io5';
+import { IoFastFoodOutline } from 'react-icons/io5';
+import { PiChampagneBold } from 'react-icons/pi';
 import {Session} from "@/app/types/session";
 
 const sessions: Session[] = [
@@ -176,7 +177,9 @@ const sessions: Session[] = [
         "titleSpanish": "100K conexiones simultáneas en AWS",
         "abstractSpanish": "Descubre cómo la arquitectura serverless de AWS puede transformar este desafío colosal en tu ventaja competitiva. Se revelarán las claves para diseñar sistemas que crecen sin fronteras, superando los obstáculos y midiendo el rendimiento.",
         "descriptionSpanish": "Como funciona una arquitectura serverless AWS que pueda procesar 100K conexiones simultáneas, que límites considerar y como medir el performance.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SLS201+-+100K+conexiones+simult%C3%A1neas+en+AWS+por+Fernando+Paz"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SLS201+-+100K+conexiones+simult%C3%A1neas+en+AWS+por+Fernando+Paz",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/fernando_paz.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/pazfernando/"
     },
     {
         "id": "DPS306",
@@ -281,7 +284,9 @@ const sessions: Session[] = [
         "titleSpanish": "Arquitectura de Software para Web Apps Seguras en AWS con Conexión a Servicios Blockchain",
         "abstractSpanish": "Descubre cómo diseñar una arquitectura de software segura para integrar una web app con servicios blockchain utilizando AWS. Exploraremos patrones de diseño, mejores prácticas de seguridad y cómo Nohbek implementó esta solución para ofrecer servicios robustos y escalables en Ethereum.",
         "descriptionSpanish": "En esta charla, profundizaremos en el diseño y desarrollo de una arquitectura de software segura que integra una web app con servicios blockchain a través de AWS. Discutiremos patrones de diseño, mejores prácticas de seguridad, y la implementación de Amazon Managed Blockchain para crear aplicaciones escalables y robustas, ilustrando estos conceptos con un caso de estudio práctico de Nohbek.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ARQ301+-+Arquitectura+de+Software+para+Web+Apps+Seguras+en+AWS+con+Conexi%C3%B3n+a+Servicios+Blockchain+por+Brenda+Cuevas+V%C3%A1zquez"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ARQ301+-+Arquitectura+de+Software+para+Web+Apps+Seguras+en+AWS+con+Conexi%C3%B3n+a+Servicios+Blockchain+por+Brenda+Cuevas+V%C3%A1zquez",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/brenda_cuevas.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/soybrendacuevas/"
     },
     {
         "id": "DPS307",
@@ -351,7 +356,9 @@ const sessions: Session[] = [
         "titleSpanish": "AWS Direct Connect: Tu autopista de comunicación hacia la Nube",
         "abstractSpanish": "¿Sería lo mismo correr un deportivo por terracería que por una autopista de última generación? AWS Direct Connect es tu autopista segura y optimizada. Acompáñame para descubrir cómo las diferentes topologías pueden blindar tus comunicaciones, maximizar tu presupuesto y potenciar al máximo AWS",
         "descriptionSpanish": "En esta charla, exploraremos AWS Direct Connect, una solución de conectividad dedicada a la nube de AWS. Abordaremos sus beneficios, funcionamiento y arquitectura básica. Discutiremos casos de uso comunes, incluyendo conexiones entre centros de datos y AWS, migraciones de datos a gran escala, y optimización de aplicaciones críticas. También examinaremos su papel en arquitecturas de nube híbrida, estrategias de migración sin contratos de telecomunicaciones, y mejores prácticas para configuración y optimización de costos.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HIB302+-+AWS+Direct+Connect:+Tu+autopista+de+comunicaci%C3%B3n+hacia+la+Nube+por+Elizabeth+G%C3%B3mez+Guill%C3%A9n"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HIB302+-+AWS+Direct+Connect:+Tu+autopista+de+comunicaci%C3%B3n+hacia+la+Nube+por+Elizabeth+G%C3%B3mez+Guill%C3%A9n",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/elizabeth_gomez.jpeg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/elizabethgomezguillen/"
     },
     {
         "id": "OPS201",
@@ -386,7 +393,9 @@ const sessions: Session[] = [
         "titleSpanish": "Nube economía, y nube FinOps ¿Una transición?",
         "abstractSpanish": "Seleccionar diferentes metodologías de optimización de costos es una disyuntiva, el objetivo es preparar un ejercicio práctico para diseñar el plan de optimización costos en estructuras híbridas de nube y multinube como indicadores y herramientas nativas para planificar estas acciones.",
         "descriptionSpanish": "Esta charla explora la economía de nube y FinOps, centrándose en la gestión eficiente de costos en entornos cloud. Aborda los principios de la economía de nube, sus beneficios para las empresas, y la importancia de la optimización financiera en la adopción de tecnologías cloud. Se discutirán métodos para medir el retorno de inversión, preparar presupuestos, construir indicadores de rentabilidad y realizar ejercicios de optimización de costos en diferentes estructuras de nube. El objetivo es proporcionar herramientas prácticas para maximizar el valor empresarial de las inversiones en cloud computing.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS201+-+Cloud+economics,+y+cloud+FinOps+%C2%BFUna+transici%C3%B3n?+por+Barbara+Gaspar"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS201+-+Cloud+economics,+y+cloud+FinOps+%C2%BFUna+transici%C3%B3n?+por+Barbara+Gaspar",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/barbara_gaspar.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/barbaragaspargaona/"
     },
     {
         "id": "IAG201",
@@ -421,7 +430,9 @@ const sessions: Session[] = [
         "titleSpanish": "Cómo usar RAG para mejorar las respuestas de la IA Generativa",
         "abstractSpanish": "La técnica de Retrieval-Augmented Generation (RAG) ha revolucionado las aplicaciones de inteligencia artificial al mejorar la precisión y relevancia de las respuestas generadas. En esta sesión, exploraremos cómo RAG combina lo mejor de la búsqueda de información con la generación de texto, brindando respuestas contextualmente precisas. Descubre cómo los servicios de AWS pueden ayudarte a implementar esta poderosa técnica, optimizando el rendimiento de chatbots, sistemas de preguntas y respuestas, y la generación de contenido coherente. A través de ejemplos prácticos y arquitecturas de referencia, aprenderás a integrar RAG en tus soluciones, mejorando la capacidad de tus aplicaciones para ofrecer respuestas más precisas y ricas en contenido.",
         "descriptionSpanish": "El objetivo es entender qué es Retrieval-Augmented Generation (RAG), cómo funciona y cómo podemos usar los servicios de AWS para implementarlo eficientemente en nuestras aplicaciones.RAG, es una técnica que combina la búsqueda de información relevante (retrieval) con la generación de texto (generation) para proporcionar respuestas más precisas y contextualmente adecuadas. Se puede usar en aplicaciones de inteligencia artificial para mejorar la precisión de los chatbots, generar contenido de manera más coherente y proporcionar respuestas más precisas en sistemas de preguntas y respuestas.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG201+-+C%C3%B3mo+usar+RAG+para+mejorar+las+respuestas+de+la+IA+Generativa+por+Aleja+Henao+Espitia"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG201+-+C%C3%B3mo+usar+RAG+para+mejorar+las+respuestas+de+la+IA+Generativa+por+Aleja+Henao+Espitia",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/aleja_henao.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/alejahenaoe/"
     },
     {
         "id": "KEY101",
@@ -442,7 +453,8 @@ const sessions: Session[] = [
         "category": "Conferencia magistral",
         "level": "L100",
         "room": "Minerva",
-        "speakerLocation": "Jalisco, México"
+        "speakerLocation": "Jalisco, México",
+        "speakerLinkedIn": "https://www.linkedin.com/in/softwarechido/"
     },
     {
         "id": "DPS303",
@@ -477,7 +489,9 @@ const sessions: Session[] = [
         "titleSpanish": "Creando arquitecturas para la ingeniería de plataformas en AWS",
         "abstractSpanish": "¿Qué necesito para crear una arquitectura de ingeniería de plataformas exitosa? Aprenda a pensar en aspectos arquitectónicos esenciales relevantes para la ingeniería de plataformas y cómo implementar estos aspectos en su solución. Exploraremos en profundidad cómo diseñar una arquitectura de ingeniería de plataformas utilizando servicios de AWS y otras tecnologías.",
         "descriptionSpanish": "¿Por qué la Ingeniería de Plataformas? Según Gartner, la Ingeniería de Plataformas es un tema en crecimiento en la industria. Muchas empresas han comenzado a diseñar sus propias Plataformas Internas para Desarrolladores y están tratando de mejorar la Experiencia del Desarrollador para aumentar la productividad. En esta sesión, aprenderemos sobre la Ingeniería de Plataformas y cómo diseñar estas soluciones en AWS.",
-        "rateUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg"
+        "rateUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/armandoherra/"
     },
     {
         "id": "IAM201",
@@ -512,7 +526,9 @@ const sessions: Session[] = [
         "titleSpanish": "De los datos a las melodías: Aprendizaje automático en la música",
         "abstractSpanish": "Descubre la unión entre Machine Learning y la creación de melodías. Aprende cómo los datos pueden generar composiciones originales, junto con los desafíos y enfoques prometedores utilizando Redes Generativas Antagónicas (GAN). Explora las posibilidades y experimentemos juntos con AWS DeepComposer.",
         "descriptionSpanish": "En los últimos años, el Machine Learning ha logrado avances significativos en el campo de la creación musical, permitiendo el desarrollo de algoritmos que pueden generar melodías, armonías e incluso canciones completas. Esta charla explorará la intersección entre el machine learning y la música, enfocándose en cómo los datos pueden utilizarse para crear composiciones originales de melodías cortas. Discutiremos los desafíos de utilizar machine learning para la creación musical, incluyendo temas relacionados con la recolección de datos, el entrenamiento de modelos y la evaluación. También exploraremos algunos de los enfoques más prometedores para usar machine learning en la música, como las técnicas de Redes Generativas Antagónicas (GAN) y el deep learning. Tendremos una demostración en vivo utilizando AWS DeepComposer. Al final de esta charla, los asistentes tendrán una mejor comprensión de cómo el machine learning puede utilizarse para crear melodías y las emocionantes posibilidades que este campo emergente tiene por delante.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAM201+-+De+los+datos+a+las+melod%C3%ADas:+Aprendizaje+autom%C3%A1tico+en+la+m%C3%BAsica+por+C%C3%A9sar+Martinez"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAM201+-+De+los+datos+a+las+melod%C3%ADas:+Aprendizaje+autom%C3%A1tico+en+la+m%C3%BAsica+por+C%C3%A9sar+Martinez",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/cesar_martinez.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/iscesar/"
     },
     {
         "id": "DPS202",
@@ -549,7 +565,9 @@ const sessions: Session[] = [
         "titleSpanish": "Del Código hacia la Nube: Creando Infraestructura desde Código Fuente con AWS CDK",
         "abstractSpanish": "Se mostrará cómo AWS CDK está transformando la manera en que las organizaciones despliegan y gestionan sus infraestructuras en la nube. Aprenderán a definir, desplegar y gestionar recursos de AWS desde el código fuente usando lenguajes conocidos, 1 ejemplo práctico y conceptos teóricos importantes.",
         "descriptionSpanish": "En esta charla, los participantes aprenderán los fundamentos de Infraestructura como Código (IaC) y AWS CDK, cómo definir y desplegar recursos AWS usando CDK, y las mejores prácticas, patrones de diseño y técnicas de automatización asociadas. Dirigida a quienes tienen conocimientos básicos de AWS, la sesión proporcionará habilidades prácticas en la implementación de infraestructura como código, beneficiando tanto a desarrolladores como a arquitectos de soluciones.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS202+-+Del+C%C3%B3digo+hacia+la+Nube:+Creando+Infraestructura+desde+C%C3%B3digo+Fuente+con+AWS+CDK+por+Erick+J.+Pineda+Am%C3%A9zquita"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS202+-+Del+C%C3%B3digo+hacia+la+Nube:+Creando+Infraestructura+desde+C%C3%B3digo+Fuente+con+AWS+CDK+por+Erick+J.+Pineda+Am%C3%A9zquita",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/erick_pineda.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/erick-j-pineda-am%C3%A9zquita-1808801a4/"
     },
     {
         "id": "HIB301",
@@ -584,7 +602,9 @@ const sessions: Session[] = [
         "titleSpanish": "Deplegando Amazon WorkSpaces con AD Connector ¿Qué consideraciones debo de tener?",
         "abstractSpanish": "AD Connector permite desplegar Amazon Workspaces utilizando un Active Directory existente on-premise. Es importante considerar las conexiones y permisos requeridos para lograrlo. Entender los alcances y limitaciones de AD Connector te ayudará a determinar si es la opción adecuada para tu caso de uso.",
         "descriptionSpanish": "Durante la sesión, exploraremos brevemente los tres servicios que nos otorga AWS para desplegar un Workspace con Active Directory: Service Directory, Simmple AD y por supuesto AD Connector.Detallaremos las conexiones, puertos y permisos requeridos para establecer una integración efectiva entre AD Connector y tu Active Directory. Por último, revisaremos de que tanto es capaz y las restricciones de AD Connector, ayudándote a evaluar si esta solución es adecuada para tus necesidades específicas.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HIB301+-+Deplegando+Amazon+WorkSpaces+con+AD+Connector+%C2%BFQu%C3%A9+consideraciones+debo+de+tener?+por+Elisa+Zamarr%C3%B3n+Mu%C3%B1oz"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HIB301+-+Deplegando+Amazon+WorkSpaces+con+AD+Connector+%C2%BFQu%C3%A9+consideraciones+debo+de+tener?+por+Elisa+Zamarr%C3%B3n+Mu%C3%B1oz",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/elisa_zamarron.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/zamacode/"
     },
     {
         "id": "KUB302",
@@ -617,7 +637,9 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "titleSpanish": "Desplegando Inteligencia Artificial Generativa en EKS: Desbloqueando el Poder de los Modelos de Lenguaje",
         "abstractSpanish": "Explora cómo Amazon EKS impulsa la revolución de la IA generativa. En esta sesión, aprende a entrenar y desplegar Modelos de Lenguaje como BERT-Large, Llama2 y Stable Diffusion, mostrando su impacto transformador. Sumérgete en el futuro de la IA con EKS para liderar la próxima ola de innovaciones tecnológicas.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB302+-+Deploying+Generative+Artificial+Intelligence+on+EKS:+Unlocking+the+Power+of+Language+Models+por+Eduardo+Camacho"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB302+-+Deploying+Generative+Artificial+Intelligence+on+EKS:+Unlocking+the+Power+of+Language+Models+por+Eduardo+Camacho",
+        "speakerPhotoUrl": "na",
+        "speakerLinkedIn": "na"
     },
     {
         "id": "IAG202",
@@ -652,7 +674,9 @@ const sessions: Session[] = [
         "titleSpanish": "Desarrollo con IA generativa en AWS con PartyRock, Amazon Bedrock y Amazon Q",
         "abstractSpanish": "Esta charla está diseñada para desarrolladores que estén listos para aprender sobre la IA generativa en AWS. Aprenderá a desarrollar aplicaciones con PartyRock y Amazon Bedrock. Se centrará en habilidades prácticas como la ingeniería rápida y el uso de diferentes modelos fundamentales. También exploraremos cómo “conversar con sus documentos” a través de bases de conocimiento, generación aumentada de recuperación (RAG), incrustaciones y agentes. Además, descubrirá cómo usar Amazon Q Developer para ayudar en la codificación y la depuración.",
         "descriptionSpanish": "Esta charla es para desarrolladores que estén listos para aprender sobre la genAI en AWS. Desarrollar aplicaciones con PartyRock y Bedrock, uso de modelos fundacionales, cómo “conversar con sus documentos” a través de bases de conocimiento y usar Amazon Q Developer para ayudar en la codificación.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG202+-+Desarrollo+con+IA+generativa+en+AWS+con+PartyRock,+Amazon+Bedrock+y+Amazon+Q++por+Ana+Barrag%C3%A1n"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG202+-+Desarrollo+con+IA+generativa+en+AWS+con+PartyRock,+Amazon+Bedrock+y+Amazon+Q++por+Ana+Barrag%C3%A1n",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/ana_milena.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/ana-milena-barragan-charry/"
     },
     {
         "id": "IAM202",
@@ -685,7 +709,8 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "titleSpanish": "Diálogo con el Futuro: Navegando la Ética y Responsabilidad Humana en la Era de la IA Razonante",
         "abstractSpanish": "En esta charla, nos adentraremos en el fascinante desarrollo de la Inteligencia Artificial razonante, una tecnología que promete transformar profundamente nuestra sociedad y plantea preguntas críticas sobre nuestra responsabilidad como creadores y usuarios.",
-        "descriptionSpanish": "Exploraremos la evolución de la IA desde sus formas iniciales hasta los sistemas futuros capaces de razonamiento avanzado, comparando su potencial con la inteligencia humana."
+        "descriptionSpanish": "Exploraremos la evolución de la IA desde sus formas iniciales hasta los sistemas futuros capaces de razonamiento avanzado, comparando su potencial con la inteligencia humana.",
+        "speakerLinkedIn": "https://www.linkedin.com/in/mario-alberto-rodriguez-bolanos/"
     },
     {
         "id": "ALT201",
@@ -720,7 +745,9 @@ const sessions: Session[] = [
         "titleSpanish": "Domina tus datos: Implementación Eficaz de un Catálogo de Datos con AWS Glue",
         "abstractSpanish": "¡Descubre cómo revolucionar la gestión de tus datos con AWS Glue! Implementa un catálogo de datos eficiente y newbie-friendly. Crea un entorno de Gobierno de Datos con lo último de AWS. Transforma tu negocio, maximiza tu eficiencia y lleva tus datos al siguiente nivel.",
         "descriptionSpanish": "En los últimos años, los datos se han convertido en uno de los activos más valiosos para las organizaciones. La capacidad de gestionar, analizar y proteger los datos de manera eficiente es un factor decisivo para el éxito empresarial.En esta charla, descubrirás cómo implementar un catálogo de datos mediante AWS Glue y  cómo empresas de todo el mundo están utilizando esta herramienta para maximizar su eficiencia. Aprende paso a paso cómo configurar y utilizar crawlers para descubrir y catalogar tus datos automáticamente, manteniendo todo organizado y accesible.No te pierdas esta oportunidad de llevar tus habilidades de gestión de datos al siguiente nivel con AWS Glue.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ALT201+-+Domina+tus+datos:+Implementaci%C3%B3n+Eficaz+de+un+Cat%C3%A1logo+de+Datos+con+AWS+Glue+por+Arait+Monter"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ALT201+-+Domina+tus+datos:+Implementaci%C3%B3n+Eficaz+de+un+Cat%C3%A1logo+de+Datos+con+AWS+Glue+por+Arait+Monter",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/arait_monter.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/araitmonter"
     },
     {
         "id": "OPS205",
@@ -859,7 +886,9 @@ const sessions: Session[] = [
         "titleSpanish": "De la Ingeniería Biomédica a la Ciberseguridad en la Nube: Un Viaje de Innovación",
         "abstractSpanish": "¡Descubre cómo un ingeniero biomédico se convirtió en un experto en ciberseguridad en la nube! Descubre los sorprendentes vínculos entre disciplinas, aprende a aprovechar habilidades únicas y revoluciona tu trayectoria profesional. Obtén estrategias prácticas para prosperar en el futuro interdisciplinario de la tecnología. ¡Tu próxima evolución profesional te espera!",
         "descriptionSpanish": "Explora cómo la ingeniería biomédica y la ciberseguridad en la nube se intersectan en esta sesión, descubriendo sinergias que ofrecen oportunidades de transformación profesional en tecnología. Aprende a transferir habilidades de campos STEM a la ciberseguridad, adaptar la experiencia a nuevos dominios, construir una red profesional y mantenerte competitivo como recién llegado. Basándose en un caso del mundo real de un ingeniero biomédico que se está trasladando a la ciberseguridad en la nube, esta charla proporciona consejos prácticos para superar desafíos y convertirlos en oportunidades para la innovación y el crecimiento. Ideal para profesionales que buscan nuevos desafíos tecnológicos, estudiantes que exploran caminos profesionales y líderes que buscan diversificar los equipos de seguridad.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG201+-+From+Biomedical+Engineering+to+Cloud+Cybersecurity:+A+Journey+of+Innovation+por+Agust%C3%ADn+Villarreal+Carrillo"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG201+-+From+Biomedical+Engineering+to+Cloud+Cybersecurity:+A+Journey+of+Innovation+por+Agust%C3%ADn+Villarreal+Carrillo",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/agustin_villareal.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/agustinvillarreal/"
     },
     {
         "id": "MOD101",
@@ -973,7 +1002,9 @@ const sessions: Session[] = [
         "titleSpanish": "Herramientas open-source para potenciar tu Data Warehouse",
         "abstractSpanish": "Contar con la combinación correcta de herramientas y la arquitectura adecuada es clave para poder empoderar a nuestra empresa y usuarios a sacar el máximo provecho de nuestros datos, por ello les presentaré el stack estándar que podemos utilizar con herramientas open source: Git,DBT y Apache Airflow",
         "descriptionSpanish": "Actualmente la velocidad con la que se desarrollan nuevas herramientas es abrumadora, es un reto mantenerce al día y saber de todas estas herramientas cuál deberíamos utilizar o cuál se acopla mejor a nuestras necesidades no es claro. Por ello quiero mostrarte un conjunto de herramientas estándar que pueden ayudarte a robustecer la arquitectura de tu plataforma de datos y empoderar a los usuarios que tienen acceso a ésta, así como liberar al equipo técnico de tareas repetitivas o de mantenimiento inecesario. Además de ser muy utilizadas en el mundo de los datos, estas herramientas cuentan con versión open source, por lo que es posible montar una implementación sin tener la necesidad de compromoterse a pagos o usos de las mismas. Estamos hablando de la combinación de Github, DBT Core y Ariflow.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ALT301+-+Herramientas+open-source+para+potenciar+tu+Data+Warehouse+por+Esa%C3%BA+Reyes"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ALT301+-+Herramientas+open-source+para+potenciar+tu+Data+Warehouse+por+Esa%C3%BA+Reyes",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/esau_reyes.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/esau-reyes-aws-data-specialty/"
     },
     {
         "id": "SEG301",
@@ -1044,7 +1075,9 @@ const sessions: Session[] = [
         "titleSpanish": "Igualdad en la nube: Mujeres como arquitectas del futuro digital",
         "abstractSpanish": "Las mujeres están impulsando la innovación en la nube, pero siguen subrepresentadas. Esta charla explora sus contribuciones clave, los desafíos que enfrentan y cómo fomentar la igualdad de género puede enriquecer la transformación digital. ¡Descubre cómo construir un futuro más inclusivo!",
         "descriptionSpanish": "En la era digital, las mujeres están desempeñando un papel fundamental en la transformación de la nube, pero su representación sigue siendo baja. Esta charla explora cómo las mujeres están liderando la innovación tecnológica y enfrentando desafíos únicos en el sector. Se destacarán ejemplos inspiradores de contribuciones significativas y se discutirán estrategias para promover la igualdad de género en la tecnología. Los asistentes descubrirán cómo la diversidad en la nube no solo es una cuestión de justicia, sino una clave para la innovación y el éxito. Únete a esta conversación para aprender cómo todos podemos contribuir a un futuro digital más inclusivo y equitativo.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HBL101+-+Igualdad+en+la+nube:+Mujeres+como+arquitectas+del+futuro+digital+por+Ana+Reyna"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HBL101+-+Igualdad+en+la+nube:+Mujeres+como+arquitectas+del+futuro+digital+por+Ana+Reyna",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/ana_reyna.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/anareynar/"
     },
     {
         "id": "EMP201",
@@ -1114,7 +1147,8 @@ const sessions: Session[] = [
         "speakerCompany": "Accenture",
         "titleSpanish": "La importancia de documentar soluciones web",
         "abstractSpanish": "Comunmente pasa desapercibido la importancia de documentar soluciones pues no se considera el impacto que tiene para futuras implementaciones y decisiones. Esta platica es un panorama general con ejemplos reales, que yo misma vivi, de los beneficios que se tiene al documentar soluciones web",
-        "descriptionSpanish": "¡No se pierdan esta charla relampago sobre la importancia de documentar soluciones de arquitectura! Nuestra experta, con vasta experiencia internacional como consultora en tecnología, presentará ejemplos reales que demuestran porqué una documentación precisa puede transformar la gestión y diseño de aplicaciones complejas. Aprendan cómo estas técnicas beneficiarán a todos los miembros del equipo, desde desarrolladores hasta arquitectos y administradores, optimizando la implementación y continua mejora. ¡Un evento imperdible para incremantar las habilidades y la colaboración en cualquier rol técnico!"
+        "descriptionSpanish": "¡No se pierdan esta charla relampago sobre la importancia de documentar soluciones de arquitectura! Nuestra experta, con vasta experiencia internacional como consultora en tecnología, presentará ejemplos reales que demuestran porqué una documentación precisa puede transformar la gestión y diseño de aplicaciones complejas. Aprendan cómo estas técnicas beneficiarán a todos los miembros del equipo, desde desarrolladores hasta arquitectos y administradores, optimizando la implementación y continua mejora. ¡Un evento imperdible para incremantar las habilidades y la colaboración en cualquier rol técnico!",
+        "speakerLinkedIn": "https://www.linkedin.com/in/mirosgalvan/"
     },
     {
         "id": "HBL201",
@@ -1222,7 +1256,9 @@ const sessions: Session[] = [
         "titleSpanish": "Los errores que cometí cuando empecé con la nube. ¡Evítalos!",
         "abstractSpanish": "Únete a una charla divertida sobre los errores comunes al empezar con AWS. Desde configurar EC2 con IPs estáticas hasta crear un CloudFormation propio, reiremos juntos y aprenderás cómo evitar estos tropiezos. No es técnica, pero sí entretenida y llena de lecciones útiles. ¡Ríe, aprende y disfruta!",
         "descriptionSpanish": "Como muchos, comencé mi aventura en la nube con grandes ilusiones y esperanzas... y, como todos, cometí unos cuantos errores en el camino.Te invito a una charla divertida y entretenida donde exploraremos esos tropiezos que todos hemos enfrentado al iniciar con AWS. Quizás, con un poco de suerte, aprenderás lo suficiente para evitar uno o dos de ellos.- ¿Crear una consola mejorada? ¡Por supuesto!- ¿Configurar instancias EC2 con IPs estáticas? ¡¿Por qué no?!- ¿Desarrollar tu propio CloudFormation? ¡Suena increíble!Ven a reírte un rato con los errores clásicos que casi todos cometemos al comenzar en la nube. Y quién sabe, puede que te vayas con algunas lecciones valiosas.Esta charla no es exclusivamente técnica, pero tocaremos algunos aspectos técnicos de AWS. Si algún chiste se te escapa, no te preocupes, ríe con confianza y busca el significado después.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HBL102+-+Los+errores+que+comet%C3%AD+cuando+empec%C3%A9+con+la+nube.+%C2%A1Ev%C3%ADtalos!+por+David+Sol"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=HBL102+-+Los+errores+que+comet%C3%AD+cuando+empec%C3%A9+con+la+nube.+%C2%A1Ev%C3%ADtalos!+por+David+Sol",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/organizers/david-sol.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/soldavidcloud/"
     },
     {
         "id": "SLS203",
@@ -1295,7 +1331,9 @@ const sessions: Session[] = [
         "titleSpanish": "Madurar prácticas de DevOps: Crear entornos eficientes y ágiles que ofrezcan software seguro y de alta calidad",
         "abstractSpanish": "¡Desbloquee todo el potencial de sus prácticas DevOps! Aprenda a perfeccionar y optimizar sus flujos de trabajo, eliminando los silos y fomentando la colaboración. Descubra las claves para crear entornos eficientes y ágiles que impulsen la innovación y ofrezcan software suegro y de alta calidad.",
         "descriptionSpanish": "¿Estás listo para llevar tus prácticas de DevOps al siguiente nivel? En esta charla, exploraremos cómo madurar y optimizar los entornos de trabajo para que sean más fluidos, colaborativos y efectivos. Aprenderás estrategias clave para derribar barreras entre equipos, acelerar los ciclos de entrega y garantizar que tu organización esté preparada para responder rápidamente a las demandas del mercado. Te llevaremos a través de casos de éxito y técnicas comprobadas para transformar tus procesos y crear un entorno donde la innovación y la calidad del software florezcan. No te pierdas esta oportunidad de impulsar el futuro de tu equipo con practicas que fomenten agilidad, retroalimentación y clima de aprendizaje. ¡Es hora de evolucionar y hacer que todo funcione como un engranaje bien engrasado!",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS301+-+Madurar+pr%C3%A1cticas+de+DevOps:+Crear+entornos+eficientes+y+%C3%A1giles+que+ofrezcan+software+seguro+y+de+alta+calidad+por+Aar%C3%B3n+Mungu%C3%ADa"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS301+-+Madurar+pr%C3%A1cticas+de+DevOps:+Crear+entornos+eficientes+y+%C3%A1giles+que+ofrezcan+software+seguro+y+de+alta+calidad+por+Aar%C3%B3n+Mungu%C3%ADa",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/aaron_munguia.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/aaronmunguia/"
     },
     {
         "id": "OPS206",
@@ -1331,7 +1369,8 @@ const sessions: Session[] = [
         "speakerCompany": "EPAM Systems",
         "titleSpanish": "Dominando la Observabilidad en AWS: Un Día en la Vida de un SRE",
         "abstractSpanish": "Únete a nosotros para explorar cómo la observabilidad mejora el trabajo de SRE en AWS. Aprende cómo herramientas como CloudWatch, Prometheus y OpenTelemetry ayudan a monitorear y optimizar la infraestructura en la nube, con demostraciones en vivo sobre cómo garantizar la estabilidad y una rápida respuesta a incidentes.",
-        "descriptionSpanish": "La audiencia se llevará tres ideas clave: Primero, aprenderán cómo implementar la observabilidad en AWS utilizando herramientas como AWS CloudWatch, Prometheus y OpenTelemetry para monitorear y optimizar infraestructuras distribuidas. Segundo, entenderán cómo la observabilidad mejora el rendimiento y la confiabilidad al permitir que los SREs detecten problemas rápidamente, mejoren el rendimiento de las aplicaciones y mantengan la estabilidad en entornos dinámicos. Finalmente, exploraremos el papel de un SRE en AWS, mostrando ejemplos del mundo real de cómo la observabilidad les permite gestionar la infraestructura proactivamente, mejorando los tiempos de respuesta ante incidentes."
+        "descriptionSpanish": "La audiencia se llevará tres ideas clave: Primero, aprenderán cómo implementar la observabilidad en AWS utilizando herramientas como AWS CloudWatch, Prometheus y OpenTelemetry para monitorear y optimizar infraestructuras distribuidas. Segundo, entenderán cómo la observabilidad mejora el rendimiento y la confiabilidad al permitir que los SREs detecten problemas rápidamente, mejoren el rendimiento de las aplicaciones y mantengan la estabilidad en entornos dinámicos. Finalmente, exploraremos el papel de un SRE en AWS, mostrando ejemplos del mundo real de cómo la observabilidad les permite gestionar la infraestructura proactivamente, mejorando los tiempos de respuesta ante incidentes.",
+        "speakerLinkedIn": "https://www.linkedin.com/in/jm19/"
     },
     {
         "id": "OPS202",
@@ -1366,7 +1405,9 @@ const sessions: Session[] = [
         "titleSpanish": "Monitoreo y Observabilidad de Lambdas con Cloudwatch y Powertools",
         "abstractSpanish": "En esta charla, exploraremos cómo mejorar la visibilidad y el monitoreo en entornos sin servidor utilizando herramientas de AWS como CloudWatch y Powertools, discutiendo estrategias para monitorear el rendimiento y el comportamiento de las funciones Lambda, ofreciendo soluciones prácticas para optimizar y mantener un servicio de calidad.",
         "descriptionSpanish": "Esta charla se centra en explorar cómo podemos mejorar nuestras ideas de monitoreo y observabilidad en implementaciones serverless utilizando AWS Lambda, CloudWatch y Powertools. Discutiremos los conceptos clave y los pilares de la observabilidad para ayudarnos a comprender mejor cómo analizar registros y métricas y consolidarlos en un panel integrado en AWS. Con la ayuda de una demostración en vivo, recorreremos los pasos para implementar rápidamente estas soluciones, proporcionando conocimientos prácticos y habilidades para mejorar su arquitectura serverless.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS202+-+Monitoring+and+Observability+of+Lambdas+with+Cloudwatch+and+Powertools+por+Edwin+Alan+Moedano+Cardiel"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS202+-+Monitoring+and+Observability+of+Lambdas+with+Cloudwatch+and+Powertools+por+Edwin+Alan+Moedano+Cardiel",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/edwin_moedano.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/edwinmoedano/"
     },
     {
         "id": "ARQ302",
@@ -1628,7 +1669,9 @@ const sessions: Session[] = [
         "titleSpanish": "Correr Backstage y ArgoCD con EKS para construir una Plataforma para Desarrolladores",
         "abstractSpanish": "[SESIÓN EN INGLÉS] Imagina una producción teatral bulliciosa, donde innumerables actores, directores y tramoyistas trabajan juntos para crear una actuación impecable. Ahora, imagina a los equipos de desarrollo como ese conjunto, y Kubernetes como el complejo escenario. Entra la Plataforma de Desarrolladores para orquestar todo detrás de escena.",
         "descriptionSpanish": "Kubernetes ha revolucionado la forma en que construimos y desplegamos software, pero seamos honestos: también puede sentirse como luchar contra una bestia mítica. La complejidad de gestionar la infraestructura, las cadenas de herramientas y los recursos en la nube a menudo deja a los desarrolladores sintiéndose abrumados y a los equipos de TI luchando por mantenerse al día.En esta sesión, desvelaremos el paraíso de los desarrolladores y los equipos de TI: una plataforma que empodera a los equipos para convertirse en rockstars nativos de la nube.Usando EKS, Backstage y ArgoCD junto con Github Actions, prepárate para inspirarte y transformar los procesos de desarrollo con ideas y estrategias prácticas para:- Acelerar nuevos productos basados en plantillas y cumplimiento predefinido- Fomentar la innovación- Optimizar el uso de recursos y la eficiencia de costos- Empoderar a los desarrolladores para que se concentren en lo que mejor hacen: construir software increíble¡No te pierdas esta oportunidad!",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS304+-+Running+Backstage+and+ArgoCD+with+EKS+to+build+a+Developer+Platform+por+Gabriel+Portela"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS304+-+Running+Backstage+and+ArgoCD+with+EKS+to+build+a+Developer+Platform+por+Gabriel+Portela",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/gabriel_portela.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/gabportela/"
     },
     {
         "id": "SEG202",
@@ -1665,7 +1708,9 @@ const sessions: Session[] = [
         "titleSpanish": "Integración segura de API: Lecciones de la implementación de AWS API Gateway",
         "abstractSpanish": "¡Desata el poder de tus servicios internos a través de AWS API Gateway! En esta sesión informativa, recibirás las pautas sobre cómo exponer de forma segura las API internas. Obtén conocimientos prácticos sobre cómo hacer cumplir un consumo interno consistente y seguro, garantizando al mismo tiempo una seguridad confiable para el consumo de socios externos. No importa si eres un desarrollador, arquitecto o gerente de TI, esta presentación está destinada a proporcionarte el conocimiento necesario para conectar de manera efectiva los servicios internos y las integraciones externas.",
         "descriptionSpanish": "Desbloquea el potencial de tus servicios internos con AWS API Gateway. Esta charla te guiará a través de la exposición segura de APIs internas tanto para el consumo interno como para socios externos, compartiendo ideas y mejores prácticas de implementaciones del mundo real.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG202+-+Secure+API+Integration:+Lessons+from+Implementing+AWS+API+Gateway+por+Enrique+Cuevas"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG202+-+Secure+API+Integration:+Lessons+from+Implementing+AWS+API+Gateway+por+Enrique+Cuevas",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/kie_cuevas.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/enrique-cuevas/"
     },
     {
         "id": "KUB301",
@@ -1702,7 +1747,9 @@ const sessions: Session[] = [
         "titleSpanish": "Optimiza la gestión de Kubernetes con IA: Desbloqueando el poder de K8sGPT",
         "abstractSpanish": "En esta sesión, exploraremos cómo K8sGPT, una herramienta innovadora impulsada por IA, revoluciona la gestión de Kubernetes al automatizar tareas complejas como la solución de problemas, el análisis de causas raíz y la optimización del rendimiento. Ya seas un profesional experimentado en DevOps o nuevo en Kubernetes, esta charla demostrará cómo K8sGPT puede simplificar tus operaciones, reducir el tiempo de inactividad y mejorar la eficiencia general en la gestión de aplicaciones nativas de la nube. Nos sumergiremos en escenarios del mundo real, mostrando cómo K8sGPT identifica y resuelve problemas rápidamente, ayudándote a centrarte en escalar y desarrollar tus aplicaciones con confianza. Únete a nosotros para descubrir cómo la IA está transformando la forma en que gestionamos clústeres de Kubernetes.",
         "descriptionSpanish": "Herramienta impulsada por IA que simplifica la gestión de Kubernetes. Automatiza la solución de problemas, realiza análisis de causa raíz y proporciona información procesable dentro de su entorno. Ideal para expertos en DevOps y principiantes por igual, K8sGPT ahorra tiempo y reduce la complejidad de las operaciones nativas de la nube.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB301+-+Streamline+Kubernetes+Management+with+AI:+Unlocking+the+Power+of+K8sGPT+por+Alonso+Parasxidis+Moreno"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB301+-+Streamline+Kubernetes+Management+with+AI:+Unlocking+the+Power+of+K8sGPT+por+Alonso+Parasxidis+Moreno",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/alonso_parasxidis.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/alonsoparasxidis/"
     },
     {
         "id": "OPS203",
@@ -1770,7 +1817,8 @@ const sessions: Session[] = [
         "speakerCompany": "Grid Dynamics",
         "titleSpanish": "Técnicas para CDKs de calidad de producción: Automatización de VPCs, EKS y Karpenter",
         "abstractSpanish": "Esta charla demuestra un patrón comprobado para infraestructuras como código basadas en CDK. Aprende a crear pilas CFN claras y escalables siguiendo los principios de 12 factores, fácilmente separadas por entorno en CI/CD. Ve ejemplos del mundo real de nuevas entradas de acceso a la API de Kubernetes y Karpenter, abordando la falta de recursos prácticos.",
-        "descriptionSpanish": "Esta charla presenta un patrón de implementación de CDK inspirado en \"12 factor app\", enfocándose en la separación de configuraciones y la modularización de pilas.Abordaremos técnicas para reducir la complejidad de pilas monolíticas, aplicando principios de separación de preocupaciones y permitiendo la diferenciación de entornos a través de argumentos de línea de comandos. Esto facilita la integración de CDK en entornos comunes de CI/CD como GitHub Actions, GitLab CI/CD o Harness.Usaremos el despliegue de una VPC, un clúster de EKS y Karpenter, utilizando CDKs para demostrar el patrón y la estructura del proyecto, cubriendo:• VPC: Análisis de una arquitectura de 3 subredes y su implementación en CDK.• CDKs Cómo pasar contextos a Sub Pilas, como la VPC.• EKS: Nuevos métodos de autenticación con CDK:◦ Transferencia de contexto entre las pilas de VPC y EKS.◦ Migración de ConfigMap a la API de Access Entries.◦ Implementación de Identidades de Pod para autenticar recursos de kubernetes en AWS IAM.◦ Karpenter: Ventajas en el escalado automático de EKS, impacto en costos y velocidad de escalado."
+        "descriptionSpanish": "Esta charla presenta un patrón de implementación de CDK inspirado en \"12 factor app\", enfocándose en la separación de configuraciones y la modularización de pilas.Abordaremos técnicas para reducir la complejidad de pilas monolíticas, aplicando principios de separación de preocupaciones y permitiendo la diferenciación de entornos a través de argumentos de línea de comandos. Esto facilita la integración de CDK en entornos comunes de CI/CD como GitHub Actions, GitLab CI/CD o Harness.Usaremos el despliegue de una VPC, un clúster de EKS y Karpenter, utilizando CDKs para demostrar el patrón y la estructura del proyecto, cubriendo:• VPC: Análisis de una arquitectura de 3 subredes y su implementación en CDK.• CDKs Cómo pasar contextos a Sub Pilas, como la VPC.• EKS: Nuevos métodos de autenticación con CDK:◦ Transferencia de contexto entre las pilas de VPC y EKS.◦ Migración de ConfigMap a la API de Access Entries.◦ Implementación de Identidades de Pod para autenticar recursos de kubernetes en AWS IAM.◦ Karpenter: Ventajas en el escalado automático de EKS, impacto en costos y velocidad de escalado.",
+        "speakerLinkedIn": "https://www.linkedin.com/in/jcroyoaun/"
     },
     {
         "id": "DPS201",
@@ -1805,7 +1853,9 @@ const sessions: Session[] = [
         "titleSpanish": "Consejos y trucos para trabajar mejor con AWS",
         "abstractSpanish": "¿Estás buscando maneras de sacar el máximo provecho de AWS? En esta charla, descubrirás una serie de tips & hacks que te ayudarán a trabajar de manera más eficiente, segura y rentable en la nube. Desde mejorar la seguridad hasta optimizar costos y recursos, te mostraré cómo implementar prácticas que harán una diferencia real en tus proyectos. No importa tu nivel de experiencia, ¡hay algo para todos!",
         "descriptionSpanish": "En esta charla, compartiré consejos prácticos y hacks para optimizar tu trabajo con AWS, ya sea que estés empezando o seas un usuario avanzado. Aprenderás cómo mejorar la seguridad, gestionar mejor tus recursos, ahorrar dinero y obtener el soporte adecuado.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS201+-+Tips+%26+Hacks+para+trabajar+mejor+con+AWS+por+Edgar+Omar+Reyes+Cano"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS201+-+Tips+%26+Hacks+para+trabajar+mejor+con+AWS+por+Edgar+Omar+Reyes+Cano",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/omar_reyes.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/eomar-r/"
     },
     {
         "id": "DPS302",
@@ -1840,7 +1890,9 @@ const sessions: Session[] = [
         "titleSpanish": "Transformando la Experiencia del Desarrollador con AWS EKS y DevContainers",
         "abstractSpanish": "¿La configuración de entornos es un obstáculo? Descubre cómo AWS EKS y DevContainers pueden revolucionar tu experiencia como desarrollador. Aprende a crear entornos consistentes, gestionar contenedores eficientemente y mejorar la eficiencia del equipo. ¡Adiós al “en mi máquina funciona”!",
         "descriptionSpanish": "En esta charla, exploraremos cómo AWS EKS (Elastic Kubernetes Service) y DevContainers pueden revolucionar la experiencia del desarrollador (DevEx) al facilitar entornos de desarrollo consistentes y altamente productivos. Discutiremos cómo DevContainers permite a los desarrolladores trabajar en entornos reproducibles y cómo EKS puede simplificar la administración de contenedores en producción. A través de ejemplos prácticos y demostraciones en vivo, mostraremos cómo estas herramientas pueden mejorar la eficiencia del desarrollo y acelerar el ciclo de vida de las aplicaciones.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS302+-+Transformando+la+Experiencia+del+Desarrollador+con+AWS+EKS+y+DevContainers+por+Alex+Parra"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS302+-+Transformando+la+Experiencia+del+Desarrollador+con+AWS+EKS+y+DevContainers+por+Alex+Parra",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/alex_parra.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/parraletz/"
     },
     {
         "id": "SLS303",
@@ -1912,7 +1964,8 @@ const sessions: Session[] = [
         "speakerCompany": "Wizeline",
         "titleSpanish": "Usando AWS Bedrock en tu terminal",
         "abstractSpanish": "AWS Bedrock empodera a profesionales de diversas industrias para optimizar flujos de trabajo y mejorar la productividad. Ya seas un desarrollador, ingeniero de DevOps o gerente de proyectos, Bedrock ofrece un valor tangible al simplificar tareas complejas y acelerar los plazos de los proyectos.",
-        "descriptionSpanish": "AWS Bedrock es una de las formas más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si comenzamos a usarlo desde la terminal? ¿qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiadas complicaciones.Creé un proyecto de código abierto llamado Isaac, (https://github.com/gochaos-app/isaac/) y traeré ejemplos sobre cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos."
+        "descriptionSpanish": "AWS Bedrock es una de las formas más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si comenzamos a usarlo desde la terminal? ¿qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiadas complicaciones.Creé un proyecto de código abierto llamado Isaac, (https://github.com/gochaos-app/isaac/) y traeré ejemplos sobre cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos.",
+        "speakerLinkedIn": "https://www.linkedin.com/in/ramonesparza/"
     },
     {
         "id": "IAG203",
@@ -1947,7 +2000,9 @@ const sessions: Session[] = [
         "titleSpanish": "Utilizar Gen AI en nuestro análisis de datos como un campeón",
         "abstractSpanish": "En esta sesión, veremos cómo utilizar Gen AI en el análisis de datos. Descubriremos las capacidades de BI generativo con Amazon QuickSight con un caso explicado en vivo y su aplicación en el idioma inglés y español, creando tableros utilizando lenguaje natural y hacer preguntas de nuestros datos.",
         "descriptionSpanish": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG203+-+Utilizar+Gen+AI+en+nuestro+an%C3%A1lisis+de+datos+como+un+campe%C3%B3n+por+Fabiana+Serangelli"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG203+-+Utilizar+Gen+AI+en+nuestro+an%C3%A1lisis+de+datos+como+un+campe%C3%B3n+por+Fabiana+Serangelli",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/fabiana_serangelli.jpg",
+        "speakerLinkedIn": "https://www.linkedin.com/in/fabianaserangelli/"
     },
     {
         "id": "IOT101",
@@ -1981,7 +2036,8 @@ const sessions: Session[] = [
         "speakerCompany": "Hacker Garage",
         "titleSpanish": "Lo que los robots voladores de carreras me enseñaron sobre mapas y agricultura 🚀",
         "abstractSpanish": "¿Cómo puede uno tomar sus habilidades en carreras de drones como pasatiempo y aplicarlas a usos industriales y cómo los mapas aéreos son críticos para la integración de robots en las crecientes industrias agrícolas?",
-        "descriptionSpanish": "Día tras día estamos viendo más automatización física integrada no solo en nuestras vidas diarias, sino también en muchos campos comerciales e industriales. Para nosotros, los desarrolladores de software, el funcionamiento interno de los robots puede existir detrás de este velo de misterio, pero me sorprendió gratamente cómo la arquitectura de robots puede relacionarse de muchas maneras con la arquitectura de software de servicios. Uno de los requisitos más populares para los robots móviles es poder navegar por el mundo real y, en algunos casos, el GPS no es suficiente para proporcionar información para esta tarea; aquí es donde los drones demostraron ser una herramienta valiosa, ya que se utilizan para hacer mapas más precisos de zonas donde la imagen satelital no es regular o lo suficientemente precisa."
+        "descriptionSpanish": "Día tras día estamos viendo más automatización física integrada no solo en nuestras vidas diarias, sino también en muchos campos comerciales e industriales. Para nosotros, los desarrolladores de software, el funcionamiento interno de los robots puede existir detrás de este velo de misterio, pero me sorprendió gratamente cómo la arquitectura de robots puede relacionarse de muchas maneras con la arquitectura de software de servicios. Uno de los requisitos más populares para los robots móviles es poder navegar por el mundo real y, en algunos casos, el GPS no es suficiente para proporcionar información para esta tarea; aquí es donde los drones demostraron ser una herramienta valiosa, ya que se utilizan para hacer mapas más precisos de zonas donde la imagen satelital no es regular o lo suficientemente precisa.",
+        "speakerLinkedIn": "https://www.linkedin.com/in/joaquinb/"
     }
 ];
 

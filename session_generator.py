@@ -5,6 +5,7 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timedelta
+from typing import Optional
 
 SESSION_DATE = "2024-10-05"
 
@@ -32,7 +33,7 @@ class SpecialSession:
     room: str
     is_special = True
     icon: str
-    import_icon_from: str
+    import_icon_from: Optional[str] = None
 
 
 SPECIAL_SESSIONS: list[SpecialSession] = [
@@ -89,7 +90,6 @@ SPECIAL_SESSIONS: list[SpecialSession] = [
         time=Time("18:30", "19:00"),
         room="Minerva",
         icon="IoRibbonOutline",
-        import_icon_from="react-icons/io5"
     )
 ]
 
@@ -197,6 +197,10 @@ def csv_to_typescript(csv_file):
                 "Co-speaker location": "coSpeakerLocation",
                 "Co-speaker organization": "coSpeakerCompany",
                 "Rate URL": "rateUrl",
+                "Speaker Photo URL": "speakerPhotoUrl",
+                "Co-speaker Photo URL": "coSpeakerPhotoUrl",
+                "Speaker LinkedIn": "speakerLinkedIn",
+                "Co-speaker LinkedIn": "coSpeakerLinkedIn",
             }
 
             for csv_field, ts_field in extra_fields.items():
@@ -208,6 +212,7 @@ def csv_to_typescript(csv_file):
     imports = "\n".join(
         f"import {{ {special_session.icon} }} from '{special_session.import_icon_from}';"
         for special_session in SPECIAL_SESSIONS
+        if special_session.import_icon_from
     )
 
     typescript_content = imports + f"""
