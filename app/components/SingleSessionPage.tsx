@@ -14,7 +14,6 @@ import {
     HStack,
     Link,
     Skeleton,
-    SkeletonCircle,
     SkeletonText,
     Stack,
     Text,
@@ -24,7 +23,7 @@ import {
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {ExternalLinkIcon, Icon, TimeIcon} from "@chakra-ui/icons";
-import {FaHeart, FaLinkedin, FaMapPin, FaRegHeart} from "react-icons/fa";
+import {FaLinkedin, FaMapPin} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {formatTime, getTimeDifference} from "@/app/utils/time";
 import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
@@ -143,11 +142,6 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                             {session.level}
                         </Badge>
                     </VStack>
-                    <SkeletonCircle isLoaded={isLoaded}>
-                        <Button onClick={handleFavorite} colorScheme="red" variant="link"
-                                rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
-                        </Button>
-                    </SkeletonCircle>
                 </Stack>
 
                 <Heading as="h1" size="xl" color="gray.700">
