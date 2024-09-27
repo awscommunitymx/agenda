@@ -162,7 +162,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
 
                     <Text fontSize="xl" fontWeight="semibold">
                         <LinkOverlay as={NextLink} href={`/session/${session.id}`}>
-                            {session.title}
+                            {session.title} <Badge>{session.id}</Badge>
                         </LinkOverlay>
                     </Text>
 
