@@ -190,8 +190,13 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 </HStack>
 
                 <Text fontSize="md">
-                    {session.description}
+                    Abstract: {session.abstract}
                 </Text>
+
+                <Text fontSize="md">
+                    Descripción: {session.description}
+                </Text>
+
 
                 <Box borderWidth={1} borderRadius="lg">
                     <Accordion allowToggle>
