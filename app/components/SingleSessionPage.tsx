@@ -17,6 +17,7 @@ import {
     SkeletonCircle,
     SkeletonText,
     Text,
+    useToast,
     VStack
 } from '@chakra-ui/react';
 import {Session} from '@/app/types/session';
@@ -37,6 +38,8 @@ interface SessionTime {
 }
 
 const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
+    const toast = useToast();
+
     const [isLoaded, setIsLoaded] = useState(false);
     const [favorite, setFavorite] = useState(false);
     const [sessionTime, setSessionTime] = useState<SessionTime>({start: '', end: ''});
@@ -48,6 +51,13 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         setFavorite(!favorite);
         toggleFavorite(session.id.toString());
         const inc = favorite ? -1 : 1;
+        toast({
+            title: `${favorite ? 'Eliminada de' : 'Agregada a'} tu agenda`,
+            description: `${session.id} ha sido ${favorite ? 'eliminada de' : 'agregada a'} tu agenda`,
+            status: "success",
+            duration: 3000,
+            isClosable: true,
+        })
         await registerFavorite(session.id.toString(), inc);
     }
 

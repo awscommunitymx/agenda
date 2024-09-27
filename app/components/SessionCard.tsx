@@ -14,6 +14,7 @@ import {
     Skeleton,
     SkeletonCircle,
     Text,
+    useToast,
     VStack
 } from '@chakra-ui/react';
 import {ChevronDownIcon, ChevronUpIcon, ExternalLinkIcon, Icon, TimeIcon} from '@chakra-ui/icons';
@@ -27,6 +28,8 @@ import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
 
 
 const SessionCard: React.FC<SessionCardProps> = ({session}) => {
+    const toast = useToast();
+
     const [isLoaded, setIsLoaded] = useState(false);
     const [isCollapsed, setIsCollapsed] = useState(true);
 
@@ -44,6 +47,13 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
         setFavorite(!favorite);
         toggleFavorite(session.id.toString());
         const inc = favorite ? -1 : 1;
+        toast({
+            title: `${favorite ? 'Eliminada de' : 'Agregada a'} tu agenda`,
+            description: `${session.id} ha sido ${favorite ? 'eliminada de' : 'agregada a'} tu agenda`,
+            status: "success",
+            duration: 3000,
+            isClosable: true,
+        })
         await registerFavorite(session.id.toString(), inc);
     }
 
