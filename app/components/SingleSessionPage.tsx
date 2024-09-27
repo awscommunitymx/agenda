@@ -161,7 +161,8 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                 )}
                             </HStack>
                             <Text fontSize="sm"
-                                  color="gray.500">{session.speakerCompany} - {session.speakerLocation}</Text>
+                                  color="gray.500">{session.speakerCompany} {session.speakerCompany && session.speakerLocation ? "-" : ''} {session.speakerLocation}
+                            </Text>
                         </VStack>
                     </HStack>
                     {session.coSpeaker && (
@@ -178,7 +179,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                     )}
                                 </HStack>
                                 <Text fontSize="sm"
-                                      color="gray.500">{session.coSpeakerCompany} - {session.coSpeakerLocation}</Text>
+                                      color="gray.500">{session.coSpeakerCompany} {session.coSpeakerCompany && session.coSpeakerLocation ? "-" : ''} {session.coSpeakerLocation}</Text>
                             </VStack>
                         </HStack>
                     )}

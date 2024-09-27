@@ -454,6 +454,7 @@ const sessions: Session[] = [
         "level": "L100",
         "room": "Minerva",
         "speakerLocation": "Jalisco, México",
+        "speakerCompany": "AWS",
         "speakerLinkedIn": "https://www.linkedin.com/in/softwarechido/"
     },
     {
