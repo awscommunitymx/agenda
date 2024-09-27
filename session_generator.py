@@ -43,31 +43,53 @@ SPECIAL_SESSIONS: list[SpecialSession] = [
         description="Regístrate en la entrada del evento.",
         cta="Registrarse",
         time=Time("08:00", "09:00"),
-        room="Entrada",
+        room="Minerva",
         icon="FaRegIdBadge",
         import_icon_from="react-icons/fa",
     ),
     SpecialSession(
+        id="inauguracion",
+        title="Inauguración",
+        abstract="Inauguración del evento",
+        description="Bienvenida al evento, palabras de apertura.",
+        cta="Inauguración",
+        time=Time("09:00", "09:30"),
+        room="Minerva",
+        icon="IoRibbonOutline",
+        import_icon_from="react-icons/io5"
+    ),
+    SpecialSession(
         id="comida",
-        title="Comida",
+        title="Lunch",
         abstract="Hora de la comida!",
         description="Dirígete al área de comida y disfruta de un descanso.",
         cta="Comer",
         time=Time("14:00", "15:00"),
-        room="Comedor",
+        room="Minerva",
         icon="IoFastFoodOutline",
         import_icon_from="react-icons/io5"
     ),
     SpecialSession(
-        id="cierre",
-        title="Cierre",
-        abstract="Cierre del evento",
-        description="Acompañanos en la sala principal para el cierre del evento.",
-        cta="Cierre",
-        time=Time("17:00", "18:00"),
-        room="Sala Principal",
+        id="brindis-networking",
+        title="Brindis y Networking",
+        abstract="Brindis y Networking",
+        description="Disfruta de un brindis y conoce a otros asistentes.",
+        cta="Brindis",
+        time=Time("17:30", "18:30"),
+        room="Minerva",
         icon="PiChampagneBold",
         import_icon_from="react-icons/pi"
+    ),
+    SpecialSession(
+        id="clausura",
+        title="Clausura",
+        abstract="Clausura del evento",
+        description="Palabras de cierre y agradecimiento.",
+        cta="Clausura",
+        time=Time("18:30", "19:00"),
+        room="Minerva",
+        icon="IoRibbonOutline",
+        import_icon_from="react-icons/io5"
     )
 ]
 
