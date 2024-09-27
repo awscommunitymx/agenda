@@ -216,7 +216,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                 </small>
                             </AccordionPanel>
                         </AccordionItem>
-                        {session.language === "English" && session.descriptionSpanish && (
+                        {session.language === "English" && (
                             <AccordionItem>
                                 <AccordionButton>
                                     <Text fontWeight={"bold"}>
@@ -224,9 +224,21 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                     </Text>
                                 </AccordionButton>
                                 <AccordionPanel>
-                                    <Text fontSize="md">
-                                        {session.descriptionSpanish}
-                                    </Text>
+                                    {session.titleSpanish && (
+                                        <Text fontSize="md">
+                                            <b>Título: </b>{session.titleSpanish}
+                                        </Text>
+                                    )}
+                                    {session.abstractSpanish && (
+                                        <Text fontSize="md">
+                                            <b>Resumen: </b>{session.abstractSpanish}
+                                        </Text>
+                                    )}
+                                    {session.descriptionSpanish && (
+                                        <Text fontSize="md">
+                                            <b>Descripción: </b>{session.descriptionSpanish}
+                                        </Text>
+                                    )}
                                     <small>
                                         <i>Traducido automáticamente por <b>Claude 3.5 Sonnet</b> en <b>Amazon
                                             Bedrock.</b></i>
