@@ -15,6 +15,7 @@
     "@chakra-ui/utils": "^2.0.15",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@next/third-parties": "^14.2.13",
     "aws-amplify": "^6.6.2",
     "chakra-react-select": "^4.9.2",
     "framer-motion": "^11.5.6",
