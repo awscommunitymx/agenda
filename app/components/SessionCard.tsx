@@ -166,7 +166,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                     <VStack align="stretch" spacing={2}>
                         <Collapse startingHeight={isCollapsed ? "4.5em" : "auto"} in={!isCollapsed} animateOpacity>
                             <Text fontSize="md" color="gray.600">
-                                {session.description}
+                                {session.abstract}
                             </Text>
                         </Collapse>
                         {abstractWords.length > previewLength && (
