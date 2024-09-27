@@ -201,6 +201,8 @@ def csv_to_typescript(csv_file):
                 "Co-speaker Photo URL": "coSpeakerPhotoUrl",
                 "Speaker LinkedIn": "speakerLinkedIn",
                 "Co-speaker LinkedIn": "coSpeakerLinkedIn",
+                "Speaker Bio": "speakerBio",
+                "Co-speaker Bio": "coSpeakerBio",
             }
 
             for csv_field, ts_field in extra_fields.items():

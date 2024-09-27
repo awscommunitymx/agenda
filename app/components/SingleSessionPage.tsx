@@ -268,6 +268,34 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                 </AccordionPanel>
                             </AccordionItem>
                         )}
+                        {session.speakerBio && (
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Text fontWeight={"bold"}>
+                                        Acerca de {session.speaker.split(" ")[0]}
+                                    </Text>
+                                </AccordionButton>
+                                <AccordionPanel>
+                                    <Text fontSize="md">
+                                        {session.speakerBio}
+                                    </Text>
+                                </AccordionPanel>
+                            </AccordionItem>
+                        )}
+                        {session.coSpeakerBio && session.coSpeaker && (
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Text fontWeight={"bold"}>
+                                        Acerca de {session.coSpeaker.split(" ")[0]}
+                                    </Text>
+                                </AccordionButton>
+                                <AccordionPanel>
+                                    <Text fontSize="md">
+                                        {session.coSpeaker}
+                                    </Text>
+                                </AccordionPanel>
+                            </AccordionItem>
+                        )}
                     </Accordion>
                 </Box>
 
