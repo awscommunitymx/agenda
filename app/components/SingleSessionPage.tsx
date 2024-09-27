@@ -54,7 +54,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         toast({
             title: `${favorite ? 'Eliminada de' : 'Agregada a'} tu agenda`,
             description: `${session.id} ha sido ${favorite ? 'eliminada de' : 'agregada a'} tu agenda`,
-            status: "success",
+            status: favorite ? 'warning' : 'success',
             duration: 3000,
             isClosable: true,
         })
