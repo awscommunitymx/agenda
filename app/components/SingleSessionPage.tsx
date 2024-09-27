@@ -151,7 +151,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 </Stack>
 
                 <Heading as="h1" size="xl" color="gray.700">
-                    {session.title}
+                    {session.title} <Badge>{session.id}</Badge>
                 </Heading>
 
                 <VStack alignItems={"start"}>
