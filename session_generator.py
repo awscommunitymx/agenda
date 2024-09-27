@@ -6,7 +6,7 @@ import sys
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 
-SESSION_DATE = "2024-09-26"
+SESSION_DATE = "2024-10-05"
 
 
 @dataclass
