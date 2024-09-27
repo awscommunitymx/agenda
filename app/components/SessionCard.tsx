@@ -48,7 +48,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
         toggleFavorite(session.id.toString());
         const inc = favorite ? -1 : 1;
         toast({
-            title: `${favorite ? 'Eliminada de' : 'Agregada a'} tu agenda`,
+            title: `${favorite ? '¡Sesión eliminada! :(' : '¡Nueva sesión favorita!'}`,
             description: `${session.id} ha sido ${favorite ? 'eliminada de' : 'agregada a'} tu agenda`,
             status: favorite ? 'warning' : 'success',
             duration: 3000,
