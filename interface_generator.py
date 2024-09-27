@@ -67,6 +67,7 @@ export interface SessionCardProps {{
 
 export interface SessionListProps {{
     sessions: Session[];
+    inAgendaPage: boolean;
 }}
 """
     return typescript_content.strip()
