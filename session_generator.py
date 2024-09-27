@@ -27,8 +27,8 @@ class SpecialSession:
     speaker = ""
     speakerImage = ""
     time: Time
-    category = "Softskills"
-    level = "All"
+    category = "Habilidades blandas"
+    level = "L100"
     room: str
     is_special = True
     icon: str
