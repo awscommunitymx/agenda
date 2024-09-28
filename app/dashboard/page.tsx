@@ -31,10 +31,22 @@ export default function Page() {
             <ResponsiveContainer width="100%" height={300}>
                 <BarChart data={events}>
                     <CartesianGrid strokeDasharray="3 3"/>
-                    <XAxis dataKey="event_id"/>
-                    <YAxis/>
-                    <Tooltip/>
-                    <Bar dataKey="favorite_count" fill="#8884d8"/>
+                    <XAxis dataKey="event_id" stroke="#888888" fontSize={12} tickLine={false} axisLine={false}/>
+                    <YAxis stroke="#888888" fontSize={12} tickLine={false} axisLine={false}
+                           tickFormatter={(value) => Math.round(value).toString()}
+                           domain={[0, 'dataMax']}
+                           allowDecimals={false}/>
+                    <Tooltip
+                        contentStyle={{
+                            background: '#f1f5f9',
+                            border: 'none',
+                            borderRadius: '8px',
+                            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+                        }}
+                        labelStyle={{color: '#0f172a', fontWeight: 'bold'}}
+                        formatter={(value) => [value, 'Count']}
+                    />
+                    <Bar dataKey="favorite_count" fill="#3b82f6" radius={[4, 4, 0, 0]}/>
                 </BarChart>
             </ResponsiveContainer>
         </VStack>
