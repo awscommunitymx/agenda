@@ -285,7 +285,7 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                 </AccordionButton>
                                 <AccordionPanel>
                                     <Text fontSize="md">
-                                        {session.coSpeaker}
+                                        {session.coSpeakerBio}
                                     </Text>
                                 </AccordionPanel>
                             </AccordionItem>
