@@ -5,6 +5,7 @@ import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timedelta
+from typing import Optional
 
 SESSION_DATE = "2024-10-05"
 
@@ -27,12 +28,12 @@ class SpecialSession:
     speaker = ""
     speakerImage = ""
     time: Time
-    category = "Softskills"
-    level = "All"
+    category = "Habilidades blandas"
+    level = "L100"
     room: str
     is_special = True
     icon: str
-    import_icon_from: str
+    import_icon_from: Optional[str] = None
 
 
 SPECIAL_SESSIONS: list[SpecialSession] = [
@@ -43,31 +44,52 @@ SPECIAL_SESSIONS: list[SpecialSession] = [
         description="Regístrate en la entrada del evento.",
         cta="Registrarse",
         time=Time("08:00", "09:00"),
-        room="Entrada",
+        room="Minerva",
         icon="FaRegIdBadge",
         import_icon_from="react-icons/fa",
     ),
     SpecialSession(
+        id="inauguracion",
+        title="Inauguración",
+        abstract="Inauguración del evento",
+        description="Bienvenida al evento, palabras de apertura.",
+        cta="Inauguración",
+        time=Time("09:00", "09:30"),
+        room="Minerva",
+        icon="IoRibbonOutline",
+        import_icon_from="react-icons/io5"
+    ),
+    SpecialSession(
         id="comida",
-        title="Comida",
+        title="Lunch",
         abstract="Hora de la comida!",
         description="Dirígete al área de comida y disfruta de un descanso.",
         cta="Comer",
         time=Time("14:00", "15:00"),
-        room="Comedor",
+        room="Minerva",
         icon="IoFastFoodOutline",
         import_icon_from="react-icons/io5"
     ),
     SpecialSession(
-        id="cierre",
-        title="Cierre",
-        abstract="Cierre del evento",
-        description="Acompañanos en la sala principal para el cierre del evento.",
-        cta="Cierre",
-        time=Time("17:00", "18:00"),
-        room="Sala Principal",
+        id="brindis-networking",
+        title="Brindis y Networking",
+        abstract="Brindis y Networking",
+        description="Disfruta de un brindis y conoce a otros asistentes.",
+        cta="Brindis",
+        time=Time("17:30", "18:30"),
+        room="Minerva",
         icon="PiChampagneBold",
         import_icon_from="react-icons/pi"
+    ),
+    SpecialSession(
+        id="clausura",
+        title="Clausura",
+        abstract="Clausura del evento",
+        description="Palabras de cierre y agradecimiento.",
+        cta="Clausura",
+        time=Time("18:30", "19:00"),
+        room="Minerva",
+        icon="IoRibbonOutline",
     )
 ]
 
@@ -169,10 +191,18 @@ def csv_to_typescript(csv_file):
                 "Speaker location": "speakerLocation",
                 "Co-speaker": "coSpeaker",
                 "Speaker organization": "speakerCompany",
+                "Title (Spanish)": "titleSpanish",
+                "Abstract (Spanish)": "abstractSpanish",
                 "Description (Spanish)": "descriptionSpanish",
                 "Co-speaker location": "coSpeakerLocation",
                 "Co-speaker organization": "coSpeakerCompany",
                 "Rate URL": "rateUrl",
+                "Speaker Photo URL": "speakerPhotoUrl",
+                "Co-speaker Photo URL": "coSpeakerPhotoUrl",
+                "Speaker LinkedIn": "speakerLinkedIn",
+                "Co-speaker LinkedIn": "coSpeakerLinkedIn",
+                "Speaker Bio": "speakerBio",
+                "Co-speaker Bio": "coSpeakerBio",
             }
 
             for csv_field, ts_field in extra_fields.items():
@@ -184,6 +214,7 @@ def csv_to_typescript(csv_file):
     imports = "\n".join(
         f"import {{ {special_session.icon} }} from '{special_session.import_icon_from}';"
         for special_session in SPECIAL_SESSIONS
+        if special_session.import_icon_from
     )
 
     typescript_content = imports + f"""

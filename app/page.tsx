@@ -8,7 +8,7 @@ export default function Page() {
 
     return (
         <>
-            <SessionList sessions={sessions}/>
+            <SessionList sessions={sessions} inAgendaPage={false}/>
         </>
     )
 }
