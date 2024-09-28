@@ -14,8 +14,8 @@ import {
     HStack,
     Link,
     Skeleton,
-    SkeletonCircle,
     SkeletonText,
+    Stack,
     Text,
     useToast,
     VStack
@@ -23,7 +23,7 @@ import {
 import {Session} from '@/app/types/session';
 import {getCategoryColor, getLevelColor} from "@/app/utils/colors";
 import {ExternalLinkIcon, Icon, TimeIcon} from "@chakra-ui/icons";
-import {FaHeart, FaMapPin, FaRegHeart} from "react-icons/fa";
+import {FaHeart, FaLinkedin, FaMapPin, FaRegHeart} from "react-icons/fa";
 import {isFavorite, registerFavorite, toggleFavorite} from "@/app/utils/favorite";
 import {formatTime, getTimeDifference} from "@/app/utils/time";
 import StatusIndicator, {StatusType} from "@/app/components/StatusIndicator";
@@ -52,9 +52,9 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
         toggleFavorite(session.id.toString());
         const inc = favorite ? -1 : 1;
         toast({
-            title: `${favorite ? 'Eliminada de' : 'Agregada a'} tu agenda`,
+            title: `${favorite ? '¡Sesión eliminada! :(' : '¡Nueva sesión favorita!'}`,
             description: `${session.id} ha sido ${favorite ? 'eliminada de' : 'agregada a'} tu agenda`,
-            status: "success",
+            status: favorite ? 'warning' : 'success',
             duration: 3000,
             isClosable: true,
         })
@@ -128,7 +128,12 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                     )
                 }
 
-                <HStack justify={"space-between"}>
+                <Stack
+                    direction={{base: "column", md: "row"}}
+                    justify="space-between"
+                    align={{base: "stretch", md: "center"}}
+                    spacing={4}
+                >
                     <VStack alignItems={"start"}>
                         <Badge colorScheme={getCategoryColor(session.category)} alignSelf="flex-start">
                             {session.category}
@@ -137,33 +142,44 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                             {session.level}
                         </Badge>
                     </VStack>
-                    <SkeletonCircle isLoaded={isLoaded}>
-                        <Button onClick={handleFavorite} colorScheme="red" variant="link"
-                                rightIcon={favorite ? <Icon as={FaHeart}/> : <Icon as={FaRegHeart}/>}>
-                        </Button>
-                    </SkeletonCircle>
-                </HStack>
+                </Stack>
 
                 <Heading as="h1" size="xl" color="gray.700">
-                    {session.title}
+                    {session.title} <Badge>{session.id}</Badge>
                 </Heading>
 
                 <VStack alignItems={"start"}>
                     <HStack>
-                        <Avatar size="md" name={session.speaker} src={session.speakerImage}/>
+                        <Avatar size="md" name={session.speaker} src={session.speakerPhotoUrl}/>
                         <VStack align="start" spacing={0}>
-                            <Text fontWeight="bold">{session.speaker}</Text>
+                            <HStack alignItems="center">
+                                <Text fontWeight="bold">{session.speaker}</Text>
+                                {session.speakerLinkedIn && (
+                                    <Link href={session.speakerLinkedIn} isExternal display="flex" alignItems="center">
+                                        <Icon as={FaLinkedin}/>
+                                    </Link>
+                                )}
+                            </HStack>
                             <Text fontSize="sm"
-                                  color="gray.500">{session.speakerCompany} - {session.speakerLocation}</Text>
+                                  color="gray.500">{session.speakerCompany} {session.speakerCompany && session.speakerLocation ? "-" : ''} {session.speakerLocation}
+                            </Text>
                         </VStack>
                     </HStack>
                     {session.coSpeaker && (
                         <HStack>
-                            <Avatar size="md" name={session.coSpeaker} src={session.speakerImage}/>
+                            <Avatar size="md" name={session.coSpeaker} src={session.coSpeakerPhotoUrl}/>
                             <VStack align="start" spacing={0}>
-                                <Text fontWeight="bold">{session.coSpeaker}</Text>
+                                <HStack alignItems="center">
+                                    <Text fontWeight="bold">{session.coSpeaker}</Text>
+                                    {session.coSpeakerLinkedIn && (
+                                        <Link href={session.coSpeakerLinkedIn} isExternal display="flex"
+                                              alignItems="center">
+                                            <Icon as={FaLinkedin}/>
+                                        </Link>
+                                    )}
+                                </HStack>
                                 <Text fontSize="sm"
-                                      color="gray.500">{session.coSpeakerCompany} - {session.coSpeakerLocation}</Text>
+                                      color="gray.500">{session.coSpeakerCompany} {session.coSpeakerCompany && session.coSpeakerLocation ? "-" : ''} {session.coSpeakerLocation}</Text>
                             </VStack>
                         </HStack>
                     )}
@@ -190,11 +206,11 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                 </HStack>
 
                 <Text fontSize="md">
-                    Abstract: {session.abstract}
+                    <b>Resumen:</b> {session.abstract}
                 </Text>
 
                 <Text fontSize="md">
-                    Descripción: {session.description}
+                    <b>Descripción:</b> {session.description}
                 </Text>
 
 
@@ -216,21 +232,61 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
                                 </small>
                             </AccordionPanel>
                         </AccordionItem>
-                        {session.language === "English" && session.descriptionSpanish && (
+                        {session.language === "English" && (
                             <AccordionItem>
                                 <AccordionButton>
                                     <Text fontWeight={"bold"}>
-                                        Descripción (Español)
+                                        Información en español
                                     </Text>
                                 </AccordionButton>
                                 <AccordionPanel>
-                                    <Text fontSize="md">
-                                        {session.descriptionSpanish}
-                                    </Text>
+                                    {session.titleSpanish && (
+                                        <Text fontSize="md">
+                                            <b>Título: </b>{session.titleSpanish}
+                                        </Text>
+                                    )}
+                                    {session.abstractSpanish && (
+                                        <Text fontSize="md">
+                                            <b>Resumen: </b>{session.abstractSpanish}
+                                        </Text>
+                                    )}
+                                    {session.descriptionSpanish && (
+                                        <Text fontSize="md">
+                                            <b>Descripción: </b>{session.descriptionSpanish}
+                                        </Text>
+                                    )}
                                     <small>
                                         <i>Traducido automáticamente por <b>Claude 3.5 Sonnet</b> en <b>Amazon
                                             Bedrock.</b></i>
                                     </small>
+                                </AccordionPanel>
+                            </AccordionItem>
+                        )}
+                        {session.speakerBio && (
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Text fontWeight={"bold"}>
+                                        Acerca de {session.speaker.split(" ")[0]}
+                                    </Text>
+                                </AccordionButton>
+                                <AccordionPanel>
+                                    <Text fontSize="md">
+                                        {session.speakerBio}
+                                    </Text>
+                                </AccordionPanel>
+                            </AccordionItem>
+                        )}
+                        {session.coSpeakerBio && session.coSpeaker && (
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Text fontWeight={"bold"}>
+                                        Acerca de {session.coSpeaker.split(" ")[0]}
+                                    </Text>
+                                </AccordionButton>
+                                <AccordionPanel>
+                                    <Text fontSize="md">
+                                        {session.coSpeakerBio}
+                                    </Text>
                                 </AccordionPanel>
                             </AccordionItem>
                         )}
@@ -239,7 +295,8 @@ const SingleSessionPage: React.FC<SingleSessionPageProps> = ({session}) => {
 
                 {isLoaded ? (
                     <Button colorScheme={favorite ? 'yellow' : 'blue'} size="md" variant="solid"
-                            onClick={handleFavorite}>
+                            onClick={handleFavorite}
+                            rightIcon={favorite ? <Icon as={FaRegHeart}/> : <Icon as={FaHeart}/>}>
                         {favorite ? 'Eliminar de mi agenda' : 'Agregar a mi agenda'}
                     </Button>
                 ) : (

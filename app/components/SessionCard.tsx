@@ -13,6 +13,7 @@ import {
     LinkOverlay,
     Skeleton,
     SkeletonCircle,
+    Stack,
     Text,
     useToast,
     VStack
@@ -48,9 +49,9 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
         toggleFavorite(session.id.toString());
         const inc = favorite ? -1 : 1;
         toast({
-            title: `${favorite ? 'Eliminada de' : 'Agregada a'} tu agenda`,
+            title: `${favorite ? '¡Sesión eliminada! :(' : '¡Nueva sesión favorita!'}`,
             description: `${session.id} ha sido ${favorite ? 'eliminada de' : 'agregada a'} tu agenda`,
-            status: "success",
+            status: favorite ? 'warning' : 'success',
             duration: 3000,
             isClosable: true,
         })
@@ -94,7 +95,10 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
     }, [session.id]);
 
     return (
-        <Box color={status === "inactive" ? "gray" : ""} opacity={status === "inactive" ? 0.7 : 1}>
+        <Box color={status === "inactive" ? "gray" : ""} opacity={status === "inactive" ? 0.7 : 1}
+             borderColor={session.id === "KEY101" ? "blue" : ""} borderWidth={session.id === "KEY101" ? 2 : 1}
+             borderRadius="lg"
+        >
             <LinkBox
                 borderWidth="1px"
                 borderRadius="lg"
@@ -127,8 +131,13 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                             <Skeleton height='10px'/>
                         )
                     }
-                    <HStack justify="space-between">
-                        <VStack align={"start"}>
+                    <Stack
+                        direction={{base: "column", md: "row"}}
+                        justify="space-between"
+                        align={{base: "stretch", md: "center"}}
+                        spacing={4}
+                    >
+                        <VStack align="start" spacing={2}>
                             <Badge colorScheme={getCategoryColor(session.category)}>
                                 {session.category}
                             </Badge>
@@ -136,17 +145,17 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                                 {session.level}
                             </Badge>
                         </VStack>
-                        <VStack align={"end"}>
+
+                        <VStack align={{base: "start", md: "end"}} spacing={2}>
                             <HStack>
                                 <TimeIcon/>
-                                {
-                                    isLoaded && (
-                                        <Text fontSize="sm" suppressHydrationWarning>
-                                            {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
-                                        </Text>
-                                    )
-                                }
-                                {!isLoaded && (<Skeleton height="10px"/>)}
+                                {isLoaded ? (
+                                    <Text fontSize="sm" suppressHydrationWarning>
+                                        {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
+                                    </Text>
+                                ) : (
+                                    <Skeleton height="10px" width="150px"/>
+                                )}
                             </HStack>
                             <HStack>
                                 <Icon as={FaMapPin}/>
@@ -155,11 +164,11 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                                 </Text>
                             </HStack>
                         </VStack>
-                    </HStack>
+                    </Stack>
 
                     <Text fontSize="xl" fontWeight="semibold">
                         <LinkOverlay as={NextLink} href={`/session/${session.id}`}>
-                            {session.title}
+                            {session.title} <Badge>{session.id}</Badge>
                         </LinkOverlay>
                     </Text>
 
@@ -191,13 +200,13 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
                         <HStack spacing={2}>
                             <VStack alignItems={"start"}>
                                 <HStack>
-                                    <Avatar size="sm" name={session.speaker} src={session.speakerImage}/>
+                                    <Avatar size="sm" name={session.speaker} src={session.speakerPhotoUrl}/>
                                     <Text fontWeight="medium">{session.speaker}</Text>
                                 </HStack>
                                 {
                                     session.coSpeaker &&
                                     <HStack>
-                                        <Avatar size="sm" name={session.coSpeaker}/>
+                                        <Avatar size="sm" name={session.coSpeaker} src={session.coSpeakerPhotoUrl}/>
                                         <Text fontWeight="medium">{session.coSpeaker}</Text>
                                     </HStack>
                                 }

@@ -1,7 +1,7 @@
 import {IconType} from "react-icons";
 
-export type Category = 'FinOps' | 'IA/ML' | 'Operaciones' | 'PrimerosPasos' | 'Serverless' | 'Softskills';
-export type Level = 'Advanced' | 'All' | 'Beginner' | 'Intermediate';
+export type Category = 'Analítica' | 'Aplicaciones empresariales' | 'Arquitectura' | 'Bases de datos' | 'Capacitación y certificación' | 'Computación sin servidor y contenedores' | 'Conferencia magistral' | 'DevOps y productividad del desarrollador' | 'Habilidades blandas' | 'Habilitación del cliente' | 'IA generativa' | 'IA/ML' | 'Internet de las cosas' | 'Kubernetes' | 'Migración y modernización' | 'Nube híbrida' | 'Operaciones en la nube' | 'Seguridad cumplimiento e identidad';
+export type Level = 'L100' | 'L200' | 'L300' | 'L400';
 
 export type CFPLanguage = 'Spanish' | 'English';
 
@@ -10,16 +10,24 @@ export interface Session {
     title: string;
     abstract: string;
     description: string;
+    titleSpanish?: string;
+    abstractSpanish?: string;
     descriptionSpanish?: string;
     language: CFPLanguage;
     keywords: string[];
     cta: string;
     speaker: string;
+    speakerPhotoUrl?: string;
+    speakerLinkedIn?: string;
     speakerCompany?: string;
     speakerLocation?: string;
+    speakerBio?: string;
     coSpeaker?: string;
+    coSpeakerPhotoUrl?: string;
+    coSpeakerLinkedIn?: string;
     coSpeakerCompany?: string;
     coSpeakerLocation?: string;
+    coSpeakerBio?: string;
     speakerImage: string;
     time: {
         start: Date;
@@ -39,5 +47,5 @@ export interface SessionCardProps {
 
 export interface SessionListProps {
     sessions: Session[];
-    inAgendaPage?: boolean;
+    inAgendaPage: boolean;
 }

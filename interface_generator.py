@@ -36,16 +36,24 @@ export interface Session {{
     title: string;
     abstract: string;
     description: string;
+    titleSpanish?: string;
+    abstractSpanish?: string;
     descriptionSpanish?: string;
     language: CFPLanguage;
     keywords: string[];
     cta: string;
     speaker: string;
+    speakerPhotoUrl?: string;
+    speakerLinkedIn?: string;
     speakerCompany?: string;
     speakerLocation?: string;
+    speakerBio?: string;
     coSpeaker?: string;
+    coSpeakerPhotoUrl?: string;
+    coSpeakerLinkedIn?: string;
     coSpeakerCompany?: string;
     coSpeakerLocation?: string;
+    coSpeakerBio?: string;
     speakerImage: string;
     time: {{
         start: Date;
@@ -65,6 +73,7 @@ export interface SessionCardProps {{
 
 export interface SessionListProps {{
     sessions: Session[];
+    inAgendaPage: boolean;
 }}
 """
     return typescript_content.strip()
