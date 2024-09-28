@@ -96,7 +96,7 @@ const SessionCard: React.FC<SessionCardProps> = ({session}) => {
 
     return (
         <Box color={status === "inactive" ? "gray" : ""} opacity={status === "inactive" ? 0.7 : 1}
-             borderColor={session.id === "KEY101" ? "blue" : ""} borderWidth={session.id === "KEY101" ? 2 : 1}
+             borderColor={session.id === "CMA101" ? "blue" : ""} borderWidth={session.id === "CMA101" ? 2 : 1}
              borderRadius="lg"
         >
             <LinkBox
