@@ -125,7 +125,7 @@ const sessions: Session[] = [
             "innovation",
             "innovación"
         ],
-        "cta": "Asistir a esta sesión te brindará la oportunidad de desbloquear el potencial de tus prácticas de DevOps. Aprenderás a optimizar flujos de trabajo, derribar silos y fomentar la colaboración entre equipos. La charla te proporcionará estrategias clave para crear entornos ágiles y eficientes que impulsen la innovación y aseguren la calidad del software.Esta sesión está diseñada para profesionales de la tecnología, gerentes de proyecto, líderes de equipo y cualquier persona interesada en mejorar sus prácticas de desarrollo de software y DevOps. Si deseas responder rápidamente a las demandas del mercado y transformar tus procesos, esta charla es para ti.",
+        "cta": "Asistir a esta sesión te brindará la oportunidad de desbloquear todo el potencial de tus prácticas DevOps. Aprenderás a perfeccionar y optimizar tus flujos de trabajo, eliminando silos y fomentando la colaboración. La charla ofrecerá estrategias clave para crear entornos eficientes y ágiles, lo que te permitirá acelerar los ciclos de entrega y responder rápidamente a las demandas del mercado.Esta sesión está diseñada para profesionales de DevOps, gerentes de proyectos, líderes de equipos de desarrollo y cualquier persona interesada en mejorar la calidad y eficiencia de sus procesos de software. Al final, tendrás herramientas y conocimientos prácticos que podrás aplicar directamente en tu organización.",
         "speaker": "Aarón Munguía",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -163,7 +163,7 @@ const sessions: Session[] = [
             "cybersecurity challenges",
             "desafíos de ciberseguridad"
         ],
-        "cta": "Asistir a esta sesión te permitirá descubrir cómo un ingeniero biomédico puede convertirse en un experto en ciberseguridad en la nube, lo que resalta las conexiones sorprendentes entre disciplinas. Aprenderás a aprovechar habilidades únicas y estrategias prácticas para prosperar en el futuro interdisciplinario de la tecnología. Esta sesión está diseñada para profesionales en busca de nuevos desafíos en tecnología, estudiantes que exploran posibles trayectorias profesionales, y líderes que buscan diversificar sus equipos de seguridad.",
+        "cta": "Esta sesión es una oportunidad única para aquellos que buscan comprender cómo las habilidades de la ingeniería biomédica pueden aplicarse en el campo de la ciberseguridad en la nube. Asistir te permitirá aprender sobre la intersección de estas dos disciplinas y cómo puedes aprovechar tus habilidades únicas para avanzar en tu carrera en tecnología.La sesión está diseñada para profesionales que buscan nuevos desafíos en tecnología, estudiantes que exploran opciones de carrera y líderes que desean diversificar sus equipos de seguridad. Además, obtendrás estrategias prácticas para realizar transiciones de carrera, desarrollar nuevas habilidades y construir tu red profesional.",
         "speaker": "Agustín Villarreal Carrillo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -177,7 +177,7 @@ const sessions: Session[] = [
         "speakerCompany": "AstraZeneca",
         "titleSpanish": "De la Ingeniería Biomédica a la Ciberseguridad en la Nube: Un Viaje de Innovación",
         "abstractSpanish": "¡Descubre cómo un ingeniero biomédico se convirtió en un experto en ciberseguridad en la nube! Descubre los sorprendentes vínculos entre disciplinas, aprende a aprovechar habilidades únicas y revoluciona tu trayectoria profesional. Obtén estrategias prácticas para prosperar en el futuro interdisciplinario de la tecnología. ¡Tu próxima evolución profesional te espera!",
-        "descriptionSpanish": "Explora cómo la ingeniería biomédica y la ciberseguridad en la nube se intersectan en esta sesión, descubriendo sinergias que ofrecen oportunidades de transformación profesional en tecnología. Aprende cómo transferir habilidades de campos STEM a la ciberseguridad, adaptar la experiencia a nuevos dominios, construir una red profesional y mantenerte competitivo como recién llegado. Basándose en un caso del mundo real de un ingeniero biomédico que se está trasladando a la ciberseguridad en la nube, esta charla proporciona consejos prácticos para superar desafíos y convertirlos en oportunidades de innovación y crecimiento. Ideal para profesionales que buscan nuevos desafíos en tecnología, estudiantes que exploran carreras, y líderes que buscan diversificar equipos de seguridad.",
+        "descriptionSpanish": "Explora cómo la ingeniería biomédica y la ciberseguridad en la nube se intersectan en esta sesión, descubriendo sinergias que ofrecen oportunidades de transformación profesional en tecnología. Aprende cómo transferir habilidades de campos STEM a la ciberseguridad, adaptar la experiencia a nuevos dominios, construir una red profesional y mantenerte competitivo como recién llegado. Basándose en un caso del mundo real de un ingeniero biomédico que hace la transición a la ciberseguridad en la nube, esta charla ofrece consejos prácticos para superar desafíos y convertirlos en oportunidades de innovación y crecimiento. Ideal para profesionales que buscan nuevos desafíos tecnológicos, estudiantes que exploran trayectorias profesionales y líderes que buscan diversificar equipos de seguridad.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG201+-+From+Biomedical+Engineering+to+Cloud+Cybersecurity:+A+Journey+of+Innovation+por+Agust%C3%ADn+Villarreal+Carrillo",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/agustin_villareal.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/agustinvillarreal/",
@@ -201,7 +201,7 @@ const sessions: Session[] = [
             "information retrieval",
             "recuperación de información"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo la técnica de Retrieval-Augmented Generation (RAG) puede mejorar la precisión y relevancia de las respuestas generadas por aplicaciones de inteligencia artificial. Aprenderás a integrar RAG utilizando los servicios de AWS, optimizando el rendimiento de chatbots y sistemas de preguntas y respuestas, así como generando contenido coherente.Esta sesión está diseñada para desarrolladores, gerentes de proyectos, y cualquier persona interesada en mejorar la capacidad de sus aplicaciones de IA para ofrecer respuestas más precisas y contextualizadas. También es útil para quienes trabajan en el ámbito del análisis de datos y marketing digital.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo la técnica de Retrieval-Augmented Generation (RAG) puede mejorar la precisión y relevancia de las respuestas generadas por aplicaciones de inteligencia artificial. Aprenderás sobre la integración de RAG con los servicios de AWS, así como ejemplos prácticos que mostrarán cómo implementar esta técnica en chatbots, sistemas de preguntas y respuestas y generación de contenido.Esta sesión está diseñada para profesionales y desarrolladores interesados en inteligencia artificial, así como para aquellos que deseen optimizar sus aplicaciones y mejorar la experiencia del usuario a través de respuestas más precisas y contextualmente adecuadas. Es particularmente útil para personas que trabajan en áreas de desarrollo web, gestión de proyectos y marketing digital.",
         "speaker": "Aleja Henao Espitia",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -239,7 +239,7 @@ const sessions: Session[] = [
             "charla",
             "quertaro"
         ],
-        "cta": "Asistir a esta sesión es una oportunidad única para transformar tu forma de trabajar como desarrollador. Aprenderás cómo AWS EKS y DevContainers pueden eliminar los obstáculos de configuración de entornos, permitiéndote crear entornos consistentes y reproducibles. Esta charla está diseñada para desarrolladores de todos los niveles que busquen optimizar su flujo de trabajo y mejorar la eficiencia en el desarrollo de aplicaciones. Ideal para aquellos interesados en DevOps y en la gestión de contenedores.",
+        "cta": "Asistir a esta sesión te proporcionará una comprensión profunda de cómo AWS EKS y DevContainers pueden transformar tu experiencia como desarrollador. Aprenderás a crear y gestionar entornos de desarrollo consistentes, lo que te permitirá evitar problemas comunes como el famoso \"en mi máquina funciona\". La sesión está diseñada tanto para desarrolladores que buscan mejorar su flujo de trabajo como para líderes de equipo que desean optimizar la productividad de sus equipos. Si trabajas en DevOps o en el desarrollo de software, esta charla es especialmente relevante para ti.",
         "speaker": "Alex Parra",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -279,7 +279,7 @@ const sessions: Session[] = [
             "root cause analysis",
             "análisis de causa raíz"
         ],
-        "cta": "Asistir a esta sesión te proporcionará una comprensión profunda de cómo K8sGPT puede transformar la gestión de Kubernetes mediante la automatización de tareas complejas. Aprenderás sobre las capacidades del K8sGPT en el análisis de problemas y la optimización del rendimiento, lo que te permitirá reducir el tiempo de inactividad y mejorar la eficiencia en la gestión de aplicaciones nativas de la nube.Esta sesión está diseñada tanto para profesionales de DevOps con experiencia como para aquellos que son nuevos en Kubernetes. Independientemente de tu nivel, obtendrás conocimientos prácticos y ejemplos del mundo real que te ayudarán a escalar y desarrollar tus aplicaciones con confianza.",
+        "cta": "Asistir a esta sesión te permitirá descubrir cómo K8sGPT, una herramienta innovadora impulsada por inteligencia artificial, puede transformar la gestión de Kubernetes. Aprenderás a automatizar tareas complejas como la resolución de problemas, el análisis de causas raíz y la optimización del rendimiento, lo que te ayudará a simplificar tus operaciones y reducir el tiempo de inactividad.Esta sesión está diseñada para una amplia gama de perfiles, desde profesionales de DevOps con experiencia hasta aquellos que son nuevos en Kubernetes. Si buscas mejorar la eficiencia en la gestión de aplicaciones nativas en la nube y deseas enfocarte en el desarrollo y escalado de tus aplicaciones con confianza, esta charla es para ti.",
         "speaker": "Alonso Parasxidis Moreno",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -291,9 +291,9 @@ const sessions: Session[] = [
         "room": "Minerva",
         "speakerLocation": "Baja California, México",
         "speakerCompany": "Caylent",
-        "titleSpanish": "Optimiza la gestión de Kubernetes con IA: Desbloqueando el poder de K8sGPT",
-        "abstractSpanish": "En esta sesión, exploraremos cómo K8sGPT, una herramienta innovadora impulsada por IA, revoluciona la gestión de Kubernetes al automatizar tareas complejas como la resolución de problemas, el análisis de causa raíz y la optimización del rendimiento. Ya seas un profesional de DevOps experimentado o nuevo en Kubernetes, esta charla demostrará cómo K8sGPT puede simplificar tus operaciones, reducir el tiempo de inactividad y mejorar la eficiencia general en la gestión de aplicaciones nativas de la nube. Nos sumergiremos en escenarios del mundo real, mostrando cómo K8sGPT identifica y resuelve problemas rápidamente, ayudándote a concentrarte en escalar y desarrollar tus aplicaciones con confianza. Únete a nosotros para descubrir cómo la IA está transformando la forma en que gestionamos los clústeres de Kubernetes.",
-        "descriptionSpanish": "Herramienta impulsada por IA que simplifica la gestión de Kubernetes. Automatiza la solución de problemas, realiza análisis de causa raíz y proporciona información procesable dentro de su entorno. Ideal para expertos en DevOps y principiantes por igual, K8sGPT ahorra tiempo y reduce la complejidad de las operaciones nativas de la nube.",
+        "titleSpanish": "Optimiza la gestión de Kubernetes con IA: desbloqueando el poder de K8sGPT",
+        "abstractSpanish": "En esta sesión, exploraremos cómo K8sGPT, una herramienta innovadora impulsada por IA, revoluciona la gestión de Kubernetes automatizando tareas complejas como la solución de problemas, el análisis de causas raíz y la optimización del rendimiento. Ya seas un profesional experimentado de DevOps o nuevo en Kubernetes, esta charla demostrará cómo K8sGPT puede simplificar tus operaciones, reducir el tiempo de inactividad y mejorar la eficiencia general en la gestión de aplicaciones nativas de la nube. Profundizaremos en escenarios del mundo real, mostrando cómo K8sGPT identifica y resuelve problemas rápidamente, ayudándote a centrarte en escalar y desarrollar tus aplicaciones con confianza. Únete a nosotros para descubrir cómo la IA está transformando la manera en que gestionamos clústeres de Kubernetes.",
+        "descriptionSpanish": "Herramienta impulsada por IA que simplifica la gestión de Kubernetes. Automatiza la resolución de problemas, realiza análisis de causa raíz y proporciona información procesable dentro de su entorno. Ideal para expertos en DevOps y principiantes por igual, K8sGPT ahorra tiempo y reduce la complejidad de las operaciones nativas de la nube.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB301+-+Streamline+Kubernetes+Management+with+AI:+Unlocking+the+Power+of+K8sGPT+por+Alonso+Parasxidis+Moreno",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/alonso_parasxidis.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/alonsoparasxidis/",
@@ -317,7 +317,7 @@ const sessions: Session[] = [
             "debugging",
             "depuración"
         ],
-        "cta": "Deberías asistir a esta sesión porque te brindará herramientas y conocimientos prácticos sobre el desarrollo de aplicaciones utilizando IA generativa en AWS. Aprenderás a utilizar PartyRock y Amazon Bedrock, y descubrirás cómo interactuar con tus documentos a través de bases de conocimiento y generación aumentada de recuperación (RAG).Esta sesión está diseñada para desarrolladores que estén listos para sumergirse en el mundo de la IA generativa, así como para aquellos que buscan mejorar sus habilidades en ingeniería rápida y en el uso de modelos fundamentales.Los perfiles ideales incluyen desarrolladores de software, arquitectos de soluciones y cualquier persona interesada en implementar soluciones de IA en sus aplicaciones utilizando AWS.",
+        "cta": "Deberías asistir a esta sesión porque te brindará una comprensión profunda sobre cómo desarrollar aplicaciones utilizando IA generativa en AWS, específicamente con herramientas como PartyRock y Amazon Bedrock. Aprenderás habilidades prácticas, incluyendo la ingeniería rápida y el uso de diferentes modelos fundamentales, así como técnicas para interactuar con tus documentos a través de bases de conocimiento.Esta sesión está diseñada para desarrolladores que están listos para aprender sobre la IA generativa y que desean adquirir habilidades en el desarrollo de aplicaciones modernas. Es ideal para aquellos que buscan mejorar su comprensión y habilidades en arquitecturas serverless y soluciones innovadoras en la nube.",
         "speaker": "Ana Barragán",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -357,7 +357,7 @@ const sessions: Session[] = [
             "soft skills",
             "habilidades blandas"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender la importancia de la igualdad de género en el ámbito tecnológico, especialmente en la innovación en la nube. Aprenderás sobre las contribuciones significativas de las mujeres en este sector, los desafíos que enfrentan y cómo fomentar un entorno inclusivo puede enriquecer la transformación digital.Esta sesión está diseñada para profesionales de la tecnología, líderes de equipos, responsables de recursos humanos y cualquier persona interesada en promover la diversidad y la inclusión en el lugar de trabajo. También es relevante para aquellos que buscan inspiración a través de ejemplos de mujeres líderes en la tecnología.",
+        "cta": "Asistir a esta sesión te permitirá comprender la importancia de la participación femenina en el ámbito tecnológico y cómo su inclusión puede enriquecer la innovación en la nube. Aprenderás sobre los desafíos que enfrentan las mujeres en este sector y descubrirás ejemplos inspiradores de contribuciones significativas. La sesión está diseñada para profesionales de tecnología, líderes de equipos, interesados en la diversidad e inclusión, así como para cualquier persona que desee promover un entorno más equitativo en el ámbito digital.",
         "speaker": "Ana Reyna",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -395,7 +395,7 @@ const sessions: Session[] = [
             "efficiency",
             "eficiencia"
         ],
-        "cta": "Asistir a esta sesión te brindará la oportunidad de aprender a implementar un catálogo de datos utilizando AWS Glue, una herramienta esencial para la gestión eficiente de datos. Descubrirás cómo configurar crawlers que te permitirán descubrir y catalogar tus datos de manera automática, lo que facilitará mantener todo organizado y accesible. Además, tendrás la oportunidad de conocer cómo diversas empresas están aprovechando esta herramienta para maximizar su eficiencia en la gestión de datos.Esta sesión está diseñada para profesionales interesados en la analítica de datos, la gobernanza de datos y aquellos que buscan optimizar sus procesos de gestión de datos. Si eres un analista de datos, un científico de datos, o un profesional de TI que desea mejorar sus habilidades en la gestión de datos, esta charla es para ti.",
+        "cta": "Asistir a esta sesión te brindará la oportunidad de aprender sobre la implementación eficaz de un catálogo de datos utilizando AWS Glue, una herramienta esencial para la gestión de datos en la actualidad. Aprenderás a configurar y utilizar crawlers para catalogar tus datos automáticamente, lo que te permitirá mantener tu información organizada y accesible.Esta sesión está diseñada para profesionales que buscan mejorar sus habilidades en gobernanza y gestión de datos, incluyendo analistas de datos, científicos de datos y cualquier persona interesada en optimizar el manejo de datos dentro de su organización. No importa si eres principiante o tienes experiencia, esta charla es relevante para aquellos que desean transformar sus prácticas de gestión de datos.",
         "speaker": "Arait Monter",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -433,7 +433,7 @@ const sessions: Session[] = [
             "systems architect",
             "arquitecto de sistemas"
         ],
-        "cta": "Deberías asistir a esta sesión porque te proporcionará una comprensión profunda de cómo diseñar arquitecturas exitosas de Platform Engineering utilizando servicios de AWS. Aprenderás sobre los aspectos arquitectónicos esenciales que son relevantes para el desarrollo de plataformas, así como cómo implementar estos aspectos en tus soluciones.Esta sesión está diseñada para perfiles que ya poseen algún conocimiento de AWS y están interesados en mejorar la experiencia del desarrollador y la productividad a través de la ingeniería de plataformas. Es ideal para arquitectos de sistemas, ingenieros de DevOps y cualquier profesional que desee explorar cómo construir plataformas internas efectivas.",
+        "cta": "Asistir a esta sesión te permitirá entender los aspectos esenciales para crear una arquitectura de Plataforma de Ingeniería exitosa en AWS. Aprenderás sobre el diseño de soluciones que mejoren la experiencia del desarrollador y cómo implementar estas arquitecturas utilizando servicios de AWS y otras tecnologías.Esta sesión está diseñada para profesionales de DevOps, arquitectos de sistemas, desarrolladores y cualquier persona interesada en mejorar la productividad del desarrollador y la experiencia en la nube. Si tienes conocimientos previos en AWS y Kubernetes, te resultará aún más beneficioso.",
         "speaker": "Armando Alexis Herra Cortez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -446,9 +446,9 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "EPAM Systems",
         "titleSpanish": "Creando arquitecturas para la ingeniería de plataformas en AWS",
-        "abstractSpanish": "¿Qué necesito para crear una arquitectura de ingeniería de plataformas exitosa? Aprende a pensar en los aspectos arquitectónicos esenciales relevantes para la ingeniería de plataformas y cómo implementar estos aspectos en tu solución. Exploraremos en profundidad cómo diseñar una arquitectura de ingeniería de plataformas utilizando servicios de AWS y otras tecnologías.",
-        "descriptionSpanish": "¿Por qué Ingeniería de Plataformas? Según Gartner, la Ingeniería de Plataformas es un tema en crecimiento en la industria. Muchas empresas han comenzado a diseñar sus propias Plataformas de Desarrolladores Internos y están tratando de mejorar la Experiencia del Desarrollador para aumentar la productividad. En esta sesión, aprenderemos sobre la Ingeniería de Plataformas y cómo diseñar estas soluciones en AWS.",
-        "rateUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg",
+        "abstractSpanish": "¿Qué necesito para crear una arquitectura de ingeniería de plataformas exitosa? Aprende a pensar sobre aspectos arquitectónicos esenciales relevantes para PE y cómo implementar estos aspectos en tu solución. Exploraremos en profundidad cómo diseñar una arquitectura de PE utilizando servicios de AWS y otras tecnologías.",
+        "descriptionSpanish": "¿Por qué la Ingeniería de Plataformas? Según Gartner, la Ingeniería de Plataformas es un tema en crecimiento en la industria. Muchas empresas han comenzado a diseñar sus propias Plataformas de Desarrolladores Internos y están tratando de mejorar la Experiencia del Desarrollador para aumentar la productividad. En esta sesión, aprenderemos sobre la Ingeniería de Plataformas y cómo diseñar estas soluciones en AWS.",
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS303+-+Creating+Architectures+for+Platform+Engineering+on+AWS+por+Armando+Alexis+Herra+Cortez",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/armando_herra.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/armandoherra/",
         "speakerBio": "Armando es un Arquitecto de Sistemas con amplia experiencia en Cloud Computing, Infraestructura como Código y Kubernetes. Se especializa en crear despliegues automatizados de infraestructura con pipelines de CI/CD. Tiene un gran interés en otros temas como Site Reliability Engineering, Platform Engineering, Data Engineering y el Ecosistema Cloud Native. Armando está certificado en AWS, Azure, GCP, Terraform, y Kubernetes."
@@ -471,7 +471,7 @@ const sessions: Session[] = [
             "data analysis",
             "análisis de datos"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender a fondo la economía de nube y FinOps, así como su impacto en la gestión eficiente de costos en entornos de nube híbrida y multinube. Aprenderás sobre las metodologías de optimización financiera, la medición del retorno de inversión, la preparación de presupuestos y la construcción de indicadores de rentabilidad. Esta charla está diseñada para profesionales en operaciones en la nube, finanzas, y cualquier persona interesada en maximizar el valor empresarial de las inversiones en tecnologías de la nube.",
+        "cta": "Asistir a esta sesión te permitirá comprender mejor la economía de nube y FinOps, aprendiendo sobre la gestión eficiente de costos en entornos cloud. Aprenderás sobre los principios de la economía de nube, cómo medir el retorno de inversión, preparar presupuestos y construir indicadores de rentabilidad.Esta sesión está diseñada para perfiles que buscan optimizar sus inversiones en tecnologías cloud, tales como gerentes de operaciones, especialistas en finanzas, y profesionales de TI que deseen implementar prácticas de optimización de costos en sus organizaciones.",
         "speaker": "Barbara Gaspar",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -483,7 +483,7 @@ const sessions: Session[] = [
         "room": "Tejuino (H6)",
         "speakerLocation": "Ciudad de México, México",
         "speakerCompany": "CONTPAQi",
-        "titleSpanish": "Nube economía, y FinOps en la nube ¿Una transición?",
+        "titleSpanish": "Núcleo de la economía de la nube, y FinOps en la nube ¿Una transición?",
         "abstractSpanish": "Seleccionar diferentes metodologías de optimización de costos es una disyuntiva, el objetivo es preparar un ejercicio práctico para diseñar el plan de optimización costos en estructuras híbridas de nube y multinube como indicadores y herramientas nativas para planificar estas acciones.",
         "descriptionSpanish": "Esta charla explora la economía de nube y FinOps, centrándose en la gestión eficiente de costos en entornos cloud. Aborda los principios de la economía de nube, sus beneficios para las empresas, y la importancia de la optimización financiera en la adopción de tecnologías cloud. Se discutirán métodos para medir el retorno de inversión, preparar presupuestos, construir indicadores de rentabilidad y realizar ejercicios de optimización de costos en diferentes estructuras de nube. El objetivo es proporcionar herramientas prácticas para maximizar el valor empresarial de las inversiones en cloud computing.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS201+-+Cloud+economics,+y+cloud+FinOps+%C2%BFUna+transici%C3%B3n?+por+Barbara+Gaspar",
@@ -509,7 +509,7 @@ const sessions: Session[] = [
             "managed blockchain",
             "blockchain administrado"
         ],
-        "cta": "### ¿Por qué debería asistir a esta sesión?Asistir a esta sesión te permitirá obtener conocimientos prácticos sobre cómo diseñar y desarrollar arquitecturas de software seguras que integren aplicaciones web con servicios blockchain utilizando AWS. Además, podrás conocer un caso de estudio real implementado por Nohbek, lo que te brindará una visión clara de los desafíos y soluciones en el campo de la seguridad y la escalabilidad en aplicaciones blockchain.### ¿Qué aprenderé?En esta charla, aprenderás sobre:- Patrones de diseño para arquitecturas seguras.- Mejores prácticas de seguridad en el desarrollo de aplicaciones web.- La implementación de Amazon Managed Blockchain.- Cómo construir aplicaciones escalables y robustas en Ethereum.- Experiencias y lecciones aprendidas en el desarrollo de soluciones tecnológicas.### ¿Para qué perfiles está diseñada esta sesión?Esta sesión está diseñada para:- Desarrolladores de software que buscan integrar blockchain en sus aplicaciones.- Arquitectos de software interesados en mejorar la seguridad y escalabilidad de sus proyectos.- Profesionales de ciberseguridad que desean entender mejor la intersección entre blockchain y AWS.- Estudiantes y entusiastas de la tecnología que quieren aprender sobre las últimas tendencias en arquitectura de software.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo diseñar una arquitectura de software segura que integre aplicaciones web con servicios blockchain en AWS. Aprenderás sobre patrones de diseño, mejores prácticas de seguridad y cómo implementar soluciones escalables utilizando Amazon Managed Blockchain.Esta sesión está diseñada para profesionales de la tecnología, arquitectos de software, desarrolladores y cualquier persona interesada en la seguridad en la nube y la integración de blockchain. También es relevante para aquellos que buscan mejorar sus habilidades en el diseño de arquitecturas robustas y escalables.",
         "speaker": "Brenda Cuevas Vázquez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -538,7 +538,7 @@ const sessions: Session[] = [
         "keywords": [
             ""
         ],
-        "cta": "Asistir a esta sesión te brindará la oportunidad de aprender sobre la implementación de un Producto Mínimo Viable (MVP) utilizando servicios en la nube como EC2, S3 y RDS. Además, descubrirás cómo modernizar y optimizar aplicaciones con Auto Scaling y servicios sin servidor, así como explorar el uso de Machine Learning para potenciar el crecimiento.Esta sesión está diseñada para desarrolladores, arquitectos de software, emprendedores y cualquier persona interesada en aprender sobre el uso de tecnologías de Amazon Web Services en el desarrollo de soluciones innovadoras y escalables en la nube.",
+        "cta": "Asistir a esta sesión te permitirá obtener una visión profunda sobre cómo construir y optimizar aplicaciones en la nube utilizando servicios de Amazon Web Services. Aprenderás sobre la implementación de un MVP, la modernización mediante Auto Scaling y la integración de servicios innovadores de Machine Learning. Esta charla está diseñada para desarrolladores, arquitectos de soluciones y emprendedores interesados en tecnología, así como para cualquier persona que desee mejorar sus habilidades en el uso de la nube.",
         "speaker": "Carlos Ordonez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -576,7 +576,7 @@ const sessions: Session[] = [
             "melodies",
             "melodías"
         ],
-        "cta": "Asistir a esta sesión te permitirá explorar cómo el aprendizaje automático está revolucionando la creación musical. Aprenderás sobre la intersección entre los datos y la música, y cómo se pueden generar composiciones originales utilizando algoritmos avanzados. Además, podrás conocer los desafíos y enfoques prometedores en el campo, como las Redes Generativas Antagónicas (GAN) y el deep learning.Esta sesión está diseñada para profesionales y entusiastas de la música, así como para aquellos interesados en la tecnología y el aprendizaje automático. Es ideal para músicos, desarrolladores de software, investigadores y cualquier persona que desee comprender mejor las posibilidades que ofrece el machine learning en el ámbito musical.",
+        "cta": "Asistir a esta sesión te permitirá explorar la fascinante intersección entre el aprendizaje automático y la creación musical. Aprenderás cómo los datos pueden ser utilizados para generar composiciones originales y los desafíos asociados con este proceso. La sesión está diseñada para perfiles interesados en la música, la tecnología y el machine learning, incluyendo músicos, desarrolladores, investigadores y entusiastas de la inteligencia artificial que deseen entender cómo aplicar estas técnicas en el ámbito musical.",
         "speaker": "César Martinez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -614,7 +614,7 @@ const sessions: Session[] = [
             "charla",
             "talk"
         ],
-        "cta": "Asistir a esta sesión te permitirá aprender de los errores comunes que muchos cometemos al comenzar con AWS, lo que puede ahorrarte tiempo y recursos valiosos en tu propia experiencia en la nube. La charla es entretenida y está diseñada para ser accesible a todos, no solo a aquellos con un trasfondo técnico. Es ideal para principiantes, profesionales de IT que desean expandir sus conocimientos en la nube, y cualquier persona interesada en evitar tropiezos comunes en su camino hacia la adopción de tecnologías en la nube.",
+        "cta": "Asistir a esta sesión te permitirá identificar y evitar errores comunes al iniciar tu aventura en la nube con AWS. Aprenderás de manera divertida y amena sobre las dificultades que enfrentan muchos al configurar servicios como EC2 y CloudFormation. Esta charla está diseñada para cualquier persona interesada en la computación en la nube, desde principiantes hasta aquellos que buscan refrescar sus conocimientos. Si buscas una experiencia de aprendizaje que combine humor con lecciones prácticas, esta sesión es para ti.",
         "speaker": "David Sol",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -636,7 +636,7 @@ const sessions: Session[] = [
     },
     {
         "id": "SLS204",
-        "title": "Gamificando la experiencia del asistente al AWS Community Day",
+        "title": "Gamificando la experiencia del asistente del AWS Community Day México (y sin servidores)",
         "description": "En esta charla, exploraremos cómo hemos transformado la experiencia del asistente en el AWS Community Day mediante la implementación de elementos de gamificación. Nos centraremos en dos innovaciones clave: una aplicación de networking que utiliza códigos QR para facilitar las conexiones entre los participantes, y el \"Event Passport\", un sistema que incentiva las visitas a los stands de los sponsors. Explicaremos cómo aprovechamos las tecnologías serverless de AWS para desarrollar estas soluciones, garantizando escalabilidad y eficiencia. Analizaremos los desafíos que enfrentamos durante el desarrollo y cómo los superamos. Compartiremos datos sobre el impacto de estas herramientas en la participación y satisfacción de los asistentes, así como en la visibilidad de los sponsors. Finalmente, ofreceremos consejos prácticos para que los organizadores de eventos puedan implementar estrategias similares, adaptándolas a sus necesidades específicas.",
         "abstract": "Descubre cómo potenciamos la interacción y el compromiso en el AWS Community Day mediante la gamificación. Presentaremos nuestra aplicación de networking basada en códigos QR y el \"Event Passport\" para visitas a stands de sponsors. Exploraremos cómo las tecnologías serverless nos permitieron crear una experiencia fluida y escalable. Aprende sobre los desafíos técnicos, las soluciones implementadas y los resultados obtenidos. Únete a nosotros para descubrir cómo puedes aplicar estas estrategias en tus propios eventos y aumentar la participación de tu comunidad.",
         "language": "Spanish",
@@ -652,7 +652,7 @@ const sessions: Session[] = [
             "event passport",
             "pasaporte de evento"
         ],
-        "cta": "Asistir a esta sesión te permitirá descubrir cómo la gamificación puede mejorar la interacción y el compromiso en eventos como el AWS Community Day. Aprenderás sobre el uso de tecnologías serverless para crear una aplicación de networking y un sistema de incentivos que aumentan la participación de los asistentes. Esta sesión está diseñada para organizadores de eventos, desarrolladores y profesionales interesados en mejorar la experiencia del usuario mediante soluciones innovadoras y efectivas.",
+        "cta": "Asistir a esta sesión te permitirá descubrir cómo la gamificación puede mejorar la interacción y el compromiso en eventos. Aprenderás sobre la implementación de una aplicación de networking basada en códigos QR y el uso del \"Event Passport\" para incentivar la visita a stands de sponsors. La sesión está diseñada para organizadores de eventos, profesionales de tecnología y cualquier persona interesada en mejorar la experiencia del asistente utilizando tecnologías innovadoras y soluciones serverless.",
         "speaker": "David Victoria",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -665,12 +665,12 @@ const sessions: Session[] = [
         "speakerLocation": "Nuevo León, México",
         "coSpeaker": "Sebastian Marines",
         "speakerCompany": "Caylent",
-        "titleSpanish": "Gamificando la experiencia del asistente al AWS Community Day",
+        "titleSpanish": "Gamificando la experiencia del asistente del AWS Community Day México (y sin servidores)",
         "abstractSpanish": "Descubre cómo potenciamos la interacción y el compromiso en el AWS Community Day mediante la gamificación. Presentaremos nuestra aplicación de networking basada en códigos QR y el \"Event Passport\" para visitas a stands de sponsors. Exploraremos cómo las tecnologías serverless nos permitieron crear una experiencia fluida y escalable. Aprende sobre los desafíos técnicos, las soluciones implementadas y los resultados obtenidos. Únete a nosotros para descubrir cómo puedes aplicar estas estrategias en tus propios eventos y aumentar la participación de tu comunidad.",
         "descriptionSpanish": "En esta charla, exploraremos cómo hemos transformado la experiencia del asistente en el AWS Community Day mediante la implementación de elementos de gamificación. Nos centraremos en dos innovaciones clave: una aplicación de networking que utiliza códigos QR para facilitar las conexiones entre los participantes, y el \"Event Passport\", un sistema que incentiva las visitas a los stands de los sponsors. Explicaremos cómo aprovechamos las tecnologías serverless de AWS para desarrollar estas soluciones, garantizando escalabilidad y eficiencia. Analizaremos los desafíos que enfrentamos durante el desarrollo y cómo los superamos. Compartiremos datos sobre el impacto de estas herramientas en la participación y satisfacción de los asistentes, así como en la visibilidad de los sponsors. Finalmente, ofreceremos consejos prácticos para que los organizadores de eventos puedan implementar estrategias similares, adaptándolas a sus necesidades específicas.",
         "coSpeakerLocation": "Nuevo León, México",
         "coSpeakerCompany": "Atrato",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SLS204+-+Gamificando+la+experiencia+del+asistente+al+AWS+Community+Day+por+David+Victoria+y+Sebastian+Marines",
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SLS204+-+Gamificando+la+experiencia+del+asistente+del+AWS+Community+Day+M%C3%A9xico+(y+sin+servidores)+por+David+Victoria+y+Sebastian+Marines",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/organizers/david-victoria.jpg",
         "coSpeakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/sebastian_marines.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/vikomex/",
@@ -696,7 +696,7 @@ const sessions: Session[] = [
             "support",
             "soporte"
         ],
-        "cta": "Asistir a esta sesión te permitirá aprender una variedad de consejos prácticos y hacks para optimizar tu trabajo con AWS. Descubrirás cómo mejorar la seguridad, gestionar mejor tus recursos y ahorrar dinero en tus proyectos en la nube. Esta charla está diseñada para todos los niveles de experiencia, desde principiantes hasta usuarios avanzados, por lo que encontrarás información valiosa que se adapta a tus necesidades y te ayudará a trabajar de manera más eficiente en AWS.",
+        "cta": "Asistir a esta sesión te permitirá aprender una variedad de consejos prácticos y hacks para optimizar tu trabajo con AWS, lo cual es crucial para mejorar la eficiencia, seguridad y rentabilidad en la nube.Aprenderás a mejorar la seguridad de tus proyectos, gestionar recursos de manera más eficaz y ahorrar dinero. La sesión está diseñada para todos los niveles de experiencia, desde principiantes hasta usuarios avanzados, asegurando que haya algo valioso para cada asistente.",
         "speaker": "Edgar Omar Reyes Cano",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -719,7 +719,7 @@ const sessions: Session[] = [
     {
         "id": "KUB302",
         "title": "Deploying Generative Artificial Intelligence on EKS: Unlocking the Power of Language Models",
-        "description": "",
+        "description": "N/A",
         "abstract": "Explore how Amazon EKS fuels the generative AI revolution. In this session, learn to train and deploy Language Models like BERT-Large, Llama2, and Stable Diffusion, showcasing their transformative impact. Dive into the future of AI with EKS to lead the next wave of technological innovations.",
         "language": "English",
         "keywords": [
@@ -734,7 +734,7 @@ const sessions: Session[] = [
             "intermediate",
             "intermedio"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo Amazon EKS impulsa la revolución de la inteligencia artificial generativa. Aprenderás a entrenar y desplegar modelos de lenguaje como BERT-Large, Llama2 y Stable Diffusion, lo que te proporcionará conocimientos prácticos sobre su impacto transformador. Esta sesión está diseñada para desarrolladores, arquitectos de soluciones y profesionales interesados en la inteligencia artificial y Kubernetes que buscan estar a la vanguardia de las innovaciones tecnológicas.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo Amazon EKS está impulsando la revolución de la inteligencia artificial generativa. Aprenderás a entrenar y desplegar modelos de lenguaje como BERT-Large, Llama2 y Stable Diffusion, y descubrirás su impacto transformador en diversas aplicaciones. Esta sesión está diseñada para desarrolladores, arquitectos de sistemas y profesionales interesados en la inteligencia artificial y Kubernetes, así como para aquellos que buscan estar a la vanguardia de las innovaciones tecnológicas.",
         "speaker": "Eduardo Camacho",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -747,7 +747,11 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "titleSpanish": "Desplegando Inteligencia Artificial Generativa en EKS: Desbloqueando el Poder de los Modelos de Lenguaje",
         "abstractSpanish": "Explora cómo Amazon EKS impulsa la revolución de la IA generativa. En esta sesión, aprende a entrenar y desplegar Modelos de Lenguaje como BERT-Large, Llama2 y Stable Diffusion, mostrando su impacto transformador. Sumérgete en el futuro de la IA con EKS para liderar la próxima ola de innovaciones tecnológicas.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB302+-+Deploying+Generative+Artificial+Intelligence+on+EKS:+Unlocking+the+Power+of+Language+Models+por+Eduardo+Camacho"
+        "descriptionSpanish": "N/A",
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=KUB302+-+Deploying+Generative+Artificial+Intelligence+on+EKS:+Unlocking+the+Power+of+Language+Models+por+Eduardo+Camacho",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/eduardo_camacho.png",
+        "speakerLinkedIn": "https://www.linkedin.com/in/eduardo-camacho-amaro-04701b32/",
+        "speakerBio": "Eduardo Camacho es un Arquitecto de Sistemas con una vasta experiencia de más de 12 años. A lo largo de su carrera, ha dedicado una parte significativa de su trayectoria a los campos de soluciones en la nube, DevOps e infraestructura principal. Actualmente, ocupa el cargo de Senior SRE (Ingeniero de Confiabilidad del Sitio)."
     },
     {
         "id": "OPS202",
@@ -767,7 +771,7 @@ const sessions: Session[] = [
             "powertools",
             "herramientas de potencia"
         ],
-        "cta": "Asistir a esta sesión es una oportunidad valiosa para mejorar tus habilidades en la monitorización y observabilidad de aplicaciones serverless. Aprenderás a utilizar herramientas de AWS como CloudWatch y Powertools para optimizar el rendimiento de las funciones Lambda y consolidar métricas y registros en un panel integrado. La sesión está diseñada para desarrolladores, arquitectos de soluciones y profesionales de DevOps que buscan fortalecer su comprensión y habilidades en la observabilidad y el monitoreo de arquitecturas serverless.",
+        "cta": "Asistir a esta sesión te permitirá aprender sobre las mejores prácticas y herramientas para mejorar la visibilidad y el monitoreo en entornos serverless, específicamente utilizando AWS Lambda, CloudWatch y Powertools. Aprenderás a analizar logs y métricas, consolidarlos en un dashboard integrado y optimizar el rendimiento de tus funciones Lambda.Esta sesión está diseñada para desarrolladores, arquitectos de soluciones y cualquier profesional que trabaje con tecnologías serverless y busque mejorar sus habilidades en monitoreo y observabilidad.Además, tendrás la oportunidad de ver una demostración en vivo, lo que te proporcionará conocimientos prácticos que podrás implementar en tu propia arquitectura serverless.",
         "speaker": "Edwin Alan Moedano Cardiel",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -781,7 +785,7 @@ const sessions: Session[] = [
         "speakerCompany": "Caylent",
         "titleSpanish": "Monitoreo y Observabilidad de Lambdas con Cloudwatch y Powertools",
         "abstractSpanish": "En esta charla, exploraremos cómo mejorar la visibilidad y el monitoreo en entornos sin servidor utilizando herramientas de AWS como CloudWatch y Powertools, discutiendo estrategias para monitorear el rendimiento y el comportamiento de las funciones Lambda, ofreciendo soluciones prácticas para optimizar y mantener un servicio de calidad.",
-        "descriptionSpanish": "Esta charla se centra en explorar cómo podemos mejorar nuestras ideas de monitoreo y observabilidad en implementaciones serverless utilizando AWS Lambda, CloudWatch y Powertools. Discutiremos los conceptos clave y los pilares de la observabilidad para ayudarnos a comprender mejor cómo analizar registros y métricas y consolidarlos en un panel integrado en AWS. Con la ayuda de una demostración en vivo, recorreremos los pasos para implementar rápidamente estas soluciones, proporcionando conocimientos prácticos y habilidades para mejorar su arquitectura serverless.",
+        "descriptionSpanish": "Esta charla se centra en explorar cómo podemos mejorar nuestras perspectivas de monitoreo y observabilidad en implementaciones sin servidor utilizando AWS Lambda, CloudWatch y Powertools. Discutiremos conceptos clave y pilares de la observabilidad para ayudarnos a comprender mejor cómo analizar registros y métricas y consolidarlos en un tablero integrado en AWS. Con la ayuda de una demostración en vivo, recorreremos los pasos para implementar rápidamente estas soluciones, proporcionando conocimientos y habilidades prácticas para mejorar su arquitectura sin servidor.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS202+-+Monitoring+and+Observability+of+Lambdas+with+Cloudwatch+and+Powertools+por+Edwin+Alan+Moedano+Cardiel",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/edwin_moedano.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/edwinmoedano/",
@@ -805,7 +809,7 @@ const sessions: Session[] = [
             "despliegue",
             "integración"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender en profundidad cómo desplegar Amazon WorkSpaces utilizando AD Connector, aprovechando un Active Directory existente. Aprenderás sobre las conexiones, puertos y permisos necesarios para una integración efectiva, así como los alcances y limitaciones de AD Connector. Esta sesión está diseñada para profesionales de infraestructura, arquitectos de soluciones, y cualquier persona interesada en implementar arquitecturas híbridas que involucren conexiones on-premise y en la nube.",
+        "cta": "Asistir a esta sesión te permitirá entender cómo desplegar Amazon WorkSpaces utilizando AD Connector de manera efectiva. Aprenderás sobre las conexiones, puertos y permisos necesarios para establecer una integración exitosa entre AD Connector y tu Active Directory. Además, se discutirán los alcances y limitaciones de AD Connector, lo que te ayudará a evaluar si es la solución adecuada para tus necesidades.Esta sesión está diseñada para profesionales de infraestructura, arquitectos de soluciones, y cualquier persona interesada en la implementación de arquitecturas híbridas y la integración de servicios en la nube con Active Directory.",
         "speaker": "Elisa Zamarrón Muñoz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -843,7 +847,7 @@ const sessions: Session[] = [
             "costos",
             "rendimiento"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender las ventajas de AWS Direct Connect como una solución de conectividad dedicada a la nube, optimizando tus comunicaciones y maximizando tu presupuesto. Aprenderás sobre las diferentes topologías que pueden mejorar la conectividad, los casos de uso más comunes, y las mejores prácticas para la configuración y optimización de costos.Esta sesión está diseñada para profesionales en telecomunicaciones, técnicos, y cualquier persona interesada en mejorar su conectividad a AWS, especialmente aquellos con un nivel técnico/comercial básico que deseen conocer cómo maximizar el uso de la nube y resolver problemas de latencia y conectividad.",
+        "cta": "### ¿Por qué debería asistir a esta sesión?Asistir a esta sesión te brindará la oportunidad de entender cómo AWS Direct Connect puede transformar y optimizar tus comunicaciones a la nube, eliminando problemas comunes como la latencia y la pérdida de paquetes. Además, aprenderás sobre las mejores prácticas para aprovechar al máximo tu conectividad y presupuesto.### ¿Qué aprenderé?Durante la charla, explorarás los beneficios y la arquitectura básica de AWS Direct Connect. Te familiarizarás con casos de uso comunes, estrategias de migración y cómo configurar conexiones eficientes en entornos de nube híbrida. También obtendrás conocimientos prácticos sobre cómo maximizar tus recursos en AWS.### ¿Para qué perfiles está diseñada esta sesión?Esta sesión está diseñada para profesionales en telecomunicaciones, arquitectos de soluciones en la nube, y cualquier persona interesada en optimizar su conectividad hacia AWS. No es necesario tener un conocimiento técnico avanzado, ya que se abordarán conceptos básicos que son fáciles de comprender.",
         "speaker": "Elizabeth Gómez Guillén",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -882,7 +886,7 @@ const sessions: Session[] = [
             "terraform",
             "terraform"
         ],
-        "cta": "Asistir a esta sesión te brindará una comprensión profunda sobre cómo exponer de manera segura APIs internas utilizando AWS API Gateway. Aprenderás las mejores prácticas y las lecciones aprendidas de implementaciones reales, lo que te permitirá aplicar este conocimiento en tus propios proyectos. La sesión está diseñada para desarrolladores, arquitectos y gerentes de TI que buscan mejorar la seguridad y la integración de sus servicios internos con socios externos.",
+        "cta": "Deberías asistir a esta sesión porque te proporcionará las pautas necesarias para exponer de manera segura las APIs internas a través de AWS API Gateway. Aprenderás a garantizar un consumo interno consistente y seguro, al tiempo que aseguras la seguridad para el consumo de socios externos. Esta sesión está diseñada para desarrolladores, arquitectos y gerentes de TI que buscan conectar servicios internos con integraciones externas de manera efectiva.",
         "speaker": "Enrique Cuevas",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -894,9 +898,9 @@ const sessions: Session[] = [
         "room": "Tonalá (H2)",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Wizeline",
-        "titleSpanish": "Integración segura de API: Lecciones de la implementación de AWS API Gateway",
-        "abstractSpanish": "¡Desata el poder de tus servicios internos a través de AWS API Gateway! En esta sesión informativa, recibirás las pautas sobre cómo exponer de forma segura las API internas. Obtén conocimientos prácticos sobre cómo hacer cumplir un consumo interno consistente y seguro, garantizando al mismo tiempo una seguridad confiable para el consumo de socios externos. No importa si eres un desarrollador, arquitecto o gerente de TI, esta presentación está destinada a proporcionarte el conocimiento necesario para conectar de manera efectiva los servicios internos y las integraciones externas.",
-        "descriptionSpanish": "Desbloquea el potencial de tus servicios internos con AWS API Gateway. Esta charla te guiará a través de la exposición segura de APIs internas tanto para el consumo interno como para socios externos, compartiendo ideas y mejores prácticas de implementaciones del mundo real.",
+        "titleSpanish": "Integración de API Segura: Lecciones de la Implementación de AWS API Gateway",
+        "abstractSpanish": "¡Desata el poder de tus servicios internos a través de AWS API Gateway! En esta sesión informativa, recibirás las pautas sobre cómo exponer de manera segura las API internas. Reúne conocimientos prácticos sobre cómo hacer cumplir un consumo interno consistente y seguro, garantizando al mismo tiempo una seguridad confiable para el consumo de socios externos. No importa si eres desarrollador, arquitecto o gerente de TI, esta presentación está destinada a proporcionarte el conocimiento necesario para conectar servicios internos e integraciones externas de manera efectiva.",
+        "descriptionSpanish": "Desbloquee el potencial de sus servicios internos con AWS API Gateway. Esta charla lo guiará a través de la exposición segura de APIs internas tanto para el consumo interno como para socios externos, compartiendo ideas y mejores prácticas de implementaciones en el mundo real.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG202+-+Secure+API+Integration:+Lessons+from+Implementing+AWS+API+Gateway+por+Enrique+Cuevas",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/kie_cuevas.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/enrique-cuevas/",
@@ -922,7 +926,7 @@ const sessions: Session[] = [
             "best practices",
             "mejores prácticas"
         ],
-        "cta": "Deberías asistir a esta sesión porque te proporcionará una comprensión sólida de la infraestructura como código (IaC) y de cómo utilizar AWS CDK para gestionar recursos en la nube de manera eficiente. Aprenderás a definir y desplegar recursos de AWS utilizando lenguajes de programación que ya conoces, lo que facilitará la integración de estas herramientas en tus proyectos.En esta charla, aprenderás los conceptos básicos de IaC, las mejores prácticas y patrones de diseño asociados, así como técnicas de automatización que te ayudarán a optimizar tus procesos de despliegue y gestión de infraestructura. La sesión está diseñada para quienes tengan conocimientos básicos de AWS, y es útil tanto para desarrolladores que buscan mejorar sus habilidades técnicas como para arquitectos de soluciones interesados en implementar prácticas modernas de gestión de infraestructura en la nube.",
+        "cta": "Deberías asistir a esta sesión porque te brindará una comprensión sólida de la Infraestructura como Código (IaC) y de cómo utilizar AWS CDK para definir y desplegar recursos en la nube de manera efectiva. Aprenderás a implementar prácticas y patrones de diseño que optimizan la gestión de infraestructura, lo que puede transformar la forma en que tu organización maneja sus recursos en la nube.Esta sesión está diseñada para personas con conocimientos básicos de AWS, incluyendo desarrolladores y arquitectos de soluciones que buscan adquirir habilidades prácticas en la implementación de infraestructuras utilizando código. A través de ejemplos prácticos y conceptos teóricos, podrás aplicar lo aprendido directamente en tus proyectos.",
         "speaker": "Erick J. Pineda Amézquita",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -970,7 +974,7 @@ const sessions: Session[] = [
             "implementation",
             "users"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo las herramientas open-source pueden potenciar tu Data Warehouse y mejorar la gestión de datos en tu organización. Aprenderás sobre el stack estándar que incluye Git, DBT y Apache Airflow, y cómo estas herramientas pueden facilitar el trabajo de tu equipo mientras empoderan a los usuarios.Esta sesión está diseñada para perfiles que desean optimizar sus procesos de datos, incluyendo Data Engineers, analistas de datos y cualquier persona interesada en mejorar su infraestructura de datos sin comprometerse a costos elevados.",
+        "cta": "Asistir a esta sesión te permitirá comprender la importancia de seleccionar las herramientas open-source adecuadas para potenciar tu Data Warehouse. Aprenderás sobre un stack estándar que incluye herramientas como Git, DBT y Apache Airflow, y cómo estas pueden optimizar la arquitectura de tu plataforma de datos.Esta sesión está diseñada para profesionales en el campo de la analítica de datos, ingenieros de datos, y cualquier persona interesada en mejorar su conocimiento sobre herramientas y arquitecturas de datos, especialmente en entornos donde se busca maximizar el uso de soluciones open-source.",
         "speaker": "Esaú Reyes",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -990,6 +994,43 @@ const sessions: Session[] = [
         "speakerBio": "Esaú es Data Engineer con experiencia en implementación de arquitecturas de datos basadas en eventos, batch y tiempo real. Especialista en los servicios de datos de AWS, actualmente ceritificado como Data Engineer por Amazon Web Services. Tiene un gran interés por el aprendizaje constante y la colaboaración con comunidades tech."
     },
     {
+        "id": "OPS207",
+        "title": "Optimización Financiera en la Nube: Estrategias para Maximizar el Valor y Reducir Costos en AWS",
+        "description": "A medida que la migración a AWS se convierte en una necesidad para muchas organizaciones, es fundamental que los líderes financieros y operativos comprendan cómo gestionar los costos de manera eficiente sin sacrificar la innovación. Abordaremos las herramientas y enfoques clave para controlar el gasto en la nube, optimizar el uso de recursos y aplicar las mejores prácticas para la previsión financiera en un entorno en constante cambio.",
+        "abstract": "En esta charla, exploraremos cómo las empresas pueden maximizar su retorno de inversión (ROI) al adoptar estrategias de optimización financiera en la nube.",
+        "language": "Spanish",
+        "keywords": [
+            "financial optimization",
+            "optimización financiera",
+            "return on investment",
+            "retorno de inversión",
+            "cost management",
+            "gestión de costos",
+            "resource usage",
+            "uso de recursos",
+            "best practices",
+            "mejores prácticas"
+        ],
+        "cta": "Asistir a esta sesión te proporcionará una comprensión profunda de cómo optimizar los costos en la nube y maximizar el retorno de inversión al utilizar AWS. Aprenderás sobre herramientas y enfoques clave para gestionar eficientemente los gastos, optimizar recursos y aplicar mejores prácticas en previsión financiera.Esta sesión está diseñada para líderes financieros, operativos y cualquier profesional involucrado en la gestión de costos y la estrategia de nube dentro de las organizaciones que buscan mejorar su eficiencia en la nube sin comprometer la innovación.",
+        "speaker": "Evert Rabuck",
+        "speakerImage": "https://example.com/speaker-image.jpg",
+        "time": {
+            "start": new Date('2024-10-05T15:00:00-06:00'),
+            "end": new Date('2024-10-05T15:35:00-06:00')
+        },
+        "category": "Operaciones en la nube",
+        "level": "L200",
+        "room": "Minerva",
+        "speakerLocation": "Jalisco, México",
+        "titleSpanish": "Optimización Financiera en la Nube: Estrategias para Maximizar el Valor y Reducir Costos en AWS",
+        "abstractSpanish": "En esta charla, exploraremos cómo las empresas pueden maximizar su retorno de inversión (ROI) al adoptar estrategias de optimización financiera en la nube.",
+        "descriptionSpanish": "A medida que la migración a AWS se convierte en una necesidad para muchas organizaciones, es fundamental que los líderes financieros y operativos comprendan cómo gestionar los costos de manera eficiente sin sacrificar la innovación. Abordaremos las herramientas y enfoques clave para controlar el gasto en la nube, optimizar el uso de recursos y aplicar las mejores prácticas para la previsión financiera en un entorno en constante cambio.",
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS207+-+Optimizaci%C3%B3n+Financiera+en+la+Nube:+Estrategias+para+Maximizar+el+Valor+y+Reducir+Costos+en+AWS+por+Evert+Rabuck",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/evert_abuck.png",
+        "speakerLinkedIn": "https://www.linkedin.com/in/evert-rabuck/",
+        "speakerBio": "Con más de 5 años de experiencia en la industria tecnológica, Evert Rabuck ha liderado múltiples iniciativas de migración a la nube, optimización de costos y modernización de infraestructuras en la nube para empresas de diversas industrias. En su rol como AWS Business Unit Manager, Evert se especializa en ayudar a las organizaciones a maximizar su inversión en la nube, utilizando las herramientas y servicios de AWS para optimizar el rendimiento y reducir gastos. Su enfoque se centra en la alineación estratégica entre la tecnología y las metas de negocio, asegurando que las empresas no solo adopten la nube de manera efectiva, sino que también logren un retorno de inversión óptimo."
+    },
+    {
         "id": "IAG203",
         "title": "Utilizar Gen AI en nuestro análisis de datos como un campeón",
         "description": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap.",
@@ -1007,7 +1048,7 @@ const sessions: Session[] = [
             "bilingual",
             "bilingüe"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo integrar Gen AI en el análisis de datos, utilizando Amazon QuickSight para crear tableros interactivos mediante lenguaje natural. Aprenderás sobre las capacidades de BI generativo y cómo se comporta en diferentes idiomas, lo que te brindará herramientas prácticas para aplicar en tus propios proyectos de análisis de datos.Esta sesión está diseñada para profesionales interesados en la analítica de datos, la inteligencia artificial y el aprendizaje automático, así como para aquellos que buscan mejorar sus habilidades en el uso de herramientas de BI.",
+        "cta": "Asistir a esta sesión te permitirá aprender cómo integrar la inteligencia artificial generativa en el análisis de datos utilizando Amazon QuickSight. Verás un caso práctico en vivo que te ayudará a entender las capacidades de Business Intelligence (BI) generativo en ambos idiomas, español e inglés. La sesión está diseñada para profesionales interesados en la analítica de datos, así como para aquellos que buscan mejorar sus habilidades en el uso de herramientas de BI. También será útil para personas que trabajan en tecnología, análisis de datos y aprendizaje automático.",
         "speaker": "Fabiana Serangelli",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1045,7 +1086,7 @@ const sessions: Session[] = [
             "desafíos",
             "ventajas competitivas"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo la arquitectura serverless de AWS puede ser una solución efectiva para manejar un gran volumen de conexiones simultáneas, como las 100K mencionadas. Aprenderás sobre las mejores prácticas para diseñar sistemas escalables, los límites que debes considerar al implementar estas arquitecturas y cómo medir el rendimiento de tus aplicaciones.Esta sesión está diseñada para desarrolladores, arquitectos de soluciones, y profesionales de TI que deseen mejorar sus conocimientos sobre computación sin servidor y optimizar el rendimiento de sus aplicaciones en la nube. También es útil para aquellos que están interesados en las prácticas DevOps y en la innovación tecnológica en el ámbito empresarial.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo la arquitectura serverless de AWS puede ayudarte a manejar hasta 100K conexiones simultáneas, transformando un desafío en una ventaja competitiva. Aprenderás sobre el diseño de sistemas escalables, los límites que debes considerar y cómo medir el rendimiento en entornos de alta demanda.Esta sesión está diseñada para desarrolladores, arquitectos de soluciones y profesionales de TI que buscan mejorar su comprensión de la computación sin servidor y cómo aplicar estas tecnologías en sus proyectos. También es útil para aquellos interesados en optimizar el rendimiento de sus aplicaciones en la nube.",
         "speaker": "Fernando Paz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1089,7 +1130,7 @@ const sessions: Session[] = [
             "innovation",
             "innovación"
         ],
-        "cta": "Deberías asistir a esta sesión porque ofrece una visión integral sobre cómo optimizar los procesos de desarrollo utilizando tecnologías como EKS, Backstage y ArgoCD. Aprenderás estrategias prácticas para acelerar la creación de productos, fomentar la innovación y mejorar la eficiencia en el uso de recursos.Esta sesión está diseñada para desarrolladores, ingenieros de DevOps y cualquier persona interesada en la transformación digital y la adopción de prácticas cloud-native. Es especialmente útil para aquellos que buscan simplificar el manejo de Kubernetes y mejorar la colaboración entre equipos de desarrollo e IT.",
+        "cta": "Asistir a esta sesión te permitirá descubrir cómo un Developer Platform puede simplificar la complejidad de trabajar con Kubernetes y mejorar la productividad de los equipos de desarrollo. Aprenderás estrategias prácticas para acelerar el desarrollo de productos, fomentar la innovación, optimizar el uso de recursos y empoderar a los desarrolladores para que se concentren en lo que mejor saben hacer: construir software increíble.Esta sesión está diseñada para desarrolladores, ingenieros de DevOps, arquitectos de software y líderes técnicos que buscan mejorar sus procesos de desarrollo y entender cómo integrar herramientas como EKS, Backstage y ArgoCD en su flujo de trabajo.",
         "speaker": "Gabriel Portela",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1101,16 +1142,16 @@ const sessions: Session[] = [
         "room": "Agave",
         "speakerLocation": "Recife, Brazil",
         "speakerCompany": "Valcann",
-        "titleSpanish": "Correr Backstage y ArgoCD con EKS para construir una Plataforma de Desarrollador",
-        "abstractSpanish": "[SESIÓN EN INGLÉS] Imagina una producción teatral bulliciosa, donde innumerables actores, directores y técnicos trabajan juntos para crear una actuación impecable. Ahora, imagina a los equipos de desarrollo como ese conjunto, y Kubernetes como el escenario complejo. Entra la Plataforma de Desarrolladores para orquestar todo detrás de escena.",
-        "descriptionSpanish": "Kubernetes ha revolucionado la forma en que construimos y desplegamos software, pero seamos honestos: también puede sentirse como luchar contra una bestia mítica. La complejidad de gestionar la infraestructura, las cadenas de herramientas y los recursos en la nube a menudo deja a los desarrolladores sintiéndose abrumados y a los equipos de TI luchando por mantenerse al día.En esta sesión, desvelaremos el paraíso de los desarrolladores y equipos de TI: una plataforma que empodera a los equipos para convertirse en estrellas nativas de la nube.Usando EKS, Backstage y ArgoCD junto con Github Actions, prepárense para inspirarse y transformar los procesos de desarrollo con ideas y estrategias prácticas para:- Acelerar nuevos productos basados en plantillas y cumplimiento predefinido- Fomentar la innovación- Optimizar el uso de recursos y la eficiencia de costos- Empoderar a los desarrolladores para que se centren en lo que mejor hacen: construir software increíble¡No te pierdas esta oportunidad!",
+        "titleSpanish": "Ejecutando Backstage y ArgoCD con EKS para construir una Plataforma de Desarrolladores",
+        "abstractSpanish": "[SESIÓN EN INGLÉS] Imagina una bulliciosa producción teatral, donde innumerables actores, directores y personal de escena trabajan juntos para crear una actuación fluida. Ahora, imagina los equipos de desarrollo como ese conjunto, y Kubernetes como el complejo escenario. Entra la Plataforma de Desarrolladores para orquestar todo detrás de escena.",
+        "descriptionSpanish": "Kubernetes ha revolucionado la forma en que construimos y desplegamos software, pero seamos honestos: también puede sentirse como luchar contra una bestia mítica. La complejidad de gestionar infraestructura, cadenas de herramientas y recursos en la nube a menudo deja a los desarrolladores sintiéndose abrumados y a los equipos de TI luchando por mantenerse al día.En esta sesión, desvelaremos el paraíso de los desarrolladores y los equipos de TI: una plataforma que empodera a los equipos para convertirse en rockstars nativos de la nube.Usando EKS, Backstage y ArgoCD junto con Github Actions, prepárense para sentirse inspirados a transformar los procesos de desarrollo con ideas y estrategias prácticas para:- Acelerar nuevos productos basados en plantillas y cumplimiento predefinido- Fomentar la innovación- Optimizar el uso de recursos y la eficiencia de costos- Empoderar a los desarrolladores para que se concentren en lo que mejor hacen: construir software increíble¡No te pierdas esta oportunidad!",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS304+-+Running+Backstage+and+ArgoCD+with+EKS+to+build+a+Developer+Platform+por+Gabriel+Portela",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/gabriel_portela.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/gabportela/",
         "speakerBio": "Gabriel es Ingeniero de Computación en la nube, enfocado en prácticas y herramientas DevOps, con el objetivo de automatizar la infraestructura y garantizar una entrega eficaz de software. Trabaja diariamente con Kubernetes y busca profundizar en esta tecnología, además de tener un gran interés en el ecosistema Cloud Native. Posee algunas certificaciones, entre ellas AWS DevOps Professional, CKAD y Terraform Associate."
     },
     {
-        "id": "SEG301",
+        "id": "SEG203",
         "title": "IAM Roles vs Credenciales: Diferencias fundamentales a considerar al usar Lambda Functions en producción",
         "description": "Durante mi trabajo con AWS, he experimentado lo frustrante que puede ser estar a punto de completar un proyecto, solo para ser interrumpido por un error de permisos de IAM al intentar lanzar los cambios a producción. Después de más de 5 años trabajando en áreas como DevOps, Data Engineering y MLOps, he aprendido que este problema no es raro, incluso para profesionales experimentados.En esta presentación, quiero hablar sobre la importancia de utilizar IAM Roles en lugar de credenciales programáticas cuando se trata de invocar funciones Lambda desde aplicaciones de terceros, como lo es GitHub, el cual utilizamos en mi trabajo como herramienta de CICD también. He probado varias soluciones a lo largo del tiempo, y quiero compartir las lecciones aprendidas, así como los riesgos y desafíos asociados con cada enfoque. Mi objetivo es ayudar a la audiencia a evitar estos errores y a seguir las mejores prácticas de AWS para garantizar que su arquitectura sea segura y eficiente.En esta plática se abordará la resolución que se implementó a este problema ya que, al ser una Universidad en línea donde trabajo, el uso de URLs públicos no estaba permitido para asi incrementar la seguridad del sistema. Tampoco se podían utilizar IAM credentials, ya que el departamento de seguridad no lo permitía. Finalmente se optó por utilizar una EC2 instance que funcionara como bastion host la cual tenia asignada un role con los permisos necesarios para poder invocar las Lambda Functions que necesitabamos por parte del equipo de MLOPs",
         "abstract": "¿Alguna vez has estado a punto de completar un proyecto en AWS, solo para encontrarte con un molesto mensaje de error relacionado con permisos de IAM? Este escenario, aunque frustrante, es más común de lo que parece, incluso entre profesionales experimentados en AWS. En esta sesión exploraremos cómo un malentendido, y la falta de diseño durante las primeras iteraciones para resolver un problema, pueden llevar a problemas importantes al momento de querer lanzar tu código a producción, y la importancia de definir desde un principio el uso correcto de IAM roles vs Credentials dependiendo del caso a resolver. ",
@@ -1127,7 +1168,7 @@ const sessions: Session[] = [
             "automation",
             "automatización"
         ],
-        "cta": "Asistir a esta sesión es crucial si trabajas con AWS y deseas evitar problemas de permisos que pueden interrumpir tu flujo de trabajo. Aprenderás sobre la importancia de utilizar roles de IAM en lugar de credenciales programáticas, especialmente al invocar funciones Lambda desde aplicaciones de terceros. La sesión está diseñada para profesionales en roles de DevOps, Data Engineering, MLOps, y cualquier persona interesada en mejorar la seguridad y eficiencia en su infraestructura de AWS.",
+        "cta": "Asistir a esta sesión te proporcionará una comprensión profunda sobre la importancia de utilizar roles de IAM en lugar de credenciales programáticas al invocar funciones Lambda desde aplicaciones de terceros. Aprenderás sobre los riesgos asociados con el uso de endpoints públicos y cómo estos pueden comprometer la seguridad de tu infraestructura. La sesión está diseñada para profesionales que trabajan en entornos de AWS, especialmente aquellos involucrados en DevOps, MLOps y Data Engineering, que buscan mejorar su conocimiento sobre las mejores prácticas de seguridad y eficiencia en la operación.",
         "speaker": "Gerardo Moreno Ramirez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1135,14 +1176,14 @@ const sessions: Session[] = [
             "end": new Date('2024-10-05T17:05:00-06:00')
         },
         "category": "Seguridad cumplimiento e identidad",
-        "level": "L300",
+        "level": "L200",
         "room": "Tlaquepaque (H7)",
         "speakerLocation": "Baja California, México",
         "speakerCompany": "WGU Innovation Services",
         "titleSpanish": "IAM Roles vs Credenciales: Diferencias fundamentales a considerar al usar Lambda Functions en producción",
         "abstractSpanish": "¿Alguna vez has estado a punto de completar un proyecto en AWS, solo para encontrarte con un molesto mensaje de error relacionado con permisos de IAM? Este escenario, aunque frustrante, es más común de lo que parece, incluso entre profesionales experimentados en AWS. En esta sesión exploraremos cómo un malentendido, y la falta de diseño durante las primeras iteraciones para resolver un problema, pueden llevar a problemas importantes al momento de querer lanzar tu código a producción, y la importancia de definir desde un principio el uso correcto de IAM roles vs Credentials dependiendo del caso a resolver.",
-        "descriptionSpanish": "Durante mi trabajo con AWS, he experimentado lo frustrante que puede ser estar a punto de completar un proyecto, solo para ser interrumpido por un error de permisos de IAM al intentar lanzar los cambios a producción. Después de más de 5 años trabajando en áreas como DevOps, Data Engineering y MLOps, he aprendido que este problema no es raro, incluso para profesionales experimentados.En esta presentación, quiero hablar sobre la importancia de utilizar IAM Roles en lugar de credenciales programáticas cuando se trata de invocar funciones Lambda desde aplicaciones de terceros, como lo es GitHub, el cual utilizamos en mi trabajo como herramienta de CICD también. He probado varias soluciones a lo largo del tiempo, y quiero compartir las lecciones aprendidas, así como los riesgos y desafíos asociados con cada enfoque. Mi objetivo es ayudar a la audiencia a evitar estos errores y a seguir las mejores prácticas de AWS para garantizar que su arquitectura sea segura y eficiente.En esta plática se abordará la resolución que se implementó a este problema ya que, al ser una Universidad en línea donde trabajo, el uso de URLs públicos no estaba permitido para así incrementar la seguridad del sistema. Tampoco se podían utilizar IAM credentials, ya que el departamento de seguridad no lo permitía. Finalmente se optó por utilizar una EC2 instance que funcionara como bastion host la cual tenía asignada un role con los permisos necesarios para poder invocar las Lambda Functions que necesitábamos por parte del equipo de MLOPs",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG301+-+IAM+Roles+vs+Credenciales:+Diferencias+fundamentales+a+considerar+al+usar+Lambda+Functions+en+producci%C3%B3n+por+Gerardo+Moreno+Ramirez",
+        "descriptionSpanish": "Durante mi trabajo con AWS, he experimentado lo frustrante que puede ser estar a punto de completar un proyecto, solo para ser interrumpido por un error de permisos de IAM al intentar lanzar los cambios a producción. Después de más de 5 años trabajando en áreas como DevOps, Data Engineering y MLOps, he aprendido que este problema no es raro, incluso para profesionales experimentados.En esta presentación, quiero hablar sobre la importancia de utilizar IAM Roles en lugar de credenciales programáticas cuando se trata de invocar funciones Lambda desde aplicaciones de terceros, como lo es GitHub, el cual utilizamos en mi trabajo como herramienta de CICD también. He probado varias soluciones a lo largo del tiempo, y quiero compartir las lecciones aprendidas, así como los riesgos y desafíos asociados con cada enfoque. Mi objetivo es ayudar a la audiencia a evitar estos errores y a seguir las mejores prácticas de AWS para garantizar que su arquitectura sea segura y eficiente.En esta plática se abordará la resolución que se implementó a este problema ya que, al ser una Universidad en línea donde trabajo, el uso de URLs públicos no estaba permitido para así incrementar la seguridad del sistema. Tampoco se podían utilizar IAM credentials, ya que el departamento de seguridad no lo permitía. Finalmente se optó por utilizar una EC2 instance que funcionara como bastion host la cual tenía asignado un role con los permisos necesarios para poder invocar las Lambda Functions que necesitábamos por parte del equipo de MLOPs",
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG203+-+IAM+Roles+vs+Credenciales:+Diferencias+fundamentales+a+considerar+al+usar+Lambda+Functions+en+producci%C3%B3n+por+Gerardo+Moreno+Ramirez",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/gerardo_moreno.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/gmoreno9617/",
         "speakerBio": "Gerardo trabaja actualmente como MLOPs Engineer para WGU Innovation Services. Tiene más de 5 años de experiencia trabajando con AWS tanto en entornos ejecutivos de producción para grandes empresas, y para startups que aún están creciendo y buscan adoptar buenas prácticas. Cuenta con una maestría en Big Data Science por parte de la universidad Queen Mary University of London del Reino Unido, 2 certificaciones de AWS y una certificación de GCP. Sus intereses son las soluciones tipo serverless y ML."
@@ -1151,7 +1192,7 @@ const sessions: Session[] = [
         "id": "EMP201",
         "title": "Integrando Experiencias de Autogestión basadas en Inteligencia Artificial Generativa para Centros de Contacto",
         "description": "Esta charla explora la integración de IA generativa en Amazon Connect para mejorar la experiencia del usuario en centros de contacto. Se enfoca en la implementación de AWS Lambda Functions con Amazon Lex y el uso de Amazon Bedrock para crear prompts efectivos. Dirigida a un nivel intermedio, la sesión cubre cómo optimizar campañas salientes y experiencias de autoservicio, aplicando técnicas de generación aumentada por recuperación.",
-        "abstract": "n esta charla explicaremos cómo integrar tecnologías de IA generativa en Amazon Connect para mejorar la experiencia del usuario y aumentar la eficiencia en campañas salientes y experiencias de autoservicio en centros de contacto. Aprenderemos a implementar AWS Lambda Functions para cumplir intenciones en Amazon Lex, construir prompts efectivos para modelos fundamentales en Amazon Bedrock, y aplicar el enfoque de generación aumentada por recuperación con Amazon Bedrock.",
+        "abstract": "En esta charla explicaremos cómo integrar tecnologías de IA generativa en Amazon Connect para mejorar la experiencia del usuario y aumentar la eficiencia en campañas salientes y experiencias de autoservicio en centros de contacto. Aprenderemos a implementar AWS Lambda Functions para cumplir intenciones en Amazon Lex, construir prompts efectivos para modelos fundamentales en Amazon Bedrock, y aplicar el enfoque de generación aumentada por recuperación con Amazon Bedrock.",
         "language": "Spanish",
         "keywords": [
             "generative ai",
@@ -1165,7 +1206,7 @@ const sessions: Session[] = [
             "amazon bedrock",
             "autoservicio"
         ],
-        "cta": "Asistir a esta sesión te permitirá conocer cómo integrar tecnologías de inteligencia artificial generativa en Amazon Connect, lo que puede mejorar significativamente la experiencia del usuario en centros de contacto. Aprenderás a implementar AWS Lambda Functions para cumplir intenciones en Amazon Lex y a construir prompts efectivos para modelos en Amazon Bedrock.Esta charla está diseñada para profesionales con un nivel intermedio que deseen optimizar campañas salientes y experiencias de autoservicio, así como para aquellos interesados en aplicar técnicas de generación aumentada por recuperación en sus procesos de trabajo.",
+        "cta": "Asistir a esta sesión te permitirá entender cómo la inteligencia artificial generativa puede transformar la experiencia del usuario en centros de contacto. Aprenderás a integrar tecnologías como AWS Lambda Functions y Amazon Lex para optimizar campañas salientes y experiencias de autoservicio. Esta sesión está diseñada para profesionales de nivel intermedio en el campo de la tecnología y la atención al cliente, incluyendo desarrolladores, ingenieros de sistemas y especialistas en atención al cliente que buscan mejorar sus habilidades y conocimientos en el uso de IA generativa.",
         "speaker": "Hector Zelaya",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1178,7 +1219,7 @@ const sessions: Session[] = [
         "speakerLocation": "El Salvador, El Salvador",
         "speakerCompany": "WEBRTC.VENTURES",
         "titleSpanish": "Integrando Experiencias de Autogestión basadas en Inteligencia Artificial Generativa para Centros de Contacto",
-        "abstractSpanish": "n esta charla explicaremos cómo integrar tecnologías de IA generativa en Amazon Connect para mejorar la experiencia del usuario y aumentar la eficiencia en campañas salientes y experiencias de autoservicio en centros de contacto. Aprenderemos a implementar AWS Lambda Functions para cumplir intenciones en Amazon Lex, construir prompts efectivos para modelos fundamentales en Amazon Bedrock, y aplicar el enfoque de generación aumentada por recuperación con Amazon Bedrock.",
+        "abstractSpanish": "En esta charla explicaremos cómo integrar tecnologías de IA generativa en Amazon Connect para mejorar la experiencia del usuario y aumentar la eficiencia en campañas salientes y experiencias de autoservicio en centros de contacto. Aprenderemos a implementar AWS Lambda Functions para cumplir intenciones en Amazon Lex, construir prompts efectivos para modelos fundamentales en Amazon Bedrock, y aplicar el enfoque de generación aumentada por recuperación con Amazon Bedrock.",
         "descriptionSpanish": "Esta charla explora la integración de IA generativa en Amazon Connect para mejorar la experiencia del usuario en centros de contacto. Se enfoca en la implementación de AWS Lambda Functions con Amazon Lex y el uso de Amazon Bedrock para crear prompts efectivos. Dirigida a un nivel intermedio, la sesión cubre cómo optimizar campañas salientes y experiencias de autoservicio, aplicando técnicas de generación aumentada por recuperación.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=EMP201+-+Integrando+Experiencias+de+Autogesti%C3%B3n+basadas+en+Inteligencia+Artificial+Generativa+para+Centros+de+Contacto+por+Hector+Zelaya",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/hector_zelaya.jpg",
@@ -1203,7 +1244,7 @@ const sessions: Session[] = [
             "resilience",
             "resiliencia"
         ],
-        "cta": "Asistir a esta sesión te permitirá adquirir habilidades valiosas en la implementación de un Plan de Recuperación ante Desastres (DRP), incluso si no tienes experiencia previa. Aprenderás a liderar un equipo, superar desafíos críticos y comunicarte de manera efectiva, lo cual es esencial en situaciones de crisis. Además, recibirás estrategias prácticas para mantener la moral y la productividad del equipo.Esta sesión está diseñada para perfiles que deseen desarrollar sus habilidades de liderazgo y gestión de proyectos, especialmente en el contexto de la recuperación ante desastres. Es ideal para profesionales de diferentes niveles que buscan aprender sobre resiliencia y adaptación en entornos desafiantes.",
+        "cta": "Asistir a esta sesión te permitirá obtener una comprensión práctica de cómo liderar un equipo en la implementación de un Plan de Recuperación ante Desastres (DRP) sin tener experiencia previa. Aprenderás a superar desafíos críticos, mantener una comunicación efectiva y construir resiliencia en tu equipo.Esta charla está diseñada para profesionales que buscan desarrollar habilidades de liderazgo y gestión de crisis, así como para aquellos interesados en entender el proceso de implementación de un DRP desde una perspectiva práctica y accesible. Es ideal para líderes de equipo, gerentes de proyectos y cualquier persona que desee mejorar su capacidad para manejar situaciones difíciles en un entorno de trabajo.",
         "speaker": "Ivan Castañeda",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1243,7 +1284,7 @@ const sessions: Session[] = [
             "decision making",
             "toma de decisiones"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender el proceso de planificación y diseño de arquitectura para productos digitales escalables, especialmente utilizando AWS. Aprenderás sobre las lecciones prácticas que se pueden aplicar en proyectos reales, así como sobre la importancia de la comunicación y la adaptación de la visión del proyecto. Esta sesión está diseñada para desarrolladores, arquitectos de software, gerentes de producto y cualquier persona interesada en la migración y modernización de productos digitales.",
+        "cta": "Asistir a esta sesión te permitirá comprender el proceso de planificación y diseño de un producto digital escalable utilizando AWS, incluso si no tienes experiencia previa con esta plataforma. Aprenderás sobre la importancia de conectar una visión con objetivos comerciales y cómo las decisiones arquitectónicas pueden influir en el éxito del proyecto. La sesión está diseñada para profesionales de desarrollo de software, arquitectos de sistemas y cualquier persona interesada en la migración y modernización de productos digitales, así como para aquellos que deseen aprender de experiencias prácticas en el uso de AWS.",
         "speaker": "Jakob Hans Renpening Treviño",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1256,8 +1297,8 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Wizeline",
         "titleSpanish": "De la pizarra a un producto escalable: O cómo aprendí a aprovechar AWS en mi camino para construir un producto digital",
-        "abstractSpanish": "Sin ninguna experiencia previa construyendo sobre AWS, se me encomendó la tarea de planificar y diseñar el desarrollo de un producto escalable. La evolución de la arquitectura del proyecto fue un éxito, habiendo aprovechado tanto la documentación de AWS como la comunidad.",
-        "descriptionSpanish": "Los productos digitales siempre comienzan de la misma manera, como una visión. Conectar esa visión a un objetivo comercial y a partir de ahí a un producto digital detallado es la parte inicial del viaje del proceso de desarrollo.Esta es una narración de las lecciones que aprendí mientras planeaba y diseñaba la arquitectura de un proyecto a gran escala sin ningún conocimiento profundo previo de AWS y sus servicios.",
+        "abstractSpanish": "Sin ninguna experiencia previa construyendo sobre AWS, se me dio la tarea de planificar y diseñar el desarrollo de un producto escalable. La evolución de la arquitectura del proyecto fue un éxito, habiendo aprovechado tanto la documentación de AWS como la comunidad.",
+        "descriptionSpanish": "Los productos digitales siempre comienzan de la misma manera, como una visión. Conectar esa visión a un objetivo comercial y a partir de ahí a un producto digital detallado es la parte inicial del viaje del proceso de desarrollo.Esta es una narración de las lecciones que aprendí mientras planificaba y diseñaba la arquitectura de un proyecto a gran escala sin ningún conocimiento profundo previo de AWS y sus servicios.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=MOD101+-+From+the+whiteboard+to+a+scalable+product:+Or+how+I+learned+to+leverage+AWS+on+my+journey+to+build+a+digital+product+por+Jakob+Hans+Renpening+Trevi%C3%B1o",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/jakob_hans.jpeg",
         "speakerLinkedIn": "https://www.linkedin.com/in/jakobhans/",
@@ -1281,8 +1322,8 @@ const sessions: Session[] = [
             "software architecture",
             "arquitectura de software"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo las habilidades adquiridas en carreras de drones pueden aplicarse a la automatización agrícola y la creación de mapas aéreos precisos. Aprenderás sobre la integración de robots en la industria y cómo estas tecnologías están transformando el uso de datos en el mundo real. Esta sesión está diseñada para desarrolladores de software, ingenieros en robótica, y cualquier persona interesada en la intersección entre tecnología y agricultura.",
-        "speaker": "Joaquín Benitez (Toy Lee)",
+        "cta": "Asistir a esta sesión te proporcionará una comprensión profunda de cómo las habilidades adquiridas en carreras de drones pueden aplicarse a la agricultura y la automatización industrial. Aprenderás sobre la importancia de los mapas aéreos en la integración de robots y cómo superar las limitaciones del GPS en la navegación. Esta sesión está diseñada para desarrolladores de software, ingenieros en robótica, y cualquier persona interesada en la intersección entre tecnología y agricultura.",
+        "speaker": "Joaquín Benitez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
             "start": new Date('2024-10-05T13:35:00-06:00'),
@@ -1294,8 +1335,8 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Hacker Garage",
         "titleSpanish": "Lo que los robots voladores de carreras me enseñaron sobre mapas y agricultura 🚀",
-        "abstractSpanish": "¿Cómo puede uno llevar sus habilidades de carreras de drones como pasatiempo y aplicarlas a usos industriales y cómo los mapas aéreos son críticos para la integración de robots en las crecientes industrias agrícolas?",
-        "descriptionSpanish": "Día a día estamos viendo más automatización física integrada no solo en nuestras vidas diarias, sino también en muchos campos comerciales e industriales. Para nosotros, los desarrolladores de software, el funcionamiento interno de los robots puede existir detrás de este velo de misterio, pero me sorprendió gratamente cómo la arquitectura de robots puede relacionarse de muchas maneras con la arquitectura de software de servicios. Uno de los requisitos más populares para los robots móviles es poder navegar en el mundo real y, en algunos casos, el GPS no es suficiente para proporcionar información para esta tarea; aquí es donde los drones han demostrado ser una herramienta valiosa, ya que se utilizan para hacer mapas más precisos de zonas donde la imagen satelital no es regular o lo suficientemente precisa.",
+        "abstractSpanish": "¿Cómo puede uno tomar sus habilidades en carreras de drones como hobby y aplicarlas a usos industriales y cómo los mapas aéreos son críticos para la integración de robots en las crecientes industrias agrícolas?",
+        "descriptionSpanish": "Día tras día estamos viendo más automatización física siendo integrada no solo en nuestras vidas diarias, sino también en muchos campos comerciales e industriales. Para nosotros, los desarrolladores de software, el funcionamiento interno de los robots puede existir detrás de este velo de misterio, pero me sorprendió gratamente cómo la arquitectura de robots puede relacionarse de muchas maneras con la arquitectura de software de servicios. Uno de los requisitos más populares para los robots móviles es poder navegar por el mundo real y, en algunos casos, el GPS no es suficiente para proporcionar información para esta tarea; aquí es donde los drones demostraron ser una herramienta valiosa, ya que se utilizan para hacer mapas más precisos de las zonas donde la imagen satelital no es regular o lo suficientemente precisa.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IOT101+-+What+racing+flying+robots+thought+me+about+maps+and+farming+%F0%9F%9A%80+por+Joaqu%C3%ADn+Benitez+(Toy+Lee)",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/joaquin_benitez.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/joaquinb/",
@@ -1325,7 +1366,7 @@ const sessions: Session[] = [
             "user experience",
             "experiencia del usuario"
         ],
-        "cta": "Asistir a esta sesión te permitirá aprender a construir arquitecturas de e-commerce eficientes utilizando tecnologías serverless de AWS. Aprenderás a implementar API Gateway, Lambda y Step Functions para mejorar la escalabilidad y reducir costos en tu negocio. Esta charla está diseñada para emprendedores y desarrolladores que buscan optimizar sus procesos y mejorar la experiencia del usuario en sus plataformas de e-commerce.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo las arquitecturas serverless pueden transformar tu negocio de e-commerce. Aprenderás a utilizar servicios de AWS como API Gateway, Lambda y Step Functions para construir flujos de trabajo escalables y eficientes. Esta charla está diseñada para emprendedores, desarrolladores y cualquier persona interesada en optimizar su e-commerce y mejorar la experiencia del usuario mediante tecnologías avanzadas y asíncronas.",
         "speaker": "Jocelyn Poblete",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1369,7 +1410,7 @@ const sessions: Session[] = [
             "best practices",
             "mejores prácticas"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo diseñar e implementar un subsistema de notificaciones robusto y escalable en AWS. Aprenderás sobre las decisiones arquitectónicas clave, la integración de múltiples canales de notificación como push, correo electrónico, SMS y WhatsApp, así como las mejores prácticas para lograr flexibilidad y eficiencia en el sistema.Esta sesión está diseñada para desarrolladores y arquitectos que estén interesados en crear sistemas de notificación eficientes y escalables utilizando servicios de AWS.",
+        "cta": "Deberías asistir a esta sesión porque te proporcionará una visión práctica sobre el diseño e implementación de un subsistema de notificaciones robusto y escalable en AWS. Aprenderás sobre decisiones arquitectónicas clave, integración de múltiples canales de notificación, y estrategias para lograr flexibilidad y escalabilidad en sistemas de notificación.Esta sesión está diseñada para desarrolladores y arquitectos que estén interesados en crear sistemas de notificación eficientes y escalables utilizando los servicios de AWS, especialmente aquellos que buscan mejorar sus habilidades en arquitecturas de microservicios y en la gestión de cargas entre proveedores.",
         "speaker": "Jose Victor Antonio Riquelme",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1382,8 +1423,8 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Globant",
         "titleSpanish": "Subsistema de notificaciones implementado con AWS",
-        "abstractSpanish": "Esta charla presenta un estudio de caso práctico sobre el diseño e implementación de un subsistema de notificación robusto y escalable en AWS. Se abordarán decisiones arquitectónicas, la integración de múltiples canales de notificación (push, correo electrónico, SMS, WhatsApp y centro de notificaciones), y las lecciones aprendidas durante el proceso. Los asistentes obtendrán valiosos conocimientos sobre cómo crear un sistema de notificación flexible y eficiente utilizando servicios de AWS como Lambda, Kinesis, SQS, SNS y EKS.",
-        "descriptionSpanish": "En esta sesión, exploraremos el diseño y la implementación de un subsistema de notificaciones avanzado en AWS. El ponente compartirá su experiencia en la creación de un sistema que integra múltiples canales de notificación (push, correo electrónico, SMS, WhatsApp y centro de notificaciones) utilizando servicios como Lambda, Kinesis, SQS, EKS y SNS. La charla abordará decisiones arquitectónicas, incluyendo el uso de eventos, estrategias para lograr flexibilidad y escalabilidad, y métodos para el balanceo de carga entre proveedores. La presentación también cubrirá desafíos en pruebas automatizadas y ofrecerá lecciones aprendidas y mejores prácticas. Esta charla es ideal para desarrolladores y arquitectos interesados en crear sistemas de notificación eficientes y escalables en AWS.",
+        "abstractSpanish": "Esta charla presenta un estudio de caso práctico sobre el diseño e implementación de un subsistema de notificación robusto y escalable en AWS. Abordará decisiones arquitectónicas, la integración de múltiples canales de notificación (push, correo electrónico, SMS, WhatsApp y centro de notificaciones), y las lecciones aprendidas durante el proceso. Los asistentes obtendrán valiosos conocimientos sobre cómo crear un sistema de notificación flexible y eficiente utilizando servicios de AWS como Lambda, Kinesis, SQS, SNS y EKS.",
+        "descriptionSpanish": "En esta sesión, exploraremos el diseño e implementación de un subsistema de notificación avanzado en AWS. El orador compartirá su experiencia en la creación de un sistema que integra múltiples canales de notificación (push, correo electrónico, SMS, WhatsApp y centro de notificaciones) utilizando servicios como Lambda, Kinesis, SQS, EKS y SNS. La charla abordará decisiones arquitectónicas, incluyendo el uso de eventos, estrategias para lograr flexibilidad y escalabilidad, y métodos para el balanceo de carga entre proveedores. La presentación también cubrirá desafíos en pruebas automatizadas y ofrecerá lecciones aprendidas y mejores prácticas. Esta charla es ideal para desarrolladores y arquitectos interesados en crear sistemas de notificación eficientes y escalables en AWS.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=ARQ302+-+Notifications+subsystem+implemented+with+AWS+por+Jose+Victor+Antonio+Riquelme",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/jose_riquelme.png",
         "speakerLinkedIn": "https://www.linkedin.com/in/jos%C3%A9-victor-antonio-riquelme-41a26ab/",
@@ -1407,7 +1448,7 @@ const sessions: Session[] = [
             "knowledge base",
             "base de conocimiento"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo la automatización y la inteligencia artificial están revolucionando el soporte a comunidades. Aprenderás a crear agentes inteligentes que pueden aprender de tus bases de datos y documentos, facilitando la automatización de múltiples tareas. Esta sesión está diseñada para desarrolladores, tanto con experiencia en AI/ML como aquellos que no tienen antecedentes en el campo, interesados en mejorar la eficiencia de sus procesos mediante la tecnología.",
+        "cta": "Asistir a esta sesión te permitirá descubrir cómo la automatización y la inteligencia artificial pueden transformar el soporte a las comunidades. Aprenderás a crear agentes inteligentes que no solo aprenden de tus bases de datos de conocimiento, sino que también pueden tomar acciones eficaces en función de esa información. Esta sesión está diseñada para desarrolladores, ingenieros de software y cualquier persona interesada en mejorar sus habilidades en AI/ML, independientemente de su nivel de experiencia previo.",
         "speaker": "Jose Yapur",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1451,7 +1492,7 @@ const sessions: Session[] = [
             "player experience",
             "experiencia del jugador"
         ],
-        "cta": "Asistir a esta sesión te permitirá descubrir cómo Amazon SageMaker está transformando la inteligencia artificial en la industria de los videojuegos. Aprenderás a utilizar modelos de machine learning para mejorar la inteligencia de los NPCs, personalizar la experiencia del jugador y optimizar el rendimiento y la escalabilidad de tus juegos. Esta charla está diseñada para desarrolladores de videojuegos, estudiantes de ingeniería en software, y cualquier persona interesada en la integración de la inteligencia artificial en el desarrollo de videojuegos.",
+        "cta": "### ¿Por qué debería asistir a esta sesión?Asistir a esta sesión te permitirá descubrir cómo Amazon SageMaker está transformando la inteligencia artificial en la industria de los videojuegos. Aprenderás acerca de las últimas tecnologías y métodos que pueden hacer que tus juegos sean más inteligentes e inmersivos, lo que te dará una ventaja competitiva en el desarrollo de videojuegos.### ¿Qué aprenderé?- Cómo utilizar Amazon SageMaker para mejorar la inteligencia de los NPCs.- Estrategias para personalizar la experiencia del jugador mediante modelos de machine learning.- Mejores prácticas para optimizar el rendimiento y escalabilidad de tus videojuegos.- Ejemplos prácticos y casos de uso que podrás aplicar en tus propios proyectos.### ¿Para qué perfiles está diseñada esta sesión?Esta sesión está diseñada para desarrolladores de videojuegos, estudiantes de ingeniería de software, entusiastas de la inteligencia artificial y cualquier persona interesada en la intersección de la tecnología y el entretenimiento. También es ideal para profesionales que buscan implementar soluciones innovadoras en sus proyectos de videojuegos.",
         "speaker": "Joselyn Lagunas",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1489,7 +1530,7 @@ const sessions: Session[] = [
             "escalado automático",
             "separación de configuraciones"
         ],
-        "cta": "Deberías asistir a esta sesión porque te proporcionará un patrón comprobado para implementar infraestructura como código utilizando CDK, lo que te permitirá crear pilas de CloudFormation escalables y claras. Aprenderás técnicas para reducir la complejidad de las pilas monolíticas y cómo integrar CDK en entornos de CI/CD comunes, lo que puede mejorar significativamente tu flujo de trabajo.Esta sesión está diseñada para desarrolladores y profesionales de DevOps que deseen profundizar en la automatización de arquitecturas en la nube, específicamente en la creación de VPCs, clusters EKS y el uso de Karpenter para mejorar la escalabilidad en Kubernetes. Es adecuada para perfiles con experiencia previa en tecnologías de nube y que busquen optimizar sus prácticas de desarrollo e implementación.",
+        "cta": "Asistir a esta sesión te permitirá aprender sobre un patrón de implementación de infraestructura como código utilizando CDK, lo cual es fundamental para desarrollar aplicaciones escalables y eficientes en la nube. Aprenderás a crear pilas de CloudFormation claras y escalables, siguiendo los principios de las 12 factores, y cómo separar fácilmente los entornos en CI/CD.Esta sesión está diseñada para profesionales que trabajan con DevOps, arquitectos de soluciones, desarrolladores de backend y cualquier persona interesada en mejorar su comprensión de Kubernetes, EKS y la automatización de VPCs utilizando CDK. También es útil para aquellos que buscan optimizar sus flujos de trabajo y reducir la complejidad de las pilas monolíticas.",
         "speaker": "Juan Carlos Martinez Carrillo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1501,9 +1542,9 @@ const sessions: Session[] = [
         "room": "Tlaquepaque (H7)",
         "speakerLocation": "Chihuahua, México",
         "speakerCompany": "Grid Dynamics",
-        "titleSpanish": "Técnicas para CDKs de calidad de producción: Automatización de VPCs, EKS y Karpenter",
-        "abstractSpanish": "Esta charla demuestra un patrón probado para infraestructura como código basada en CDK. Aprende a crear pilas CFN claras y escalables siguiendo los principios de 12 factores, fácilmente separadas por entorno en CI/CD. Ve ejemplos del mundo real de nuevas entradas de acceso a la API de Kubernetes y Karpenter, abordando la falta de recursos prácticos.",
-        "descriptionSpanish": "Esta charla presenta un patrón de implementación de CDK inspirado en “12 factor app”, centrándose en la separación de configuración y la modularización de pilas.Abordaremos técnicas para reducir la complejidad de pilas monolíticas, aplicando principios de separación de preocupaciones y permitiendo la diferenciación de entornos a través de argumentos de línea de comandos. Esto facilita la integración de CDK en entornos comunes de CI/CD como GitHub Actions, GitLab CI/CD o Harness.Usaremos el despliegue de una VPC, un clúster EKS y Karpenter, utilizando CDKs para demostrar el patrón y la estructura del proyecto, cubriendo:• VPC: Análisis de una arquitectura de 3 subredes y su implementación en CDK.• CDKs Cómo pasar contextos a Sub Pilas, como la VPC.• EKS: Nuevos métodos de autenticación con CDK:◦ Transferencia de contexto entre las pilas de VPC y EKS.◦ Migración de ConfigMap a la API de Entradas de Acceso.◦ Implementación de Identidades de Pod para autenticar recursos de kubernetes a AWS IAM.◦ Karpenter: Ventajas en la autoescalabilidad de EKS, impacto en costos y velocidad de escalado.",
+        "titleSpanish": "Técnicas para CDKs de Grado de Producción: Automatización de VPCs, EKS y Karpenter",
+        "abstractSpanish": "Esta charla demuestra un patrón probado para infraestructura como código basado en CDK. Aprenda a crear pilas de CFN claras y escalables siguiendo los principios de 12 factores, fácilmente separadas por entorno en CI/CD. Vea ejemplos del mundo real de nuevas entradas de acceso a la API de Kubernetes y Karpenter, abordando la falta de recursos prácticos.",
+        "descriptionSpanish": "Esta charla presenta un patrón de implementación de CDK inspirado en \"12 factor app\", centrado en la separación de configuración y la modularización de pilas.Abordaremos técnicas para reducir la complejidad de pilas monolíticas, aplicando principios de separación de preocupaciones y permitiendo la diferenciación de entornos a través de argumentos de línea de comandos. Esto facilita la integración de CDK en entornos CI/CD comunes como GitHub Actions, GitLab CI/CD o Harness.Usaremos el despliegue de una VPC, un clúster EKS y Karpenter, utilizando CDKs para demostrar el patrón y la estructura del proyecto, cubriendo:• VPC: Análisis de una arquitectura de 3 subredes y su implementación en CDK.• CDKs Cómo pasar contextos a Sub Pilas, como la VPC.• EKS: Nuevos métodos de autenticación con CDK:◦ Transferencia de contexto entre VPC y pilas EKS.◦ Migración de ConfigMap a la API de Entradas de Acceso.◦ Implementación de Identidades de Pod para autenticar recursos de kubernetes en AWS IAM.◦ Karpenter: Ventajas en el escalado automático de EKS, impacto en costos y velocidad de escalado.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS305+-+Techniques+for+Production-Grade+CDKs:+Automation+of+VPCs,+EKS,+and+Karpenter+por+Juan+Carlos+Martinez+Carrillo",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/juan_martinez.png",
         "speakerLinkedIn": "https://www.linkedin.com/in/jcroyoaun/",
@@ -1529,7 +1570,7 @@ const sessions: Session[] = [
             "DevOps",
             "DevOps"
         ],
-        "cta": "Asistir a esta sesión es fundamental para los equipos que buscan optimizar sus operaciones en la nube adoptando herramientas de última generación como Amazon Bedrock. Aprenderás estrategias prácticas para implementar la generación interactiva de Infraestructura como Código (IaC), lo que te permitirá simplificar procesos complejos y mejorar la eficiencia de tu flujo de trabajo.Esta sesión está diseñada para desarrolladores y equipos de operaciones que desean mejorar su eficiencia y reducir errores en la gestión de infraestructuras en la nube. Los asistentes saldrán con conocimientos aplicables que pueden implementar de inmediato en sus proyectos.",
+        "cta": "Asistir a esta sesión es crucial para equipos que buscan optimizar sus operaciones en la nube mediante la adopción de herramientas de próxima generación como Amazon Bedrock. Aprenderás estrategias prácticas para implementar la generación interactiva de Infraestructura como Código (IaC), lo que te permitirá simplificar despliegues complejos y automatizar tareas. Esta sesión está diseñada para desarrolladores y equipos de operaciones que deseen mejorar la eficiencia de su flujo de trabajo y reducir errores en la gestión de la infraestructura en la nube.",
         "speaker": "Juan Diego Bonilla",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1542,8 +1583,8 @@ const sessions: Session[] = [
         "speakerLocation": "Bogotá, Colombia",
         "speakerCompany": "Caylent",
         "titleSpanish": "Agentes en Amazon Bedrock - Empoderando la Generación Interactiva de IaC",
-        "abstractSpanish": "Descubre cómo los Agentes en Amazon Bedrock transforman la forma en que creas y gestionas la infraestructura en la nube. Esta sesión explora cómo los agentes inteligentes permiten la generación interactiva de Infraestructura como Código (IaC), simplificando implementaciones complejas, automatizando tareas y mejorando la eficiencia. Aprende a aprovechar estas herramientas para reducir errores, acelerar flujos de trabajo y empoderar a tu equipo para lograr más con menos esfuerzo.",
-        "descriptionSpanish": "Los agentes en Amazon Bedrock revolucionan la infraestructura en la nube al permitir la generación interactiva de Infraestructura como Código (IaC). Simplifique configuraciones complejas, automatice tareas y acelere el despliegue con agentes inteligentes que mejoran la eficiencia, reducen errores y empoderan a su equipo.",
+        "abstractSpanish": "Descubre cómo los Agentes en Amazon Bedrock transforman la forma en que creas y gestionas la infraestructura en la nube. Esta sesión explora cómo los agentes inteligentes permiten la generación interactiva de Infraestructura como Código (IaC), simplificando despliegues complejos, automatizando tareas y mejorando la eficiencia. Aprende cómo aprovechar estas herramientas para reducir errores, acelerar flujos de trabajo y empoderar a tu equipo para lograr más con menos esfuerzo.",
+        "descriptionSpanish": "Los agentes en Amazon Bedrock revolucionan la infraestructura en la nube al permitir la generación interactiva de Infraestructura como Código (IaC). Simplifica configuraciones complejas, automatiza tareas y acelera el despliegue con agentes inteligentes que mejoran la eficiencia, reducen errores y empoderan a tu equipo.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS306+-+Agents+in+Amazon+Bedrock+-+Empowering+Interactive+IaC+Generation+por+Juan+Diego+Bonilla",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/juan_bonilla.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/jdiegobonilla/",
@@ -1567,7 +1608,7 @@ const sessions: Session[] = [
             "experiencias memorables",
             "comunidad"
         ],
-        "cta": "Asistir a esta sesión te permitirá descubrir cómo transformar la atención al cliente de manera sencilla y rentable utilizando Amazon Connect. Aprenderás a configurar un centro de contacto completamente funcional en minutos, así como a ofrecer un servicio personalizado a través de diferentes canales digitales. Esta sesión está diseñada para profesionales del área de atención al cliente, arquitectos de soluciones, y cualquier persona interesada en mejorar la eficiencia operativa y la experiencia del cliente en sus organizaciones.",
+        "cta": "Asistir a esta sesión sobre Amazon Connect te permitirá comprender cómo transformar la atención al cliente de manera eficiente y rentable. Aprenderás a configurar un “Contact/Call Center” en minutos y a ofrecer un servicio personalizado a través de múltiples canales digitales. La sesión está diseñada para profesionales en atención al cliente, gerentes de operaciones, arquitectos de soluciones, y cualquier persona interesada en mejorar la eficiencia y calidad del servicio al cliente en sus organizaciones.",
         "speaker": "Julian Garrido Rodriguez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1605,7 +1646,7 @@ const sessions: Session[] = [
             "best practices",
             "mejores prácticas"
         ],
-        "cta": "Asistir a esta sesión es crucial para cualquier profesional interesado en la intersección entre la gobernanza de datos y la inteligencia artificial generativa. Aprenderás sobre las mejores prácticas para asegurar la calidad, integridad y privacidad de los datos en tus proyectos de IA, lo que es fundamental para el éxito de las iniciativas basadas en IA.Esta sesión está diseñada para perfiles que trabajan en áreas de analítica, ciencia de datos, gestión de datos y cualquier persona interesada en implementar modelos generativos de IA de manera efectiva y segura. También beneficiará a gestores y líderes de proyectos que deseen comprender cómo la gobernanza de datos puede impactar positivamente en sus resultados.",
+        "cta": "Asistir a esta sesión es fundamental para comprender cómo el gobierno de datos impacta en la implementación de la inteligencia artificial generativa. Aprenderás a asegurar la calidad, integridad y privacidad de los datos, lo cual es esencial para el éxito de tus proyectos de IA. Esta sesión está diseñada para profesionales en analítica, ciencia de datos, y aquellos interesados en mejorar sus competencias en gestión de datos, así como para ejecutivos y líderes de proyectos que busquen integrar prácticas de gobernanza de datos en sus estrategias de IA.",
         "speaker": "Kelvin Alvarado",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1643,7 +1684,7 @@ const sessions: Session[] = [
             "nist framework",
             "marco nist"
         ],
-        "cta": "Asistir a esta sesión te permitirá entender cómo las nuevas tecnologías de inteligencia artificial impactan la seguridad cibernética y cómo puedes protegerte contra estos riesgos emergentes. Aprenderás sobre las mejores prácticas para responder a amenazas cibernéticas y cómo implementar soluciones efectivas en la nube de AWS.Esta sesión está diseñada para profesionales de la seguridad, gerentes de TI, y cualquier persona interesada en la ciberseguridad y el uso de inteligencia artificial en sus organizaciones. También es relevante para aquellos que buscan fortalecer su conocimiento sobre el cumplimiento y la identidad en el ámbito digital.",
+        "cta": "Asistir a esta sesión es crucial para entender cómo los avances en inteligencia artificial están transformando el panorama de la ciberseguridad. Aprenderás sobre las nuevas amenazas que surgen con la IA, así como estrategias prácticas para proteger tu organización en la nube de AWS. La sesión está diseñada para profesionales de seguridad, líderes de IT, y cualquier persona interesada en la intersección de la inteligencia artificial y la ciberseguridad. Obtendrás conocimientos valiosos sobre cómo mitigar riesgos y aprovechar las tecnologías emergentes de manera segura.",
         "speaker": "Leonardo Covarrubias García",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1655,9 +1696,9 @@ const sessions: Session[] = [
         "room": "Charro (H1)",
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Obok",
-        "titleSpanish": "Seguridad de IA + Cumplimiento: respuesta a ciberamenazas y preparación",
-        "abstractSpanish": "En las próximas 24 horas, uno de nosotros será víctima de un ataque cibernético. Con una nueva ola de avances en IA, nos volvemos vulnerables a riesgos nunca antes vistos, la necesidad de mantenernos blindados se vuelve crucial. Exploremos juntos cómo desde AWS podemos mantenernos un paso adelante de un futuro de constante disrupción.",
-        "descriptionSpanish": "Debido a la creciente marea de avances en inteligencia artificial generativa, la dualidad entre pros y contras sigue siendo constante sobre cómo las organizaciones pueden protegerse y aprovechar estas nuevas tecnologías. La charla pasa de la teoría a la práctica, no solo con ejemplos de la vida cotidiana, sino también como empresa, cómo se pueden atacar y contener los nuevos riesgos de ciberseguridad en la nube de AWS.",
+        "titleSpanish": "AI Seguridad + Cumplimiento: respuesta y preparación ante ciberamenazas",
+        "abstractSpanish": "En las próximas 24 horas, uno de nosotros será víctima de un ataque cibernético. Con una nueva ola de avances en IA, nos volvemos vulnerables a riesgos nunca antes vistos. La necesidad de permanecer blindados se vuelve crucial. Exploremos juntos cómo desde AWS podemos mantenernos un paso adelante de un futuro de constante disrupción.",
+        "descriptionSpanish": "Debido al aumento de los avances en inteligencia artificial generativa, la dualidad entre pros y contras permanece constante en cómo las organizaciones pueden protegerse y aprovechar estas nuevas tecnologías. La charla pasa de la teoría a la práctica, no solo con ejemplos de la vida cotidiana, sino como empresa, cómo se pueden atacar y contener los nuevos riesgos de ciberseguridad en la nube de AWS.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG302+-+AI+Security+%2B+Compliance:+cyberthreat+response+and+preparedness+por+Leonardo+Covarrubias+Garc%C3%ADa",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/leonardo_covarrubias.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/leocovarrubias/",
@@ -1681,7 +1722,7 @@ const sessions: Session[] = [
             "optimización",
             "beneficios financieros"
         ],
-        "cta": "Asistir a esta sesión te permitirá entender las ventajas económicas de reescribir funciones de AWS Lambda en Rust, lo que puede resultar en ahorros significativos en costos. Aprenderás sobre estrategias de implementación prácticas, cómo medir el rendimiento y ver casos de estudio del mundo real que demuestran los beneficios financieros de adoptar Rust en funciones serverless.Esta sesión está diseñada para desarrolladores, arquitectos de software y profesionales de la nube que buscan optimizar el rendimiento de sus aplicaciones en la nube y reducir costos operativos. También es adecuada para aquellos interesados en aprender sobre nuevas tecnologías y lenguajes de programación que pueden mejorar la eficiencia de sus servicios.",
+        "cta": "Asistir a esta sesión te permitirá comprender las ventajas económicas de reescribir funciones de AWS Lambda en Rust. Aprenderás sobre estrategias de implementación prácticas, cómo medir el rendimiento y estudiar casos reales que demuestran los beneficios financieros de usar Rust en funciones sin servidor. Esta sesión está diseñada para desarrolladores, arquitectos de software y profesionales interesados en optimizar costos y mejorar el rendimiento de sus aplicaciones en la nube.",
         "speaker": "Luis Carlos Osorio Jayk",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1694,8 +1735,8 @@ const sessions: Session[] = [
         "speakerLocation": "Jalisco, México",
         "speakerCompany": "Wizeline",
         "titleSpanish": "Reescribir funciones Lambda en Rust y ahorrar dinero",
-        "abstractSpanish": "Descubre cómo reescribir funciones de AWS Lambda en Rust puede llevar a ahorros significativos en costos. Esta charla cubre estrategias de implementación, benchmarks de rendimiento y estudios de caso, destacando los beneficios financieros y las mejoras en el rendimiento de usar Rust para funciones sin servidor.",
-        "descriptionSpanish": "En esta charla, exploramos las ventajas económicas de reescribir funciones de AWS Lambda en Rust. Al aprovechar el rendimiento y la eficiencia de Rust, demostramos cómo puede conducir a ahorros significativos. Los asistentes obtendrán información sobre estrategias de implementación prácticas, benchmarks de rendimiento y estudios de caso del mundo real que muestran los beneficios financieros de adoptar Rust para funciones sin servidor. Únase a nosotros para descubrir cómo Rust puede optimizar sus funciones Lambda, reducir su factura de AWS y mejorar el rendimiento general del sistema.",
+        "abstractSpanish": "Descubre cómo reescribir funciones de AWS Lambda en Rust puede llevar a ahorros significativos. Esta charla cubre estrategias de implementación, benchmarks de rendimiento y estudios de caso, destacando los beneficios financieros y las mejoras de rendimiento de usar Rust para funciones sin servidor.",
+        "descriptionSpanish": "En esta charla, exploramos las ventajas económicas de reescribir funciones de AWS Lambda en Rust. Al aprovechar el rendimiento y la eficiencia de Rust, demostramos cómo puede llevar a ahorros significativos en costos. Los asistentes obtendrán información sobre estrategias de implementación prácticas, benchmarks de rendimiento y estudios de caso del mundo real que muestran los beneficios financieros de adoptar Rust para funciones sin servidor. Únase a nosotros para descubrir cómo Rust puede optimizar sus funciones de Lambda, reducir su factura de AWS y mejorar el rendimiento general del sistema.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SLS302+-+Rewrite+Lambda+Functions+in+Rust+and+save+money+por+Luis+Carlos+Osorio+Jayk",
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/luis_osorio.jpg",
         "speakerLinkedIn": "https://www.linkedin.com/in/luiscarlososoriojayk",
@@ -1719,7 +1760,7 @@ const sessions: Session[] = [
             "mantenimiento",
             "mantenimiento"
         ],
-        "cta": "Asistir a esta sesión te proporcionará una comprensión clara de las estrategias de optimización de costos en la nube, lo cual es crucial en un entorno donde escalar de forma infinita es un mito. Aprenderás técnicas prácticas sobre cómo ahorrar utilizando instancias reservadas y planes de ahorro, y cómo interpretar el Cost Explorer para identificar oportunidades de ahorro. Esta charla está diseñada para profesionales de TI, ingenieros DevOps, y cualquier persona interesada en mejorar la eficiencia de costos en sus operaciones en la nube.",
+        "cta": "Asistir a esta sesión te permitirá comprender las realidades detrás de la escalabilidad en la nube y cómo evitar errores comunes que pueden llevar a costos innecesarios. Aprenderás estrategias prácticas para optimizar los costos utilizando instancias reservadas y planes de ahorro, así como a interpretar de manera efectiva el Cost Explorer para identificar oportunidades de ahorro. Esta sesión está diseñada para profesionales de TI, ingenieros DevOps y cualquier persona interesada en mejorar la gestión de costos en sus plataformas en la nube.",
         "speaker": "Luis Gerardo Guerra Garrido",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1759,7 +1800,7 @@ const sessions: Session[] = [
             "devops",
             "devops"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo automatizar y escalar aplicaciones nativas de la nube utilizando tecnologías avanzadas como AWS Lambda y Kubernetes. Aprenderás a integrar contenedores y pipelines CI/CD para optimizar la entrega continua, lo que resulta en una mayor eficiencia en los procesos de DevOps.Esta sesión está diseñada para profesionales de TI, ingenieros de software, arquitectos de soluciones y cualquier persona interesada en mejorar sus habilidades en automatización y escalabilidad en entornos de nube. Si deseas aprender sobre patrones avanzados de DevOps y cómo implementar flujos de trabajo automatizados y efectivos, esta charla es para ti.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo automatizar despliegues y escalar aplicaciones nativas de la nube utilizando AWS Lambda y Kubernetes. Aprenderás sobre la integración de contenedores, el uso de pipelines CI/CD y la orquestación en AWS, lo cual es fundamental para optimizar la entrega continua y mejorar la eficiencia en DevOps.Esta sesión está diseñada para desarrolladores, arquitectos de soluciones, ingenieros de DevOps y cualquier profesional interesado en mejorar sus habilidades en la automatización de despliegues y en la gestión de infraestructuras en la nube. Si deseas aumentar la velocidad de desarrollo y aprender a manejar cargas de trabajo híbridas de manera eficaz, esta charla es una excelente oportunidad.",
         "speaker": "Luis Gerardo Hernandez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1774,7 +1815,10 @@ const sessions: Session[] = [
         "titleSpanish": "Automatización y Escalabilidad Nativa: Lambda con Contenedores, Kubernetes y Pipelines CI/CD en AWS",
         "abstractSpanish": "Descubre cómo automatizar despliegues y escalar aplicaciones nativas de la nube con AWS Lambda y Kubernetes. Aprende a integrar contenedores, pipelines CI/CD y orquestación en AWS para optimizar la entrega continua y maximizar la eficiencia DevOps.",
         "descriptionSpanish": "Esta charla técnica explora cómo crear pipelines de despliegue continuo de alto rendimiento utilizando contenedores en AWS Lambda, Kubernetes para la orquestación, y las herramientas de CI/CD nativas de AWS como CodeCommit, CodeBuild y CodeDeploy. A través de demostraciones en vivo, veremos cómo integrar Lambda con Kubernetes para manejar cargas de trabajo híbridas, automatizar flujos de trabajo complejos y gestionar despliegues sin interrupciones en ambientes distribuidos.Analizaremos patrones avanzados de DevOps en la nube, el uso eficiente de contenedores en Lambda para optimizar la escalabilidad, y cómo combinar Kubernetes con las herramientas de CI/CD de AWS para un proceso de despliegue totalmente automatizado y repetible. Este enfoque permite a las organizaciones aumentar su velocidad de desarrollo y mantener una infraestructura confiable a gran escala.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS307+-+Automatizaci%C3%B3n+y+Escalabilidad+Nativa:+Lambda+con+Contenedores,+Kubernetes+y+Pipelines+CI/CD+en+AWS+por+Luis+Gerardo+Hernandez"
+        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=DPS307+-+Automatizaci%C3%B3n+y+Escalabilidad+Nativa:+Lambda+con+Contenedores,+Kubernetes+y+Pipelines+CI/CD+en+AWS+por+Luis+Gerardo+Hernandez",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/gerardo_hernandez.png",
+        "speakerLinkedIn": "https://www.linkedin.com/in/luis-gerardo-hern%C3%A1ndez/",
+        "speakerBio": "Luis Gerardo es Cloud, DevOps & Platform Principal en Improving Mexico. Con 14 años de experiencia en el ámbito de la computación en la nube, ha desarrollado una sólida trayectoria, certificándose como AWS Solutions Architect Professional. Su mayor especialización actualmente se centra en el ecosistema de Kubernetes y la contenedorización, lo que le permite liderar implementaciones avanzadas y optimizar infraestructuras en la nube para sus clientes."
     },
     {
         "id": "HBL201",
@@ -1796,7 +1840,7 @@ const sessions: Session[] = [
             "aws certifications",
             "certificaciones de aws"
         ],
-        "cta": "Asistir a esta sesión te permitirá obtener valiosas herramientas y estrategias para convertirte en un manager efectivo en proyectos en la nube. Aprenderás a evitar errores comunes en la gestión cloud, así como a adoptar buenas prácticas de liderazgo que fomenten la comunicación, el empoderamiento del equipo y una planificación efectiva.Esta sesión está diseñada para managers actuales y para ingenieros que aspiran a roles de liderazgo, proporcionando contenido relevante y aplicable que les ayudará a sobresalir en sus roles y lograr resultados exitosos en sus proyectos cloud.",
+        "cta": "Asistir a esta sesión te permitirá adquirir herramientas y estrategias efectivas para convertirte en un manager exitoso en proyectos en la nube. Aprenderás a evitar errores comunes en la gestión cloud, mejorar tus habilidades de comunicación, empoderar a tu equipo y planificar proyectos de manera efectiva. La sesión está diseñada para managers actuales y para ingenieros que aspiran a roles de liderazgo, brindando ejemplos reales y casos de éxito que harán que el contenido sea relevante y aplicable a tu trabajo diario.",
         "speaker": "Marco Cornejo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1834,7 +1878,7 @@ const sessions: Session[] = [
             "simplicity",
             "simplicidad"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender la importancia de utilizar infraestructuras simples en la nube, lo que puede llevar a una mayor eficiencia y reducción de costos en el mantenimiento. Aprenderás sobre las mejores prácticas para diseñar infraestructuras que no solo cumplan con los requisitos de seguridad y cumplimiento, sino que también permitan a los equipos enfocarse en la innovación en lugar de tareas repetitivas. Esta sesión está diseñada para profesionales de operaciones en la nube, arquitectos de infraestructura, y cualquier persona interesada en optimizar el uso de la tecnología en sus empresas.",
+        "cta": "Asistir a esta sesión te brindará la oportunidad de entender cómo una infraestructura simple puede ser más efectiva y económica para las empresas, especialmente en un entorno donde la seguridad de los datos es primordial. Aprenderás sobre la importancia de simplificar los procesos de cumplimiento y cómo esto puede liberar recursos para la innovación y el desarrollo de nuevos productos.Esta sesión está diseñada para profesionales en operaciones en la nube, ingenieros de infraestructura, y cualquier persona interesada en optimizar su entorno de trabajo sin depender de tecnologías excesivamente complejas. Es ideal para aquellos que buscan mejorar la eficiencia y reducir la carga de trabajo repetitiva en sus equipos.",
         "speaker": "Mariano Rodríguez Díaz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1853,43 +1897,6 @@ const sessions: Session[] = [
         "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/mariano_rodr%C3%ADguez.png",
         "speakerLinkedIn": "https://www.linkedin.com/in/marianord/",
         "speakerBio": "Mariano es Director of Cloud en EnterpriseAlumni con experiencia en AWS y en la administración de infraestructura para ambientes altamente controlados. Experto en el diseño, despliegue y monitoreo continuo de infraestructura para servicios que atienden a empresas Fortune 100. Tiene un gran interés en Cloud Engineering y Cloud Native. Mariano es 3x AWS Certified por AWS."
-    },
-    {
-        "id": "IAM202",
-        "title": "Diálogo con el Futuro: Navegando la Ética y Responsabilidad Humana en la Era de la IA Razonante",
-        "description": " Exploraremos la evolución de la IA desde sus formas iniciales hasta los sistemas futuros capaces de razonamiento avanzado, comparando su potencial con la inteligencia humana.",
-        "abstract": "En esta charla, nos adentraremos en el fascinante desarrollo de la Inteligencia Artificial razonante, una tecnología que promete transformar profundamente nuestra sociedad y plantea preguntas críticas sobre nuestra responsabilidad como creadores y usuarios.",
-        "language": "Spanish",
-        "keywords": [
-            "artificial intelligence",
-            "inteligencia artificial",
-            "ethics",
-            "ética",
-            "responsibility",
-            "responsabilidad",
-            "reasoning",
-            "razonamiento",
-            "technology",
-            "tecnología"
-        ],
-        "cta": "Asistir a esta sesión te permitirá comprender mejor los desafíos éticos y las responsabilidades que surgen con el desarrollo de la Inteligencia Artificial razonante. Aprenderás sobre la evolución de la IA y su comparación con la inteligencia humana, así como las implicaciones sociales de su implementación.Esta sesión está diseñada para profesionales, académicos y estudiantes interesados en el campo de la inteligencia artificial, la ética tecnológica y la responsabilidad social, así como para aquellos que buscan entender cómo la IA puede impactar en sus industrias y comunidades.",
-        "speaker": "Mario Alberto Rodríguez",
-        "speakerImage": "https://example.com/speaker-image.jpg",
-        "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:35:00-06:00')
-        },
-        "category": "IA/ML",
-        "level": "L200",
-        "room": "Minerva",
-        "speakerLocation": "Jalisco, México",
-        "titleSpanish": "Diálogo con el Futuro: Navegando la Ética y Responsabilidad Humana en la Era de la IA Razonante",
-        "abstractSpanish": "En esta charla, nos adentraremos en el fascinante desarrollo de la Inteligencia Artificial razonante, una tecnología que promete transformar profundamente nuestra sociedad y plantea preguntas críticas sobre nuestra responsabilidad como creadores y usuarios.",
-        "descriptionSpanish": "Exploraremos la evolución de la IA desde sus formas iniciales hasta los sistemas futuros capaces de razonamiento avanzado, comparando su potencial con la inteligencia humana.",
-        "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAM202+-+Di%C3%A1logo+con+el+Futuro:+Navegando+la+%C3%89tica+y+Responsabilidad+Humana+en+la+Era+de+la+IA+Razonante+por+Mario+Alberto+Rodr%C3%ADguez",
-        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/mario_rodriguez.png",
-        "speakerLinkedIn": "https://www.linkedin.com/in/mario-alberto-rodriguez-bolanos/",
-        "speakerBio": "Mario Alberto Rodríguez es fundador y CEO de iNBest, empresa líder en Cloud Computing en Latinoamérica, galardonada con el premio Rising Star por AWS. Graduado en Mercadotecnia, ha complementado su formación con diplomados en Habilidades Directivas y Design Thinking. Reconocido en 2021 como uno de los mejores jóvenes empresarios en Jalisco, también es miembro de consejos directivos y ha presentado charlas en TEDTALK y otros foros."
     },
     {
         "id": "HBL103",
@@ -1911,7 +1918,7 @@ const sessions: Session[] = [
             "software development",
             "desarrollo de software"
         ],
-        "cta": "Asistir a esta sesión es fundamental para entender la relevancia de la documentación en el desarrollo de soluciones web. Aprenderás cómo una documentación adecuada no solo mejora la gestión de proyectos, sino que también facilita futuras implementaciones y decisiones. La charla está diseñada para todos los perfiles, desde desarrolladores hasta arquitectos y administradores, especialmente aquellos que están iniciando en la industria de la tecnología o que tienen curiosidad sobre la importancia de documentar sus aplicaciones. No se requiere experiencia previa en arquitectura, ya que la presentación se centrará en ejemplos a alto nivel.",
+        "cta": "Asistir a esta sesión es fundamental para comprender la relevancia de la documentación en el desarrollo de soluciones web. Aprenderás sobre los beneficios tangibles que puede aportar una buena documentación, así como ejemplos reales que ilustran su impacto positivo en futuras implementaciones y decisiones.Esta charla está diseñada para todos aquellos que están iniciando en la industria de la tecnología, así como para quienes tienen curiosidad por entender la importancia de documentar sus aplicaciones. No se requiere experiencia previa en arquitectura, ya que se abordarán conceptos a alto nivel.",
         "speaker": "Miroslava Galván",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1951,7 +1958,7 @@ const sessions: Session[] = [
             "incident response",
             "respuesta a incidentes"
         ],
-        "cta": "Asistir a esta sesión es fundamental para quienes buscan mejorar sus habilidades en la implementación de observabilidad en la nube, especialmente en AWS. Aprenderás cómo utilizar herramientas como AWS CloudWatch, Prometheus y OpenTelemetry para monitorear y optimizar infraestructuras distribuidas. La sesión está diseñada para profesionales como ingenieros de confiabilidad de sitios (SRE), desarrolladores de software y arquitectos de soluciones que deseen profundizar en la mejora del rendimiento y la fiabilidad de sus aplicaciones en entornos dinámicos.",
+        "cta": "Asistir a esta sesión es una excelente oportunidad para comprender cómo la observabilidad puede mejorar el trabajo de un Site Reliability Engineer (SRE) en AWS. Aprenderás a implementar herramientas como AWS CloudWatch, Prometheus y OpenTelemetry para monitorear y optimizar infraestructuras distribuidas, lo que te permitirá detectar problemas rápidamente y mejorar la estabilidad de las aplicaciones en entornos dinámicos.Esta sesión está diseñada para profesionales del ámbito de operaciones en la nube, ingenieros de sistemas, desarrolladores y cualquier persona interesada en mejorar la confiabilidad y el rendimiento de las aplicaciones en la nube. También será útil para quienes buscan profundizar en el papel de un SRE y cómo la observabilidad puede empoderarlos en su labor diaria.",
         "speaker": "Omar Montero",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -1967,7 +1974,9 @@ const sessions: Session[] = [
         "abstractSpanish": "Únete a nosotros para explorar cómo la observabilidad mejora el trabajo de SRE en AWS. Aprende cómo herramientas como CloudWatch, Prometheus y OpenTelemetry ayudan a monitorear y optimizar la infraestructura en la nube, con demostraciones en vivo sobre cómo garantizar la estabilidad y una rápida respuesta a incidentes.",
         "descriptionSpanish": "La audiencia se llevará tres ideas clave: Primero, aprenderán cómo implementar la observabilidad en AWS utilizando herramientas como AWS CloudWatch, Prometheus y OpenTelemetry para monitorear y optimizar infraestructuras distribuidas. Segundo, entenderán cómo la observabilidad mejora el rendimiento y la confiabilidad al permitir que los SRE detecten problemas rápidamente, mejoren el rendimiento de las aplicaciones y mantengan la estabilidad en entornos dinámicos. Finalmente, exploraremos el papel de un SRE en AWS, mostrando ejemplos del mundo real de cómo la observabilidad les permite gestionar la infraestructura de manera proactiva, mejorando los tiempos de respuesta ante incidentes.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=OPS206+-+Mastering+Observability+on+AWS:+A+Day+in+the+Life+of+an+SRE+por+Omar+Montero",
-        "speakerLinkedIn": "https://www.linkedin.com/in/jm19/"
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/omar_montero.png",
+        "speakerLinkedIn": "https://www.linkedin.com/in/jm19/",
+        "speakerBio": "Omar Montero es Senior Systems Engineer y Site Reliability Engineer con experiencia en Cloud Operations y Amazon Web Services (AWS), incluyendo EC2, ECS, EKS y diseño de arquitecturas complejas. Especialista en automatización y monitoreo, así como en la implementación de pipelines de CI/CD. Tiene un gran interés en Platform Engineering y la Observabilidad en arquitecturas modernas. Omar es también un Solutions Architect certificado por Amazon Web Services y se destaca por su enfoque en crear soluciones robustas y escalables en entornos Cloud Native."
     },
     {
         "id": "SLS202",
@@ -1989,7 +1998,7 @@ const sessions: Session[] = [
             "banking",
             "banca"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo Capital One ha implementado una estrategia serverless-first y las ventajas que esto ha traído en términos de agilidad e innovación. Aprenderás sobre el uso de tecnologías nativas de la nube, data streaming a escala y machine learning, lo que te ayudará a resolver problemas tecnológicos complejos en tu propia organización.Esta sesión está diseñada para profesionales de tecnología, especialmente ingenieros de software, arquitectos de soluciones y gerentes de producto que buscan profundizar en la arquitectura serverless y mejorar sus competencias en el desarrollo de aplicaciones en la nube.",
+        "cta": "Deberías asistir a esta sesión porque ofrece una visión profunda de la implementación práctica de una estrategia serverless-first en un entorno bancario. Aprenderás sobre las lecciones aprendidas, las mejores prácticas y cómo Capital One ha utilizado tecnología nativa de la nube para innovar y resolver desafíos tecnológicos. Esta sesión está diseñada para perfiles de ingenieros, arquitectos de soluciones y cualquier profesional que esté interesado en la computación sin servidor y desee comprender cómo aplicar estos principios en sus propias organizaciones.",
         "speaker": "Oscar Mendoza",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -2011,10 +2020,10 @@ const sessions: Session[] = [
     },
     {
         "id": "IAG205",
-        "title": "Using AWS Bedrock in your terminal ",
-        "description": "AWS Bedrock is one of the easiest ways to start a generative AI application or service, how about if we start using it from the terminal? how about using other AWS services from the terminal as well with the help of AWS Bedrock. In this talk I want to talk about how to use the Bedrock API and integrate in the terminal so Developers can start without too much hassle. I created an open source project called Isaac, (https://github.com/gochaos-app/isaac/) and will bring examples on how it works, how to do programs and simple apps with go and AWS Bedrock and AWS Textract, and lots of snippets and examples. ",
-        "abstract": "AWS Bedrock empowers professionals across industries to streamline workflows and enhance productivity. Whether you're a developer, DevOps engineer, or project manager, Bedrock offers tangible value by simplifying complex tasks and accelerating project timelines.",
-        "language": "English",
+        "title": "Usando AWS Bedrock en tu terminal",
+        "description": "AWS Bedrock es una de las maneras más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si empezamos a usarlo desde la terminal? ¿Qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiados inconvenientes.Creé un proyecto de código abierto llamado Isaac, (https://github.com/gochaos-app/isaac/) y traeré ejemplos de cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos.",
+        "abstract": "AWS Bedrock empodera a profesionales de diversas industrias para optimizar flujos de trabajo y mejorar la productividad. Ya seas un desarrollador, ingeniero DevOps o gerente de proyecto, Bedrock ofrece un valor tangible al simplificar tareas complejas y acelerar los plazos de los proyectos.",
+        "language": "Spanish",
         "keywords": [
             "bedrock",
             "bedrock",
@@ -2031,7 +2040,7 @@ const sessions: Session[] = [
             "examples",
             "ejemplos"
         ],
-        "cta": "Asistir a esta sesión te permitirá aprender sobre el uso de AWS Bedrock desde la terminal, lo cual puede simplificar el desarrollo de aplicaciones de inteligencia artificial. Se presentarán ejemplos prácticos y un proyecto de código abierto llamado Isaac que demuestra cómo integrar AWS Bedrock y AWS Textract en programas y aplicaciones sencillas. Esta sesión está diseñada para desarrolladores, ingenieros de DevOps y gerentes de proyectos que buscan optimizar sus flujos de trabajo y adoptar herramientas modernas de inteligencia artificial.",
+        "cta": "Asistir a esta sesión te brindará la oportunidad de comprender cómo utilizar AWS Bedrock directamente desde tu terminal, lo que facilitará el inicio de aplicaciones y servicios de inteligencia artificial generativa. Aprenderás a integrar la API de Bedrock en tus flujos de trabajo y a simplificar tareas complejas utilizando otros servicios de AWS.Esta sesión está diseñada para desarrolladores, ingenieros DevOps y gerentes de proyecto que buscan optimizar su productividad y mejorar sus procesos de trabajo a través de herramientas modernas en la nube.",
         "speaker": "Ramon Esparza",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -2045,8 +2054,9 @@ const sessions: Session[] = [
         "speakerCompany": "Wizeline",
         "titleSpanish": "Usando AWS Bedrock en tu terminal",
         "abstractSpanish": "AWS Bedrock empodera a profesionales de diversas industrias para optimizar flujos de trabajo y mejorar la productividad. Ya seas un desarrollador, ingeniero DevOps o gerente de proyecto, Bedrock ofrece un valor tangible al simplificar tareas complejas y acelerar los plazos de los proyectos.",
-        "descriptionSpanish": "AWS Bedrock es una de las maneras más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si empezamos a usarlo desde la terminal? ¿Qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiados inconvenientes.Creé un proyecto de código abierto llamado Isaac, (https://github.com/gochaos-app/isaac/) y traeré ejemplos de cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos.",
+        "descriptionSpanish": "AWS Bedrock es una de las maneras más fáciles de comenzar una aplicación o servicio de IA generativa, ¿qué tal si empezamos a usarlo desde la terminal? ¿Qué tal usar otros servicios de AWS desde la terminal también con la ayuda de AWS Bedrock? En esta charla quiero hablar sobre cómo usar la API de Bedrock e integrarla en la terminal para que los desarrolladores puedan comenzar sin demasiados inconvenientes.Creé un proyecto de código abierto llamado Isaac, () y traeré ejemplos de cómo funciona, cómo hacer programas y aplicaciones simples con Go y AWS Bedrock y AWS Textract, y muchos fragmentos y ejemplos.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG205+-+Using+AWS+Bedrock+in+your+terminal+por+Ramon+Esparza",
+        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/ramon_esparza.png",
         "speakerLinkedIn": "https://www.linkedin.com/in/ramonesparza/",
         "speakerBio": "Ramon es Site Reliability Engineer con experiencia en AWS, CI/CD y servidores. Bastante bueno en desarrollo de pipeline de CI/CD. Ramon tiene un gran interés en inteligencia artificial y por alguna razon le gusta correr linux en PCs de recursos limitados. "
     },
@@ -2070,7 +2080,7 @@ const sessions: Session[] = [
             "lightweight VMs",
             "VMs ligeras"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender mejor los fundamentos de la computación serverless y cómo Firecracker está revolucionando este campo. Aprenderás sobre la creación de máquinas virtuales ligeras y seguras, así como las características y beneficios de Firecracker en la nube. Esta charla está diseñada para desarrolladores y profesionales de TI que buscan profundizar en la infraestructura detrás de los servicios serverless y optimizar sus aplicaciones en la nube.",
+        "cta": "Asistir a esta sesión te permitirá comprender cómo funciona la tecnología detrás de la computación serverless, específicamente a través de Firecracker. Aprenderás sobre la creación de máquinas virtuales ligeras y seguras, así como las características principales de Firecracker y su importancia en la infraestructura de la nube.Esta sesión está diseñada para desarrolladores y profesionales de TI que estén interesados en profundizar en la infraestructura que soporta los servicios serverless y en optimizar el uso de tecnologías en la nube.",
         "speaker": "Sebastián Marines",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -2110,7 +2120,7 @@ const sessions: Session[] = [
             "vulnerability reporting",
             "reportes de vulnerabilidades"
         ],
-        "cta": "Asistir a esta sesión te permitirá:1. Aprender sobre la automatización en ciberseguridad: Descubrirás cómo utilizar AWS Lambdas, Terraform y Python para llenar vacíos que las soluciones de seguridad tradicionales no cubren.2. Adquirir conocimientos prácticos: Participarás en una parte práctica donde se construirán herramientas como feeds de inteligencia de amenazas y monitores de transacciones sospechosas.3. Explorar casos reales: Se compartirán repositorios con código de ejemplo que te ayudarán a implementar lo aprendido sin los mismos obstáculos que enfrentaron los ponentes.Esta sesión está diseñada para profesionales de ciberseguridad, ingenieros de cloud, y cualquier persona interesada en aprender sobre automatizaciones en seguridad, especialmente en el contexto de la web3 y criptomonedas.",
+        "cta": "Asistir a esta sesión es fundamental para aquellos interesados en optimizar la seguridad en entornos de criptomonedas. Aprenderás cómo implementar automatizaciones efectivas utilizando AWS, Terraform y Python, cubriendo aspectos críticos como inteligencia de amenazas, monitoreo y gestión de vulnerabilidades. La sesión está diseñada para profesionales de la ciberseguridad, desarrolladores y cualquier persona interesada en mejorar la seguridad de sus aplicaciones y sistemas, especialmente en el ámbito de las criptomonedas. Además, se compartirán ejemplos prácticos y repositorios de código, facilitando la aplicación de lo aprendido en proyectos reales.",
         "speaker": "Ulises Chombo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -2125,7 +2135,7 @@ const sessions: Session[] = [
         "speakerCompany": "Bitso (Quetzal Team)",
         "titleSpanish": "PocketSOC: Automatizando nuestra seguridad con AWS, Terraform y Python",
         "abstractSpanish": "Como equipo de seguridad de una compañía crypto, es muy difícil encontrar productos que cubran todas nuestras necesidades. En esta charla, aprenderemos cómo la automatización con AWS Lambdas, Terraform y Python puede llenar esos vacíos, construyendo nuestro propio PocketSOC en el camino.",
-        "descriptionSpanish": "Como equipo de seguridad de una compañía crypto, es muy difícil encontrar productos de seguridad que cubran todas nuestras necesidades.En esta charla, exploraremos cómo la automatización con AWS Lambdas, Terraform y Python puede llenar los vacíos que las soluciones integrales no logran cubrir. Comenzaremos con una introducción a conceptos básicos como AWS Lambdas, Terraform y SOC, desglosando cómo definir secretos, buckets y capas necesarias tanto en Terraform como en Python. Luego, avanzaremos hacia una parte práctica, donde construiremos feeds de inteligencia de amenazas, reportes automáticos de vulnerabilidades y monitores de transacciones crypto sospechosas, entre otros ejemplos, demostrando cómo esta combinación de herramientas no solo es una alternativa económica, sino también creativa y eficiente.",
+        "descriptionSpanish": "Como equipo de seguridad de una compañía crypto, es muy difícil encontrar productos de seguridad que cubran todas nuestras necesidades. En esta charla, exploraremos cómo la automatización con AWS Lambdas, Terraform y Python puede llenar los vacíos que las soluciones integrales no logran cubrir. Comenzaremos con una introducción a conceptos básicos como AWS Lambdas, Terraform y SOC, desglosando cómo definir secretos, buckets y capas necesarias tanto en Terraform como en Python. Luego, avanzaremos hacia una parte práctica, donde construiremos feeds de inteligencia de amenazas, reportes automáticos de vulnerabilidades y monitores de transacciones crypto sospechosas, entre otros ejemplos, demostrando cómo esta combinación de herramientas no solo es una alternativa económica, sino también creativa y eficiente.",
         "coSpeakerLocation": "Ciudad de México, México",
         "coSpeakerCompany": "Bitso (Quetzal Team)",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=SEG303+-+PocketSOC:+Automatizando+nuestra+seguridad+con+AWS,+Terraform+y+Python+por+Ulises+Chombo+y+Luis+Rios",
@@ -2156,7 +2166,7 @@ const sessions: Session[] = [
             "coding assistants",
             "asistentes de código"
         ],
-        "cta": "Asistir a esta sesión te permitirá entender las diferencias clave entre Amazon Q y GitHub Copilot, y cómo cada herramienta puede ayudarte a optimizar tu flujo de trabajo en el desarrollo de software. Aprenderás sobre sus características, casos de uso y cómo elegir la mejor opción para tus proyectos específicos.Esta sesión está diseñada para desarrolladores, ingenieros de software y cualquier persona interesada en mejorar su productividad mediante el uso de inteligencia artificial en el desarrollo de código. Si buscas potenciar tus habilidades y explorar nuevas herramientas que transformen tu forma de trabajar, ¡no te la pierdas!",
+        "cta": "Asistir a esta sesión es una oportunidad única para explorar cómo Amazon Q y GitHub Copilot pueden transformar tu flujo de trabajo como desarrollador. Aprenderás a utilizar de manera efectiva estas herramientas de inteligencia artificial para optimizar el desarrollo de software, aumentando tu productividad y eficiencia. La charla está diseñada para desarrolladores de todos los niveles que busquen mejorar sus habilidades en programación y aprovechar las últimas innovaciones en IA. Además, se abordarán casos de uso prácticos y se brindarán recomendaciones sobre cuál asistente podría adaptarse mejor a tus necesidades específicas.",
         "speaker": "Vicente G. Guzman Lucio",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
@@ -2200,7 +2210,7 @@ const sessions: Session[] = [
             "resource optimization",
             "optimización de recursos"
         ],
-        "cta": "Asistir a esta sesión te permitirá comprender cómo optimizar costos en arquitecturas de AWS EKS utilizando Karpenter y Spot Instances. Aprenderás estrategias prácticas para reducir gastos sin sacrificar el rendimiento ni la seguridad, además de conocer las ventajas de utilizar instancias EC2 Graviton.Esta sesión está diseñada para perfiles como DevOps, SREs, CTOs y tomadores de decisiones que buscan mejorar la eficiencia de sus infraestructuras y maximizar el retorno de inversión en la nube.",
+        "cta": "### ¿Por qué debería asistir a esta sesión?Asistir a esta sesión te permitirá descubrir cómo optimizar tus costos en AWS EKS mediante el uso de Karpenter y Spot Instances. Aprenderás estrategias prácticas y eficientes para gestionar recursos sin comprometer el rendimiento, la resiliencia ni la seguridad de tus aplicaciones.### ¿Qué aprenderé?Durante la sesión, aprenderás sobre:- La integración de Karpenter con AWS EKS para una gestión eficiente de recursos.- Cómo reducir costos utilizando instancias EC2 Graviton y Spot.- Estrategias para maximizar el retorno de inversión en tu infraestructura.### ¿Para qué perfiles está diseñada esta sesión?Esta sesión está diseñada para audiencias clave como:- DevOps- SREs (Site Reliability Engineers)- CTOs (Chief Technology Officers)- Tomadores de decisiones en tecnología",
         "speaker": "Victor Jimenez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
