@@ -53,8 +53,8 @@ const FeedbackModal = () => {
             isCentered // This ensures the modal is centered
         >
             <ModalOverlay/>
-            <ModalContent>
-                <ModalHeader>¡Queremos saber tu opinion!</ModalHeader>
+            <ModalContent marginX="20px">
+                <ModalHeader>¡Nos encantaría conocer tu experiencia!</ModalHeader>
                 <ModalCloseButton/>
                 <ModalBody>
                     <Text>
@@ -64,7 +64,8 @@ const FeedbackModal = () => {
                     </Text>
                     <br/>
                     <Text>
-                        ¿Podrías tomarte un momento para compartir tu feedback? Tu opinión nos ayudará a mejorar futuros
+                        ¿Podrías tomarte un momento para compartir tu feedback? Tu opinión nos ayudará a mejorar
+                        futuros
                         eventos.
                     </Text>
                 </ModalBody>
