@@ -82,9 +82,16 @@ const SpecialSessionCard: React.FC<SessionCardProps> = ({session}) => {
                                 <HStack>
                                     <TimeIcon/>
                                     {
-                                        isLoaded && (
+                                        isLoaded && session.id !== "registro" && (
                                             <Text fontSize="sm" suppressHydrationWarning>
                                                 {formatTime(session.time.start)} ({getTimeDifference(session.time.start, session.time.end)})
+                                            </Text>
+                                        )
+                                    }
+                                    {
+                                        isLoaded && session.id === "registro" && (
+                                            <Text fontSize="sm" suppressHydrationWarning>
+                                                Todo el día
                                             </Text>
                                         )
                                     }

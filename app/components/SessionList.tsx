@@ -56,7 +56,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
         [currentSessions]
     )
 
-    const currentSpecialSession = specialSessions.find((session) => {
+    const currentSpecialSession = specialSessions.filter((session) => session.id !== "registro").find((session) => {
         const now = new Date();
         return session.time.start <= now && session.time.end >= now;
     });
