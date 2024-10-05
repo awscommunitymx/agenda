@@ -1031,10 +1031,10 @@ const sessions: Session[] = [
         "speakerBio": "Con más de 5 años de experiencia en la industria tecnológica, Evert Rabuck ha liderado múltiples iniciativas de migración a la nube, optimización de costos y modernización de infraestructuras en la nube para empresas de diversas industrias. En su rol como AWS Business Unit Manager, Evert se especializa en ayudar a las organizaciones a maximizar su inversión en la nube, utilizando las herramientas y servicios de AWS para optimizar el rendimiento y reducir gastos. Su enfoque se centra en la alineación estratégica entre la tecnología y las metas de negocio, asegurando que las empresas no solo adopten la nube de manera efectiva, sino que también logren un retorno de inversión óptimo."
     },
     {
-        "id": "IAG203",
-        "title": "Utilizar Gen AI en nuestro análisis de datos como un campeón",
-        "description": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap.",
-        "abstract": "En esta sesión, veremos cómo utilizar Gen AI en el análisis de datos. Descubriremos las capacidades de BI generativo con Amazon QuickSight con un caso explicado en vivo y su aplicación en el idioma inglés y español, creando tableros utilizando lenguaje natural y hacer preguntas de nuestros datos.",
+        "id": "IAG206",
+        "title": "Mi primer Skill en AWS Alexa y su integracion con AWS Bedrock",
+        "description": "En esta sesión aprenderemos a crear nuestra primera skill de AWS Alexa con simples pasos y poder conectar con diferentes servicios de aws,para su posterior automatizacion como procesos de domótica como Arduino o Raspberry PI o tambien poder hacer una analitica respectiva con Comprehend.",
+        "abstract": "En esta sesión aprenderemos a crear nuestra primera skill de AWS Alexa con simples pasos y poder conectar con diferentes servicios de aws,uno de ellos con AWS Bedrock,para su posterior automatizacion en procesos de domotica como Raspberry PI y AWS Bedrock para la IA Generativa.",
         "language": "Spanish",
         "keywords": [
             "gen ai",
@@ -1048,8 +1048,8 @@ const sessions: Session[] = [
             "bilingual",
             "bilingüe"
         ],
-        "cta": "Asistir a esta sesión te permitirá aprender cómo integrar la inteligencia artificial generativa en el análisis de datos utilizando Amazon QuickSight. Verás un caso práctico en vivo que te ayudará a entender las capacidades de Business Intelligence (BI) generativo en ambos idiomas, español e inglés. La sesión está diseñada para profesionales interesados en la analítica de datos, así como para aquellos que buscan mejorar sus habilidades en el uso de herramientas de BI. También será útil para personas que trabajan en tecnología, análisis de datos y aprendizaje automático.",
-        "speaker": "Fabiana Serangelli",
+        "cta": "Asistir a esta sesión te permitirá aprender a crear tu primera skill de AWS Alexa de manera sencilla, además de comprender cómo integrarla con servicios como AWS Bedrock para automatización en procesos de domótica.Esta sesión está diseñada para aquellos interesados en el mundo del IoT, la automatización y la inteligencia artificial generativa, incluyendo desarrolladores, estudiantes y entusiastas de la tecnología que busquen expandir sus conocimientos en la creación de soluciones innovadoras utilizando la plataforma de AWS.",
+        "speaker": "Tony Trujillo Davila",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
             "start": new Date('2024-10-05T15:00:00-06:00'),
@@ -1058,15 +1058,14 @@ const sessions: Session[] = [
         "category": "IA generativa",
         "level": "L200",
         "room": "Agave",
-        "speakerLocation": "Nuevo León, México",
-        "speakerCompany": "Amazon Web Services",
+        "speakerLocation": "Uruguay",
+        "speakerCompany": "IDATHA",
         "titleSpanish": "Utilizar Gen AI en nuestro análisis de datos como un campeón",
-        "abstractSpanish": "En esta sesión, veremos cómo utilizar Gen AI en el análisis de datos. Descubriremos las capacidades de BI generativo con Amazon QuickSight con un caso explicado en vivo y su aplicación en el idioma inglés y español, creando tableros utilizando lenguaje natural y hacer preguntas de nuestros datos.",
-        "descriptionSpanish": "En la sesión se verá el uso de Amazon QuickSight con Q integrado. Mostraré casos que he trabajado previamente con sets de datos en español e inglés, esto para ver cómo se comporta en diferentes idiomas y la audiencia pueda tomar sus propias conclusiones de la herramienta y cómo vamos en el roadmap.",
+        "abstractSpanish": "En esta sesión aprenderemos a crear nuestra primera skill de AWS Alexa con simples pasos y poder conectar con diferentes servicios de aws,uno de ellos con AWS Bedrock,para su posterior automatizacion en procesos de domotica como Raspberry PI y AWS Bedrock para la IA Generativa.",
+        "descriptionSpanish": "En esta sesión aprenderemos a crear nuestra primera skill de AWS Alexa con simples pasos y poder conectar con diferentes servicios de aws,para su posterior automatizacion como procesos de domótica como Arduino o Raspberry PI o tambien poder hacer una analitica respectiva con Comprehend.",
         "rateUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRs_6iGRyTNZFxjPYxeDAdNoiKjp05IENlX6gxJj4qE8vgvg/viewform?usp=pp_url&entry.237922577=IAG203+-+Utilizar+Gen+AI+en+nuestro+an%C3%A1lisis+de+datos+como+un+campe%C3%B3n+por+Fabiana+Serangelli",
-        "speakerPhotoUrl": "https://day.awscommunity.mx/assets/images/speakers/fabiana_serangelli.jpg",
-        "speakerLinkedIn": "https://www.linkedin.com/in/fabianaserangelli/",
-        "speakerBio": "Fabiana es Solutions Architect en Amazon Web Services México con 4+ años de experiencia en tecnologías de la nube y 7 certificaciones de AWS. Su área de interés es la analítica, Machine Learning y el empoderamiento de Woman in Tech. Fuera del trabajo le gusta jugar videojuegos, leer, hacer ejercicio y jugar con mis perros."
+        "speakerLinkedIn": "https://www.linkedin.com/in/tonytec/",
+        "speakerBio": "Arquitecto de datos en IDATHA"
     },
     {
         "id": "SLS201",
