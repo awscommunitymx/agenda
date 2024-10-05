@@ -154,6 +154,9 @@ def csv_to_typescript(csv_file):
                 continue
 
             converted_time = convert_time(cleaned_row["Schedule"])
+            # Shift 30 minutes to the future if the session starts before 14:00
+            if converted_time < datetime.strptime("14:00", "%H:%M"):
+                converted_time += timedelta(minutes=30)
 
             delta_minutes = get_duration(cleaned_row["Format"])
 
