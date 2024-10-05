@@ -42,7 +42,7 @@ const FeedbackModal = () => {
         setHasClicked(true);
         localStorage.setItem('modalClicked', 'true');
         // Replace with your external URL
-        window.open('https://example.com', '_blank');
+        window.open('https://forms.gle/NEUvkubwogdxDRNF9', '_blank');
         onClose();
     };
 

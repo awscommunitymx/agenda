@@ -113,7 +113,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
                     </Stack>
                 }
             </Container>
-            {/*<FeedbackModal/>*/}
+            <FeedbackModal/>
         </>
     );
 };
