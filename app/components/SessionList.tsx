@@ -6,7 +6,6 @@ import SessionCard from "@/app/components/SessionCard";
 import FilterBar from "@/app/components/FilterBar";
 import Announcement from "@/app/components/Announcement";
 import SessionCardRenderer from "@/app/components/SessionCardRenderer";
-import FeedbackModal from "@/app/components/FeedbackModal";
 
 const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
     const [currentSessions, setCurrentSessions] = useState<Session[]>(sessions);
@@ -114,7 +113,7 @@ const SessionList: React.FC<SessionListProps> = ({sessions, inAgendaPage}) => {
                     </Stack>
                 }
             </Container>
-            <FeedbackModal/>
+            {/*<FeedbackModal/>*/}
         </>
     );
 };
