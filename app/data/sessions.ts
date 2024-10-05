@@ -56,8 +56,8 @@ const sessions: Session[] = [
         "speaker": "",
         "speakerImage": "",
         "time": {
-            "start": new Date('2024-10-05T14:00:00-06:00'),
-            "end": new Date('2024-10-05T15:00:00-06:00')
+            "start": new Date('2024-10-05T14:30:00-06:00'),
+            "end": new Date('2024-10-05T15:30:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
