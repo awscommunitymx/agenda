@@ -103,6 +103,48 @@ export const specialEvents: Session[] = [
         "isSpecial": true,
         "icon": IoRibbonOutline
     },
+    // Resume review by Tech Mahindra
+    {
+        id: "CMA103",
+        title: "Resume review by Tech Mahindra",
+        abstract: "Resume review by Tech Mahindra",
+        description: "Acompañanos en el stand de Tech Mahindra para una revisión de tu CV",
+        language: "Spanish",
+        keywords: ["CV", "resumen"],
+        speaker: "Tech Mahindra",
+        speakerImage: "",
+        cta: "",
+        time: {
+            start: new Date("2024-11-16T10:00:00"),
+            end: new Date("2024-11-16T15:00:00")
+        },
+        category: "Conferencia magistral",
+        level: "L100",
+        room: "Lobby",
+        isSpecial: true,
+        icon: IoRibbonOutline
+    },
+    // Mentoring Hub
+    {
+        id: "CMA104",
+        title: "Mentoring Hub",
+        abstract: "Mentoring Hub",
+        description: "Quieres una mentoría por parte de expertos? Acompañanos en el stand de Mentoring Hub",
+        language: "Spanish",
+        keywords: ["mentoría", "mentoring"],
+        speaker: "Mentoring Hub",
+        speakerImage: "",
+        cta: "",
+        time: {
+            start: new Date("2024-11-16T10:00:00"),
+            end: new Date("2024-11-16T15:00:00")
+        },
+        category: "Conferencia magistral",
+        level: "L100",
+        room: "Lobby",
+        isSpecial: true,
+        icon: IoRibbonOutline
+    },
 ];
 
 const sessions: Session[] = [
