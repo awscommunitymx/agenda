@@ -38,8 +38,8 @@ export const specialEvents: Session[] = [
         speakerLinkedIn: "https://www.linkedin.com/in/vikomex/",
         speakerImage: "/placeholder-speaker.jpg",
         time: {
-            start: new Date("2024-11-16T09:30:00"),
-            end: new Date("2024-11-16T09:45:00")
+            start: new Date("2024-11-16T09:45:00"),
+            end: new Date("2024-11-16T10:05:00")
         },
         category: "Conferencia magistral",
         level: "L100",
@@ -56,8 +56,8 @@ export const specialEvents: Session[] = [
         speaker: "Romain Jourdan",
         speakerImage: "/placeholder-speaker.jpg",
         time: {
-            start: new Date("2024-11-16T09:45:00"),
-            end: new Date("2024-11-16T10:05:00")
+            start: new Date("2024-11-16T09:30:00"),
+            end: new Date("2024-11-16T09:45:00")
         },
         category: "Conferencia magistral",
         level: "L100",
