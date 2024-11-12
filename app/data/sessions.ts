@@ -14,8 +14,8 @@ export const specialEvents: Session[] = [
         "speaker": "Decano",
         "speakerPhotoUrl": "",
         "time": {
-            "start": new Date('2024-11-16T09:00:00-06:00-06:00'),
-            "end": new Date('2024-11-16T09:30:00-06:00-06:00')
+            "start": new Date('2024-11-16T09:00:00-06:00'),
+            "end": new Date('2024-11-16T09:30:00-06:00')
         },
         "category": "Conferencia magistral",
         "level": "L100",
@@ -80,8 +80,8 @@ export const specialEvents: Session[] = [
         "speaker": "",
         "speakerPhotoUrl": "",
         "time": {
-            "start": new Date('2024-11-16T13:00:00-06:00-06:00'),
-            "end": new Date('2024-11-16T14:00:00-06:00-06:00')
+            "start": new Date('2024-11-16T13:00:00-06:00'),
+            "end": new Date('2024-11-16T14:00:00-06:00')
         },
         "category": "Conferencia magistral",
         "level": "L100",
@@ -100,8 +100,8 @@ export const specialEvents: Session[] = [
         "speaker": "Cierre",
         "speakerPhotoUrl": "",
         "time": {
-            "start": new Date('2024-11-16T15:50:00-06:00-06:00'),
-            "end": new Date('2024-11-16T16:50:00-06:00-06:00')
+            "start": new Date('2024-11-16T15:50:00-06:00'),
+            "end": new Date('2024-11-16T16:50:00-06:00')
         },
         "category": "Conferencia magistral",
         "level": "L100",
