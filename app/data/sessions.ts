@@ -100,8 +100,8 @@ export const specialEvents: Session[] = [
         "speaker": "Cierre",
         "speakerPhotoUrl": "",
         "time": {
-            "start": new Date('2024-11-16T15:35:00-06:00-06:00'),
-            "end": new Date('2024-11-16T16:35:00-06:00-06:00')
+            "start": new Date('2024-11-16T15:50:00-06:00-06:00'),
+            "end": new Date('2024-11-16T16:50:00-06:00-06:00')
         },
         "category": "Conferencia magistral",
         "level": "L100",
