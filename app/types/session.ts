@@ -36,7 +36,6 @@ export interface Session {
     coSpeakerCompany?: string;
     coSpeakerLocation?: string;
     coSpeakerBio?: string;
-    speakerImage: string;
     time: {
         start: Date;
         end: Date;

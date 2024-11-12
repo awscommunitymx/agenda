@@ -12,7 +12,7 @@ export const specialEvents: Session[] = [
         "keywords": ["inauguración", "bienvenida"],
         "cta": "Inauguración",
         "speaker": "Decano",
-        "speakerImage": "",
+        "speakerPhotoUrl": "",
         "time": {
             "start": new Date('2024-11-16T09:00:00-06:00'),
             "end": new Date('2024-11-16T09:30:00-06:00')
@@ -36,7 +36,7 @@ export const specialEvents: Session[] = [
         speakerCompany: "Senior Cloud Architect en Caylent",
         speakerLocation: "Monterrey",
         speakerLinkedIn: "https://www.linkedin.com/in/vikomex/",
-        speakerImage: "/placeholder-speaker.jpg",
+        speakerPhotoUrl: "https://img.awscommunity.mx/david.jpg",
         time: {
             start: new Date("2024-11-16T09:45:00"),
             end: new Date("2024-11-16T10:05:00")
@@ -54,7 +54,7 @@ export const specialEvents: Session[] = [
         keywords: ["DevRel", "AWS"],
         cta: "Aprende sobre DevRel en AWS",
         speaker: "Romain Jourdan",
-        speakerImage: "/placeholder-speaker.jpg",
+        speakerPhotoUrl: "https://img.awscommunity.mx/romain.jpg",
         time: {
             start: new Date("2024-11-16T09:30:00"),
             end: new Date("2024-11-16T09:45:00")
@@ -72,7 +72,7 @@ export const specialEvents: Session[] = [
         "keywords": ["comida", "break"],
         "cta": "Comer",
         "speaker": "",
-        "speakerImage": "",
+        "speakerPhotoUrl": "",
         "time": {
             "start": new Date('2024-11-16T13:00:00-06:00'),
             "end": new Date('2024-11-16T14:00:00-06:00')
@@ -92,7 +92,7 @@ export const specialEvents: Session[] = [
         "keywords": ["cierre", "clausura"],
         "cta": "Clausura",
         "speaker": "Cierre",
-        "speakerImage": "",
+        "speakerPhotoUrl": "",
         "time": {
             "start": new Date('2024-11-16T15:35:00-06:00'),
             "end": new Date('2024-11-16T16:35:00-06:00')
@@ -112,7 +112,7 @@ export const specialEvents: Session[] = [
         language: "Spanish",
         keywords: ["CV", "resumen"],
         speaker: "Tech Mahindra",
-        speakerImage: "",
+        speakerPhotoUrl: "",
         cta: "",
         time: {
             start: new Date("2024-11-16T10:00:00"),
@@ -133,7 +133,7 @@ export const specialEvents: Session[] = [
         language: "Spanish",
         keywords: ["mentoría", "mentoring"],
         speaker: "Mentoring Hub",
-        speakerImage: "",
+        speakerPhotoUrl: "",
         cta: "",
         time: {
             start: new Date("2024-11-16T10:00:00"),
@@ -157,7 +157,7 @@ const sessions: Session[] = [
         keywords: ["viral", "escalabilidad", "supervivencia"],
         cta: "Descubre cómo sobrevivir cuando tu app se hace viral",
         speaker: "Adan Luna Contreras",
-        speakerImage: "https://drive.google.com/file/d/10fRgUEFwCBiErl1go8cqPAKAIM6b9fv1/view?usp=drivesdk",
+        speakerPhotoUrl: "https://img.awscommunity.mx/adan.jpeg",
         speakerBio: "Programando y diseñando desde los inicios de los websites, he vivido todas las etapas y crecimiento del desarrollo web. Desde Pascal hasta Flutter sigo apasionado por seguir  aprendiendo y evolucionando junto a esta maravilloso modo de vida.",
         speakerCompany: "Fundador",
         speakerLocation: "Monterrey",
@@ -178,7 +178,7 @@ const sessions: Session[] = [
         keywords: ["FinOps", "metodologías", "AWS", "optimización"],
         cta: "Aprende sobre FinOps y metodologías cloud",
         speaker: "Barbara Guadalupe Gaspar Gaona",
-        speakerImage: "https://drive.google.com/file/d/1ukoaTb8tSCwXMHxcIQyhWuR-kJK8aPeG/view?usp=sharing",
+        speakerPhotoUrl: "https://img.awscommunity.mx/barbara.JPG",
         speakerBio: "Especialista de nube con más de 5 años de experiencia liderando proyectos de migración y optimización cloud para proyectos en México y América Latina. Miembro activa de la FinOps Foundation en México certificada. Ganadora de la Presea Jóvenes con Valores y del Premio Daniel Cosío Villegas.",
         time: {
             start: new Date("2024-11-16T11:10:00"),
@@ -197,7 +197,7 @@ const sessions: Session[] = [
         keywords: ["DevOps", "SRE", "escalabilidad"],
         cta: "Descubre el camino real del DevOps",
         speaker: "Arturo Gallart",
-        speakerImage: "https://1drv.ms/f/s!Att7v_vWOfPK-FMRgWXwyYy-p8Be?e=Rs62Wy",
+        speakerPhotoUrl: "https://img.awscommunity.mx/tato.jpeg",
         speakerBio: "DevOps Tech Lead con 10+ años de experiencia en TI, enfocado en la integración de herramientas de DevOps para proyectos de migración, automatización y administración de entornos de nube",
         speakerCompany: "DevOps Tech Lead en SoftServe",
         speakerLocation: "Saltillo",
@@ -218,7 +218,7 @@ const sessions: Session[] = [
         keywords: ["soft skills", "comunicación", "desarrollo profesional"],
         cta: "Desarrolla tus habilidades blandas",
         speaker: "Marco Alejandro Cornejo Bracamontes",
-        speakerImage: "Linkedin",
+        speakerPhotoUrl: "https://img.awscommunity.mx/marco.jpg",
         speakerBio: "Marco Cornejo es Engineering Manager en Caylent, una consultora Premier Partner de AWS, donde lidera equipos y proyectos enfocados en migración a la nube y modernización de aplicaciones. Con más de 10 años de experiencia en la industria del software, Marco posee certificaciones avanzadas en AWS y se ha especializado en diseñar soluciones escalables y seguras en la nube.",
         time: {
             start: new Date("2024-11-16T14:00:00"),
@@ -237,7 +237,7 @@ const sessions: Session[] = [
         keywords: ["incidentes", "recuperación", "desastres", "AWS"],
         cta: "Aprende a manejar incidentes en AWS",
         speaker: "Kevin Arquieta Arévalo",
-        speakerImage: "https://drive.google.com/file/d/1oMyL62W398csRiB5yKbqOBDL6axzMJI3/view?usp=sharing",
+        speakerPhotoUrl: "https://img.awscommunity.mx/kevin.png",
         speakerBio: "Lic. en Seguridad en Tecnologías de Información. He trabajado como Desarrollador, Ingeniero de Seguridad e Ingeniero de nube. Cuento con 4 certificaciones de AWS, entre ellas Solutions Architect Pro y Security Specialty. Actualmente trabajo en Luxoft como Senior Cyber Security Engineer para una fintech de Londres.",
         time: {
             start: new Date("2024-11-16T14:40:00"),
@@ -256,7 +256,7 @@ const sessions: Session[] = [
         keywords: ["Linux", "compilación", "AWS"],
         cta: "Aprende a compilar Linux en AWS",
         speaker: "Ramon Esparza",
-        speakerImage: "https://lh3.googleusercontent.com/pw/AP1GczNwIkPKCxtALz7XvPJKXueNFhMxMKzAJ9w6n_hdEe_z_P_VSoIeEf2fQnRKiVTpnkt1-_yxB8c7yUffv4fKs44bLd4YMSpS5SllCZCusnjD8be--JESzqv3JKr2PRiWp4wQujA9eUshVQnTCJnZTcJW=w983-h655-s-no?authuser=0",
+        speakerPhotoUrl: "https://img.awscommunity.mx/ramon.jpg",
         speakerBio: "Ramon es Site Reliability Engineer con experiencia en AWS, CI/CD y servidores. Bastante bueno en desarrollo de pipeline de CI/CD. Ramon tiene un gran interés en inteligencia artificial y por alguna razon le gusta correr linux en PCs de recursos limitados.",
         time: {
             start: new Date("2024-11-16T10:15:00"),
@@ -275,7 +275,7 @@ const sessions: Session[] = [
         keywords: ["carrera", "desarrollo profesional", "senior"],
         cta: "Descubre el camino hacia el nivel senior",
         speaker: "Magnolia Barbara Sandoval Romero",
-        speakerImage: "https://photos.app.goo.gl/RsUqDatiA24yznwm6",
+        speakerPhotoUrl: "https://img.awscommunity.mx/magnolia.jpg",
         speakerBio: "Ingeniera de Nube apasionada por la innovación, con 4 certificaciones AWS que avalan su profundo conocimiento. Destaca por su capacidad para liderar proyectos complejos y construir comunidades tecnológicas. Actualmente trabaja para Western Governors University, ella comparte su experiencia como speaker en eventos en Mexico y Guatemala.",
         time: {
             start: new Date("2024-11-16T11:10:00"),
@@ -294,7 +294,7 @@ const sessions: Session[] = [
         keywords: ["full-stack", "AWS", "Gen AI"],
         cta: "Crea tu primera aplicación en la nube",
         speaker: "Ana Cunha",
-        speakerImage: "https://github.com/anacunha/cfps/blob/d918169a286cef8a2605badede58c3927254475e/anacunha.jpg?raw=true",
+        speakerPhotoUrl: "https://img.awscommunity.mx/anacunha.jpg",
         speakerBio: "Ana Cunha es Developer Advocate en AWS para América Latina. Anteriormente, trabajó como ingeniera de desarrollo de software en Amazon.com",
         time: {
             start: new Date("2024-11-16T12:05:00"),
@@ -313,7 +313,7 @@ const sessions: Session[] = [
         keywords: ["seguridad", "AWS", "brechas", "defensa"],
         cta: "Aprende a proteger tus recursos en AWS",
         speaker: "Manuel Perez",
-        speakerImage: "https://verophoto.client-gallery.com/gallery/aws-embajadoras-cloud-community-day-mexico-2024/retratos/7fad2356-10f7-452d-9cbb-bd3cc3ed1868",
+        speakerPhotoUrl: "https://img.awscommunity.mx/manuel.jpg",
         speakerBio: "Ingeniero en AppSec con más de 20 certificaciones y experiencia en auditorías de seguridad para infraestructuras, aplicaciones web y móviles, con un gran interés en la seguridad en la nube.",
         time: {
             start: new Date("2024-11-16T14:00:00"),
@@ -332,7 +332,7 @@ const sessions: Session[] = [
         keywords: ["DevOps", "AWS", "CI/CD", "IaC"],
         cta: "Descubre el puente entre la universidad y el mundo laboral",
         speaker: "Ricardo Javier Vasquez Mota",
-        speakerImage: "https://share.icloud.com/photos/0efimpjvSV5XDyfu_fxD3QrzA",
+        speakerPhotoUrl: "https://img.awscommunity.mx/ricardo.JPEG",
         speakerBio: "Lead DevOps engineer con mas de 7 años de experiencia manejando, automatizando y optimizando infraestructura en la nube, manejando distintos tipos de arquitectura y tomando roles como: cloud developer, ingeniero de infraestructura, ingeniero Devops.",
         speakerCompany: "Lead Systems engineer en Epam",
         speakerLocation: "Venezolano",
