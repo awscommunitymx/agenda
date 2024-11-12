@@ -7,11 +7,11 @@ export const specialEvents: Session[] = [
         "id": "inauguracion",
         "title": "Inauguración",
         "description": "Inauguración del AWS Student Community Day 2024",
-        "abstract": "Sesión de inauguración a cargo del Decano",
+        "abstract": "Sesión de inauguración a cargo del Tecnológico de Monterrey",
         "language": "Spanish",
         "keywords": ["inauguración", "bienvenida"],
         "cta": "Inauguración",
-        "speaker": "Decano",
+        "speaker": "Tecnológico de Monterrey",
         "speakerPhotoUrl": "",
         "time": {
             "start": new Date('2024-11-16T09:00:00-06:00'),
