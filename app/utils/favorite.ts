@@ -1,4 +1,4 @@
-const baseUri = 'https://9drgkyu77h.execute-api.us-east-1.amazonaws.com/Prod/favorite';
+const baseUri = 'https://h6aky52t8a.execute-api.us-east-1.amazonaws.com/Prod//favorite';
 
 const toggleFavorite = (sessionId: string) => {
     let favorites = JSON.parse(localStorage.getItem('favorites') || '[]') as string[];
