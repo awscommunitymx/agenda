@@ -2,16 +2,8 @@ import {Category, Level} from "@/app/types/session";
 
 const getCategoryColor = (category: Category): string => {
     switch (category) {
-        case 'IA/ML':
-            return 'blue';
-        case 'Analítica':
-            return 'purple';
-        case 'Aplicaciones empresariales':
-            return 'orange';
         case 'Arquitectura':
             return 'cyan';
-        case 'Bases de datos':
-            return 'red';
         case 'Capacitación y certificación':
             return 'green';
         case 'Computación sin servidor y contenedores':
@@ -22,22 +14,10 @@ const getCategoryColor = (category: Category): string => {
             return 'yellow';
         case 'Habilidades blandas':
             return 'gray';
-        case 'Habilitación del cliente':
-            return 'indigo';
-        case 'IA generativa':
-            return 'blue';
-        case 'Internet de las cosas':
-            return 'purple';
-        case 'Kubernetes':
-            return 'orange';
-        case 'Migración y modernización':
-            return 'cyan';
-        case 'Nube híbrida':
-            return 'red';
-        case 'Operaciones en la nube':
-            return 'green';
         case 'Seguridad cumplimiento e identidad':
             return 'teal';
+        default:
+            return 'gray'; // Color por defecto
     }
 }
 
