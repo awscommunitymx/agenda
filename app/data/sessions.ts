@@ -47,14 +47,18 @@ export const specialEvents: Session[] = [
     },
     {
         id: "CMA102",
-        title: "DevRel en AWS",
-        abstract: "DevRel en AWS",
-        description: "DevRel en AWS",
-        language: "Spanish",
+        title: "DevRel at AWS",
+        abstract: "An AWS developer relations workshop featuring insights on DevRel strategy, AWS's customer-centric approach, and practical implementations of developer feedback.",
+        description: "Join us for an in-depth exploration of Developer Relations at AWS. Learn how AWS's unique 'working backwards' methodology shapes our DevRel strategy, enabling us to transform developer feedback into concrete service improvements. This session will demonstrate the vital role of DevRel in AWS's ecosystem and its impact on product development.",
+        abstractSpanish: "Un taller de relaciones con desarrolladores de AWS que presenta información sobre la estrategia de DevRel, el enfoque centrado en el cliente de AWS y las implementaciones prácticas de la retroalimentación de los desarrolladores.",
+        descriptionSpanish: "Únete a nosotros para una exploración profunda de las Relaciones con Desarrolladores en AWS. Aprende cómo la metodología única de 'trabajar hacia atrás' de AWS da forma a nuestra estrategia de DevRel, permitiéndonos transformar la retroalimentación de los desarrolladores en mejoras concretas de servicios. Esta sesión demostrará el papel vital de DevRel en el ecosistema de AWS y su impacto en el desarrollo de productos.",
+        language: "English",
         keywords: ["DevRel", "AWS"],
+        speakerLinkedIn: "https://www.linkedin.com/in/rjourdan/",
         cta: "Aprende sobre DevRel en AWS",
         speaker: "Romain Jourdan",
         speakerPhotoUrl: "https://img.awscommunity.mx/romain.jpg",
+        speakerBio: "Romain (Román in Spanish) is a full-time husband, dad, and geek. With 20 years of working experience, he has had several hats from R&D engineer in automotive, to application performance consultant, pre-sales, and technical evangelism. He is currently leading World Wide Developer Relations at AWS, and exploring the future of software development with GenAI.",
         time: {
             start: new Date("2024-11-16T09:30:00"),
             end: new Date("2024-11-16T09:45:00")
@@ -115,7 +119,7 @@ export const specialEvents: Session[] = [
         speakerPhotoUrl: "",
         cta: "",
         time: {
-            start: new Date("2024-11-16T10:00:00"),
+            start: new Date("2024-11-16T12:00:00"),
             end: new Date("2024-11-16T15:00:00")
         },
         category: "Conferencia magistral",
@@ -161,6 +165,7 @@ const sessions: Session[] = [
         speakerBio: "Programando y diseñando desde los inicios de los websites, he vivido todas las etapas y crecimiento del desarrollo web. Desde Pascal hasta Flutter sigo apasionado por seguir  aprendiendo y evolucionando junto a esta maravilloso modo de vida.",
         speakerCompany: "Fundador",
         speakerLocation: "Monterrey",
+        speakerLinkedIn: "https://www.linkedin.com/in/adanluna/",
         time: {
             start: new Date("2024-11-16T10:15:00"),
             end: new Date("2024-11-16T11:00:00")
@@ -180,6 +185,7 @@ const sessions: Session[] = [
         speaker: "Barbara Guadalupe Gaspar Gaona",
         speakerPhotoUrl: "https://img.awscommunity.mx/barbara.JPG",
         speakerBio: "Especialista de nube con más de 5 años de experiencia liderando proyectos de migración y optimización cloud para proyectos en México y América Latina. Miembro activa de la FinOps Foundation en México certificada. Ganadora de la Presea Jóvenes con Valores y del Premio Daniel Cosío Villegas.",
+        speakerLinkedIn: "https://www.linkedin.com/in/barbaragaspargaona/",
         time: {
             start: new Date("2024-11-16T11:10:00"),
             end: new Date("2024-11-16T11:55:00")
@@ -201,6 +207,7 @@ const sessions: Session[] = [
         speakerBio: "DevOps Tech Lead con 10+ años de experiencia en TI, enfocado en la integración de herramientas de DevOps para proyectos de migración, automatización y administración de entornos de nube",
         speakerCompany: "DevOps Tech Lead en SoftServe",
         speakerLocation: "Saltillo",
+        speakerLinkedIn: "https://www.linkedin.com/in/agallart/",
         time: {
             start: new Date("2024-11-16T12:05:00"),
             end: new Date("2024-11-16T12:50:00")
@@ -220,6 +227,7 @@ const sessions: Session[] = [
         speaker: "Marco Alejandro Cornejo Bracamontes",
         speakerPhotoUrl: "https://img.awscommunity.mx/marco.jpg",
         speakerBio: "Marco Cornejo es Engineering Manager en Caylent, una consultora Premier Partner de AWS, donde lidera equipos y proyectos enfocados en migración a la nube y modernización de aplicaciones. Con más de 10 años de experiencia en la industria del software, Marco posee certificaciones avanzadas en AWS y se ha especializado en diseñar soluciones escalables y seguras en la nube.",
+        speakerLinkedIn: "https://www.linkedin.com/in/marco-cornejo/",
         time: {
             start: new Date("2024-11-16T14:00:00"),
             end: new Date("2024-11-16T14:30:00")
@@ -239,6 +247,7 @@ const sessions: Session[] = [
         speaker: "Kevin Arquieta Arévalo",
         speakerPhotoUrl: "https://img.awscommunity.mx/kevin.png",
         speakerBio: "Lic. en Seguridad en Tecnologías de Información. He trabajado como Desarrollador, Ingeniero de Seguridad e Ingeniero de nube. Cuento con 4 certificaciones de AWS, entre ellas Solutions Architect Pro y Security Specialty. Actualmente trabajo en Luxoft como Senior Cyber Security Engineer para una fintech de Londres.",
+        speakerLinkedIn: "https://www.linkedin.com/in/kevinarquieta/",
         time: {
             start: new Date("2024-11-16T14:40:00"),
             end: new Date("2024-11-16T15:25:00")
@@ -258,6 +267,7 @@ const sessions: Session[] = [
         speaker: "Ramon Esparza",
         speakerPhotoUrl: "https://img.awscommunity.mx/ramon.jpg",
         speakerBio: "Ramon es Site Reliability Engineer con experiencia en AWS, CI/CD y servidores. Bastante bueno en desarrollo de pipeline de CI/CD. Ramon tiene un gran interés en inteligencia artificial y por alguna razon le gusta correr linux en PCs de recursos limitados.",
+        speakerLinkedIn: "https://www.linkedin.com/in/ramonesparza/",
         time: {
             start: new Date("2024-11-16T10:15:00"),
             end: new Date("2024-11-16T11:00:00")
@@ -277,6 +287,7 @@ const sessions: Session[] = [
         speaker: "Magnolia Barbara Sandoval Romero",
         speakerPhotoUrl: "https://img.awscommunity.mx/magnolia.jpg",
         speakerBio: "Ingeniera de Nube apasionada por la innovación, con 4 certificaciones AWS que avalan su profundo conocimiento. Destaca por su capacidad para liderar proyectos complejos y construir comunidades tecnológicas. Actualmente trabaja para Western Governors University, ella comparte su experiencia como speaker en eventos en Mexico y Guatemala.",
+        speakerLinkedIn: "https://www.linkedin.com/in/magnolia-sandoval-cloud-aws/",
         time: {
             start: new Date("2024-11-16T11:10:00"),
             end: new Date("2024-11-16T11:55:00")
@@ -296,6 +307,7 @@ const sessions: Session[] = [
         speaker: "Ana Cunha",
         speakerPhotoUrl: "https://img.awscommunity.mx/anacunha.jpg",
         speakerBio: "Ana Cunha es Developer Advocate en AWS para América Latina. Anteriormente, trabajó como ingeniera de desarrollo de software en Amazon.com",
+        speakerLinkedIn: "https://www.linkedin.com/in/analuizacunha/",
         time: {
             start: new Date("2024-11-16T12:05:00"),
             end: new Date("2024-11-16T12:50:00")
@@ -315,6 +327,7 @@ const sessions: Session[] = [
         speaker: "Manuel Perez",
         speakerPhotoUrl: "https://img.awscommunity.mx/manuel.jpg",
         speakerBio: "Ingeniero en AppSec con más de 20 certificaciones y experiencia en auditorías de seguridad para infraestructuras, aplicaciones web y móviles, con un gran interés en la seguridad en la nube.",
+        speakerLinkedIn: "https://www.linkedin.com/in/manuel-perez-069985245/",
         time: {
             start: new Date("2024-11-16T14:00:00"),
             end: new Date("2024-11-16T14:45:00")
@@ -335,6 +348,7 @@ const sessions: Session[] = [
         speakerPhotoUrl: "https://img.awscommunity.mx/ricardo.JPEG",
         speakerBio: "Lead DevOps engineer con mas de 7 años de experiencia manejando, automatizando y optimizando infraestructura en la nube, manejando distintos tipos de arquitectura y tomando roles como: cloud developer, ingeniero de infraestructura, ingeniero Devops.",
         speakerCompany: "Lead Systems engineer en Epam",
+        speakerLinkedIn: "https://www.linkedin.com/in/ricardo-vasquez-0060b0a8/",
         speakerLocation: "Venezolano",
         time: {
             start: new Date("2024-11-16T14:55:00"),
