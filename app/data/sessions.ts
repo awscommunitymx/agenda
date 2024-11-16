@@ -376,7 +376,13 @@ const sessions: Session[] = [
     },
 ];
 
-const allSessions = [...specialEvents, ...sessions];
+// Add 30 minutes to each session
+const allSessions = [...specialEvents, ...sessions].map(session => {
+    const newSession = {...session};
+    newSession.time.start = new Date(newSession.time.start.getTime() + 30 * 60000);
+    newSession.time.end = new Date(newSession.time.end.getTime() + 30 * 60000);
+    return newSession;
+});
 
 export default allSessions;
 
