@@ -38,7 +38,7 @@ export const specialEvents: Session[] = [
         speakerLinkedIn: "https://www.linkedin.com/in/vikomex/",
         speakerPhotoUrl: "https://img.awscommunity.mx/david.jpg",
         time: {
-            start: new Date("2024-11-16T09:45:00-06:00"),
+            start: new Date("2024-11-16T09:50:00-06:00"),
             end: new Date("2024-11-16T10:05:00-06:00")
         },
         category: "Conferencia magistral",
@@ -63,7 +63,7 @@ export const specialEvents: Session[] = [
         speakerBio: "Romain (Román in Spanish) is a full-time husband, dad, and geek. With 20 years of working experience, he has had several hats from R&D engineer in automotive, to application performance consultant, pre-sales, and technical evangelism. He is currently leading World Wide Developer Relations at AWS, and exploring the future of software development with GenAI.",
         time: {
             start: new Date("2024-11-16T09:30:00-06:00"),
-            end: new Date("2024-11-16T09:45:00-06:00")
+            end: new Date("2024-11-16T09:50:00-06:00")
         },
         category: "Conferencia magistral",
         level: "L100",
