@@ -174,7 +174,7 @@ const sessions: Session[] = [
         },
         category: "Arquitectura",
         level: "L100",
-        room: "Sala 1"
+        room: "Escenario Borrego"
     },
     {
         id: "ARQ102",
@@ -196,7 +196,7 @@ const sessions: Session[] = [
         },
         category: "Arquitectura",
         level: "L100",
-        room: "Sala 1"
+        room: "Escenario Borrego"
     },
     {
         id: "DEVOPS101",
@@ -218,7 +218,7 @@ const sessions: Session[] = [
         },
         category: "DevOps y productividad del desarrollador",
         level: "L100",
-        room: "Sala 1"
+        room: "Escenario Borrego"
     },
     {
         id: "SOFT101",
@@ -240,7 +240,7 @@ const sessions: Session[] = [
         },
         category: "Habilidades blandas",
         level: "L100",
-        room: "Sala 1"
+        room: "Escenario Borrego"
     },
     {
         id: "SEC101",
@@ -262,7 +262,7 @@ const sessions: Session[] = [
         },
         category: "Seguridad cumplimiento e identidad",
         level: "L100",
-        room: "Sala 1"
+        room: "Escenario Borrego"
     },
     {
         id: "DEVOPS102",
@@ -284,7 +284,7 @@ const sessions: Session[] = [
         },
         category: "DevOps y productividad del desarrollador",
         level: "L100",
-        room: "Sala 2"
+        room: "Escenario Bisonte"
     },
     {
         id: "CERT101",
@@ -306,7 +306,7 @@ const sessions: Session[] = [
         },
         category: "Capacitación y certificación",
         level: "L100",
-        room: "Sala 2"
+        room: "Escenario Bisonte"
     },
     {
         id: "SLS101",
@@ -328,7 +328,7 @@ const sessions: Session[] = [
         },
         category: "Computación sin servidor y contenedores",
         level: "L100",
-        room: "Sala 2"
+        room: "Escenario Bisonte"
     },
     {
         id: "SEC102",
@@ -350,7 +350,7 @@ const sessions: Session[] = [
         },
         category: "Seguridad cumplimiento e identidad",
         level: "L100",
-        room: "Sala 2"
+        room: "Escenario Bisonte"
     },
     {
         id: "DEVOPS103",
@@ -372,7 +372,7 @@ const sessions: Session[] = [
         },
         category: "DevOps y productividad del desarrollador",
         level: "L100",
-        room: "Sala 2"
+        room: "Escenario Bisonte"
     },
 ];
 
