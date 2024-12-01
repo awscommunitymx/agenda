@@ -16,8 +16,8 @@ const sessions: Session[] = [
         "speaker": "",
         "speakerImage": "",
         "time": {
-            "start": new Date('2024-10-05T08:00:00-06:00'),
-            "end": new Date('2024-10-05T17:00:00-06:00')
+            "start": new Date('2025-10-05T08:00:00-06:00'),
+            "end": new Date('2025-10-05T17:00:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -36,8 +36,8 @@ const sessions: Session[] = [
         "speaker": "",
         "speakerImage": "",
         "time": {
-            "start": new Date('2024-10-05T09:00:00-06:00'),
-            "end": new Date('2024-10-05T09:30:00-06:00')
+            "start": new Date('2025-10-05T09:00:00-06:00'),
+            "end": new Date('2025-10-05T09:30:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -56,8 +56,8 @@ const sessions: Session[] = [
         "speaker": "",
         "speakerImage": "",
         "time": {
-            "start": new Date('2024-10-05T14:30:00-06:00'),
-            "end": new Date('2024-10-05T15:30:00-06:00')
+            "start": new Date('2025-10-05T14:30:00-06:00'),
+            "end": new Date('2025-10-05T15:30:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -76,8 +76,8 @@ const sessions: Session[] = [
         "speaker": "",
         "speakerImage": "",
         "time": {
-            "start": new Date('2024-10-05T17:30:00-06:00'),
-            "end": new Date('2024-10-05T18:30:00-06:00')
+            "start": new Date('2025-10-05T17:30:00-06:00'),
+            "end": new Date('2025-10-05T18:30:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -96,8 +96,8 @@ const sessions: Session[] = [
         "speaker": "",
         "speakerImage": "",
         "time": {
-            "start": new Date('2024-10-05T18:30:00-06:00'),
-            "end": new Date('2024-10-05T19:00:00-06:00')
+            "start": new Date('2025-10-05T18:30:00-06:00'),
+            "end": new Date('2025-10-05T19:00:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -129,8 +129,8 @@ const sessions: Session[] = [
         "speaker": "Aarón Munguía",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:35:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:35:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -167,8 +167,8 @@ const sessions: Session[] = [
         "speaker": "Agustín Villarreal Carrillo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:25:00-06:00'),
-            "end": new Date('2024-10-05T13:00:00-06:00')
+            "start": new Date('2025-10-05T12:25:00-06:00'),
+            "end": new Date('2025-10-05T13:00:00-06:00')
         },
         "category": "Seguridad cumplimiento e identidad",
         "level": "L200",
@@ -205,8 +205,8 @@ const sessions: Session[] = [
         "speaker": "Aleja Henao Espitia",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:45:00-06:00'),
-            "end": new Date('2024-10-05T14:35:00-06:00')
+            "start": new Date('2025-10-05T13:45:00-06:00'),
+            "end": new Date('2025-10-05T14:35:00-06:00')
         },
         "category": "IA generativa",
         "level": "L200",
@@ -243,8 +243,8 @@ const sessions: Session[] = [
         "speaker": "Alex Parra",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:35:00-06:00'),
-            "end": new Date('2024-10-05T12:10:00-06:00')
+            "start": new Date('2025-10-05T11:35:00-06:00'),
+            "end": new Date('2025-10-05T12:10:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -283,8 +283,8 @@ const sessions: Session[] = [
         "speaker": "Alonso Parasxidis Moreno",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:25:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:25:00-06:00')
         },
         "category": "Kubernetes",
         "level": "L300",
@@ -321,8 +321,8 @@ const sessions: Session[] = [
         "speaker": "Ana Barragán",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:40:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:40:00-06:00')
         },
         "category": "IA generativa",
         "level": "L200",
@@ -361,8 +361,8 @@ const sessions: Session[] = [
         "speaker": "Ana Reyna",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:50:00-06:00'),
-            "end": new Date('2024-10-05T17:05:00-06:00')
+            "start": new Date('2025-10-05T16:50:00-06:00'),
+            "end": new Date('2025-10-05T17:05:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -399,8 +399,8 @@ const sessions: Session[] = [
         "speaker": "Arait Monter",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:50:00-06:00'),
-            "end": new Date('2024-10-05T16:05:00-06:00')
+            "start": new Date('2025-10-05T15:50:00-06:00'),
+            "end": new Date('2025-10-05T16:05:00-06:00')
         },
         "category": "Analítica",
         "level": "L200",
@@ -437,8 +437,8 @@ const sessions: Session[] = [
         "speaker": "Armando Alexis Herra Cortez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:50:00-06:00'),
-            "end": new Date('2024-10-05T16:25:00-06:00')
+            "start": new Date('2025-10-05T15:50:00-06:00'),
+            "end": new Date('2025-10-05T16:25:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -475,8 +475,8 @@ const sessions: Session[] = [
         "speaker": "Barbara Gaspar",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:25:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:25:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -513,8 +513,8 @@ const sessions: Session[] = [
         "speaker": "Brenda Cuevas Vázquez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:15:00-06:00'),
-            "end": new Date('2024-10-05T13:50:00-06:00')
+            "start": new Date('2025-10-05T13:15:00-06:00'),
+            "end": new Date('2025-10-05T13:50:00-06:00')
         },
         "category": "Arquitectura",
         "level": "L300",
@@ -542,8 +542,8 @@ const sessions: Session[] = [
         "speaker": "Carlos Ordonez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:00:00-06:00'),
-            "end": new Date('2024-10-05T10:30:00-06:00')
+            "start": new Date('2025-10-05T10:00:00-06:00'),
+            "end": new Date('2025-10-05T10:30:00-06:00')
         },
         "category": "Conferencia magistral",
         "level": "L100",
@@ -580,8 +580,8 @@ const sessions: Session[] = [
         "speaker": "César Martinez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:25:00-06:00'),
-            "end": new Date('2024-10-05T13:00:00-06:00')
+            "start": new Date('2025-10-05T12:25:00-06:00'),
+            "end": new Date('2025-10-05T13:00:00-06:00')
         },
         "category": "IA/ML",
         "level": "L200",
@@ -618,8 +618,8 @@ const sessions: Session[] = [
         "speaker": "David Sol",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:15:00-06:00'),
-            "end": new Date('2024-10-05T13:50:00-06:00')
+            "start": new Date('2025-10-05T13:15:00-06:00'),
+            "end": new Date('2025-10-05T13:50:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -656,8 +656,8 @@ const sessions: Session[] = [
         "speaker": "David Victoria",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:55:00-06:00'),
-            "end": new Date('2024-10-05T17:10:00-06:00')
+            "start": new Date('2025-10-05T16:55:00-06:00'),
+            "end": new Date('2025-10-05T17:10:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L200",
@@ -700,8 +700,8 @@ const sessions: Session[] = [
         "speaker": "Edgar Omar Reyes Cano",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:35:00-06:00'),
-            "end": new Date('2024-10-05T12:10:00-06:00')
+            "start": new Date('2025-10-05T11:35:00-06:00'),
+            "end": new Date('2025-10-05T12:10:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L200",
@@ -738,8 +738,8 @@ const sessions: Session[] = [
         "speaker": "Eduardo Camacho",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:35:00-06:00'),
-            "end": new Date('2024-10-05T12:10:00-06:00')
+            "start": new Date('2025-10-05T11:35:00-06:00'),
+            "end": new Date('2025-10-05T12:10:00-06:00')
         },
         "category": "Kubernetes",
         "level": "L300",
@@ -775,8 +775,8 @@ const sessions: Session[] = [
         "speaker": "Edwin Alan Moedano Cardiel",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:05:00-06:00'),
-            "end": new Date('2024-10-05T16:55:00-06:00')
+            "start": new Date('2025-10-05T16:05:00-06:00'),
+            "end": new Date('2025-10-05T16:55:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -813,8 +813,8 @@ const sessions: Session[] = [
         "speaker": "Elisa Zamarrón Muñoz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:25:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:25:00-06:00')
         },
         "category": "Nube híbrida",
         "level": "L300",
@@ -851,8 +851,8 @@ const sessions: Session[] = [
         "speaker": "Elizabeth Gómez Guillén",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:50:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:50:00-06:00')
         },
         "category": "Nube híbrida",
         "level": "L300",
@@ -890,8 +890,8 @@ const sessions: Session[] = [
         "speaker": "Enrique Cuevas",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:25:00-06:00'),
-            "end": new Date('2024-10-05T13:00:00-06:00')
+            "start": new Date('2025-10-05T12:25:00-06:00'),
+            "end": new Date('2025-10-05T13:00:00-06:00')
         },
         "category": "Seguridad cumplimiento e identidad",
         "level": "L200",
@@ -930,8 +930,8 @@ const sessions: Session[] = [
         "speaker": "Erick J. Pineda Amézquita",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:40:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:40:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L200",
@@ -978,8 +978,8 @@ const sessions: Session[] = [
         "speaker": "Esaú Reyes",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:15:00-06:00'),
-            "end": new Date('2024-10-05T13:50:00-06:00')
+            "start": new Date('2025-10-05T13:15:00-06:00'),
+            "end": new Date('2025-10-05T13:50:00-06:00')
         },
         "category": "Analítica",
         "level": "L300",
@@ -1015,8 +1015,8 @@ const sessions: Session[] = [
         "speaker": "Evert Rabuck",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:35:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:35:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -1052,8 +1052,8 @@ const sessions: Session[] = [
         "speaker": "Tony Trujillo Davila",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:35:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:35:00-06:00')
         },
         "category": "IA generativa",
         "level": "L200",
@@ -1089,8 +1089,8 @@ const sessions: Session[] = [
         "speaker": "Fernando Paz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:35:00-06:00'),
-            "end": new Date('2024-10-05T12:10:00-06:00')
+            "start": new Date('2025-10-05T11:35:00-06:00'),
+            "end": new Date('2025-10-05T12:10:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L200",
@@ -1133,8 +1133,8 @@ const sessions: Session[] = [
         "speaker": "Gabriel Portela",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:55:00-06:00'),
-            "end": new Date('2024-10-05T13:30:00-06:00')
+            "start": new Date('2025-10-05T12:55:00-06:00'),
+            "end": new Date('2025-10-05T13:30:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -1171,8 +1171,8 @@ const sessions: Session[] = [
         "speaker": "Gerardo Moreno Ramirez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:50:00-06:00'),
-            "end": new Date('2024-10-05T17:05:00-06:00')
+            "start": new Date('2025-10-05T16:50:00-06:00'),
+            "end": new Date('2025-10-05T17:05:00-06:00')
         },
         "category": "Seguridad cumplimiento e identidad",
         "level": "L200",
@@ -1209,8 +1209,8 @@ const sessions: Session[] = [
         "speaker": "Hector Zelaya",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:35:00-06:00'),
-            "end": new Date('2024-10-05T12:10:00-06:00')
+            "start": new Date('2025-10-05T11:35:00-06:00'),
+            "end": new Date('2025-10-05T12:10:00-06:00')
         },
         "category": "Aplicaciones empresariales",
         "level": "L200",
@@ -1247,8 +1247,8 @@ const sessions: Session[] = [
         "speaker": "Ivan Castañeda",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:35:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:35:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -1287,8 +1287,8 @@ const sessions: Session[] = [
         "speaker": "Jakob Hans Renpening Treviño",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:25:00-06:00'),
-            "end": new Date('2024-10-05T13:00:00-06:00')
+            "start": new Date('2025-10-05T12:25:00-06:00'),
+            "end": new Date('2025-10-05T13:00:00-06:00')
         },
         "category": "Migración y modernización",
         "level": "L100",
@@ -1325,8 +1325,8 @@ const sessions: Session[] = [
         "speaker": "Joaquín Benitez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T14:05:00-06:00'),
-            "end": new Date('2024-10-05T14:40:00-06:00')
+            "start": new Date('2025-10-05T14:05:00-06:00'),
+            "end": new Date('2025-10-05T14:40:00-06:00')
         },
         "category": "Internet de las cosas",
         "level": "L100",
@@ -1369,8 +1369,8 @@ const sessions: Session[] = [
         "speaker": "Jocelyn Poblete",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:25:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:25:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L300",
@@ -1413,8 +1413,8 @@ const sessions: Session[] = [
         "speaker": "Jose Victor Antonio Riquelme",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:40:00-06:00'),
-            "end": new Date('2024-10-05T17:15:00-06:00')
+            "start": new Date('2025-10-05T16:40:00-06:00'),
+            "end": new Date('2025-10-05T17:15:00-06:00')
         },
         "category": "Arquitectura",
         "level": "L300",
@@ -1451,8 +1451,8 @@ const sessions: Session[] = [
         "speaker": "Jose Yapur",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:50:00-06:00'),
-            "end": new Date('2024-10-05T16:40:00-06:00')
+            "start": new Date('2025-10-05T15:50:00-06:00'),
+            "end": new Date('2025-10-05T16:40:00-06:00')
         },
         "category": "IA generativa",
         "level": "L200",
@@ -1495,8 +1495,8 @@ const sessions: Session[] = [
         "speaker": "Joselyn Lagunas",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:20:00-06:00'),
-            "end": new Date('2024-10-05T16:35:00-06:00')
+            "start": new Date('2025-10-05T16:20:00-06:00'),
+            "end": new Date('2025-10-05T16:35:00-06:00')
         },
         "category": "IA/ML",
         "level": "L100",
@@ -1533,8 +1533,8 @@ const sessions: Session[] = [
         "speaker": "Juan Carlos Martinez Carrillo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:25:00-06:00'),
-            "end": new Date('2024-10-05T13:15:00-06:00')
+            "start": new Date('2025-10-05T12:25:00-06:00'),
+            "end": new Date('2025-10-05T13:15:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -1573,8 +1573,8 @@ const sessions: Session[] = [
         "speaker": "Juan Diego Bonilla",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:50:00-06:00'),
-            "end": new Date('2024-10-05T12:40:00-06:00')
+            "start": new Date('2025-10-05T11:50:00-06:00'),
+            "end": new Date('2025-10-05T12:40:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -1611,8 +1611,8 @@ const sessions: Session[] = [
         "speaker": "Julian Garrido Rodriguez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:45:00-06:00'),
-            "end": new Date('2024-10-05T14:35:00-06:00')
+            "start": new Date('2025-10-05T13:45:00-06:00'),
+            "end": new Date('2025-10-05T14:35:00-06:00')
         },
         "category": "Aplicaciones empresariales",
         "level": "L200",
@@ -1649,8 +1649,8 @@ const sessions: Session[] = [
         "speaker": "Kelvin Alvarado",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T14:05:00-06:00'),
-            "end": new Date('2024-10-05T14:40:00-06:00')
+            "start": new Date('2025-10-05T14:05:00-06:00'),
+            "end": new Date('2025-10-05T14:40:00-06:00')
         },
         "category": "Analítica",
         "level": "L300",
@@ -1687,8 +1687,8 @@ const sessions: Session[] = [
         "speaker": "Leonardo Covarrubias García",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T11:50:00-06:00'),
-            "end": new Date('2024-10-05T12:40:00-06:00')
+            "start": new Date('2025-10-05T11:50:00-06:00'),
+            "end": new Date('2025-10-05T12:40:00-06:00')
         },
         "category": "Seguridad cumplimiento e identidad",
         "level": "L300",
@@ -1725,8 +1725,8 @@ const sessions: Session[] = [
         "speaker": "Luis Carlos Osorio Jayk",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:15:00-06:00'),
-            "end": new Date('2024-10-05T13:50:00-06:00')
+            "start": new Date('2025-10-05T13:15:00-06:00'),
+            "end": new Date('2025-10-05T13:50:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L300",
@@ -1763,8 +1763,8 @@ const sessions: Session[] = [
         "speaker": "Luis Gerardo Guerra Garrido",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:50:00-06:00'),
-            "end": new Date('2024-10-05T16:25:00-06:00')
+            "start": new Date('2025-10-05T15:50:00-06:00'),
+            "end": new Date('2025-10-05T16:25:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -1803,8 +1803,8 @@ const sessions: Session[] = [
         "speaker": "Luis Gerardo Hernandez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T13:15:00-06:00'),
-            "end": new Date('2024-10-05T13:50:00-06:00')
+            "start": new Date('2025-10-05T13:15:00-06:00'),
+            "end": new Date('2025-10-05T13:50:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L300",
@@ -1843,8 +1843,8 @@ const sessions: Session[] = [
         "speaker": "Marco Cornejo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:35:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:35:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L200",
@@ -1881,8 +1881,8 @@ const sessions: Session[] = [
         "speaker": "Mariano Rodríguez Díaz",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:00:00-06:00'),
-            "end": new Date('2024-10-05T15:50:00-06:00')
+            "start": new Date('2025-10-05T15:00:00-06:00'),
+            "end": new Date('2025-10-05T15:50:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -1921,8 +1921,8 @@ const sessions: Session[] = [
         "speaker": "Miroslava Galván",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:20:00-06:00'),
-            "end": new Date('2024-10-05T16:35:00-06:00')
+            "start": new Date('2025-10-05T16:20:00-06:00'),
+            "end": new Date('2025-10-05T16:35:00-06:00')
         },
         "category": "Habilidades blandas",
         "level": "L100",
@@ -1961,8 +1961,8 @@ const sessions: Session[] = [
         "speaker": "Omar Montero",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T14:05:00-06:00'),
-            "end": new Date('2024-10-05T14:40:00-06:00')
+            "start": new Date('2025-10-05T14:05:00-06:00'),
+            "end": new Date('2025-10-05T14:40:00-06:00')
         },
         "category": "Operaciones en la nube",
         "level": "L200",
@@ -2001,8 +2001,8 @@ const sessions: Session[] = [
         "speaker": "Oscar Mendoza",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T10:50:00-06:00'),
-            "end": new Date('2024-10-05T11:25:00-06:00')
+            "start": new Date('2025-10-05T10:50:00-06:00'),
+            "end": new Date('2025-10-05T11:25:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L200",
@@ -2043,8 +2043,8 @@ const sessions: Session[] = [
         "speaker": "Ramon Esparza",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T14:05:00-06:00'),
-            "end": new Date('2024-10-05T14:40:00-06:00')
+            "start": new Date('2025-10-05T14:05:00-06:00'),
+            "end": new Date('2025-10-05T14:40:00-06:00')
         },
         "category": "IA generativa",
         "level": "L200",
@@ -2083,8 +2083,8 @@ const sessions: Session[] = [
         "speaker": "Sebastián Marines",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T12:55:00-06:00'),
-            "end": new Date('2024-10-05T13:30:00-06:00')
+            "start": new Date('2025-10-05T12:55:00-06:00'),
+            "end": new Date('2025-10-05T13:30:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L200",
@@ -2123,8 +2123,8 @@ const sessions: Session[] = [
         "speaker": "Ulises Chombo",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T15:50:00-06:00'),
-            "end": new Date('2024-10-05T16:05:00-06:00')
+            "start": new Date('2025-10-05T15:50:00-06:00'),
+            "end": new Date('2025-10-05T16:05:00-06:00')
         },
         "category": "Seguridad cumplimiento e identidad",
         "level": "L300",
@@ -2169,8 +2169,8 @@ const sessions: Session[] = [
         "speaker": "Vicente G. Guzman Lucio",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T14:05:00-06:00'),
-            "end": new Date('2024-10-05T14:40:00-06:00')
+            "start": new Date('2025-10-05T14:05:00-06:00'),
+            "end": new Date('2025-10-05T14:40:00-06:00')
         },
         "category": "DevOps y productividad del desarrollador",
         "level": "L100",
@@ -2213,8 +2213,8 @@ const sessions: Session[] = [
         "speaker": "Victor Jimenez",
         "speakerImage": "https://example.com/speaker-image.jpg",
         "time": {
-            "start": new Date('2024-10-05T16:05:00-06:00'),
-            "end": new Date('2024-10-05T16:55:00-06:00')
+            "start": new Date('2025-10-05T16:05:00-06:00'),
+            "end": new Date('2025-10-05T16:55:00-06:00')
         },
         "category": "Computación sin servidor y contenedores",
         "level": "L300",
