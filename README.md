@@ -16,8 +16,8 @@ This application helps organizers and attendees keep track of sessions, speakers
 
 ## Video demo
 
-[<video src="https://github.com/awscommunitymx/agenda/raw/refs/heads/main/demo.mp4" controls></video>
-](https://github.com/user-attachments/assets/ec049d5b-4311-4f28-b7b5-e30f771d44ae)
+[![YouTube](http://i.ytimg.com/vi/ZU9vzqZ19yI/hqdefault.jpg)](https://www.youtube.com/watch?v=ZU9vzqZ19yI)
+
 
 ## Contributing
 
